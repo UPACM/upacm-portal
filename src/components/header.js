@@ -23,7 +23,7 @@ export default function Header(){
 							</div>
 							<div id="header-logo-text">
 								<h1 id="header-logo-top-text">
-									<span>Association for Computing Machinery</span>
+									<span>ASSOCIATION FOR COMPUTING MACHINERY</span>
 									<div id="header-logo-top-text-triangle"></div>
 								</h1>
 								<p id="header-logo-bot-text">

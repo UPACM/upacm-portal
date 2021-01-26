@@ -62,6 +62,8 @@ div#header div#header-logo div#header-logo-text h1#header-logo-top-text{
 }
 
 div#header div#header-logo div#header-logo-text h1#header-logo-top-text span{
+	font-family: "Segoe UI Light";
+	font-size: 0.9em;
 	background: var(--header-primary-color);
 	color: var(--header-primary-complement);
 	float: left;
