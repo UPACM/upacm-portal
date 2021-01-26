@@ -1,0 +1,44 @@
+div#landing-video{
+	position: absolute;
+	background: var(--landing-video-bg);
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+div#landing-video video{
+	display: block;
+	height: var(--landing-height);
+	width: 100%;
+	object-fit: cover;
+	margin: auto;
+}
+
+div#landing{
+	position: absolute;
+	z-index: 0;
+	width: 100%;
+}
+
+div#landing div#landing-video-overlay{
+	background: var(--landing-video-overlay-bg);
+	width: 100%;
+	height: var(--landing-height);
+}
+
+div#landing div#landing-video-overlay div#landing-text{
+	padding-top: calc(var(--landing-height)/3);
+	padding-left: calc(100% / 2);
+	padding-right: 3%;
+	text-align: right;
+	color: var(--landing-text-color);
+}
+
+div#landing div#landing-video-overlay div#landing-text h1#intro-text{
+	font-size: calc(var(--landing-height)/9);
+}
+
+div#landing-push{
+	height: var(--landing-height);
+}

@@ -1,0 +1,29 @@
+:root{
+	
+	--site-background-color: magenta;
+	
+	--universal-transition-timing: 0.2s;
+	
+	--header-primary-color: #009eff;
+	--header-secondary-color: white;
+	--header-primary-complement: white;
+	--header-secondary-complement: black;
+	--header-gradient-color-1: rgba(0,92,135,1);
+	--header-gradient-color-0: rgba(0,92,135,0);
+	--header-gradient: linear-gradient(180deg, var(--header-gradient-color-1) 0%, var(--header-gradient-color-0) 100%);
+	--header-height: 75px;
+	
+	--landing-video-bg: black;
+	--landing-overlay-gradient-1: rgba(0,72,116,1);
+	--landing-overlay-gradient-0: rgba(255,255,255,0);
+	--landing-text-color: white;
+	--landing-video-overlay-bg: linear-gradient(135deg, var(--landing-overlay-gradient-0) 0%, var(--landing-overlay-gradient-1) 100%);
+	--landing-height: 500px;
+	
+	--index-events-section-height: 500px;
+	--index-events-section-primary-color: rgb(25, 25, 25);
+	--index-events-section-primary-complement: white;
+	--index-events-section-secondary-color: rgb(45, 45, 45);
+	--index-events-section-secondary-complement: white;
+	--index-events-section-background: linear-gradient(180deg, rgba(10,10,10,1) 0%, rgba(25,25,25,1) 50%, rgba(10,10,10,1) 100%);
+}

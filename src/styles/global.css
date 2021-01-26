@@ -1,0 +1,53 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+	background: var(--site-background-color);
+}
+
+.level-0{
+	z-index: 0;
+}
+
+.level-1{
+	z-index: 1;
+}
+
+.wrapper{
+	max-width: 1920px;
+	min-width: 1280px;
+	margin: auto;
+}
+
+.content{
+	margin-top: calc(var(--header-height) * 1.5);
+}
+
+.clear{
+	clear: both;
+}
+
+div#blank-content-filler{
+	height: 2000px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background: rgb(100,100,100);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CCC;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
