@@ -13,7 +13,6 @@ div#header{
 }
 
 div#logo-diamond{
-	/*margin-top: calc(-1 * (var(--header-height)) / 2);*/
 	width: calc(2 * var(--header-height));
 	float: left;
 }
@@ -97,7 +96,7 @@ div#header div#header-logo div#header-logo-text p#header-logo-bot-text div#heade
 	display: inline;
 	border-left: calc(var(--header-height) / 2) solid var(--header-secondary-color);
 	border-bottom: calc(var(--header-height) / 2) solid transparent;
-	margin-right: calc(* var(--header-height) / 2);
+	margin-right: calc(var(--header-height) / 2);
 	float: left;
 	transition: border var(--universal-transition-timing);
 }
