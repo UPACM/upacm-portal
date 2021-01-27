@@ -54,9 +54,27 @@ div#footer div#footer-top div#footer-connect-section div.footer-social-widget:ho
 
 div#footer div#footer-bottom{
 	background: var(--footer-secondary-color);
+	border-top: 3px solid var(--footer-separator-color);
+	height: var(--footer-bottom-height);
 }
 
 div#footer div#footer-bottom p{
+	line-height: var(--footer-bottom-height);
+	height: var(--footer-bottom-height);
 	text-align: center;
-	padding: 1%;
+}
+
+div#footer div#footer-bottom a{
+	float: right;
+	width: calc(var(--footer-bottom-height) / 2);
+	height: calc(var(--footer-bottom-height) / 2);
+	background: white;
+	transform: rotate(45deg);
+	margin-right: var(--footer-bottom-height);
+	margin-top: calc((-2.5 * var(--footer-bottom-height) / 2) - 1.5px);
+	transition: box-shadow var(--universal-transition-timing);
+}
+
+div#footer div#footer-bottom a:hover{
+	box-shadow: 0 0 5px 0 white;
 }

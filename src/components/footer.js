@@ -46,6 +46,7 @@ export default function Footer() {
 			<div id="footer-bottom">
 				<div class="wrapper">
 					<p>© 2019 Association for Computing Machinery - University of the Philippines Diliman Student Chapter, Inc.</p>
+					<a href="#header"></a>
 				</div>
 			</div>
 		</div>

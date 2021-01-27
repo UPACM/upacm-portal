@@ -30,4 +30,6 @@
 	--footer-primary-color: #0083c0;
 	--footer-primary-complement: white;
 	--footer-secondary-color: #003f76;
+	--footer-separator-color: #DDDDDD;
+	--footer-bottom-height: 100px;
 }
