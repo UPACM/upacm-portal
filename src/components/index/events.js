@@ -20,7 +20,7 @@ export default function Events({eventsSectionText}) {
 				</div>
 				<div id="events-section-links">
 					<div id="algolympics-link" class="event-link">
-						<Link to="/">
+						<Link to="https://algo2020.upacm.net/">
 							<img src={algolympicsLinkImage}/>
 							<h1>Algolympics</h1>
 						</Link>

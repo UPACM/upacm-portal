@@ -4,7 +4,7 @@
 	
 	--universal-transition-timing: 0.2s;
 	
-	--header-primary-color: #009eff;
+	--header-primary-color: #0083c0;
 	--header-secondary-color: white;
 	--header-primary-complement: white;
 	--header-secondary-complement: black;
@@ -26,4 +26,8 @@
 	--index-events-section-secondary-color: rgb(45, 45, 45);
 	--index-events-section-secondary-complement: white;
 	--index-events-section-background: linear-gradient(180deg, rgba(10,10,10,1) 0%, rgba(25,25,25,1) 50%, rgba(10,10,10,1) 100%);
+	
+	--footer-primary-color: #0083c0;
+	--footer-primary-complement: white;
+	--footer-secondary-color: #003f76;
 }

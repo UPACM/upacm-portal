@@ -1,0 +1,62 @@
+div#footer{
+	background: var(--footer-primary-color);
+	width: 100%;
+	font-size: 0.75em;
+	color: var(--footer-primary-complement);
+}
+
+div#footer div#footer-top{
+	width: 80%;
+	padding: 3%;
+	margin: auto;
+}
+
+div#footer div#footer-top div.footer-section{
+	width: 28%;
+	padding: 1%;
+	float: left;
+}
+
+div#footer div#footer-top div.footer-section h1{
+	padding: 1%;
+}
+
+div#footer div#footer-top div#footer-links-section div#footer-links span{
+	float: left;
+	display: block;
+	width: 42%;
+	padding: 4%;
+}
+
+div#footer div#footer-top div#footer-contact-section div#footer-contacts span{
+	display: block;
+	padding: 4%;
+}
+
+div#footer div#footer-top div#footer-connect-section div.footer-social-widget{
+	float: left;
+	background: var(--footer-secondary-color);
+	width: 35px;
+	height: 35px;
+	border-radius: calc(35px / 2);
+	margin-left: 4%;
+	margin-top: 1%;
+	transition: background var(--universal-transition-timing);
+}
+
+div#footer div#footer-top div#footer-connect-section div.footer-social-widget:active{
+	background: var(--footer-secondary-complement);
+}
+
+div#footer div#footer-top div#footer-connect-section div.footer-social-widget:hover{
+	background: var(--footer-primary-complement);
+}
+
+div#footer div#footer-bottom{
+	background: var(--footer-secondary-color);
+}
+
+div#footer div#footer-bottom p{
+	text-align: center;
+	padding: 1%;
+}

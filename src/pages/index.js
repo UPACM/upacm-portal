@@ -1,6 +1,8 @@
 import React from "react"
 
 import Header from "../components/header.js"
+import Footer from "../components/footer.js"
+
 import Landing from "../components/index/landing.js"
 import Events from "../components/index/events.js"
 
@@ -21,7 +23,7 @@ export default function Home() {
 			/>
 			<Events eventsSectionText="The organization has pioneered several innovative projects for all levels of academic achievement, from the elementary level to the collegiate level. These ventures are integral to realizing our vision of forwarding the field of computing not only as science but as a medium for modern community development."
 			/>
-			<BlankContentFiller />
+			<Footer />
 		</>
 	)
 }

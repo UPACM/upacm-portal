@@ -23,7 +23,8 @@ div#events-section-links{
 }
 
 div#events-section-links div#other-events{
-	overflow: auto;
+	overflow-y: auto;
+	overflow-x: hidden;
 	width: calc(2 * 100% / 3);
 	height: 100%;
 }
@@ -34,6 +35,7 @@ div#events-section-links div.event-link{
 	background: var(--index-events-section-secondary-color);
 	width: calc((100% / 2) - 10px);
 	height: calc((100% / 2) - 10px);
+	transition: transform var(--universal-transition-timing);
 }
 
 div#events-section-links div.event-link a{
@@ -46,11 +48,13 @@ div#events-section-links div.event-link img{
 }
 
 div#events-section-links div.event-link h1{
+	font-family: "Segoe UI Light", sans-serif;
 	text-align: right;
 	font-size: 2em;
 	margin-top: -2em;
 	margin-right: 1em;
 	color: var(--index-events-section-secondary-complement);
+	
 }
 
 div#events-section-links div#algolympics-link{
@@ -61,6 +65,14 @@ div#events-section-links div#algolympics-link{
 div#events-section-links div#algolympics-link h1{
 	text-align: center;
 	font-size: 3em;
+	margin: auto;
 	margin-top: -3em;
-	margin-right: 0;
+}
+
+div#events-section-links div.event-link:hover{
+	transform: scale(1.1);
+}
+
+div#events-section-links div.event-link:active{
+	transform: scale(1.05);
 }
