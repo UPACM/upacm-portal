@@ -71,6 +71,15 @@ div.main-portal.header div.navbar-button-container{
 
 div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink{
 	padding: 0 1vw;
+	transition: background var(--universal-transition-timing);
+}
+
+div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink:hover{
+	background: radial-gradient(circle, rgba(255,255,255,0.125) 0%, rgba(0,98,140,0) 100%);
+}
+
+div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink:active{
+	background: radial-gradient(circle, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%);
 }
 
 div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink a{
