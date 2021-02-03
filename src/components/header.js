@@ -5,50 +5,43 @@ import Navlink from "../components/subcomponents/navlink.js"
 import "../styles/components/header.css"
 
 import siteLogo from "../assets/images/logo.png"
+import hamburgerIcon from "../assets/images/hamburger-icon.png"
 
-export default function Header({gap}){
-	var header_gap = <></>
-	if(gap){
-		header_gap = <div id="header-gap"></div>
+export default function Header(){
+	var isVisible = false
+	var visibleClass = ""
+	function handleClick(e){
+		isVisible = !isVisible
+		if(isVisible){
+			visibleClass = "visible"
+		}else{
+			visibleClass = ""
+		}
+		console.log(visibleClass)
 	}
 	return (
 		<>
-			<div id="header">
+			<div class="main-portal header">
 				<div class="wrapper">
-					<div id="header-logo">
+					<div class="main-portal home-link">
 						<Link to="/">
-							<div id="logo-diamond">
-								<div id="dia-top">
-									<div id="dia-top-triangle"></div>
-								</div>
-								<img id="logo" src={siteLogo} />
-								<div id="dia-bot"></div>
-							</div>
-							<div id="header-logo-text">
-								<h1 id="header-logo-top-text">
-									<span>ASSOCIATION FOR COMPUTING MACHINERY</span>
-									<div id="header-logo-top-text-triangle"></div>
-								</h1>
-								<p id="header-logo-bot-text">
-									<div id="header-logo-bot-text-left-triangle"></div>
-									<span>University of the Philippines Diliman Student Chapter, Inc.</span>
-									<div id="header-logo-bot-text-right-triangle"></div>
-								</p>
+							<img class="main-portal logo" src= {siteLogo} />
+							<div class="main-portal header-text">
+								<span>ASSOCIATION FOR COMPUTING MACHINERY</span>
+								<span class="bottom-text">University of the Philippines Diliman Student Chapter, Inc.</span>
 							</div>
 						</Link>
-						
 					</div>
-						
-					<div id="header-nav-container">
-						<Navlink name="CONTACT" to="/about/" />
-						<Navlink name="COMMITTEES" to="/committees/" />
-						<Navlink name="ABOUT" to="/about/" />
-						<div class="clear"></div>
+					<div class="navbar-button-container" onClick={handleClick}>
+						<img class="navbar-button" src={hamburgerIcon} />
+					</div>
+					<div class={"main-portal nav-bar " + visibleClass} id="main-portal-nav-bar">
+						<Navlink to="/" name="About" />
+						<Navlink to="/committees/" name="Committees" />
+						<Navlink to="/" name="Contact" />
 					</div>
 				</div>
 			</div>
-			<div class="clear"></div>
-			{header_gap}
 		</>
 	)
 }

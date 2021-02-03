@@ -1,24 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Segoe UI', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+}
+
+a{
+	text-decoration: none;
 }
 
 body{
 	background: var(--site-background-color);
 }
 
-.level-0{
-	z-index: 0;
-}
-
-.level-1{
-	z-index: 1;
-}
-
-.wrapper{
+div.wrapper{
 	max-width: 1920px;
-	min-width: 1280px;
 	margin: auto;
 }
 
@@ -31,7 +28,8 @@ body{
 }
 
 div#blank-content-filler{
-	height: 2000px;
+	height: 6000px;
+	background: yellow;
 }
 
 .social-widget{
@@ -48,22 +46,4 @@ div#blank-content-filler{
 	display: block;
 	padding-top: 25%;
 	object-fit: scale-down;
-}
-
-::-webkit-scrollbar {
-  width: 6px;
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 3px;
-  background: rgb(100,100,100);
-}
-
-::-webkit-scrollbar-thumb {
-  background: #CCC;
-  border-radius: 3px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: white;
 }
