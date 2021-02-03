@@ -24,11 +24,19 @@ div.main-portal#landing-overlay{
 	color: white;
 	background: var(--landing-overlay-bg);
 }
+div.main-portal#landing-overlay div.wrapper{
+	display: flex;
+	justify-content: flex-end;
+}
 
 div.main-portal#landing-overlay div#landing-text{
 	width: 50%;
 	padding: 0 5%;
 	margin-top: var(--header-height);
+}
+
+div.main-portal#landing-overlay div#landing-text > *{
+	text-align: right;
 }
 
 div.main-portal#landing-overlay div#landing-text h1#intro-text{

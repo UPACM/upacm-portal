@@ -13,7 +13,7 @@ div.main-portal.header{
 
 div.main-portal.header.scrolled{
 	background: var(--header-background-scrolled);
-	transform: scale-y(75%);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
 
 div.main-portal.header div.wrapper{
