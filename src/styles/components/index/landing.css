@@ -1,44 +1,69 @@
-div#landing-video{
-	position: absolute;
-	background: var(--landing-video-bg);
-	z-index: -1;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+div.main-portal.landing{
+	position: fixed;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 100vw;
+	height: 100vh;
 }
 
-div#landing-video video{
-	display: block;
-	height: var(--landing-height);
-	width: 100%;
-	object-fit: cover;
-	margin: auto;
+div.main-portal#landing-video{
+	z-index: -3;
 }
 
-div#landing{
-	position: absolute;
-	z-index: 0;
-	width: 100%;
+div.main-portal#landing-video video{
+	width: 100vw;
 }
 
-div#landing div#landing-video-overlay{
-	background: var(--landing-video-overlay-bg);
-	width: 100%;
-	height: var(--landing-height);
+div.main-portal#landing-overlay{
+	display: flex;
+	align-items: center;
+	z-index: -2;
+	color: white;
+	background: var(--landing-overlay-bg);
 }
 
-div#landing div#landing-video-overlay div#landing-text{
-	padding-top: calc(var(--landing-height)/3);
-	padding-left: calc(100% / 2);
-	padding-right: 3%;
-	text-align: right;
-	color: var(--landing-text-color);
+div.main-portal#landing-overlay div#landing-text{
+	width: 50%;
+	padding: 0 5%;
+	margin-top: var(--header-height);
 }
 
-div#landing div#landing-video-overlay div#landing-text h1#intro-text{
-	font-size: calc(var(--landing-height)/9);
+div.main-portal#landing-overlay div#landing-text h1#intro-text{
+	font-family: 'Montserrat';
+	font-size: 4em;
+}
+div.main-portal#landing-overlay div#landing-text p#intro-sub-text{
+	font-family: 'Roboto';
+	font-size: 1.5em;
+}
+div.main-portal#landing-spacer{
+	margin-bottom: 100vh;
 }
 
-div#landing-push{
-	height: var(--landing-height);
+@media (max-width: 1280px) {
+	div.main-portal#landing-video{
+		display: flex;
+		justify-content: center;
+	}
+	div.main-portal#landing-video video{
+		width: 1280px;
+	}
+}
+
+@media (max-width: 768px) {
+	
+	div.main-portal#landing-overlay div#landing-text{
+		width: 80%;
+	}
+	
+	div.main-portal#landing-overlay div#landing-text h1#intro-text{
+		font-family: 'Montserrat';
+		font-size: 2em;
+	}
+	div.main-portal#landing-overlay div#landing-text p#intro-sub-text{
+		font-size: 1em;
+	}
 }
