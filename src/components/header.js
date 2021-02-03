@@ -7,6 +7,8 @@ import "../styles/components/header.css"
 import siteLogo from "../assets/images/logo.png"
 import hamburgerIcon from "../assets/images/hamburger-icon.png"
 
+const vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0) / 2
+
 class Header extends React.Component{
 	
 	constructor(props){
@@ -14,9 +16,31 @@ class Header extends React.Component{
 		this.state = {isScrolled: false, navbarVisible: false};
 		this.handleClick = this.handleClick.bind(this);
 		this.handleScroll = this.handleScroll.bind(this);
+		this.componentDidMount = this.componentDidMount.bind(this);
+	}
+	
+	componentDidMount(){
+		window.addEventListener('scroll', this.handleScroll)
+	}
+	
+	componentWillUnmount(){
+		window.removeEventListener('scroll', this.handleScroll)
 	}
 	
 	handleScroll(){
+		if (document.body.scrollTop > vh || document.documentElement.scrollTop > vh) {
+			this.setState(
+				state => ({
+					isScrolled: false
+				})
+			);
+		} else {
+			this.setState(
+				state => ({
+					isScrolled: true
+				})
+		);
+		}
 		this.setState(
 			state => ({
 				isScrolled: !state.isScrolled
@@ -37,7 +61,7 @@ class Header extends React.Component{
 	render(){
 		return (
 			<>
-				<div class={this.state.isScrolled ? 'main-portal header scrolled' : 'main-portal header'} onscroll={this.handleScroll}>
+				<div class={this.state.isScrolled || !this.props.isIndex ? 'main-portal header scrolled' : 'main-portal header'} onscroll={this.handleScroll}>
 					<div class="wrapper">
 						<div class="main-portal home-link">
 							<Link to="/">
@@ -58,6 +82,7 @@ class Header extends React.Component{
 						</div>
 					</div>
 				</div>
+				{!this.props.isIndex ? <div class="main-portal header-spacer"></div> : null}
 			</>
 		)
 	}

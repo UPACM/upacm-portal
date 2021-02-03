@@ -19,7 +19,7 @@ export default function Home() {
 	var z = <Footer />
 	return (
 		<>
-			<Header />
+			<Header isIndex={true} />
 			<Landing videoSrcObj={ srcVid }
 				introText="Building communities to develop the future."
 				introSubText="We envision a world where computing stands at the forefront of development - where we are able to use our skills to address the problems of tomorrow and create a positive impact on the community at large."

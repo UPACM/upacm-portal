@@ -13,7 +13,7 @@ div.main-portal.header{
 
 div.main-portal.header.scrolled{
 	background: var(--header-background-scrolled);
-	transform: scaleX(75%);
+	transform: scale-y(75%);
 }
 
 div.main-portal.header div.wrapper{
@@ -83,6 +83,10 @@ div.main-portal.header div.main-portal.home-link:hover{
 
 div.main-portal.header div.main-portal.home-link:active{
 	background: rgba(0,0,0,0.1);
+}
+
+div.main-portal.header-spacer{
+	margin-top: var(--header-height);
 }
 
 
