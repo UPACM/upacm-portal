@@ -8,6 +8,12 @@ div.main-portal.header{
 	z-index: 1;
 	height: var(--header-height);
 	background: var(--header-background);
+	transition: background var(--universal-transition-timing), transform var(--universal-transition-timing), box-shadow var(--universal-transition-timing);
+}
+
+div.main-portal.header.scrolled{
+	background: var(--header-background-scrolled);
+	transform: scaleX(75%);
 }
 
 div.main-portal.header div.wrapper{
@@ -55,6 +61,7 @@ div.main-portal.header div.main-portal.nav-bar{
 	flex-direction: row;
 	align-items: center;
 	margin-right: 3vw;
+	transition: transform var(--universal-transition-timing);
 }
 
 div.main-portal.header div.navbar-button-container{
@@ -86,13 +93,17 @@ div.main-portal.header div.main-portal.home-link:active{
 	}
 	
 	div.main-portal.header div.main-portal.nav-bar{
-		display: none;
+		transform: translateX(100%);
 		position: absolute;
 		right: 0;
 		top: var(--header-height);
 		z-index: 2;
 		flex-direction: column;
 		margin-right: 0;
+	}
+	
+	div.main-portal.header div.main-portal.nav-bar.visible{
+		transform: translateX(0%);
 	}
 	
 	div.main-portal.header div.navbar-button-container{
