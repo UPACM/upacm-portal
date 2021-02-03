@@ -1,11 +1,12 @@
 :root{
 	
-	--site-background-color: magenta;
+	--site-background-color: #e3f7ff;
+	--site-background-complement: black;
 	
 	--universal-transition-timing: 0.2s;
 	
 	--header-primary-color: #0083c0;
-	--header-secondary-color: white;
+	--header-secondary-color: #82d4ff;
 	--header-primary-complement: white;
 	--header-secondary-complement: black;
 	--header-gradient-color-1: rgba(0,92,135,1);
@@ -32,4 +33,8 @@
 	--footer-secondary-color: #003f76;
 	--footer-separator-color: #DDDDDD;
 	--footer-bottom-height: 100px;
+
+	--comm-section-padding: 50px;
+	--comm-section-primary-color-b: rgb(25, 25, 25);
+	--comm-section-primary-complement-b: white;
 }

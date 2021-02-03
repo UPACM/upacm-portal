@@ -6,13 +6,16 @@ import "../styles/components/header.css"
 
 import siteLogo from "../assets/images/logo.png"
 
-export default function Header(){
+export default function Header({gap}){
+	var header_gap = <></>
+	if(gap){
+		header_gap = <div id="header-gap"></div>
+	}
 	return (
 		<>
 			<div id="header">
 				<div class="wrapper">
 					<div id="header-logo">
-					
 						<Link to="/">
 							<div id="logo-diamond">
 								<div id="dia-top">
@@ -38,12 +41,14 @@ export default function Header(){
 						
 					<div id="header-nav-container">
 						<Navlink name="CONTACT" to="/about/" />
-						<Navlink name="COMMITTEES" to="/about/" />
+						<Navlink name="COMMITTEES" to="/committees/" />
 						<Navlink name="ABOUT" to="/about/" />
+						<div class="clear"></div>
 					</div>
 				</div>
 			</div>
 			<div class="clear"></div>
+			{header_gap}
 		</>
 	)
 }

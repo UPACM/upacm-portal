@@ -1,0 +1,58 @@
+div.comm-section{
+	display: none;
+	padding: var(--comm-section-padding);
+}
+
+div.comm-section div.comm-content{
+	width: 75%;
+	margin: auto;
+}
+
+div.comm-section div.comm-head-info{
+	width: 25%;
+	background: magenta;
+	float: left;
+}
+
+
+div.comm-section div.comm-head-info img.comm-head-img{
+	width: 100%;
+	height: 75px;
+	background: green;
+}
+
+div.comm-section div.comm-head-info h3, p.comm-head-name{
+	text-align: center;
+}
+
+div.comm-section div.comm-head-info div.comm-head-social-container{
+}
+
+div.comm-section div.comm-head-info div.comm-head-social-container div.comm-head-social{
+	float: left;
+}
+
+div.comm-section.a, div.comm-section.b{
+	display: block;
+}
+
+/*type a css; no bg*/
+
+div.comm-section.a{
+	color: var(--site-background-complement);
+}
+
+div.comm-section.a div.comm-head-info{
+	margin-right: var(--comm-section-padding);
+}
+
+/*type b css; with bg*/
+
+div.comm-section.b{
+	background: var(--comm-section-primary-color-b);
+	color: var(--comm-section-primary-complement-b);
+}
+
+div.comm-section.b div.comm-head-info{
+	float: right;
+}
