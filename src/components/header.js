@@ -41,7 +41,7 @@ const Header = ( { isIndex } ) => {
 							<img class="navbar-button" src={hamburgerIcon} />
 						</div>
 						<div class={navbarVisible ? 'main-portal nav-bar visible' : 'main-portal nav-bar'} id="main-portal-nav-bar">
-							<Navlink to="/" name="About" />
+							<Navlink to="/about/" name="About" />
 							<Navlink to="/committees/" name="Committees" />
 							<Navlink to="/" name="Contact" />
 						</div>
