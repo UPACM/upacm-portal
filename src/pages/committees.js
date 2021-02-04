@@ -11,11 +11,16 @@ export default function Home() {
 	return (
 		<>
 			<Header gap={true} />
-				<CommSection type="a"/>
-				<CommSection type="b"/>
-				<CommSection type="a"/>
-				<CommSection type="b"/>
-				<CommSection type="a"/>
+				<CommSection 
+					commHead="Enrique Luis P. Alvarado"
+					commName="Digiforms"
+					commDesc="Responsible for evolving the digital faculty of the organization, as well as find new ways to innovate and increase efficiency within the org."
+				/>
+				<CommSection 
+					commHead="Enrique Luis P. Alvarado"
+					commName="Digiforms"
+					commDesc="Short stuff."
+				/>
 			<Footer />
 		</>
 	)

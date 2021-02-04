@@ -1,58 +1,66 @@
 div.comm-section{
-	display: none;
-	padding: var(--comm-section-padding);
+	width: 100%;
+	padding: 2vw 0;
+}
+
+div.comm-section div.wrapper{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 div.comm-section div.comm-content{
-	width: 75%;
-	margin: auto;
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
-div.comm-section div.comm-head-info{
-	width: 25%;
-	background: magenta;
-	float: left;
+div.comm-section div.comm-content div.comm-head{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
-
-div.comm-section div.comm-head-info img.comm-head-img{
-	width: 100%;
-	height: 75px;
-	background: green;
+div.comm-section div.comm-content div.comm-head img.comm-head-img{
+	margin-bottom: 3vh;
+	background: yellow;
+	height: 35vh;
+	width: 15vw;
 }
 
-div.comm-section div.comm-head-info h3, p.comm-head-name{
-	text-align: center;
+div.comm-section div.comm-content div.comm-head div.comm-head-social-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
-div.comm-section div.comm-head-info div.comm-head-social-container{
+div.comm-section div.comm-content div.comm-info{
+	width: 61vw;
+	padding: 2vw;
 }
 
-div.comm-section div.comm-head-info div.comm-head-social-container div.comm-head-social{
-	float: left;
+div.comm-section div.comm-content div.comm-info h1.comm-name{
+	font-size: 3em;
 }
 
-div.comm-section.a, div.comm-section.b{
-	display: block;
+div.comm-section div.comm-content div.comm-info p.comm-desc{
+	font-size: 1.25em;
 }
 
-/*type a css; no bg*/
-
-div.comm-section.a{
-	color: var(--site-background-complement);
+div.comm-section:nth-child(even){
+	background: rgb(50,50,50);
+	color: white;
 }
 
-div.comm-section.a div.comm-head-info{
-	margin-right: var(--comm-section-padding);
+div.comm-section:nth-child(even) div.comm-content div.comm-info{
+	order: 1;
 }
 
-/*type b css; with bg*/
-
-div.comm-section.b{
-	background: var(--comm-section-primary-color-b);
-	color: var(--comm-section-primary-complement-b);
+div.comm-section:nth-child(even) div.comm-content div.comm-info{
+	text-align: right;
 }
 
-div.comm-section.b div.comm-head-info{
-	float: right;
+div.comm-section:nth-child(even) div.comm-content div.comm-head{
+	order: 2
 }
