@@ -87,6 +87,9 @@ div.main-portal#footer div#footer-bottom div.wrapper{
 
 
 @media (max-width: 768px) {
+	div.main-portal#footer div#footer-top{
+		padding: 5vh 0;
+	}
 	div.main-portal#footer div#footer-top div.wrapper{
 		flex-direction: column;
 	}

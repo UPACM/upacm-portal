@@ -64,3 +64,28 @@ div.comm-section:nth-child(even) div.comm-content div.comm-info{
 div.comm-section:nth-child(even) div.comm-content div.comm-head{
 	order: 2
 }
+
+@media (max-width: 768px) {
+	
+	div.comm-section div.comm-content{
+		align-items: center;
+		flex-direction: column;
+		padding: 3vh 0;
+	}
+	div.comm-section div.comm-content div.comm-head img.comm-head-img{
+		width: 100%;
+	}
+	div.comm-section div.comm-content div.comm-info{
+		width: 100%;
+		text-align: center;
+	}
+	div.comm-section:nth-child(even) div.comm-content div.comm-info{
+		text-align: center;
+	}
+	div.comm-section:nth-child(even) div.comm-content div.comm-head{
+		oeder: 1
+	}
+	div.comm-section:nth-child(even) div.comm-content div.comm-info{
+		order: 2
+	}
+}
