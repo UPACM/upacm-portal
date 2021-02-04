@@ -22,8 +22,11 @@
 	--index-events-section-secondary-complement: white;
 	--index-events-section-background: linear-gradient(180deg, rgba(10,10,10,1) 0%, rgba(25,25,25,1) 50%, rgba(10,10,10,1) 100%);
 	
-	--footer-primary-color: #0083c0;
+	--upper-footer-bg: #0083c0;
 	--footer-primary-complement: white;
+	--footer-social-bg: #003f76;
+	--footer-social-bg-hover: #d9d9d9;
+	--footer-social-bg-active: #333333;
 	--footer-secondary-color: #003f76;
 	--footer-separator-color: #DDDDDD;
 	--footer-bottom-height: 100px;
