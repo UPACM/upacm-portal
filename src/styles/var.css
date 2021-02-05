@@ -5,6 +5,10 @@
 	
 	--universal-transition-timing: 0.2s;
 	
+	--generic-box-shadow: 0 0 10px black;
+	
+	--img-filler-color: orange;
+	
 	--header-background: linear-gradient(180deg, rgba(0,98,140,0.5) 0%, rgba(0,98,140,0) 100%);
 	--header-background-scrolled: #00628c;
 	--header-color: white;
