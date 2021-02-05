@@ -28,6 +28,6 @@ div.wrapper{
 }
 
 div#blank-content-filler{
-	height: 1000px;
+	height: 10vh;
 	background: yellow;
 }

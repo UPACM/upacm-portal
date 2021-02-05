@@ -23,7 +23,7 @@ export default function Home() {
 				introText="Building communities to develop the future."
 				introSubText="We envision a world where computing stands at the forefront of development - where we are able to use our skills to address the problems of tomorrow and create a positive impact on the community at large."
 			/>
-			<BlankContentFiller />
+			<BlankContentFiller fillerHeight="2000px"/>
 			<Footer />
 		</>
 	)

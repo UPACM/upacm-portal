@@ -64,3 +64,49 @@ div.main-portal#mission-vision-section div.mission-vision-part#vision{
 		font-size: 2em;
 	}
 }
+
+@media (max-width: 768px) {
+	div.main-portal#mission-vision-section div.mission-vision-part{
+		flex-direction: column-reverse;
+		height: auto;
+	}
+	div.main-portal#mission-vision-section div.mission-vision-part div.text{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 50vh;
+		width: 90vw;
+		padding: 0 5vw;
+		position: relative;
+		top: -50vh;
+		margin-bottom: -50vh;
+	}
+	div.main-portal#mission-vision-section div.wrapper div.mission-vision-part div.text h1{
+		font-size: 2em;
+	}
+	div.main-portal#mission-vision-section div.mission-vision-part div.text p{
+		font-size: 1em;
+	}
+	div.main-portal#mission-vision-section div.mission-vision-part img.showcase-image{
+		width: 100vw;
+		height: 50vh;
+	}
+	div.main-portal#mission-vision-section div.mission-vision-part#mission div.text{
+		background: linear-gradient(270deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.25) 100%);
+	}
+	div.main-portal#mission-vision-section div.mission-vision-part#mission img.showcase-image{
+		border-radius: 0 0 0 0;
+		box-shadow: 0 0 0 black;
+	}
+	div.main-portal#mission-vision-section div.mission-vision-part#vision img.showcase-image{
+		border-radius: 0 0 0 0;
+		box-shadow: 0 0 0 black;
+	}
+	div.main-portal#mission-vision-section div.mission-vision-part#vision{
+		flex-direction: column-reverse;
+	}
+	div.main-portal#mission-vision-section div.mission-vision-part#vision div.text{
+		background: linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.25) 100%);
+	}
+
+}
