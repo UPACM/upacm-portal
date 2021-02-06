@@ -11,7 +11,7 @@ const AboutIntro = ({introText}) => {
 			<div class="main-portal" id="about-intro-section">
 				<div class="wrapper">
 					<div id="intro-title">
-						<h1>About</h1>
+						<h1>About Us</h1>
 					</div>
 					<div id="intro-text">
 						<span>{introText}</span>
