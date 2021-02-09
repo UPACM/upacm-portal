@@ -23,6 +23,7 @@ div.comm-section div.comm-content div.comm-head{
 }
 
 div.comm-section div.comm-content div.comm-head img.comm-head-img{
+	object-fit: cover;
 	margin-bottom: 3vh;
 	background: yellow;
 	height: 35vh;

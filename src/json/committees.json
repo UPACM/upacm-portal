@@ -1,0 +1,10 @@
+{
+	"committees": [
+		{
+			"name": "Digiforms",
+			"head": "Enrique Luis P. Alvarado",
+			"description": "Does stuff that change da world and delivers da final message. Goodbye.",
+			"portraitSrc": "/committee-head-portraits/digiforms.jpg"
+		}
+	]
+}
