@@ -2,35 +2,57 @@ import React from "react"
 import { Link } from "gatsby";
 
 import EventLink from "../../components/subcomponents/eventlink.js"
-
-import algolympicsLinkImage from "../../assets/images/algolympics_index_img.png"
+import EventData from "../../json/events.json"
 
 import "../../styles/var.css"
 import "../../styles/global.css"
-import "../../styles/components/index/events.css"
+import "./events.css"
 
 
 export default function Events({eventsSectionText}) {
 	return (
-		<div id="events">
+		<div id="events-section" class="main-portal">
 			<div class="wrapper">
 				<div id="events-section-intro-text">
-					<h1 id="events-section-title">Events</h1>
-					<p id="event-section-text">{eventsSectionText}</p>
+					<h1>Events</h1>
+					<p>{eventsSectionText}</p>
+					<Link to="/events/">
+						<span id="events-page-link">
+								Learn more
+						</span>
+					</Link>
 				</div>
 				<div id="events-section-links">
 					<div id="algolympics-link" class="event-link">
-						<Link to="https://algo2020.upacm.net/">
-							<img src={algolympicsLinkImage}/>
+						<Link to="/algolympics/">
 							<h1>Algolympics</h1>
 						</Link>
 					</div>
 					<div id="other-events">
-						<EventLink name="Event 1" to="/" />
-						<EventLink name="Event 2" to="/" />
-						<EventLink name="Event 3" to="/" />
-						<EventLink name="Event 4" to="/" />
-						<EventLink name="Event 5" to="/" />
+						<div class="col">
+							<EventLink
+								name={EventData.featuredEvents[0].eventName}
+								link={EventData.featuredEvents[0].eventLink}
+								staticImage={EventData.featuredEvents[0].eventImage}
+							/>
+							<EventLink
+								name={EventData.featuredEvents[1].eventName}
+								link={EventData.featuredEvents[1].eventLink}
+								staticImage={EventData.featuredEvents[1].eventImage}
+							/>
+						</div>
+						<div class="col">
+							<EventLink
+								name={EventData.featuredEvents[2].eventName}
+								link={EventData.featuredEvents[2].eventLink}
+								staticImage={EventData.featuredEvents[2].eventImage}
+							/>
+							<EventLink
+								name={EventData.featuredEvents[3].eventName}
+								link={EventData.featuredEvents[3].eventLink}
+								staticImage={EventData.featuredEvents[3].eventImage}
+							/>
+						</div>
 					</div>
 				</div>
 				
