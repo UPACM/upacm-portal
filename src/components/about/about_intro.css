@@ -1,3 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 div.main-portal#about-intro-section{
+	margin-top: 50vh;
+	color: white;
+}
+div.main-portal#about-intro-section img#bg-image{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -2;
+	height: 100%;
+	width: 100%;
+	background: var(--img-filler-color);
+}
+
+div.main-portal#about-intro-section div.wrapper{
+	display: flex;
+	flex-direction: column;
+	background: var(--acm-blue);
+}
+
+div.main-portal#about-intro-section div#acm-logo-container{
+	height: 5vw;
+}
+div.main-portal#about-intro-section div#acm-logo-container div#acm-logo{
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	background: white;
+	object-fit: contain;
+	width: 10vw;
+	height: 10vw;
+	border-radius: 5vw;
+	margin: auto;
+	border: 5px solid var(--acm-blue);
+	transform: translateY(-50%);
+}
+
+
+div.main-portal#about-intro-section div#acm-logo-container img{
+	object-fit: contain;
+	width: 80%;
+	height: 80%;
+}
+
+div.main-portal#about-intro-section div#acm-logo-container img{
+	object-position: fixed;
+}
+
+div.main-portal#about-intro-section div#intro{
+	text-align: center;
+	margin: auto;
+}
+
+div.main-portal#about-intro-section div#intro h1{
+	font-size: 10vh;
+	font-family: 'Montserrat';
+}
+
+div.main-portal#about-intro-section div#intro div#intro-body p{
+	font-size: 3vh;
+	margin: 2vh auto;
+	padding: 3vh 0;
+	width: 60%;
+}
+div.main-portal#about-intro-section div#intro div#intro-body iframe{
+	width: 50%;
+	height: 50vh;
+	margin: 5vh 0;
+	border-radius: 1vh;
+}
+
+@media (min-width: 1920px){
+	div.main-portal#about-intro-section div#acm-logo-container{
+			height: 100px;
+	}
+	div.main-portal#about-intro-section div#acm-logo-container div#acm-logo{
+			width: 200px;
+			height: 200px;
+			border-radius: 100px;
+	}
+	div.main-portal#about-intro-section div#intro h1{
+		font-size: 4em;
+	}
+	div.main-portal#about-intro-section div#intro div#intro-body p{
+		font-size: 2em;
+		margin: 1vh auto;
+		padding: 1.5vh 0;
+	}
+	
+	div.main-portal#about-intro-section div#intro div#intro-body iframe{
+		height: 540px;
+		margin: 54px 0;
+	}
+
+}
+
+@media (max-width: 768px){
+	div.main-portal#about-intro-section div#acm-logo-container{
+		height: 6vh;
+	}
+	div.main-portal#about-intro-section div#acm-logo-container div#acm-logo{
+		width: 12vh;
+		height: 12vh;
+		border-radius: 6vh;
+	}
+	div.main-portal#about-intro-section div#intro h1{
+		font-size: 2em;
+	}
+	div.main-portal#about-intro-section div#intro div#intro-body iframe{
+		width: 100%;
+		border-radius: 0;
+	}
 }

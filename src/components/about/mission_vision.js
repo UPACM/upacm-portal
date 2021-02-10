@@ -12,14 +12,14 @@ export default function MissionVision(){
 						<h1>Mission</h1>
 						<p>The members of the chapter are united under an advocacy to build communities and develop the future through the cultivation of a shared interest in computing. It is the goal of the organization to open avenues and introduce opportunities for learning about computer science and other related fields.</p>
 					</div>
-					<img class="showcase-image" />
+					<img class="showcase-image" src="/about-images/1-mission-img.png"/>
 				</div>
 				<div class="mission-vision-part" id="vision">
 					<div class="text">
 						<h1>Vision</h1>
 						<p>The merger of programming knowledge and humanitarian work is the means by which UP ACM achieves its goal of engineering sustainable development for areas within its sphere of influence and beyond.</p>
 					</div>
-					<img class="showcase-image" />
+					<img class="showcase-image" src="/about-images/1-vision-img.png"/>
 				</div>
 			</div>
 		</div>

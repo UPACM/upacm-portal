@@ -12,8 +12,8 @@ import "../styles/global.css"
 export default function Home() {
 	return (
 		<>
-			<Header/>
-			<AboutIntro introText="The Association for Computing Machinery - UP Diliman Student Chapter, Inc. (UP ACM) is the first student chapter of the Association for Computing Machinery in the Philippines." />
+			<Header isIndex={true}/>
+			<AboutIntro />
 			<MissionVision />
 			<BlankContentFiller fillerHeight="1000px" />
 			<Footer />
