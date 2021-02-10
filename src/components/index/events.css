@@ -57,7 +57,6 @@ div.main-portal#events-section div#events-section-links{
 }
 
 div.main-portal#events-section div#events-section-links div.event-link{
-	background: red;
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -71,6 +70,7 @@ div.main-portal#events-section div#events-section-links div.event-link a{
 }
 div.main-portal#events-section div#events-section-links div.event-link h1{
 	margin-bottom: 10%;
+	text-align: right;
 }
 
 div.main-portal#events-section div#events-section-links div#algolympics-link{
@@ -89,6 +89,7 @@ div.main-portal#events-section div#events-section-links div#other-events div.col
 div.main-portal#events-section div#events-section-links div#other-events div.event-link a{
 	justify-content: flex-end;
 	padding-right: 10%;
+	transition: background var(--universal-transition-timing);
 }
 
 div.main-portal#events-section div#events-section-links div#other-events div.event-link{
@@ -100,11 +101,15 @@ div.main-portal#events-section div#events-section-links div#other-events div.eve
 	font-size: 1.5em;
 }
 
-/*
-div.main-portal#events-section div#events-section-links div#other-events div.event-link:hover{
-	background: green;
+
+div.main-portal#events-section div#events-section-links div.event-link:hover a{
+	background: rgba(255,255,255,0.125);
 }
-*/
+
+div.main-portal#events-section div#events-section-links div.event-link:active a{
+	background: rgba(0, 0, 0, 0.125);
+}
+
 
 @media (min-height: 1080px){
 	div.main-portal#events-section div#events-section-links div#algolympics-link{
@@ -172,10 +177,12 @@ div.main-portal#events-section div#events-section-links div#other-events div.eve
 	}
 	div.main-portal#events-section div#events-section-links div#other-events div.event-link h1{
 		font-size: 1.125em;
+		text-align: left;
 	}
 	div.main-portal#events-section div#events-section-links div#other-events div.event-link:nth-child(even) a{
 		justify-content: flex-start;
 		padding-right: 0;
 		padding-left: 10%;
 	}
+
 }
