@@ -1,0 +1,24 @@
+{
+	"featuredEvents" : [
+		{
+			"eventName": "Event 1",
+			"eventLink": "/events/event_1/",
+			"eventImage": "/events-images/event-1.png"
+		},
+		{
+			"eventName": "Event 2: Electric Boogaloo",
+			"eventLink": "/events/event_2/",
+			"eventImage": "/events-images/event-1.png"
+		},
+		{
+			"eventName": "ACMeets",
+			"eventLink": "/events/event_3/",
+			"eventImage": "/events-images/event-1.png"
+		},
+		{
+			"eventName": "Jumpstart",
+			"eventLink": "/events/event_4/",
+			"eventImage": "/events-images/event-1.png"
+		}
+	]
+}
