@@ -1,14 +1,14 @@
 import React, {useState, useEffect} from "react"
 import { Link } from "gatsby"
-import Navlink from "../components/subcomponents/navlink.js"
+import Navlink from "./subcomponents/event-navlink.js"
 
-import "../styles/components/header.css"
+import "./events-header.css"
 
-import siteLogo from "../assets/images/logo.png"
-import hamburgerIcon from "../assets/images/hamburger-icon.png"
+import siteLogo from "../../assets/images/logo.png"
+import hamburgerIcon from "../../assets/images/hamburger-icon.png"
 
 
-const Header = ( { isIndex } ) => {
+const EventsHeader = ( { isIndex } ) => {
 		
 		const [scrolled, setScrolled] = useState(false);
 		const [navbarVisible, setNavbarVisible] = useState(false);
@@ -26,12 +26,12 @@ const Header = ( { isIndex } ) => {
 	
 		return (
 			<>
-				<div class={scrolled || !isIndex ? 'main-portal header scrolled' : 'main-portal header'}>
+				<div class={scrolled || !isIndex ? 'events-page header scrolled' : 'events-page header'}>
 					<div class="wrapper">
-						<div class="main-portal home-link">
+						<div class="events-page home-link">
 							<Link to="/">
-								<img class="main-portal logo" src= {siteLogo} />
-								<div class="main-portal header-text">
+								<img class="events-page logo" src= {siteLogo} />
+								<div class="events-page header-text">
 									<span>ASSOCIATION FOR COMPUTING MACHINERY</span>
 									<span class="bottom-text">University of the Philippines Diliman Student Chapter, Inc.</span>
 								</div>
@@ -40,17 +40,14 @@ const Header = ( { isIndex } ) => {
 						<div class="navbar-button-container" onClick={() => setNavbarVisible(!navbarVisible)}>
 							<img class="navbar-button" src={hamburgerIcon} />
 						</div>
-						<div class={navbarVisible ? 'main-portal nav-bar visible' : 'main-portal nav-bar'} id="main-portal-nav-bar">
-							<Navlink to="/about/" name="About" />
-							<Navlink to="/committees/" name="Committees" />
-							<Navlink to="/events/" name="Events" />
-							<Navlink to="/" name="Contact" />
+						<div class={navbarVisible ? 'events-page nav-bar visible' : 'events-page nav-bar'} id="events-page-nav-bar">
+							<Navlink to="/events/events-list/" name="Events" />
 						</div>
 					</div>
 				</div>
-				{!isIndex ? <div class="main-portal header-spacer"></div> : null}
+				{!isIndex ? <div class="events-page header-spacer"></div> : null}
 			</>
 		)
 }
 
-export default Header
+export default EventsHeader

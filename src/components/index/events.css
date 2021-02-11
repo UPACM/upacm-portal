@@ -69,6 +69,7 @@ div.main-portal#events-section div#events-section-links div.event-link a{
 	justify-content: center;	
 }
 div.main-portal#events-section div#events-section-links div.event-link h1{
+	font-size: default;
 	margin-bottom: 10%;
 	text-align: right;
 }

@@ -15,7 +15,7 @@
 	--header-background-scrolled: #00628c;
 	--header-color: white;
 	--navlink-background: #0083c0;
-	--navlink-color: black;
+	--navlink-color: white;
 	--header-height: 75px;
 	
 	--landing-overlay-bg: linear-gradient(45deg, rgba(0,113,193,1) 0%, rgba(0,113,193,0) 100%);
@@ -39,4 +39,9 @@
 	--comm-section-padding: 50px;
 	--comm-section-primary-color-b: rgb(25, 25, 25);
 	--comm-section-primary-complement-b: white;
+	
+	/*Events page*/
+	--events-header-background: linear-gradient(180deg, rgba(0,98,140,0.5) 0%, rgba(0,98,140,0) 100%);
+	--events-header-background-scrolled: #2b2b2b;
+	--events-header-height: 75px;
 }
