@@ -2,8 +2,9 @@ import React from "react"
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
 
-import MissionVision from "../components/about/mission_vision.js"
 import AboutIntro from "../components/about/about_intro.js"
+import MissionVision from "../components/about/mission_vision.js"
+import History from "../components/about/history.js"
 import BlankContentFiller from "../components/blank_content_filler.js"
 
 import "../styles/var.css"
@@ -15,6 +16,7 @@ export default function Home() {
 			<Header isIndex={true}/>
 			<AboutIntro />
 			<MissionVision />
+			<History />
 			<BlankContentFiller fillerHeight="1000px" />
 			<Footer />
 		</>
