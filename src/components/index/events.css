@@ -4,6 +4,7 @@ div.main-portal#events-section{
 	background: var(--index-events-section-background);
 	color: var(--index-events-section-primary-complement);
 	padding: 3%;
+	max-width: calc(1920px - 6%);
 }
 
 div.main-portal#events-section div.wrapper{

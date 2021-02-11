@@ -14,15 +14,6 @@ div.main-portal#mission-vision-section div.mission-vision-part div.text{
 	padding: 3% ;
 }
 
-div.main-portal#mission-vision-section div.mission-vision-part div.text h1{
-	font-family: 'Montserrat';
-	font-size: 10vh;
-}
-
-div.main-portal#mission-vision-section div.mission-vision-part div.text p{
-	font-size: 3vh;
-}
-
 div.main-portal#mission-vision-section div.mission-vision-part img.showcase-image{
 	width: 60%;
 	background: var(--img-filler-color);
@@ -53,16 +44,6 @@ div.main-portal#mission-vision-section div.mission-vision-part#vision{
 	color: white;
 }
 
-@media (min-width: 1920px) {
-	div.main-portal#mission-vision-section div.wrapper div.mission-vision-part div.text h1{
-		font-size: 4em;
-	}
-	
-	div.main-portal#mission-vision-section div.mission-vision-part div.text p{
-		font-size: 2em;
-	}
-}
-
 @media (max-width: 768px) {
 	div.main-portal#mission-vision-section div.mission-vision-part{
 		flex-direction: column-reverse;
@@ -78,12 +59,6 @@ div.main-portal#mission-vision-section div.mission-vision-part#vision{
 		position: relative;
 		top: -50vh;
 		margin-bottom: -50vh;
-	}
-	div.main-portal#mission-vision-section div.wrapper div.mission-vision-part div.text h1{
-		font-size: 2em;
-	}
-	div.main-portal#mission-vision-section div.mission-vision-part div.text p{
-		font-size: 1em;
 	}
 	div.main-portal#mission-vision-section div.mission-vision-part img.showcase-image{
 		width: 100vw;

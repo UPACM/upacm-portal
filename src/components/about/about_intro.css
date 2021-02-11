@@ -53,13 +53,7 @@ div.main-portal#about-intro-section div#intro{
 	margin: auto;
 }
 
-div.main-portal#about-intro-section div#intro h1{
-	font-size: 10vh;
-	font-family: 'Montserrat';
-}
-
 div.main-portal#about-intro-section div#intro div#intro-body p{
-	font-size: 3vh;
 	margin: 2vh auto;
 	padding: 3vh 0;
 	width: 60%;
@@ -80,11 +74,7 @@ div.main-portal#about-intro-section div#intro div#intro-body iframe{
 			height: 200px;
 			border-radius: 100px;
 	}
-	div.main-portal#about-intro-section div#intro h1{
-		font-size: 4em;
-	}
 	div.main-portal#about-intro-section div#intro div#intro-body p{
-		font-size: 2em;
 		margin: 1vh auto;
 		padding: 1.5vh 0;
 	}
@@ -105,8 +95,8 @@ div.main-portal#about-intro-section div#intro div#intro-body iframe{
 		height: 12vh;
 		border-radius: 6vh;
 	}
-	div.main-portal#about-intro-section div#intro h1{
-		font-size: 2em;
+	div.main-portal#about-intro-section div#intro div#intro-body p{
+		width: 80%;
 	}
 	div.main-portal#about-intro-section div#intro div#intro-body iframe{
 		width: 100%;

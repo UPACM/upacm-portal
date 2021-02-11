@@ -53,10 +53,10 @@ p{
 }
 
 @media (max-width: 768px) {
-	div.main-portal#mission-vision-section div.wrapper div.mission-vision-part div.text h1{
+	h1{
 		font-size: 2em;
 	}
-	div.main-portal#mission-vision-section div.mission-vision-part div.text p{
-		font-size: 1em;
+	p{
+		font-size: 1.125em;
 	}
 }
