@@ -32,3 +32,31 @@ div#blank-content-filler{
 	height: 10vh;
 	background: yellow;
 }
+
+h1{
+	font-family: 'Montserrat';
+	font-size: 10vh;
+}
+
+p{
+	font-size: 3vh;
+}
+
+@media (min-width: 1920px) {
+	h1{
+		font-size: 4em;
+	}
+	
+	p{
+		font-size: 2em;
+	}
+}
+
+@media (max-width: 768px) {
+	div.main-portal#mission-vision-section div.wrapper div.mission-vision-part div.text h1{
+		font-size: 2em;
+	}
+	div.main-portal#mission-vision-section div.mission-vision-part div.text p{
+		font-size: 1em;
+	}
+}
