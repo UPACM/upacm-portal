@@ -39,6 +39,9 @@
 	--comm-section-padding: 50px;
 	--comm-section-primary-color-b: rgb(25, 25, 25);
 	--comm-section-primary-complement-b: white;
+
+	--history-section-background: linear-gradient(180deg, rgba(0,116,154,1) 0%, var(--acm-blue) 50%, rgba(0,116,154,1) 100%);
+	--history-section-color: white;
 	
 	/*Events page*/
 	--events-header-background: linear-gradient(180deg, rgba(0,98,140,0.5) 0%, rgba(0,98,140,0) 100%);
