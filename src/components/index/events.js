@@ -11,7 +11,7 @@ import "./events.css"
 
 export default function Events({eventsSectionText}) {
 	return (
-		<div id="events-section" class="main-portal">
+		<div id="events-section" class="main-portal wrapper">
 			<div class="wrapper">
 				<div id="events-section-intro-text">
 					<h1>Events</h1>

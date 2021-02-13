@@ -17,7 +17,7 @@ div.main-portal#about-intro-section img#bg-image{
 div.main-portal#about-intro-section div.wrapper{
 	display: flex;
 	flex-direction: column;
-	background: var(--acm-blue);
+	background: var(--about-intro-background);
 }
 
 div.main-portal#about-intro-section div#acm-logo-container{

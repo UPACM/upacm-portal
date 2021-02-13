@@ -9,7 +9,7 @@ import "./history.css"
 
 export default function History(){
 	return (
-		<div class="main-portal" id="history-section">
+		<div class="main-portal wrapper" id="history-section">
 			<div class="wrapper">
 				<div id="history-intro">
 					<h1>History</h1>
