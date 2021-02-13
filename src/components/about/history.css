@@ -16,18 +16,6 @@ div.main-portal#history-section div#history-intro{
 	padding: 0 3vw;
 }
 
-div.main-portal#history-section div#history-intro{
-}
-
-div.main-portal#history-section div#history-intro h1{
-	font-size: 10vh;
-	font-family: "Montserrat";
-}
-
-div.main-portal#history-section div#history-intro p{
-	font-size: 3vh;
-}
-
 div.main-portal#history-section div#timeline-container{
 	width: 60%;
 	height: 75vh;
@@ -74,14 +62,52 @@ div.main-portal#history-section div#timeline-container div.history-timestamp div
 }
 
 div.main-portal#history-section div#timeline-container div.history-timestamp span.date{
-	margin-right: 2vw;
+	padding-right: 1.5vw;
 }
 
 div.main-portal#history-section div#timeline-container div.history-timestamp span.event{
 	width: 75%;
+	padding-left: 1.5vw;
+	border-left: 1px solid white;
 }
 
+@media (min-width: 1920px){
+	div.main-portal#history-section div#history-intro{
+		width: calc(40% - 2vw);
+		padding: 0 1vw;
+	}
+	div.main-portal#history-section div#timeline-container{
+		height: calc(1920px*0.5);
+	}
+	div.main-portal#history-section div#timeline-container div.history-timestamp:first-of-type{
+		padding-top: calc(960px*0.5);
+	}
+	div.main-portal#history-section div#timeline-container div.history-timestamp:last-of-type{
+		padding-bottom: calc(960px*0.5);
+	}
+}
 
+@media (max-width: 768px){
+	div.main-portal#history-section div.wrapper{
+		flex-direction: column;
+	}
+	div.main-portal#history-section div#history-intro{
+		width: 100%;
+	}
+	div.main-portal#history-section div#timeline-container{
+		width: 100%;
+		height: 50vh
+	}
+	div.main-portal#history-section div#timeline-container div.history-timestamp:first-of-type{
+		padding-top: 25vh
+	}
+	div.main-portal#history-section div#timeline-container div.history-timestamp:last-of-type{
+		padding-bottom: 25vh
+	}
+	div.main-portal#history-section div#timeline-container div.history-timestamp{
+		font-size: 1em;
+	}
+}
 
 
 
