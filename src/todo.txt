@@ -112,3 +112,7 @@ Plan:
 
 RE: color scheme
 - Stick NEAR the designated website colors
+
+Todo:
+
+- Install Prettier IF MAY PROBLEMA SA TABULATION
