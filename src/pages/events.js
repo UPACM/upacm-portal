@@ -1,6 +1,6 @@
 import React from "react"
 
-import BlankContentFiller from "../components/blank_content_filler.js"
+import BlankContentFiller from "../components/blank-content-filler.js"
 import EventsHeader from "../components/events/events-header.js"
 
 import "../styles/var.css"

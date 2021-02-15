@@ -2,7 +2,7 @@ import React from "react"
 import siteLogo from "../../assets/images/logo.png"
 import "../../styles/var.css"
 import "../../styles/global.css"
-import "./about_intro.css"
+import "./about-intro.css"
 import { useStaticQuery, graphql } from "gatsby"
 
 

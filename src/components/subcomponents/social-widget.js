@@ -1,12 +1,12 @@
 import React from "react"
 import "../../styles/var.css"
 import "../../styles/global.css"
-import "./social_widget.css"
+import "./social-widget.css"
 
-import twitter_logo from "../../assets/images/social/twitter_logo.png"
-import facebook_logo from "../../assets/images/social/facebook_logo.png"
-import linkedin_logo from "../../assets/images/social/linkedin_logo.png"
-import youtube_logo from "../../assets/images/social/youtube_logo.png"
+import twitter_logo from "../../assets/images/social/twitter-logo.png"
+import facebook_logo from "../../assets/images/social/facebook-logo.png"
+import linkedin_logo from "../../assets/images/social/linkedin-logo.png"
+import youtube_logo from "../../assets/images/social/youtube-logo.png"
 
 export default function SocialWidget({elementClass="", social, href}) {
 	

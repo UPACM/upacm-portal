@@ -1,7 +1,7 @@
 import React from "react"
 import "../../styles/var.css"
 import "../../styles/global.css"
-import "./mission_vision.css"
+import "./mission-vision.css"
 
 export default function MissionVision(){
 	return (

@@ -2,10 +2,10 @@ import React from "react"
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
 
-import AboutIntro from "../components/about/about_intro.js"
-import MissionVision from "../components/about/mission_vision.js"
+import AboutIntro from "../components/about/about-intro.js"
+import MissionVision from "../components/about/mission-vision.js"
 import History from "../components/about/history.js"
-import BlankContentFiller from "../components/blank_content_filler.js"
+import BlankContentFiller from "../components/blank-content-filler.js"
 
 import "../styles/var.css"
 import "../styles/global.css"

@@ -29,7 +29,7 @@ Features
 	- embedded latest posts (API)
 	- embedded latest events (MD pages)
 	- latest achievements (JSON)
-{
+Will: {
 	- About Page (Feb 20)
 		- What is ACM 
 			- Remove logo, replace with gradient
@@ -48,7 +48,7 @@ Features
 	- Community Development
 	- Lectures and Workshops
 	- Activities
-{
+Stephen: {
 	- Committee (Feb 20)
 		- Faculty
 		- Council Members
@@ -57,7 +57,7 @@ Features
 		- Design
 			- (found in acm-website text channel)
 }
-{
+Stephen: {
 	- SIG (Feb 20)
 		- 4 special interest groups
 		- SIG Descriptions
@@ -108,6 +108,19 @@ Plan:
 
 2. Subfeatures
 3. Code Convention
+- SASS
+- Prettier if indentation probs
+- dashed file names
+- exported functions are Pascal Cased according to filename
+- CSS files must be placed next to JS files
+- each page must have their own folder of components
+- each page folder must have one subcomponents folder for components to be used within components
+- Placeholder images shall be placed in Static
+- There shall be an assets folder for each page in static
+- Asset files that will be replaced directly by the webmaster shall be named according to the order they will appear on the page they are in
+Considerations:
+- Place JSON files in static
+- Place dynamically edited data in static
 4. Begin work
 
 RE: color scheme

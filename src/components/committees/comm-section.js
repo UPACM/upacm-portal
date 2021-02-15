@@ -1,6 +1,6 @@
 import React from "react"
 
-import SocialWidget from "../../components/subcomponents/social_widget.js"
+import SocialWidget from "../../components/subcomponents/social-widget.js"
 
 import "../../styles/var.css"
 import "../../styles/global.css"

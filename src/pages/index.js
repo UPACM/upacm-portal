@@ -6,7 +6,7 @@ import Footer from "../components/footer.js"
 import Landing from "../components/index/landing.js"
 import Events from "../components/index/events.js"
 
-import BlankContentFiller from "../components/blank_content_filler.js"
+import BlankContentFiller from "../components/blank-content-filler.js"
 import TestObject from "../components/test_object.js"
 
 import "../styles/var.css"
