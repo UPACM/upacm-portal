@@ -1,0 +1,45 @@
+.executive-card {
+    $card-width: 300px;
+    $card-height: 450px;
+
+    $acm-blue: rgba(0,98,140,1);
+
+    // Allow three cards in one column at maximum
+    flex: 0 $card-width;
+    padding: 20px;
+    margin: 30px;
+
+    // Card dimensions
+    height: $card-height;
+    width: $card-width;
+
+    background-color: $acm-blue;
+    
+    .portrait{
+        // Image centering
+        display: block;
+        margin: auto auto;
+
+        $image-dimension: 280px;
+        height: $image-dimension;
+        width: $image-dimension;
+    }
+
+    .name {
+        color: white;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .position {
+        color: white;
+        font-size: 1.1em;
+        text-align: center;
+        padding-bottom: 15px;
+
+    }
+    .description {
+        color: white;
+        font-size: 0.9em;
+        text-align: center;
+    }
+}
