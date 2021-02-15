@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-div.main-portal.landing{
+div.landing{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -9,69 +9,69 @@ div.main-portal.landing{
 	height: 100vh;
 }
 
-div.main-portal#landing-video{
+div#landing-video{
 	z-index: -3;
 }
 
-div.main-portal#landing-video video{
+div#landing-video video{
 	width: 100vw;
 }
 
-div.main-portal#landing-overlay{
+div#landing-overlay{
 	display: flex;
 	align-items: center;
 	z-index: -2;
 	color: white;
 	background: var(--landing-overlay-bg);
 }
-div.main-portal#landing-overlay div.wrapper{
+div#landing-overlay div.wrapper{
 	display: flex;
 	justify-content: flex-end;
 }
 
-div.main-portal#landing-overlay div#landing-text{
+div#landing-overlay div#landing-text{
 	width: 50%;
 	padding: 0 5%;
 	margin-top: var(--header-height);
 }
 
-div.main-portal#landing-overlay div#landing-text > *{
+div#landing-overlay div#landing-text > *{
 	text-align: right;
 }
 
-div.main-portal#landing-overlay div#landing-text h1#intro-text{
+div#landing-overlay div#landing-text h1#intro-text{
 	font-family: 'Montserrat';
 	font-size: 4em;
 }
-div.main-portal#landing-overlay div#landing-text p#intro-sub-text{
+div#landing-overlay div#landing-text p#intro-sub-text{
 	font-family: 'Roboto';
 	font-size: 1.5em;
 }
-div.main-portal#landing-spacer{
+div#landing-spacer{
 	margin-bottom: 100vh;
 }
 
 @media (max-width: 1280px) {
-	div.main-portal#landing-video{
+	div#landing-video{
 		display: flex;
 		justify-content: center;
 	}
-	div.main-portal#landing-video video{
+	div#landing-video video{
 		width: 1280px;
 	}
 }
 
 @media (max-width: 768px) {
 	
-	div.main-portal#landing-overlay div#landing-text{
+	div#landing-overlay div#landing-text{
 		width: 80%;
 	}
 	
-	div.main-portal#landing-overlay div#landing-text h1#intro-text{
+	div#landing-overlay div#landing-text h1#intro-text{
 		font-family: 'Montserrat';
 		font-size: 2em;
 	}
-	div.main-portal#landing-overlay div#landing-text p#intro-sub-text{
+	div#landing-overlay div#landing-text p#intro-sub-text{
 		font-size: 1em;
 	}
 }

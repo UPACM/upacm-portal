@@ -5,7 +5,7 @@ import "./mission-vision.css"
 
 export default function MissionVision(){
 	return (
-		<div class="main-portal" id="mission-vision-section">
+		<div  id="mission-vision-section">
 			<div class="wrapper">
 				<div class="mission-vision-part" id="mission">
 					<div class="text">

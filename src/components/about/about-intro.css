@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-div.main-portal#about-intro-section{
+div#about-intro-section{
 	margin-top: 50vh;
 	color: white;
 }
-div.main-portal#about-intro-section img#bg-image{
+div#about-intro-section img#bg-image{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -14,16 +14,16 @@ div.main-portal#about-intro-section img#bg-image{
 	background: var(--img-filler-color);
 }
 
-div.main-portal#about-intro-section div.wrapper{
+div#about-intro-section div.wrapper{
 	display: flex;
 	flex-direction: column;
 	background: var(--about-intro-background);
 }
 
-div.main-portal#about-intro-section div#acm-logo-container{
+div#about-intro-section div#acm-logo-container{
 	height: 5vw;
 }
-div.main-portal#about-intro-section div#acm-logo-container div#acm-logo{
+div#about-intro-section div#acm-logo-container div#acm-logo{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -38,27 +38,27 @@ div.main-portal#about-intro-section div#acm-logo-container div#acm-logo{
 }
 
 
-div.main-portal#about-intro-section div#acm-logo-container img{
+div#about-intro-section div#acm-logo-container img{
 	object-fit: contain;
 	width: 80%;
 	height: 80%;
 }
 
-div.main-portal#about-intro-section div#acm-logo-container img{
+div#about-intro-section div#acm-logo-container img{
 	object-position: fixed;
 }
 
-div.main-portal#about-intro-section div#intro{
+div#about-intro-section div#intro{
 	text-align: center;
 	margin: auto;
 }
 
-div.main-portal#about-intro-section div#intro div#intro-body p{
+div#about-intro-section div#intro div#intro-body p{
 	margin: 2vh auto;
 	padding: 3vh 0;
 	width: 60%;
 }
-div.main-portal#about-intro-section div#intro div#intro-body iframe{
+div#about-intro-section div#intro div#intro-body iframe{
 	width: 50%;
 	height: 50vh;
 	margin: 5vh 0;
@@ -66,20 +66,20 @@ div.main-portal#about-intro-section div#intro div#intro-body iframe{
 }
 
 @media (min-width: 1920px){
-	div.main-portal#about-intro-section div#acm-logo-container{
+	div#about-intro-section div#acm-logo-container{
 			height: 100px;
 	}
-	div.main-portal#about-intro-section div#acm-logo-container div#acm-logo{
+	div#about-intro-section div#acm-logo-container div#acm-logo{
 			width: 200px;
 			height: 200px;
 			border-radius: 100px;
 	}
-	div.main-portal#about-intro-section div#intro div#intro-body p{
+	div#about-intro-section div#intro div#intro-body p{
 		margin: 1vh auto;
 		padding: 1.5vh 0;
 	}
 	
-	div.main-portal#about-intro-section div#intro div#intro-body iframe{
+	div#about-intro-section div#intro div#intro-body iframe{
 		height: 540px;
 		margin: 54px 0;
 	}
@@ -87,18 +87,18 @@ div.main-portal#about-intro-section div#intro div#intro-body iframe{
 }
 
 @media (max-width: 768px){
-	div.main-portal#about-intro-section div#acm-logo-container{
+	div#about-intro-section div#acm-logo-container{
 		height: 6vh;
 	}
-	div.main-portal#about-intro-section div#acm-logo-container div#acm-logo{
+	div#about-intro-section div#acm-logo-container div#acm-logo{
 		width: 12vh;
 		height: 12vh;
 		border-radius: 6vh;
 	}
-	div.main-portal#about-intro-section div#intro div#intro-body p{
+	div#about-intro-section div#intro div#intro-body p{
 		width: 80%;
 	}
-	div.main-portal#about-intro-section div#intro div#intro-body iframe{
+	div#about-intro-section div#intro div#intro-body iframe{
 		width: 100%;
 		border-radius: 0;
 	}

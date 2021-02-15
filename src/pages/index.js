@@ -11,7 +11,7 @@ import TestObject from "../components/test_object.js"
 
 import "../styles/var.css"
 import "../styles/global.css"
-import srcVid from "../assets/videos/landing_video.mp4"
+import srcVid from "../assets/videos/landing-video.mp4"
 
 export default function Home() {
 	var y = <Events eventsSectionText="The organization has pioneered several innovative projects for all levels of academic achievement, from the elementary level to the collegiate level. These ventures are integral to realizing our vision of forwarding the field of computing not only as science but as a medium for modern community development."

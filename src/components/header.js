@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react"
 import { Link } from "gatsby"
 import Navlink from "../components/subcomponents/navlink.js"
 
-import "../styles/components/header.css"
+import "./header.css"
 
 import siteLogo from "../assets/images/logo.png"
 import hamburgerIcon from "../assets/images/hamburger-icon.png"
@@ -26,12 +26,12 @@ const Header = ( { isIndex } ) => {
 	
 		return (
 			<>
-				<div class={scrolled || !isIndex ? 'main-portal header scrolled' : 'main-portal header'}>
+				<div class={scrolled || !isIndex ? ' header scrolled' : ' header'}>
 					<div class="wrapper">
-						<div class="main-portal home-link">
+						<div class=" home-link">
 							<Link to="/">
-								<img class="main-portal logo" src= {siteLogo} />
-								<div class="main-portal header-text">
+								<img class=" logo" src= {siteLogo} />
+								<div class=" header-text">
 									<span>ASSOCIATION FOR COMPUTING MACHINERY</span>
 									<span class="bottom-text">University of the Philippines Diliman Student Chapter, Inc.</span>
 								</div>
@@ -40,7 +40,7 @@ const Header = ( { isIndex } ) => {
 						<div class="navbar-button-container" onClick={() => setNavbarVisible(!navbarVisible)}>
 							<img class="navbar-button" src={hamburgerIcon} />
 						</div>
-						<div class={navbarVisible ? 'main-portal nav-bar visible' : 'main-portal nav-bar'} id="main-portal-nav-bar">
+						<div class={navbarVisible ? ' nav-bar visible' : ' nav-bar'} id="-nav-bar">
 							<Navlink to="/about/" name="About" />
 							<Navlink to="/committees/" name="Committees" />
 							<Navlink to="/events/" name="Events" />
@@ -48,7 +48,7 @@ const Header = ( { isIndex } ) => {
 						</div>
 					</div>
 				</div>
-				{!isIndex ? <div class="main-portal header-spacer"></div> : null}
+				{!isIndex ? <div class=" header-spacer"></div> : null}
 			</>
 		)
 }

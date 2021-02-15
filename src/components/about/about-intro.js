@@ -22,7 +22,7 @@ const AboutIntro = () => {
 	)
 	return (
 		<>
-			<div class="main-portal" id="about-intro-section">
+			<div  id="about-intro-section">
 				<img id="bg-image" src="/about-images/0-page-bg.png"/>
 				<div class="wrapper">
 					<div id="acm-logo-container">

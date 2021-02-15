@@ -5,7 +5,7 @@ import "../../styles/global.css"
 
 export default function Navlink({name, to}) {
 	return (
-		<div class="main-portal navlink">
+		<div class=" navlink">
 			<Link to={to}>
 				<span>{name}</span>
 			</Link>

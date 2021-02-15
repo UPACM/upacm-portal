@@ -1,41 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
-div.main-portal#events-section{
+div#events-section{
 	background: var(--index-events-section-background);
 	color: var(--index-events-section-primary-complement);
 	padding: 3%;
 	max-width: calc(1920px - 6%);
 }
 
-div.main-portal#events-section div.wrapper{
+div#events-section div.wrapper{
 	display: flex;
 	justify-content: space-between;
 	height: 100%;
 }
 
-div.main-portal#events-section div#events-section-intro-text{
+div#events-section div#events-section-intro-text{
 	display: flex;
 	flex-direction: column;
 	width: calc((100% / 3) - 3vw);
 	margin-right: 3vw;
 }
 
-div.main-portal#events-section div#events-section-intro-text h1{
+div#events-section div#events-section-intro-text h1{
 	font-size: 5em;
 	font-family: 'Montserrat';
 }
 
-div.main-portal#events-section div#events-section-intro-text p{
+div#events-section div#events-section-intro-text p{
 	font-size: 1.25em;
 }
 
-div.main-portal#events-section div#events-section-intro-text a{
+div#events-section div#events-section-intro-text a{
 	align-self: flex-end;
 	width: 35%;
 	margin-top: 5vh;
 }
 
-div.main-portal#events-section div#events-section-intro-text a span#events-page-link{
+div#events-section div#events-section-intro-text a span#events-page-link{
 	display: flex;
 	padding: 10px;
 	height: 20px;
@@ -48,141 +48,141 @@ div.main-portal#events-section div#events-section-intro-text a span#events-page-
 	text-align: center;
 }
 
-div.main-portal#events-section div#events-section-intro-text span#events-page-link::after{
+div#events-section div#events-section-intro-text span#events-page-link::after{
 	content: "►"
 }
 
-div.main-portal#events-section div#events-section-links{
+div#events-section div#events-section-links{
 	display: flex;
 	width: calc(200% / 3);
 }
 
-div.main-portal#events-section div#events-section-links div.event-link{
+div#events-section div#events-section-links div.event-link{
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 }
-div.main-portal#events-section div#events-section-links div.event-link a{
+div#events-section div#events-section-links div.event-link a{
 	width: 100%;
 	height: 100%;
 	display: flex;
 	align-items: flex-end;
 	justify-content: center;	
 }
-div.main-portal#events-section div#events-section-links div.event-link h1{
+div#events-section div#events-section-links div.event-link h1{
 	font-size: 2em;
 	font-family: "Open Sans";
 	margin-bottom: 10%;
 	text-align: right;
 }
 
-div.main-portal#events-section div#events-section-links div#algolympics-link{
+div#events-section div#events-section-links div#algolympics-link{
 	width: 40%;
 	background-image: url("/events-images/algolympics-index-link-img.png");
 }
-div.main-portal#events-section div#events-section-links div#other-events{
+div#events-section div#events-section-links div#other-events{
 	display: flex;
 	width: 60%;
 }
 
-div.main-portal#events-section div#events-section-links div#other-events div.col{
+div#events-section div#events-section-links div#other-events div.col{
 	flex: 1;
 }
 
-div.main-portal#events-section div#events-section-links div#other-events div.event-link a{
+div#events-section div#events-section-links div#other-events div.event-link a{
 	justify-content: flex-end;
 	padding-right: 10%;
 	transition: background var(--universal-transition-timing);
 }
 
-div.main-portal#events-section div#events-section-links div#other-events div.event-link{
+div#events-section div#events-section-links div#other-events div.event-link{
 	display: flex;
 	height: 50%;
 }
 
-div.main-portal#events-section div#events-section-links div#other-events div.event-link h1{
+div#events-section div#events-section-links div#other-events div.event-link h1{
 	font-size: 1.5em;
 }
 
 
-div.main-portal#events-section div#events-section-links div.event-link:hover a{
+div#events-section div#events-section-links div.event-link:hover a{
 	background: rgba(255,255,255,0.125);
 }
 
-div.main-portal#events-section div#events-section-links div.event-link:active a{
+div#events-section div#events-section-links div.event-link:active a{
 	background: rgba(0, 0, 0, 0.125);
 }
 
 
 @media (min-height: 1080px){
-	div.main-portal#events-section div#events-section-links div#algolympics-link{
+	div#events-section div#events-section-links div#algolympics-link{
 		height: 540px;
 	}
 }
 
 @media (max-width: 768px){
-	div.main-portal#events-section{
+	div#events-section{
 		padding: 5vh 0;
 	}
-	div.main-portal#events-section div.wrapper{
+	div#events-section div.wrapper{
 		flex-direction: column;
 		align-items: center;
 	}
-	div.main-portal#events-section div#events-section-intro-text{
+	div#events-section div#events-section-intro-text{
 		width: 100%;
 		margin-right: 0;
 		margin-bottom: 3vw;
 		align-items: center;
 	}
-	div.main-portal#events-section div#events-section-intro-text h1{
+	div#events-section div#events-section-intro-text h1{
 		font-size: 2.5em;
 		width: 80%;
 	}
-	div.main-portal#events-section div#events-section-intro-text p{
+	div#events-section div#events-section-intro-text p{
 		font-size: 1em;
 		width: 80%;
 	}
-	div.main-portal#events-section div#events-section-intro-text a{
+	div#events-section div#events-section-intro-text a{
 		width: 100%;
 		margin: 3vh 0;
 	}
-	div.main-portal#events-section div#events-section-intro-text a span#events-page-link{
+	div#events-section div#events-section-intro-text a span#events-page-link{
 		border-radius: 0;
 		justify-content: space-between;
 	}
-	div.main-portal#events-section div#events-section-intro-text a span#events-page-link::after{
+	div#events-section div#events-section-intro-text a span#events-page-link::after{
 		content: "►";
 	}
-	div.main-portal#events-section div#events-section-links{
+	div#events-section div#events-section-links{
 		width: 80%;
 		flex-direction: column;
 	}
-	div.main-portal#events-section div#events-section-links div.event-link{
+	div#events-section div#events-section-links div.event-link{
 		margin-bottom: 2vh
 	}
-	div.main-portal#events-section div#events-section-links div.event-link a{
+	div#events-section div#events-section-links div.event-link a{
 		align-items: center;
 		justify-content: center;
 	}
-	div.main-portal#events-section div#events-section-links div.event-link h1{
+	div#events-section div#events-section-links div.event-link h1{
 		margin-bottom: 0;
 	}
-	div.main-portal#events-section div#events-section-links div#algolympics-link{
+	div#events-section div#events-section-links div#algolympics-link{
 		width: 100%;
 		height: 30vh;
 	}
-	div.main-portal#events-section div#events-section-links div#other-events{
+	div#events-section div#events-section-links div#other-events{
 		width: 100%;
 		flex-direction: column;
 	}
-	div.main-portal#events-section div#events-section-links div#other-events div.event-link{
+	div#events-section div#events-section-links div#other-events div.event-link{
 		height: 15vh;
 	}
-	div.main-portal#events-section div#events-section-links div#other-events div.event-link h1{
+	div#events-section div#events-section-links div#other-events div.event-link h1{
 		font-size: 1.125em;
 		text-align: left;
 	}
-	div.main-portal#events-section div#events-section-links div#other-events div.event-link:nth-child(even) a{
+	div#events-section div#events-section-links div#other-events div.event-link:nth-child(even) a{
 		justify-content: flex-start;
 		padding-right: 0;
 		padding-left: 10%;

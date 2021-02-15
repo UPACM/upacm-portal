@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
 
-div.main-portal.header{
+div.header{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -11,12 +11,12 @@ div.main-portal.header{
 	transition: background var(--universal-transition-timing), transform var(--universal-transition-timing), box-shadow var(--universal-transition-timing);
 }
 
-div.main-portal.header.scrolled{
+div.header.scrolled{
 	background: var(--header-background-scrolled);
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 }
 
-div.main-portal.header div.wrapper{
+div.header div.wrapper{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -24,39 +24,39 @@ div.main-portal.header div.wrapper{
 	height: 100%;
 }
 
-div.main-portal.header div.main-portal.home-link{
+div.header div.home-link{
 	height: 100%;
 	padding: 0 1%;
 	transition: background var(--universal-transition-timing);
 }
 
-div.main-portal.header a {
+div.header a {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	height: 100%;
 }
 
-div.main-portal.header img.main-portal.logo{
+div.header img.logo{
 	height: 50%;
 	padding-right: 1vw;
 }
 
-div.main-portal.header div.main-portal.home-link div.main-portal.header-text{
+div.header div.home-link div.header-text{
 	display: flex;
 	flex-direction: column;
 	color: white;
 }
 
-div.main-portal.header div.main-portal.home-link div.main-portal.header-text span.top-text{
+div.header div.home-link div.header-text span.top-text{
 	font-family: 'Montserrat';
 }
 
-div.main-portal.header div.main-portal.home-link div.main-portal.header-text span.bottom-text{
+div.header div.home-link div.header-text span.bottom-text{
 	font-size: 0.7em;
 }
 
-div.main-portal.header div.main-portal.nav-bar{
+div.header div.nav-bar{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
@@ -64,48 +64,48 @@ div.main-portal.header div.main-portal.nav-bar{
 	transition: transform var(--universal-transition-timing);
 }
 
-div.main-portal.header div.navbar-button-container{
+div.header div.navbar-button-container{
 	display: none;
 	transition: background var(--universal-transition-timing);
 }
 
-div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink{
+div.header div.nav-bar div.navlink{
 	padding: 0 1vw;
 	transition: background var(--universal-transition-timing);
 }
 
-div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink:hover{
+div.header div.nav-bar div.navlink:hover{
 	background: radial-gradient(circle, rgba(255,255,255,0.125) 0%, rgba(0,98,140,0) 100%);
 }
 
-div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink:active{
+div.header div.nav-bar div.navlink:active{
 	background: radial-gradient(circle, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%);
 }
 
-div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink a{
+div.header div.nav-bar div.navlink a{
 	color: white;
 }
 
-div.main-portal.header div.main-portal.home-link:hover{
+div.header div.home-link:hover{
 	background: rgba(255,255,255,0.125);
 }
 
-div.main-portal.header div.main-portal.home-link:active{
+div.header div.home-link:active{
 	background: rgba(0,0,0,0.1);
 }
 
-div.main-portal.header-spacer{
+div.header-spacer{
 	margin-top: var(--header-height);
 }
 
 
 @media (max-width: 768px) {
 	
-	div.main-portal.header div.main-portal.home-link{
+	div.header div.home-link{
 		padding: 0 3vw;
 	}
 	
-	div.main-portal.header div.main-portal.nav-bar{
+	div.header div.nav-bar{
 		transform: translateX(100%);
 		position: absolute;
 		right: 0;
@@ -115,11 +115,11 @@ div.main-portal.header-spacer{
 		margin-right: 0;
 	}
 	
-	div.main-portal.header div.main-portal.nav-bar.visible{
+	div.header div.nav-bar.visible{
 		transform: translateX(0%);
 	}
 	
-	div.main-portal.header div.navbar-button-container{
+	div.header div.navbar-button-container{
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -129,45 +129,45 @@ div.main-portal.header-spacer{
 		width: var(--header-height);
 		height: var(--header-height);
 	}
-	div.main-portal.header img.navbar-button{
+	div.header img.navbar-button{
 		display: block;
 		height: 50%;
 		width: 50%;
 	}
 	
-	div.main-portal.header div.navbar-button-container:hover{
+	div.header div.navbar-button-container:hover{
 		background: rgba(255,255,255,0.125);
 	}
 	
-	div.main-portal.header div.navbar-button-container:active{
+	div.header div.navbar-button-container:active{
 		background: rgba(0,0,0,0.2);
 	}
 
 	
-	div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink{
+	div.header div.nav-bar div.navlink{
 		background: var(--navlink-background);
 		color: var(--navlink-color);
 		width: 50vw;
 		padding: 0;
 	}
 
-	div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink span{
+	div.header div.nav-bar div.navlink span{
 		width: 100%;
 		padding: 3vw;
 		text-align: center;
 	}
 	
-	div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink:hover span{
+	div.header div.nav-bar div.navlink:hover span{
 		background: rgba(255,255,255,0.125)
 	}
 	
-	div.main-portal.header div.main-portal.nav-bar div.main-portal.navlink:active span{
+	div.header div.nav-bar div.navlink:active span{
 		background: rgba(0,0,0,0.2)
 	}
 }
 
 @media (max-width: 500px) {
-	div.main-portal.header div.main-portal.home-link div.main-portal.header-text{
+	div.header div.home-link div.header-text{
 		display: none;
 	}
 }

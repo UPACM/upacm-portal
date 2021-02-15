@@ -4,11 +4,11 @@ import SocialWidget from "../components/subcomponents/social-widget.js"
 
 import "../styles/var.css"
 import "../styles/global.css"
-import "../styles/components/footer.css"
+import "./footer.css"
 
 export default function Footer() {
 	return (
-		<div class="main-portal" id="footer">
+		<div  id="footer">
 			<div id="footer-top">
 				<div class="wrapper">
 				
