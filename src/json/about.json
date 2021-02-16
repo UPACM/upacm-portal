@@ -1,0 +1,46 @@
+{
+	"header": "About Data",
+	"headerInfo": "Data for the <about> page.",
+	
+	"mission": "The members of the chapter are united under an advocacy to build communities and develop the future through the cultivation of a shared interest in computing. It is the goal of the organization to open avenues and introduce opportunities for learning about computer science and other related fields.",
+	"vision": "The merger of programming knowledge and humanitarian work is the means by which UP ACM achieves its goal of engineering sustainable development for areas within its sphere of influence and beyond.",
+	
+	
+	"history": [
+		{
+			"date": "1969-04-20",
+			"event": "Lorem ipsum dolor sit amet."
+		},
+		{
+			"date": "1970-04-20",
+			"event": "Lorem ipsum dolor sit amet."
+		},
+		{
+			"date": "1971-04-20",
+			"event": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+		},
+		{
+			"date": "1970-04-20",
+			"event": "Lorem ipsum dolor sit amet."
+		}
+	],
+	
+		
+	"achievements": [
+		{
+			"name": "Achievement 1",
+			"event": "Event 1",
+			"date": "1969-04-20"
+		},
+		{
+			"name": "Achievement 2",
+			"event": "Event 1",
+			"date": "1969-04-20"
+		},
+		{
+			"name": "Achievement 3",
+			"event": "Event 2",
+			"date": "1969-06-09"
+		}
+	]
+}

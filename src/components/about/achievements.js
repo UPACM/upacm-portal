@@ -1,7 +1,7 @@
 import React from "react"
 
 import AchievementItem from "./subcomponents/achievement-item.js"
-import AchievementData from "../../json/about/achievements.json"
+import AboutData from "../../json/about.json"
 
 import "../../styles/var.css"
 import "../../styles/global.css"
@@ -14,6 +14,7 @@ export default function Achievements(){
 				<h1>Achievements</h1>
 				<div id="achievements-list">
 					{AchievementData.achievements.map((data) => {
+					{AboutData.achievements.map((data) => {
 						var d = new Date(data.date);
 						return <AchievementItem date={d.getFullYear()} name={data.name} event={data.event} />
 					})}
