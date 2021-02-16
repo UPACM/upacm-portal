@@ -1,6 +1,8 @@
 :root{
 	
 	--acm-blue: #0182ac;
+	--acm-lignt-blue: #83cee2;
+	--acm-dark-blue: #09357a;
 	
 	--site-background-color: #e3f7ff;
 	--site-background-complement: black;
@@ -44,8 +46,8 @@
 	/*About Page*/
 	--about-intro-background: linear-gradient(0deg, rgba(1,130,172,1) 0%, rgba(57,174,212,1) 50%, rgba(1,130,172,1) 100%);
 
-	--history-section-background: linear-gradient(180deg, rgba(0,116,154,1) 0%, var(--acm-blue) 50%, rgba(0,116,154,1) 100%);
-	--history-section-color: white;
+	--history-section-background: #bfe8f5;
+	--history-section-color: var(--acm-blue);
 	
 	/*Events page*/
 	--events-header-background: linear-gradient(180deg, rgba(0,98,140,0.5) 0%, rgba(0,98,140,0) 100%);
