@@ -1,0 +1,32 @@
+.faculty-card {
+    // Allow three cards in one column at maximum
+    flex: 0 28vw;
+    padding: 30px;
+
+    .portrait{
+        // Image centering
+        display: block;
+        margin: auto auto;
+
+        border-radius: 100%;
+        $image-dimension: 190px;
+        width: $image-dimension;
+        height: $image-dimension;
+  
+    }
+
+    .name {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .position {
+        font-size: 1.1em;
+        text-align: center;
+        padding-bottom: 15px;
+
+    }
+    .description {
+        font-size: 0.9em;
+        text-align: center;
+    }
+}

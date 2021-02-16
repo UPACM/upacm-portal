@@ -1,0 +1,35 @@
+#committee-faculty {
+
+    background-color: white;
+
+    #info {
+        #header {
+            // layout
+            padding: 20px;
+            padding-top: 50px;
+            text-align: center;
+            
+            // Ensure readability on all screen size
+            font-size: calc(1.2em + 1.5vw);
+        }
+        #header-info {
+            // layout
+            padding: 20px;
+            padding-top: 0px;
+            text-align: center;
+            
+            // Ensure readability on all screen size
+            font-size: calc(1em + 0.2vw);
+        }
+    }
+    
+    #cards {
+        // Flexibility for mobile
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+        padding: 30px;
+    }
+
+}

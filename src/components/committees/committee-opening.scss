@@ -1,0 +1,26 @@
+#committee-opening {
+
+    // Initial screen
+    height: 42vh;
+
+    #header {
+        // Center title
+        text-align: center;
+        position: relative;
+        padding-top: 50px;
+        bottom: -25%;
+        
+        // Ensure readability on all screen size
+        font-size: calc(1.6em + 2vw);
+    }
+    #header-info {
+        // Center subtitle
+        text-align: center;
+        position: relative;
+        padding: 20px;
+        bottom: -25%;
+        
+        // Ensure readability on all screen size
+        font-size: calc(1em + 0.2vw);
+    }
+}
