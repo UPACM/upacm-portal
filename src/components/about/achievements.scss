@@ -51,14 +51,42 @@ div#achievements-section{
 				color: white;
 				img.achievement-image{
 					background: var(--img-filler-color);
-					width: 5vw;
-					height: 5vw;
+					align-self: flex-start;
+					width: 30%;
+					height: 20vh;
 				}
 				
 				div.achievement-text{
 					padding-left: 3%;
-
+					width: 64%;
 				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	div#achievements-section{
+		div#achievements-content{
+			flex-direction: column;
+			align-items: center;
+			
+			p#achievements-intro{
+				width: 100%;
+				padding-bottom: 3vh;
+			}
+			
+			div#achievements-list{
+				width: 90%;
+				
+				div.achievement-item{
+					div.achievement-text{
+						h2.name{
+							font-size: 1.25em;
+						}
+					}
+				}
+				
 			}
 		}
 	}
