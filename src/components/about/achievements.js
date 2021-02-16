@@ -13,7 +13,6 @@ export default function Achievements(){
 			<div class="wrapper">
 				<h1>Achievements</h1>
 				<div id="achievements-list">
-					{AchievementData.achievements.map((data) => {
 					{AboutData.achievements.map((data) => {
 						var d = new Date(data.date);
 						return <AchievementItem date={d.getFullYear()} name={data.name} event={data.event} />
