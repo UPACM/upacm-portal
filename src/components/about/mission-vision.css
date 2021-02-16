@@ -1,5 +1,7 @@
 div#mission-vision-section{
 	max-height: 1280px;
+	padding: 2% 0;
+	background: var(--acm-blue);
 }
 
 div#mission-vision-section div.mission-vision-part{
@@ -10,17 +12,16 @@ div#mission-vision-section div.mission-vision-part{
 
 
 div#mission-vision-section div.mission-vision-part div.text{
-	width: 40%;
+	width: 44%;
 	padding: 3% ;
 }
 
 div#mission-vision-section div.mission-vision-part img.showcase-image{
-	width: 60%;
+	width: 50%;
 	background: var(--img-filler-color);
 }
 
 div#mission-vision-section div.mission-vision-part#mission{
-	background: rgb(50,50,50);
 	color: white
 }
 
@@ -29,22 +30,24 @@ div#mission-vision-section div.mission-vision-part#mission div.text{
 }
 
 div#mission-vision-section div.mission-vision-part#mission img.showcase-image{
-	border-bottom-left-radius: 50vh;
-	box-shadow: -15px 15px 15px rgba(0,0,0,0.25);
+	border-bottom-left-radius: 25vh;
+	border-top-left-radius: 25vh;
 }
 
 div#mission-vision-section div.mission-vision-part#vision img.showcase-image{
-	border-top-right-radius: 50vh;
-	box-shadow: 15px -15px 15px rgba(0,0,0,0.25);
+	border-top-right-radius: 25vh;
+	border-bottom-right-radius: 25vh;
 }
 
 div#mission-vision-section div.mission-vision-part#vision{
 	flex-direction: row-reverse;
-	background: rgb(100,100,100);
 	color: white;
 }
 
 @media (max-width: 768px) {
+	div#mission-vision-section{
+		padding: 0;
+	}
 	div#mission-vision-section div.mission-vision-part{
 		flex-direction: column-reverse;
 		height: auto;

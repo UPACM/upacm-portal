@@ -28,11 +28,11 @@ div#history-section div#timeline-container::-webkit-scrollbar{
 }
 
 div#history-section div#timeline-container::-webkit-scrollbar-track{
-	background: gray;
+	/*background: gray;*/
 }
 
 div#history-section div#timeline-container::-webkit-scrollbar-thumb {
-	background: white;
+	background: var(--history-section-color);
 	border-radius: 2.5px;
 }
 
@@ -42,7 +42,7 @@ div#history-section div#timeline-container div.history-timestamp{
 	font-size: 1.5em;
 	padding: 4vh 0;
 	padding-left: 2vw;
-	border-left: 3px solid white;
+	border-left: 3px solid var(--history-section-color);
 }
 
 div#history-section div#timeline-container div.history-timestamp:first-of-type{
@@ -55,7 +55,7 @@ div#history-section div#timeline-container div.history-timestamp:last-of-type{
 div#history-section div#timeline-container div.history-timestamp div.timestamp-dot{
 	width: 3vh;
 	height: 3vh;
-	background: white;
+	background: var(--history-section-color);
 	margin-left: calc(-2vw - 1.5vh - 1.5px);
 	margin-right: 2vw;
 	transform: rotate(45deg);
@@ -68,7 +68,7 @@ div#history-section div#timeline-container div.history-timestamp span.date{
 div#history-section div#timeline-container div.history-timestamp span.event{
 	width: 75%;
 	padding-left: 1.5vw;
-	border-left: 1px solid white;
+	border-left: 1px solid var(--history-section-color);
 }
 
 @media (min-width: 1920px){

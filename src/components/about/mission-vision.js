@@ -2,6 +2,7 @@ import React from "react"
 import "../../styles/var.css"
 import "../../styles/global.css"
 import "./mission-vision.css"
+import AboutData from "../../json/about.json"
 
 export default function MissionVision(){
 	return (
@@ -10,14 +11,14 @@ export default function MissionVision(){
 				<div class="mission-vision-part" id="mission">
 					<div class="text">
 						<h1>Mission</h1>
-						<p>The members of the chapter are united under an advocacy to build communities and develop the future through the cultivation of a shared interest in computing. It is the goal of the organization to open avenues and introduce opportunities for learning about computer science and other related fields.</p>
+						<p>{AboutData.mission}</p>
 					</div>
 					<img class="showcase-image" src="/about-images/1-mission-img.png"/>
 				</div>
 				<div class="mission-vision-part" id="vision">
 					<div class="text">
 						<h1>Vision</h1>
-						<p>The merger of programming knowledge and humanitarian work is the means by which UP ACM achieves its goal of engineering sustainable development for areas within its sphere of influence and beyond.</p>
+						<p>{AboutData.vision}</p>
 					</div>
 					<img class="showcase-image" src="/about-images/1-vision-img.png"/>
 				</div>
