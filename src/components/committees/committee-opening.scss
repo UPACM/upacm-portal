@@ -1,26 +1,48 @@
+@import "../../styles/var.css";
+@import "../../styles/var.scss";
+@import "../../styles/global.css";
+@import "../../styles/animation.scss";
+
+
 #committee-opening {
 
-    // Initial screen
-    height: 42vh;
+    color: $acm-dark-blue;
+    background-color: white;
+
+    // Ensures there's no overflow
+    overflow: hidden;
+    height: 100%;
+
+    // Layout
+    text-align: center;
+    $vertical-spacing: 6%;
+    padding-top: $vertical-spacing;
+    padding-bottom: $vertical-spacing; 
+
+    $transition-speed: 1s;
+    @include animation($transition-speed, slideFromUp);
 
     #header {
-        // Center title
-        text-align: center;
-        position: relative;
-        padding-top: 50px;
-        bottom: -25%;
-        
         // Ensure readability on all screen size
-        font-size: calc(1.6em + 2vw);
+        font-size: calc(1.2em + 1.6vw);
+
+        $transition-speed: 1s;
+        @include transition($transition-speed, scale);
     }
-    #header-info {
-        // Center subtitle
-        text-align: center;
-        position: relative;
-        padding: 20px;
-        bottom: -25%;
-        
+    #header:hover {
+        scale: 1.05;
+    }
+
+    #header-info { 
         // Ensure readability on all screen size
         font-size: calc(1em + 0.2vw);
+        min-width: 380px;
+        width: 42vw;
+        
+        opacity: 0.75;
+
+        // Center text
+        margin: 0 auto;
+        padding: 10px;
     }
 }

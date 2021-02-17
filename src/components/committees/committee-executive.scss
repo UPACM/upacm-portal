@@ -1,22 +1,55 @@
+@import "../../styles/var.css";
+@import "../../styles/var.scss";
+@import "../../styles/global.css";
+@import "../../styles/animation.scss";
+
 #committee-executive {
+    $theme: $acm-dark-blue;
+    background-color: white;
+
     #info {
+        color: $theme;
+
+        // Ensures there's no overflow
+        overflow: hidden;
+        height: 100%;
+        
+        // Layout
+        text-align: center;
+        $vertical-spacing: 5%;
+        padding-top: $vertical-spacing;
+    
         #header {
-            // Layout
-            padding: 20px;
-            padding-top: 50px;
-            text-align: center;
-            
             // Ensure readability on all screen size
-            font-size: calc(1.2em + 1.5vw);
+            font-size: calc(1.2em + 1.6vw);
+    
+            // Scale header on hover for 
+            $transition-speed: 1s;
+            @include transition($transition-speed, scale);
         }
-        #header-info {
-            // Layout
-            padding: 20px;
-            padding-top: 0px;
-            text-align: center;
-            
+        #header:hover {
+            scale: 1.05;
+        }
+    
+        #header-info { 
             // Ensure readability on all screen size
             font-size: calc(1em + 0.2vw);
+            min-width: 380px;
+            width: 42vw;
+    
+            // Layout
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        #divider {
+            // Layout
+            width: 30%;
+            height: 1px;
+            display: block;
+            margin: 2% auto;
+
+            background-color: $theme;
         }
     }
     
