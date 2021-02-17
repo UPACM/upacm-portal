@@ -1,6 +1,4 @@
 import React from "react"
-import "../../styles/var.css"
-import "../../styles/global.css"
 import "./committee-faculty.scss"
 
 import FacultyCard from "./subcomponents/faculty-card.js"
@@ -9,7 +7,8 @@ import FacultyCard from "./subcomponents/faculty-card.js"
 export default function CommitteeOpening({ header, headerInfo, members }) {
 	return <div id="committee-faculty">
 		<div id="info">
-			<div id="header">{header}</div>
+			<h1 id="header">{header}</h1>
+			<div id="divider" />
 			<p id ="header-info">{headerInfo}</p>
 		</div>
 		<div id="cards">

@@ -1,6 +1,4 @@
 import React from "react"
-import "../../styles/var.css"
-import "../../styles/global.css"
 import "./committee-executive.scss"
 
 import ExecutiveCard from "./subcomponents/executive-card.js"
@@ -9,7 +7,8 @@ import ExecutiveCard from "./subcomponents/executive-card.js"
 export default function CommitteeExecutive({ header, headerInfo, members }) {
 	return <div id="committee-executive">
 		<div id="info">
-			<div id="header">{header}</div>
+			<h1 id="header">{header}</h1>
+			<div id="divider" />
 			<p id ="header-info">{headerInfo}</p>
 		</div>
 		<div id="cards">
