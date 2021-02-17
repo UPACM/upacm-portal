@@ -6,7 +6,7 @@ import AboutData from "../../json/about.json"
 
 export default function MissionVision(){
 	return (
-		<div  id="mission-vision-section">
+		<div class="wrapper" id="mission-vision-section">
 			<div class="wrapper">
 				<div class="mission-vision-part" id="mission">
 					<div class="text">
