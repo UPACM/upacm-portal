@@ -1,0 +1,33 @@
+{
+    "opening": {
+        "header": "Nulla in nisi anim voluptate laboris",
+        "headerInfo": "Lorem et adipisicing dolore quis incididunt in in. Lorem consectetur id tempor velit amet aliqua elit quis sit excepteur voluptate mollit culpa qui. Labore non exercitation officia ea eiusmod in sint velit esse magna aute fugiat occaecat."
+    },
+    "groups": [
+        {
+            "name": "Anim magna veniam",
+            "head": "Dolore adipisicing",
+            "description": "Reprehenderit non ad exercitation aliquip ullamco irure minim sunt esse cupidatat ut. Sunt ad et dolore veniam do occaecat adipisicing. Ad deserunt nulla mollit ipsum aute anim ex aliqua cillum tempor ullamco. Minim pariatur voluptate consequat id cupidatat sint.",
+            "portraitSrc": "/committee-head-portraits/digiforms.jpg"
+        },
+        {
+            "name": "Anim magna veniam",
+            "head": "Dolore adipisicing",
+            "description": "Reprehenderit non ad exercitation aliquip ullamco irure minim sunt esse cupidatat ut. Sunt ad et dolore veniam do occaecat adipisicing. Ad deserunt nulla mollit ipsum aute anim ex aliqua cillum tempor ullamco. Minim pariatur voluptate consequat id cupidatat sint.",
+            "portraitSrc": "/committee-head-portraits/digiforms.jpg"
+        },
+        {
+            "name": "Anim magna veniam",
+            "head": "Dolore adipisicing",
+            "description": "Reprehenderit non ad exercitation aliquip ullamco irure minim sunt esse cupidatat ut. Sunt ad et dolore veniam do occaecat adipisicing. Ad deserunt nulla mollit ipsum aute anim ex aliqua cillum tempor ullamco. Minim pariatur voluptate consequat id cupidatat sint.",
+            "portraitSrc": "/committee-head-portraits/digiforms.jpg"
+        },
+        {
+            "name": "Anim magna veniam",
+            "head": "Dolore adipisicing",
+            "description": "Reprehenderit non ad exercitation aliquip ullamco irure minim sunt esse cupidatat ut. Sunt ad et dolore veniam do occaecat adipisicing. Ad deserunt nulla mollit ipsum aute anim ex aliqua cillum tempor ullamco. Minim pariatur voluptate consequat id cupidatat sint.",
+            "portraitSrc": "/committee-head-portraits/digiforms.jpg"
+        }
+
+    ]
+}

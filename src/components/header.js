@@ -43,6 +43,7 @@ const Header = ( { isIndex } ) => {
 						<div class={navbarVisible ? ' nav-bar visible' : ' nav-bar'} id="-nav-bar">
 							<Navlink to="/about/" name="About" />
 							<Navlink to="/committees/" name="Committees" />
+							<Navlink to="/sig/" name="SIG" />
 							<Navlink to="/events/" name="Events" />
 							<Navlink to="/" name="Contact" />
 						</div>
