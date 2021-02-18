@@ -18,7 +18,7 @@ export default function Home() {
 			<Header gap={true} />
 				<CommitteeOpening 
 					header = {CommData.opening.header}
-					headerInfo = {CommData.opening.header}/>
+					headerInfo = {CommData.opening.headerInfo}/>
 				<CommitteeFaculty 
 					header = {CommData.faculty.header}
 					headerInfo = {CommData.faculty.headerInfo}

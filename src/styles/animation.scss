@@ -1,0 +1,38 @@
+
+@mixin transition($speed, $parameter){
+    -webkit-transition: $parameter $speed ease;
+    -moz-transition: $parameter $speed ease;
+    -ms-transition: $parameter $speed ease;
+    -o-transition: $parameter $speed ease;
+    transition: $parameter$speed ease;
+    transition: $parameter $speed ease;
+}
+
+@mixin animation($speed, $property) {
+    animation: $property ease $speed;
+    -webkit-animation: $property ease $speed;
+    -moz-animation: $property ease $speed;
+    -o-animation: $property ease $speed;
+    -ms-animation: $property ease $speed;
+}
+
+@keyframes slideFromUp{
+    0% {opacity:0; padding-top: 10%;}
+    100% {opacity:1;}
+}
+@-moz-keyframes slideFromUp {
+    0% {opacity:0; padding-top: 10%;}
+    100% {opacity:1;}
+}
+@-webkit-keyframes slideFromUp {
+    0% {opacity:0; padding-top: 10%;}
+    100% {opacity:1;}
+} 
+@-o-keyframes slideFromUp {
+    0% {opacity:0; padding-top: 10%;}
+    100% {opacity:1;}
+}
+@-ms-keyframes slideFromUp {
+    0% {opacity:0; padding-top: 10%;}
+    100% {opacity:1;}
+}
