@@ -5,7 +5,7 @@
 .executive-card {
     // Card dimensions
     $card-width: 300px;
-    $card-height: 500px;
+    $card-height: 550px;
     height: $card-height;
     width: $card-width;
     border-radius: 40px;
@@ -38,7 +38,7 @@
         border-radius: 30px;
         text-align: center;
         font-size: 1.2em;
-        padding: 5px;
+        padding: 10px;
         width: 80%;
 
         // Center
