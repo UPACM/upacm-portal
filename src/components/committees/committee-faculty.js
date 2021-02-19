@@ -1,10 +1,9 @@
 import React from "react"
 import "./committee-faculty.scss"
-
-import FacultyCard from "./subcomponents/faculty-card.js"
+import CommitteeCard from "./subcomponents/committee-card"
 
 /* Component for rendering all faculty / advisers cards */
-export default function CommitteeOpening({ header, headerInfo, members }) {
+export default function CommitteeOpening({header, headerInfo, members }) {
 	return <div id="committee-faculty">
 		<div id="info">
 			<h1 id="header">{header}</h1>
@@ -13,7 +12,7 @@ export default function CommitteeOpening({ header, headerInfo, members }) {
 		</div>
 		<div id="cards">
 			{members.map((member) =>
-				<FacultyCard member={member} />)}
+				<CommitteeCard name = "faculty-card" member={member} />)}
 		</div>
 	</div>
 }

@@ -9,9 +9,6 @@ import CommitteeOpening from "../components/committees/committee-opening.js"
 import CommitteeFaculty from "../components/committees/committee-faculty.js"
 import CommitteeExecutive from "../components/committees/committee-executive.js"
 
-import "../styles/var.css"
-import "../styles/global.css"
-
 export default function Home() {
 	return (
 		<>

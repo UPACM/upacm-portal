@@ -1,0 +1,106 @@
+@import "../../../styles/var.css";
+@import "../../../styles/global.css";
+
+// Default styling
+* {
+    // Image centering
+    .portrait-wrapper {
+        overflow: hidden;   
+    }
+
+    .portrait{
+        display: block;
+        margin: auto auto;
+        transition: ease 0.4s;
+    }
+
+    .portrait:hover {
+        scale: 1.2;
+    }
+
+    .name {
+        font-size: 1.2em;
+        text-align: center;
+        border-radius: 30px;
+
+        display: block;
+        margin: 8px auto;
+    }
+    .position {
+        font-size: 1.1em;
+        text-align: center;
+
+        padding-bottom: 15px;
+    }
+    .description {
+        font-size: 0.9em;    
+        text-align: center;
+
+        opacity: 0.8;
+        padding: 0 5%;
+    }  
+}
+
+
+.executive-card {
+    // Theme
+    color: white;
+    background-color: var(--acm-blue);
+
+    // Sizing
+    $card-width: 300px;
+    $card-height: 550px;
+    width: $card-width;
+    height: $card-height;
+    $image-dimension: $card-width;
+    
+    // Layout
+    border-radius: 40px;
+    flex: 0 $card-width;
+    margin: 30px;
+
+    .portrait-wrapper {
+        border-top-right-radius: 30px;
+        border-top-left-radius: 30px;   
+    }
+
+    .portrait {
+        width: $image-dimension;
+        height: $image-dimension;  
+    }
+
+    .name {
+        background-color: var(--acm-lignt-blue);
+
+        // Layout
+        padding: 10px;
+        width: 83%;
+    }
+}
+
+.faculty-card {
+    // Theme
+    color: var(--acm-blue);
+
+    // Sizing
+    $image-dimension: 190px;
+
+    // Layout
+    flex: 0 28vw;
+    padding: 30px;
+
+    .portrait-wrapper {
+        border-radius: 100%;
+    }
+    
+    .portrait{
+        width: $image-dimension;
+        height: $image-dimension;  
+        border-radius: 100%;
+    }
+
+    .description {        
+        color: black;
+    }
+    
+}
