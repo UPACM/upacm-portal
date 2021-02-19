@@ -1,16 +1,26 @@
-import React from "react"
-import "../../../styles/var.css"
-import "../../../styles/global.css"
+import React, {useEffect} from "react"
 import "./sig-card.scss"
 
-/* Subcomponent for rendering a special interest group card */
+// On scroll animations
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+/* Subcomponent for rendering a special interest group */
 export default function SigCard({group}) {
-	return <div class = "sig-card">
-        <img class = "background" src={group.portraitSrc}/>
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      });
+
+	return <div class = "sig-card" 
+        style={{backgroundImage: "url("+group.portraitSrc+")"}}        
+        data-aos="fade-up"
+        data-aos-delay="80"
+        data-aos-duration="650">
         <div class="info">
-            <div class = "name">{group.name}</div>
+            <h1 class = "name">{group.name}</h1>
             <div class = "head">{group.head}</div>
-            <div class = "description">{group.description}</div>
+            <p class = "description">{group.description}</p>
         </div>  
     </div>
 }
