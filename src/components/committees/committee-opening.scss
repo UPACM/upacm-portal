@@ -19,9 +19,6 @@
     padding-top: $vertical-spacing;
     padding-bottom: $vertical-spacing; 
 
-    $transition-speed: 1s;
-    @include animation($transition-speed, slideFromUp);
-
     #header {
         // Ensure readability on all screen size
         font-size: calc(1.2em + 1.6vw);

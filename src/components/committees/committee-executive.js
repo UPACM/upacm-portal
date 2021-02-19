@@ -1,7 +1,6 @@
 import React from "react"
 import "./committee-executive.scss"
-
-import ExecutiveCard from "./subcomponents/executive-card.js"
+import CommitteeCard from "./subcomponents/committee-card"
 
 /* Component for rendering all student / executive member cards */
 export default function CommitteeExecutive({ header, headerInfo, members }) {
@@ -13,7 +12,7 @@ export default function CommitteeExecutive({ header, headerInfo, members }) {
 		</div>
 		<div id="cards">
 			{members.map((member) =>
-				<ExecutiveCard member={member} />)}
+				<CommitteeCard name="executive-card" member={member} />)}
 		</div>
 	</div>
 }
