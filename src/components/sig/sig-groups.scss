@@ -1,5 +1,14 @@
+@import "../../styles/var.css";
+@import "../../styles/global.css";
+
 #sig-groups {
     #info {
+        color: var(--acm-dark-blue);
+        background-color: white;
+        padding-bottom: 40px;
+
+        padding: 4%;
+
         #header {
             // Layout
             padding: 20px;
@@ -8,12 +17,37 @@
             
             // Ensure readability on all screen size
             font-size: calc(1.2em + 1.5vw);
+
+            transition: 0.8s ease;
         }
+
+        #header:hover {
+            scale: (1.05);
+        }
+
+        #divider {
+            display: block;
+            margin: auto;
+
+            width: 40vw;
+            min-width: 250px;
+            height: 2px;
+            background-color: var(--acm-dark-blue);
+
+            margin-bottom: 2.5%;
+        }
+
         #header-info {
             // Layout
-            padding: 20px;
+            padding: 10px;
             padding-top: 0px;
             text-align: center;
+
+            display: block;
+            margin: 0 auto;
+
+            width: 42vw;
+            min-width: 270px;
             
             // Ensure readability on all screen size
             font-size: calc(1em + 0.2vw);
@@ -21,7 +55,7 @@
     }
     
     #cards {
-        padding: 30px;
+        padding: 50px;
 
         // Flexibility for mobile
         display: flex;

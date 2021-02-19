@@ -9,8 +9,9 @@ import SigCard from "./subcomponents/sig-card.js"
 export default function SigGroups({ header, headerInfo, groups }) {
     return <div id="sig-groups">
         <div id="info">
-            <div id="header">{header}</div>
-            <div id="header-info">{headerInfo}</div>
+            <h1 id="header">{header}</h1>
+            <div id="divider" />
+            <p id="header-info">{headerInfo}</p>
         </div>
         <div id="cards">
             {groups.map((group) =>
