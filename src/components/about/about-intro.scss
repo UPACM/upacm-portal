@@ -12,6 +12,8 @@ div#about-intro-section{
 		height: 100%;
 		width: 100%;
 		background: var(--img-filler-color);
+		object-fit: contain;
+		object-position: center center;
 	}
 
 	div.wrapper{
