@@ -25,10 +25,7 @@ const AboutIntro = () => {
 			<div  id="about-intro-section">
 				<img id="bg-image" src="/about-images/0-page-bg.png"/>
 				<div class="wrapper">
-					<div id="acm-logo-container">
-						<div id="acm-logo">
-							<img src={siteLogo} />
-						</div>
+					<div id="intro-fade-in">
 					</div>
 					<div id="intro">
 						<h1>About Us</h1>

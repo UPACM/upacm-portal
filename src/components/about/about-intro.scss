@@ -21,29 +21,10 @@ div#about-intro-section{
 		flex-direction: column;
 		background: var(--about-intro-background);
 		
-		div#acm-logo-container{
-			height: 5vw;
-			
-			div#acm-logo{
-				display: flex;
-				align-items: center;
-				justify-content: center;
-				background: white;
-				object-fit: contain;
-				width: 10vw;
-				height: 10vw;
-				border-radius: 5vw;
-				margin: auto;
-				border: 5px solid var(--acm-blue);
-				transform: translateY(-50%);
-			}
-			
-			img{
-				object-fit: contain;
-				object-position: fixed;
-				width: 80%;
-				height: 80%;
-			}
+		div#intro-fade-in{
+			height: 25vh;
+			margin-top: -25vh;
+			background: linear-gradient(0deg, rgba(1,130,172,1) 0%, rgba(255,255,255,0) 100%);
 		}
 
 		div#intro{
