@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+div#about-intro-section{
+	margin-top: 50vh;
+	color: white;
+	
+	img#bg-image{
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: -2;
+		height: 100%;
+		width: 100%;
+		background: var(--img-filler-color);
+		object-fit: cover;
+		object-position: center center;
+	}
+
+	div.wrapper{
+		display: flex;
+		flex-direction: column;
+		background: var(--about-intro-background);
+		
+		div#intro-fade-in{
+			height: 25vh;
+			margin-top: -25vh;
+			background: linear-gradient(0deg, rgba(1,130,172,1) 0%, rgba(255,255,255,0) 100%);
+		}
+
+		div#intro{
+			text-align: center;
+			margin: auto;
+				
+			div#intro-body{
+				p{
+					margin: 2vh auto;
+					padding: 3vh 0;
+					width: 60%;
+				}
+				iframe{
+					width: 50%;
+					height: 50vh;
+					margin: 5vh 0;
+					border-radius: 1vh;
+				}
+			}
+		}
+	}
+}
+
+
+@media (min-width: 1920px){
+	div#about-intro-section{
+		div.wrapper{
+			div#acm-logo-container{
+				height: 100px;
+				div#acm-logo{
+					width: 200px;
+					height: 200px;
+					border-radius: 100px;
+				}
+			}
+			div#intro{
+				div#intro-body{
+					p{
+						margin: 1vh auto;
+						padding: 1.5vh 0;
+					}
+					iframe{
+						height: 540px;
+						margin: 54px 0;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 768px){
+
+	div#about-intro-section{
+		div.wrapper{
+			div#acm-logo-container{
+				height: 6vh;
+				
+				div#acm-logo{
+					width: 12vh;
+					height: 12vh;
+					border-radius: 6vh;
+				}
+			}
+			
+			div#intro{
+			
+				div#intro-body{
+					p{
+						width: 80%;
+					}
+					
+					iframe{
+						width: 100%;
+						border-radius: 0;
+					}
+				}
+			
+			}
+			
+		}
+	}
+}
