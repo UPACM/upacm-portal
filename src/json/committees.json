@@ -1,10 +1,29 @@
 {
+<<<<<<< Updated upstream
 	"opening": {
 		"header": "Consequat consequat exercitation",
 		"headerInfo": "Sint sunt do excepteur sint eiusmod occaecat fugiat. Dolore fugiat dolor et ad et cupidatat sint sint dolor ex culpa. Et labore aliqua ad non aute culpa enim nulla pariatur."
 	},
 	"faculty": {
 		"header": "Consequat consequat exercitation",
+=======
+<<<<<<< Updated upstream
+	"committees": [
+		{
+			"name": "Digiforms",
+			"head": "Enrique Luis P. Alvarado",
+			"description": "Does stuff that change da world and delivers da final message. Goodbye.",
+			"portraitSrc": "/committee-head-portraits/digiforms.jpg"
+		}
+	]
+=======
+	"opening": {
+		"header": "Committees",
+		"headerInfo": "Sint sunt do excepteur sint eiusmod occaecat fugiat. Dolore fugiat dolor et ad et cupidatat sint sint dolor ex culpa. Et labore aliqua ad non aute culpa enim nulla pariatur."
+	},
+	"faculty": {
+		"header": "Our Advisers",
+>>>>>>> Stashed changes
 		"headerInfo": "Sint sunt do excepteur sint eiusmod occaecat fugiat. Dolore fugiat dolor et ad et cupidatat sint sint dolor ex culpa. Et labore aliqua ad non aute culpa enim nulla pariatur.",
 		"members": [
 			{
@@ -28,8 +47,13 @@
 		]
 	},
 	"executive": {
+<<<<<<< Updated upstream
 		"header": "Consequat consequat exercitation",
 		"headerInfo": "Sint sunt do excepteur sint eiusmod occaecat fugiat. Dolore fugiat dolor et ad et cupidatat sint sint dolor ex culpa. Et labore aliqua ad non aute culpa enim nulla pariatur.",
+=======
+		"header": "Council Heads",
+		"headerInfo": "These amazing individuals lead the organization to achieve its goals towards the betterment of the future. They enforce and maintain the quality of the services of the org towards its members, the community, the country and the world.",
+>>>>>>> Stashed changes
 		"members": [
 			{
 				"name": "Enrique Luis P. Alvarado",
@@ -77,4 +101,8 @@
 
 	}
 
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 }
