@@ -1,29 +1,29 @@
 {
     "opening": {
-        "header": "Nulla in nisi anim voluptate laboris",
-        "headerInfo": "Lorem et adipisicing dolore quis incididunt in in. Lorem consectetur id tempor velit amet aliqua elit quis sit excepteur voluptate mollit culpa qui. Labore non exercitation officia ea eiusmod in sint velit esse magna aute fugiat occaecat."
+        "header": "Special Interest Groups",
+        "headerInfo": "In pursuit of the organization's mission to develop the future through the cultivation of a shared interest in computing across various fields, it has various groups"
     },
     "groups": [
         {
-            "name": "Anim magna veniam",
+            "name": "Digital Transformation",
             "head": "Dolore adipisicing",
             "description": "Reprehenderit non ad exercitation aliquip ullamco irure minim sunt esse cupidatat ut. Sunt ad et dolore veniam do occaecat adipisicing. Ad deserunt nulla mollit ipsum aute anim ex aliqua cillum tempor ullamco. Minim pariatur voluptate consequat id cupidatat sint.",
             "portraitSrc": "/committee-head-portraits/digiforms.jpg"
         },
         {
-            "name": "Anim magna veniam",
+            "name": "Data Science and Artificial Intelligence",
             "head": "Dolore adipisicing",
             "description": "Reprehenderit non ad exercitation aliquip ullamco irure minim sunt esse cupidatat ut. Sunt ad et dolore veniam do occaecat adipisicing. Ad deserunt nulla mollit ipsum aute anim ex aliqua cillum tempor ullamco. Minim pariatur voluptate consequat id cupidatat sint.",
             "portraitSrc": "/committee-head-portraits/digiforms.jpg"
         },
         {
-            "name": "Anim magna veniam",
+            "name": "Algorithmic Computing",
             "head": "Dolore adipisicing",
             "description": "Reprehenderit non ad exercitation aliquip ullamco irure minim sunt esse cupidatat ut. Sunt ad et dolore veniam do occaecat adipisicing. Ad deserunt nulla mollit ipsum aute anim ex aliqua cillum tempor ullamco. Minim pariatur voluptate consequat id cupidatat sint.",
             "portraitSrc": "/committee-head-portraits/digiforms.jpg"
         },
         {
-            "name": "Anim magna veniam",
+            "name": "Cybersecurity",
             "head": "Dolore adipisicing",
             "description": "Reprehenderit non ad exercitation aliquip ullamco irure minim sunt esse cupidatat ut. Sunt ad et dolore veniam do occaecat adipisicing. Ad deserunt nulla mollit ipsum aute anim ex aliqua cillum tempor ullamco. Minim pariatur voluptate consequat id cupidatat sint.",
             "portraitSrc": "/committee-head-portraits/digiforms.jpg"
