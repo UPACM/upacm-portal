@@ -32,44 +32,56 @@
 		"headerInfo": "These amazing individuals lead the organization to achieve its goals towards the betterment of the future. They enforce and maintain the quality of the services of the org towards its members, the community, the country and the world.",
 		"members": [
 			{
-				"name": "Enrique Luis P. Alvarado",
-				"position": "Officer",
+				"name": "Jay Mapanao",
+				"position": "Chairperson",
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
-				"name": "Digiforms",
-				"position": "Enrique Luis P. Alvarado",
+				"name": "Barbara David",
+				"position": "Vice Chairperson & Head for Membership Committee",
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
-				"name": "Enrique Luis P. Alvarado",
-				"position": "Officer",
+				"name": "Joshua Dela Sierra",
+				"position": "Secretary & Head for Records Committee",
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
-				"name": "Enrique Luis P. Alvarado",
-				"position": "Officer",
+				"name": "Joshua Espartero",
+				"position": "Treasurer & Head for Finance Committee",
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
-				"name": "Enrique Luis P. Alvarado",
-				"position": "Officer",
+				"name": "Ron Cas Padilla",
+				"position": "Head for Education Committee",
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
-				"name": "Enrique Luis P. Alvarado",
-				"position": "Officer",
+				"name": "Luiz Agana",
+				"position": "Head for Logistics Committee",
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
-				"name": "Enrique Luis P. Alvarado",
-				"position": "Officer",
+				"name": "Mariel Gapuz",
+				"position": "Head for Marketing Committee",
+				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
+				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
+			},
+			{
+				"name": "Dylan Bayona",
+				"position": "Head for Publicity Committee",
+				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
+				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
+			},
+			{
+				"name": "Lance Dominic Pineda",
+				"position": "Head for Public Relations Committee",
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			}
