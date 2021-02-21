@@ -5,7 +5,9 @@
 
 
 #committee-faculty {
-    $theme: $acm-blue;
+    $theme: $acm-dark-blue;
+
+    box-shadow: 3px 3px 20px rgb(84, 159, 194);
 
     #info {
         color: $theme;

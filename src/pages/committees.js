@@ -12,7 +12,7 @@ import CommitteeExecutive from "../components/committees/committee-executive.js"
 export default function Home() {
 	return (
 		<>
-			<Header gap={true} />
+			<Header gap={true} isIndex={true}/>
 				<CommitteeOpening 
 					header = {CommData.opening.header}
 					headerInfo = {CommData.opening.headerInfo}/>
