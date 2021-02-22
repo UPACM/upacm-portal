@@ -3,38 +3,23 @@
 
 #sig-groups {
     #info {
-        color: var(--acm-dark-blue);
-        background-color: white;
+        color: white;
+        background-color: var(--acm-blue);
         padding-bottom: 40px;
 
-        padding: 4%;
+        padding-top: 8%;
+        padding-bottom: 8%;
 
         #header {
             // Layout
             padding: 20px;
-            padding-top: 50px;
             text-align: center;
             
-            // Ensure readability on all screen size
-            font-size: calc(1.2em + 1.5vw);
-
             transition: 0.8s ease;
         }
 
         #header:hover {
             scale: (1.05);
-        }
-
-        #divider {
-            display: block;
-            margin: auto;
-
-            width: 40vw;
-            min-width: 250px;
-            height: 2px;
-            background-color: var(--acm-dark-blue);
-
-            margin-bottom: 2.5%;
         }
 
         #header-info {
@@ -47,10 +32,8 @@
             margin: 0 auto;
 
             width: 42vw;
-            min-width: 270px;
-            
-            // Ensure readability on all screen size
-            font-size: calc(1em + 0.2vw);
+            min-width: 270px;     
+            opacity: 0.8;       
         }
     }
     

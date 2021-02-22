@@ -6,8 +6,8 @@
 
 #committee-opening {
 
-    color: $acm-dark-blue;
-    background-color: white;
+    color: white;
+    background-color: var(--acm-blue);
 
     // Ensures there's no overflow
     overflow: hidden;
@@ -15,14 +15,12 @@
 
     // Layout
     text-align: center;
-    $vertical-spacing: 6%;
+    $vertical-spacing: 12%;
     padding-top: $vertical-spacing;
     padding-bottom: $vertical-spacing; 
 
     #header {
         // Ensure readability on all screen size
-        font-size: calc(1.2em + 1.6vw);
-
         $transition-speed: 1s;
         @include transition($transition-speed, scale);
     }
@@ -32,7 +30,7 @@
 
     #header-info { 
         // Ensure readability on all screen size
-        font-size: calc(1em + 0.2vw);
+        font-size: calc(1em + 0.5vw);
         min-width: 280px;
         width: 45vw;
         
