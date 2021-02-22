@@ -1,0 +1,81 @@
+@import "../../styles/var.scss";
+
+div#policy-layout{
+	color: black;
+	background: white;
+	width: 80%;
+	padding: 5%;
+	margin: auto;
+	font-size: 1.25em;
+	
+	h1, h2, h3{
+		margin: 2% 0;
+		font-family: "Arial";
+	}
+
+	h1{
+		font-size: 2em;
+	}
+
+	h1#title{
+		font-size: 3em;
+	}
+
+	h2{
+		font-size: 1.75em;
+	}
+
+	h3{
+		font-size: 1.5em;
+	}
+
+	p, li{
+		margin: 2% 0;
+		font-size: 1em;
+		font-family: "Arial";
+	}
+	
+	a{
+		color: $acm-blue;
+		text-decoration: underline;
+	}
+	
+	strong{
+		color: $acm-dark-blue;
+	}
+	
+	li{
+		margin-left: 5%;
+	}
+	
+}
+
+@media (max-width: 768px){
+	div#mechanics-layout{
+		font-size: 1em;
+		
+		h1#page-title{
+			margin: 0;
+			font-size: 2.5em;
+			text-align: left;
+			padding: 3%;
+			padding-left: 0;
+			margin-bottom: 4%;
+		}
+		
+		h1{
+			margin: 4% 0;
+		}
+		
+		p{
+			margin: 6% 0;
+		}
+		
+		li{
+			margin: 2% 0;
+			margin-left: 5%;
+		}
+		
+	}
+
+}

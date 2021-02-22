@@ -45,9 +45,17 @@ div#footer div#footer-top div.footer-section div.footer-section-links.portal-lin
 	margin-bottom: 3vh;
 }
 
+div#footer div#footer-top div.footer-section div.footer-section-links.portal-links span:hover{
+	text-decoration: underline;
+}
+
 
 div#footer div#footer-top div.footer-section div.footer-section-links.contacts span{
 	margin-bottom: 4vh;
+}
+
+div#footer div#footer-top div.footer-section div.footer-section-links.contacts span:hover{
+	text-decoration: underline;
 }
 
 div#footer div#footer-top div.footer-section div.footer-section-links.socials{

@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "gatsby"
 import SocialWidget from "../components/subcomponents/social-widget.js"
 
 import "../styles/var.css"
@@ -22,7 +22,7 @@ export default function Footer() {
 							</div>
 							<div class="link-col">
 							<span>Partners</span>
-							<span>Privacy Policy</span>
+							<span><Link to="/privacy-policy/">Privacy Policy</Link></span>
 							<span>Automaton</span>
 							</div>
 						</div>
