@@ -35,21 +35,11 @@ div#blank-content-filler{
 
 h1{
 	font-family: 'Montserrat';
-	font-size: 10vh;
+	font-size: 4em;
 }
 
 p{
-	font-size: 3vh;
-}
-
-@media (min-width: 1920px) {
-	h1{
-		font-size: 4em;
-	}
-	
-	p{
-		font-size: 2em;
-	}
+	font-size: 1.5em;
 }
 
 @media (max-width: 768px) {
