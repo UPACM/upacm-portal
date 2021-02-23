@@ -6,19 +6,23 @@ import Header from "../components/header.js"
 import Footer from "../components/footer.js"
 
 import CommitteeOpening from "../components/committees/committee-opening.js"
-import CommitteeExecutive from "../components/committees/committee-executive.js"
+import CommitteeCards from "../components/committees/committee-cards.js"
 
 export default function Home() {
 	return (
 		<>
-			<Header gap={true} isIndex={true}/>
+			<Header isIndex={false}/>
 				<CommitteeOpening 
 					header = {CommData.opening.header}
-					headerInfo = {CommData.opening.headerInfo}/>
-				<CommitteeExecutive 
-					header = {CommData.executive.header}
-					headerInfo = {CommData.executive.headerInfo}
-					members = {CommData.executive.members} />
+					headerInfo = {CommData.opening.headerInfo}
+					order="first" />
+				<CommitteeOpening 
+					header = {CommData.council.header}
+					headerInfo = {CommData.council.headerInfo}
+					order="second">
+					<CommitteeCards
+						members={CommData.council.members}/>
+				</CommitteeOpening>
 			<Footer />
 		</>
 	)
