@@ -13,13 +13,7 @@
         #header {
             // Layout
             padding: 20px;
-            text-align: center;
-            
-            transition: 0.8s ease;
-        }
-
-        #header:hover {
-            scale: (1.05);
+            text-align: center;           
         }
 
         #header-info {
@@ -33,7 +27,6 @@
 
             width: 42vw;
             min-width: 270px;     
-            opacity: 0.8;       
         }
     }
     
