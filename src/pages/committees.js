@@ -6,7 +6,6 @@ import Header from "../components/header.js"
 import Footer from "../components/footer.js"
 
 import CommitteeOpening from "../components/committees/committee-opening.js"
-import CommitteeFaculty from "../components/committees/committee-faculty.js"
 import CommitteeExecutive from "../components/committees/committee-executive.js"
 
 export default function Home() {
@@ -16,10 +15,6 @@ export default function Home() {
 				<CommitteeOpening 
 					header = {CommData.opening.header}
 					headerInfo = {CommData.opening.headerInfo}/>
-				<CommitteeFaculty 
-					header = {CommData.faculty.header}
-					headerInfo = {CommData.faculty.headerInfo}
-					members = {CommData.faculty.members} />
 				<CommitteeExecutive 
 					header = {CommData.executive.header}
 					headerInfo = {CommData.executive.headerInfo}
