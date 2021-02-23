@@ -18,8 +18,8 @@ export default function SigCard({group}) {
         data-aos-delay="80"
         data-aos-duration="650">
         <div class="info">
-            <h1 class = "name">{group.name}</h1>
-            <div class = "head">{group.head}</div>
+            <h2 class = "name">{group.name}</h2>
+            <h3 class = "head">{group.head}</h3>
             <p class = "description">{group.description}</p>
         </div>  
     </div>

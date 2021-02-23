@@ -6,8 +6,7 @@ import CommitteeCard from "./subcomponents/committee-card"
 export default function CommitteeExecutive({ header, headerInfo, members }) {
 	return <div id="committee-executive">
 		<div id="info">
-			<h1 id="header">{header}</h1>
-			<div id="divider" />
+			<h2 id="header">{header}</h2>
 			<p id ="header-info">{headerInfo}</p>
 		</div>
 		<div id="cards">

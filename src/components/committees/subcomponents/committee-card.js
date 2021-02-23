@@ -20,9 +20,8 @@ export default function CommitteeCard({name, member}) {
             <div class="portrait-wrapper">
                 <img class = "portrait" src={member.portraitSrc}/>
             </div>
-            <h1 class = "name">{member.name}</h1>
-            <div class = "position">{member.position}</div>
-            <p class = "description">{member.description}</p>
+            <p class = "name"><b>{member.name}</b></p>
+            <p class = "position"><b><i>{member.position}</i></b></p>
         </div>
     </div>
 }

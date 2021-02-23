@@ -1,5 +1,5 @@
-@import "../../../styles/var.css";
-@import "../../../styles/global.css";
+@import "../../../styles/var.scss";
+@import "../../../styles/global.scss";
 
 // Default styling
 .committee-card {
@@ -33,7 +33,6 @@
     }
 
     .name {
-        font-size: 1.5em;
         text-align: center;
         border-radius: 30px;
 
@@ -41,13 +40,11 @@
         margin: 8px auto;
     }
     .position {
-        font-size: 1.1em;
         text-align: center;
 
         padding-bottom: 15px;
     }
     .description {
-        font-size: 0.9em;    
         text-align: center;
 
         opacity: 0.8;
@@ -87,7 +84,6 @@
     .name {
         background-color: white;
         color: var(--acm-blue);
-        font-size: 1em;
 
         box-shadow: 5px px 200px rgb(158, 156, 156);
 

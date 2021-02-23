@@ -1,6 +1,6 @@
 import React from "react"
-import "../../styles/var.css"
-import "../../styles/global.css"
+import "../../styles/var.scss"
+import "../../styles/global.scss"
 import "./social-widget.css"
 
 import twitter_logo from "../../assets/images/social/twitter-logo.png"

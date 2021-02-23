@@ -1,10 +1,9 @@
-@import "../../styles/var.css";
 @import "../../styles/var.scss";
-@import "../../styles/global.css";
+@import "../../styles/global.scss";
 @import "../../styles/animation.scss";
 
 #committee-executive {
-    $theme: $acm-blue;
+    $theme: var(--acm-blue);
     background-color: white;
 
     #info {
@@ -19,10 +18,7 @@
         $vertical-spacing: 5%;
         padding-top: $vertical-spacing;
     
-        #header {
-            // Ensure readability on all screen size
-            font-size: calc(1.2em + 1.6vw);
-    
+        #header {    
             // Scale header on hover for 
             $transition-speed: 1s;
             @include transition($transition-speed, scale);
@@ -32,8 +28,6 @@
         }
     
         #header-info { 
-            // Ensure readability on all screen size
-            font-size: calc(1em + 0.2vw);
             min-width: 280px;
             width: 45vw;
     

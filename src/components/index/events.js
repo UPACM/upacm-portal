@@ -3,10 +3,7 @@ import { Link } from "gatsby";
 
 import EventLink from "../../components/subcomponents/eventlink.js"
 import EventData from "../../json/events.json"
-
-import "../../styles/var.css"
-import "../../styles/global.css"
-import "./events.css"
+import "./events.scss"
 
 
 export default function Events({eventsSectionText}) {

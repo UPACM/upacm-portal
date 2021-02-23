@@ -7,8 +7,8 @@ import Footer from "../components/footer.js"
 
 import SigGroups from "../components/sig/sig-groups.js"
 
-import "../styles/var.css"
-import "../styles/global.css"
+import "../styles/var.scss"
+import "../styles/global.scss"
 
 export default function Home() {
 	return (

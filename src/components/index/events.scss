@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import "../../styles/global.scss";
+@import "../../styles/var.scss";
 
 div#events-section{
 	background: var(--index-events-section-background);
@@ -20,15 +21,6 @@ div#events-section div#events-section-intro-text{
 	margin-right: 3vw;
 }
 
-div#events-section div#events-section-intro-text h1{
-	font-size: 5em;
-	font-family: 'Montserrat';
-}
-
-div#events-section div#events-section-intro-text p{
-	font-size: 1.25em;
-}
-
 div#events-section div#events-section-intro-text a{
 	align-self: flex-end;
 	width: 35%;
@@ -37,15 +29,16 @@ div#events-section div#events-section-intro-text a{
 
 div#events-section div#events-section-intro-text a span#events-page-link{
 	display: flex;
+	margin-left: -150%;
 	padding: 10px;
-	height: 20px;
-	border-radius: 15px;
+	height: 30px;
+	border-radius: 30px;
 	align-items: center;
 	justify-content: space-around;
-	font-weight: bold;
 	background: white;
 	color: black;
 	text-align: center;
+	min-width: 180px;
 }
 
 div#events-section div#events-section-intro-text span#events-page-link::after{
@@ -135,11 +128,9 @@ div#events-section div#events-section-links div.event-link:active a{
 		align-items: center;
 	}
 	div#events-section div#events-section-intro-text h1{
-		font-size: 2.5em;
 		width: 80%;
 	}
 	div#events-section div#events-section-intro-text p{
-		font-size: 1em;
 		width: 80%;
 	}
 	div#events-section div#events-section-intro-text a{
@@ -179,7 +170,6 @@ div#events-section div#events-section-links div.event-link:active a{
 		height: 15vh;
 	}
 	div#events-section div#events-section-links div#other-events div.event-link h1{
-		font-size: 1.125em;
 		text-align: left;
 	}
 	div#events-section div#events-section-links div#other-events div.event-link:nth-child(even) a{

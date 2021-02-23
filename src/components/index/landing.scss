@@ -1,5 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import "../../styles/global.scss";
+@import "../../styles/var.scss";
 
 div.landing{
 	position: fixed;
@@ -30,22 +32,14 @@ div#landing-overlay div.wrapper{
 }
 
 div#landing-overlay div#landing-text{
-	width: 50%;
+	width: 60%;
+	min-width: 600px;
 	padding: 0 5%;
 	margin-top: var(--header-height);
 }
 
 div#landing-overlay div#landing-text > *{
 	text-align: right;
-}
-
-div#landing-overlay div#landing-text h1#intro-text{
-	font-family: 'Montserrat';
-	font-size: 4em;
-}
-div#landing-overlay div#landing-text p#intro-sub-text{
-	font-family: 'Roboto';
-	font-size: 1.5em;
 }
 div#landing-spacer{
 	margin-bottom: 100vh;
@@ -64,12 +58,9 @@ div#landing-spacer{
 @media (max-width: 768px) {
 	
 	div#landing-overlay div#landing-text{
-		width: 80%;
-	}
-	
-	div#landing-overlay div#landing-text h1#intro-text{
-		font-family: 'Montserrat';
-		font-size: 2em;
+		width: 90%;
+		min-width: 90%;
+
 	}
 	div#landing-overlay div#landing-text p#intro-sub-text{
 		font-size: 1em;

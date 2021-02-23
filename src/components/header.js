@@ -31,10 +31,6 @@ const Header = ( { isIndex } ) => {
 						<div class=" home-link">
 							<Link to="/">
 								<img class=" logo" src= {siteLogo} />
-								<div class=" header-text">
-									<span>ASSOCIATION FOR COMPUTING MACHINERY</span>
-									<span class="bottom-text">University of the Philippines Diliman Student Chapter, Inc.</span>
-								</div>
 							</Link>
 						</div>
 						<div class="navbar-button-container" onClick={() => setNavbarVisible(!navbarVisible)}>

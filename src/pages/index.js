@@ -9,8 +9,8 @@ import Events from "../components/index/events.js"
 import BlankContentFiller from "../components/blank-content-filler.js"
 import TestObject from "../components/test_object.js"
 
-import "../styles/var.css"
-import "../styles/global.css"
+import "../styles/var.scss"
+import "../styles/global.scss"
 import srcVid from "../assets/videos/landing-video.mp4"
 
 export default function Home() {
