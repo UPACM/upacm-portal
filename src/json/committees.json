@@ -9,19 +9,19 @@
 		"members": [
 			{
 				"name": "Enrique Luis P. Alvarado",
-				"position": "Officer",
+				"position": ["Officer"],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
 				"name": "Enrique Luis P. Alvarado",
-				"position": "Officer",
+				"position": ["Officer"],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
 				"name": "Enrique Luis P. Alvarado",
-				"position": "Officer",
+				"position": ["Officer"],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			}
@@ -33,55 +33,66 @@
 		"members": [
 			{
 				"name": "Jay Mapanao",
-				"position": "Chairperson",
+				"position": [
+					"Chairperson"
+				],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
 				"name": "Barbara David",
-				"position": "Vice Chairperson & Head for Membership Committee",
+				"position": [
+					"Vice Chairperson", 
+					"Head for Membership Committee"
+				],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
 				"name": "Joshua Dela Sierra",
-				"position": "Secretary & Head for Records Committee",
+				"position": [
+					"Secretary",
+					"Head for Records Committee"
+				],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
 				"name": "Joshua Espartero",
-				"position": "Treasurer & Head for Finance Committee",
+				"position": [
+					"Treasurer", 
+					"Head for Finance Committee"
+				],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
 				"name": "Ron Cas Padilla",
-				"position": "Head for Education Committee",
+				"position":[ "Head for Education Committee"],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
 				"name": "Luiz Agana",
-				"position": "Head for Logistics Committee",
+				"position": ["Head for Logistics Committee"],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
 				"name": "Mariel Gapuz",
-				"position": "Head for Marketing Committee",
+				"position": ["Head for Marketing Committee"],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
 				"name": "Dylan Bayona",
-				"position": "Head for Publicity Committee",
+				"position": ["Head for Publicity Committee"],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			},
 			{
 				"name": "Lance Dominic Pineda",
-				"position": "Head for Public Relations Committee",
+				"position": ["Head for Public Relations Committee"],
 				"description": "Does stuff that change da world and delivers da final message. Goodbye.",
 				"portraitSrc": "/committee-head-portraits/digiforms.jpg"
 			}

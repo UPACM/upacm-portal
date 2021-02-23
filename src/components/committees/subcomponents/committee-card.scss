@@ -3,122 +3,61 @@
 
 // Default styling
 .committee-card {
-    
-    // Image centering
+    $text-color: black;
+    $subtext-color: var(--acm-blue);
+
+    // Sizing
+    $image-dimension: calc(2vw + 180px);
+
+    // Layout
+    padding: 30px;
+
+    width: 280px;
+    height: 320px;
+
+
     .portrait-wrapper {
         overflow: hidden;   
         border-radius: 100%;
+        
+        padding: 30px;
 
-        // Centering
         display: block;
-        margin: 0 auto;
+        margin: auto;
+
+        width: $image-dimension;
+        height: $image-dimension;
     }
 
     .portrait{
-        // Centering
         display: block;
-        margin: auto auto;
+        margin: auto;
         
         // Follow wrapper
         width: 100%;
         height: 100%;   
-
         border-radius: 100%;
-
-        transition: ease 0.4s;
-    }
-
-    .portrait:hover {
-        scale: 1.2;
     }
 
     .name {
-        text-align: center;
-        border-radius: 30px;
-
         display: block;
-        margin: 8px auto;
+        margin: auto;
+
+        text-align: center;
+
+        color: $text-color;
+
     }
     .position {
+        color: $subtext-color;
+
+        scale: 0.75;
         text-align: center;
-
-        padding-bottom: 15px;
-    }
-    .description {
-        text-align: center;
-
-        opacity: 0.8;
-        padding: 0 5%;
-    }  
-}
-
-
-.executive-card {
-    // Theme
-    color: white;
-    background-color: var(--acm-blue);
-
-    box-shadow: 2px 2px 20px rgb(158, 156, 156);
-
-    // Sizing
-    $card-width: 280px;
-    $card-height: 450px;
-    width: $card-width;
-    min-height: 100%;
-    height: $card-height;
-    $image-dimension: 200px;
-    
-    // Layout
-    border-radius: 40px;
-    flex: 0 $card-width;
-    margin: 30px 60px;
-
-    padding-top: 2%;
-
-    .portrait-wrapper {
-        // Sizing
-        width: $image-dimension;
-        height: $image-dimension;
-    }
-
-    .name {
-        background-color: white;
-        color: var(--acm-blue);
-
-        box-shadow: 5px px 200px rgb(158, 156, 156);
-
-
-        // Layout
-        padding: 10px;
-        margin-top: 6%;
-        width: 83%;
+        
+        margin-bottom: -5px;
     }
 }
 
-.faculty-card {
-    // Theme
-    color: var(--acm-dark-blue);
-
-    // Sizing
-    $image-dimension: 190px;
-
-    // Layout
-    flex: 0 28vw;
-    padding: 30px;
-
-    .portrait-wrapper {
-        // Sizing
-        width: $image-dimension;
-        height: $image-dimension;
-    }
-
-    .description {        
-        color: black;
-
-        display: block;
-        margin: 0 auto;
-        width: 25vw;
-        min-width: 250px;
-    }
-    
+.committee-card:nth-child(1) {
+    width: 100vw;
 }

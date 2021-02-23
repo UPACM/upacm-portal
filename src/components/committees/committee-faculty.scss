@@ -9,7 +9,7 @@
     box-shadow: 3px 3px 20px rgb(84, 159, 194);
 
     #info {
-        color: $theme;
+        color: black;
 
         // Ensures there's no overflow
         overflow: hidden;
@@ -36,6 +36,7 @@
             // Center text
             margin: 0 auto;
             padding: 10px;
+            padding-top: 40px;
 
             opacity: 0.75;
         }

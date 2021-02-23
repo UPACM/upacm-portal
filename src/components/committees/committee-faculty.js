@@ -11,7 +11,7 @@ export default function CommitteeOpening({header, headerInfo, members }) {
 		</div>
 		<div id="cards">
 			{members.map((member) =>
-				<CommitteeCard name = "faculty-card" member={member} />)}
+				<CommitteeCard name member={member} />)}
 		</div>
 	</div>
 }

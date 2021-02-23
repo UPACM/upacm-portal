@@ -11,7 +11,7 @@ export default function CommitteeExecutive({ header, headerInfo, members }) {
 		</div>
 		<div id="cards">
 			{members.map((member) =>
-				<CommitteeCard name="executive-card" member={member} />)}
+				<CommitteeCard member={member} />)}
 		</div>
 	</div>
 }

@@ -3,7 +3,7 @@
 @import "../../styles/animation.scss";
 
 #committee-executive {
-    $theme: var(--acm-blue);
+    $theme: black;
     background-color: white;
 
     #info {
@@ -34,26 +34,19 @@
             // Layout
             margin: 0 auto;
             padding: 10px;
-        }
+            padding-top: 40px;
 
-        #divider {
-            // Layout
-            width: 30%;
-            height: 1px;
-            display: block;
-            margin: 2% auto;
-
-            background-color: $theme;
+            opacity: 0.9;
         }
     }
-    
+
     #cards {
         padding: 30px;
 
         // Flexibility for mobile
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
 }
