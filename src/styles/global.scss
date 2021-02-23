@@ -58,7 +58,7 @@ h1.hero{
 }
 
 p, a{
-	font-size: calc(#{$max-font-size} * 0.31);
+	font-size: max(calc(#{$max-font-size} * 0.31), 1.2em);
 }
 
 
