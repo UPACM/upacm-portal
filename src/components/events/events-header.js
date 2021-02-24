@@ -30,15 +30,15 @@ const EventsHeader = ( { isIndex } ) => {
 					<div class="wrapper">
 						<div class="events-page home-link">
 							<Link to="/">
-								<img class="events-page logo" src= {siteLogo} />
+								<img class="events-page logo" src= {siteLogo} alt="logo"/>
 								<div class="events-page header-text">
 									<span>ASSOCIATION FOR COMPUTING MACHINERY</span>
 									<span class="bottom-text">University of the Philippines Diliman Student Chapter, Inc.</span>
 								</div>
 							</Link>
 						</div>
-						<div class="navbar-button-container" onClick={() => setNavbarVisible(!navbarVisible)}>
-							<img class="navbar-button" src={hamburgerIcon} />
+						<div class="navbar-button-container" onClick={() => setNavbarVisible(!navbarVisible)} aria-hidden="true">
+							<img class="navbar-button" src={hamburgerIcon} alt="navbar"/>
 						</div>
 						<div class={navbarVisible ? 'events-page nav-bar visible' : 'events-page nav-bar'} id="events-page-nav-bar">
 							<Navlink to="/events/events-list/" name="Events" />

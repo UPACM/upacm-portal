@@ -31,7 +31,7 @@ export default function SocialWidget({elementClass="", social, href}) {
 	return (
 		<a href={href}>
 			<div class={"social-widget " + elementClass}>
-					<img src={img_logo}/>
+					<img src={img_logo} alt={social}/>
 			</div>
 		</a>
 	)

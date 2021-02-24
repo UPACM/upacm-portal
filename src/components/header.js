@@ -30,11 +30,11 @@ const Header = ( { isIndex } ) => {
 					<div class="wrapper">
 						<div class=" home-link">
 							<Link to="/">
-								<img class=" logo" src= {siteLogo} />
+								<img class=" logo" src= {siteLogo} alt="logo"/>
 							</Link>
 						</div>
-						<div class="navbar-button-container" onClick={() => setNavbarVisible(!navbarVisible)}>
-							<img class="navbar-button" src={hamburgerIcon} />
+						<div class="navbar-button-container" onClick={() => setNavbarVisible(!navbarVisible)} aria-hidden="true">
+							<img class="navbar-button" src={hamburgerIcon} alt="hamburger"/>
 						</div>
 						<div class={navbarVisible ? ' nav-bar visible' : ' nav-bar'} id="-nav-bar">
 							<Navlink to="/about/" name="About" />
