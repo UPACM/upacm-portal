@@ -1,7 +1,5 @@
 import React from "react"
-import "../../styles/var.scss"
-import "../../styles/global.scss"
-import "./social-widget.css"
+import "./social-widget.scss"
 
 import twitter_logo from "../../assets/images/social/twitter-logo.png"
 import facebook_logo from "../../assets/images/social/facebook-logo.png"
