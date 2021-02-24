@@ -13,10 +13,6 @@ export default function Home() {
 		<>
 			<Header isIndex={false} active="Committees"/>
 				<CommitteeOpening 
-					header = {CommData.opening.header}
-					headerInfo = {CommData.opening.headerInfo}
-					order="first" />
-				<CommitteeOpening 
 					header = {CommData.council.header}
 					headerInfo = {CommData.council.headerInfo}
 					order="second">
