@@ -16,11 +16,10 @@ div.header.scrolled{
 	background: var(--header-background-scrolled);
 	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.75);
 	padding-top: 0%;
-	
 }
 
 div.header.scrolled img.logo {
-	scale: 0.75;
+	scale: 0.7;
 }
 
 div.header div.wrapper{
@@ -45,10 +44,11 @@ div.header a {
 }
 
 div.header img.logo{
-	min-height: 55px;
-	max-height: 5vw;
+	min-height: 50px;
+	max-height: 4.5vw;
 	margin-bottom: 0;
 	padding-left: 15%;
+	transition: ease var(--universal-transition-timing);
 }
 
 div.header div.home-link div.header-text{
@@ -70,6 +70,7 @@ div.header div.nav-bar{
 	flex-direction: row;
 	align-items: center;
 	margin-right: 3vw;
+	scale: 0.9;
 	transition: transform var(--universal-transition-timing);
 }
 
@@ -83,24 +84,32 @@ div.header div.nav-bar div.navlink{
 	transition: background var(--universal-transition-timing);
 }
 
-div.header div.nav-bar div.navlink:hover{
-	background: radial-gradient(circle, rgba(255,255,255,0.125) 0%, rgba(0,98,140,0) 100%);
-}
-
-div.header div.nav-bar div.navlink:active{
-	background: radial-gradient(circle, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%);
-}
-
 div.header div.nav-bar div.navlink a{
 	color: white;
+	transition: ease var(--universal-transition-timing);
+}
+
+div.header div.nav-bar div.navlink#active a{
+	color: var(--acm-blue);
+}
+
+
+div.header div.nav-bar div.navlink a:hover  
+{
+	color: var(--acm-blue);
+}
+
+div.header div.nav-bar.visible div.navlink a:hover  
+{
+	color: black;
+}
+
+div.header div.home-link{
+	transition: ease var(--universal-transition-timing);
 }
 
 div.header div.home-link:hover{
-	background: rgba(255,255,255,0.125);
-}
-
-div.header div.home-link:active{
-	background: rgba(0,0,0,0.1);
+	scale: 1.2;
 }
 
 div.header-spacer{
@@ -119,11 +128,15 @@ div.header-spacer{
 		position: absolute;
 		right: 0;
 		top: var(--header-height);
-		z-index: 2;
+		z-index: -1;
 		flex-direction: column;
-		margin-right: 0;
+		margin-right: -30px;
+		margin-top: -15px;
 	}
 	
+	div.header div.nav-bar {
+	}
+
 	div.header div.nav-bar.visible{
 		transform: translateX(0%);
 	}
@@ -138,10 +151,18 @@ div.header-spacer{
 		width: var(--header-height);
 		height: var(--header-height);
 	}
+	div.header.scrolled img.navbar-button{
+		display: block;
+		height: 50%;
+		width: 50%;
+		margin-top: 0;
+		transition: ease var(--universal-transition-timing);
+	}
 	div.header img.navbar-button{
 		display: block;
 		height: 50%;
 		width: 50%;
+		margin-top: 25px;
 	}
 	
 	div.header div.navbar-button-container:hover{

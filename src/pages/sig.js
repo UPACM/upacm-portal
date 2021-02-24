@@ -13,7 +13,7 @@ import "../styles/global.scss"
 export default function Home() {
 	return (
 		<>
-			<Header gap={true} />
+			<Header gap={true} active="SIG"/>
             <SigGroups 
 				header={SigData.opening.header}
 				headerInfo = {SigData.opening.headerInfo}

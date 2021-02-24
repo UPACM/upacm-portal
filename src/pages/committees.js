@@ -11,7 +11,7 @@ import CommitteeCards from "../components/committees/committee-cards.js"
 export default function Home() {
 	return (
 		<>
-			<Header isIndex={false}/>
+			<Header isIndex={false} active="Committees"/>
 				<CommitteeOpening 
 					header = {CommData.opening.header}
 					headerInfo = {CommData.opening.headerInfo}

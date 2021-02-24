@@ -14,7 +14,7 @@ import "../styles/global.scss"
 export default function Home() {
 	return (
 		<>
-			<Header isIndex={true}/>
+			<Header isIndex={false} active="About"/>
 			<AboutIntro />
 			<MissionVision />
 			<History />

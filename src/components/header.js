@@ -8,7 +8,7 @@ import siteLogo from "../assets/images/logo.png"
 import hamburgerIcon from "../assets/images/hamburger-icon.png"
 
 
-const Header = ( { isIndex } ) => {
+const Header = ( { isIndex, active } ) => {
 		
 		const [scrolled, setScrolled] = useState(false);
 		const [navbarVisible, setNavbarVisible] = useState(false);
@@ -37,11 +37,16 @@ const Header = ( { isIndex } ) => {
 							<img class="navbar-button" src={hamburgerIcon} alt="hamburger"/>
 						</div>
 						<div class={navbarVisible ? ' nav-bar visible' : ' nav-bar'} id="-nav-bar">
-							<Navlink to="/about/" name="About" />
-							<Navlink to="/committees/" name="Committees" />
-							<Navlink to="/sig/" name="SIG" />
-							<Navlink to="/events/" name="Events" />
-							<Navlink to="/" name="Contact" />
+							<Navlink to="/about/" name="About" 
+								active={active === "About" }/>
+							<Navlink to="/committees/" name="Committees" 
+								active={active === "Committees" }/>
+							<Navlink to="/sig/" name="SIG" 
+								active={active === "SIG" }/>
+							<Navlink to="/events/" name="Events" 
+								active={active === "Events" }/>
+							<Navlink to="/" name="Contact" 
+								active={active === "Contact" }/>
 						</div>
 					</div>
 				</div>
