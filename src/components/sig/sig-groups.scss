@@ -2,13 +2,14 @@
 @import "../../styles/global.scss";
 
 #sig-groups {
+    background-color: white;
+
     #info {
-        color: white;
-        background-color: var(--acm-blue);
+        color: black;
         padding-bottom: 40px;
 
-        padding-top: 8%;
-        padding-bottom: 8%;
+        padding-top: 6%;
+        padding-bottom: 5%;
 
         #header {
             // Layout
