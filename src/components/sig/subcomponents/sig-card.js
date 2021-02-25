@@ -18,9 +18,10 @@ export default function SigCard({group}) {
         data-aos-delay="80"
         data-aos-duration="650">
         <div class="info">
-            <h2 class = "name">{group.name}</h2>
-            <h3 class = "head">{group.head}</h3>
-            <p class = "description">{group.description}</p>
+            <h2 class = "name"><b>{group.name}</b></h2>
+            <h3 class = "head"><i>{group.head}</i></h3>
+            {group.description.map((paragraph) =>
+                <p class="description">{paragraph} </p>)}
         </div>  
     </div>
 }
