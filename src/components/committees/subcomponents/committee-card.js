@@ -1,28 +1,34 @@
-import React, {useEffect} from "react"
+import React, { useEffect } from "react"
 import "./committee-card.scss"
 
 // On scroll animations
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+function BoldItalic({ name, text }) {
+    return <p class={name}><b><i>{text}</i></b></p>
+}
+
 /* Subcomponent for rendering one member of a committee type*/
-export default function CommitteeCard({name, member}) {
+export default function CommitteeCard({ member }) {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
-      });
+    });
 
-	return <div class = {name} 
+    return (
+        <div class={"committee-card"}
             data-aos="fade-up"
-            data-aos-delay="80"
+            data-aos-delay="50"
             data-aos-duration="650">
-        <div class="committee-card">
             <div class="portrait-wrapper">
-                <img class = "portrait" src={member.portraitSrc}/>
+                <img alt="member"
+                    class="portrait"
+                    src={member.portraitSrc} />
             </div>
-            <h1 class = "name">{member.name}</h1>
-            <div class = "position">{member.position}</div>
-            <p class = "description">{member.description}</p>
+            <p class={"name"}><b>{member.name}</b></p>
+            {member.position.map((position) =>
+                <BoldItalic name="position" text={position} />)}
         </div>
-    </div>
+    )
 }

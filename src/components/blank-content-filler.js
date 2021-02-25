@@ -1,6 +1,6 @@
 import React from "react"
-import "../styles/var.css"
-import "../styles/global.css"
+import "../styles/var.scss"
+import "../styles/global.scss"
 
 export default function BlankContentFiller({fillerHeight}) {
 	return (

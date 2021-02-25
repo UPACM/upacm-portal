@@ -1,3 +1,55 @@
-$acm-blue: #0182ac;
-$acm-dark-blue: #09357a;
-$acm-light-blue: #83cee2;
+:root{
+	--acm-blue: #0182ac;
+	--acm-lignt-blue: #83cee2;
+	--acm-dark-blue: #09357a;
+	
+	--site-background-color: #e3f7ff;
+	--site-background-complement: black;
+	
+	--universal-transition-timing: 0.2s;
+	
+	--generic-box-shadow: 0 0 10px black;
+	
+	--img-filler-color: orange;
+	
+	--header-background: linear-gradient(180deg, rgba(0,98,140,0.5) 0%, rgba(0,98,140,0) 100%);
+	--header-background-scrolled: rgb(26, 26, 26);
+	--header-color: white;
+	--navlink-background: #0083c0;
+	--navlink-color: white;
+	--header-height: 75px;
+	
+	--landing-overlay-bg: linear-gradient(45deg, rgba(0,113,193,1) 0%, rgba(0,113,193,0) 100%);
+	
+	--index-events-section-height: 500px;
+	--index-events-section-primary-color: rgb(25, 25, 25);
+	--index-events-section-primary-complement: white;
+	--index-events-section-secondary-color: rgb(45, 45, 45);
+	--index-events-section-secondary-complement: white;
+	--index-events-section-background: linear-gradient(180deg, rgba(10,10,10,1) 0%, rgba(25,25,25,1) 50%, rgba(10,10,10,1) 100%);
+	
+	--upper-footer-bg: #0083c0;
+	--footer-primary-complement: white;
+	--footer-social-bg: #003f76;
+	--footer-social-bg-hover: #d9d9d9;
+	--footer-social-bg-active: #333333;
+	--footer-secondary-color: #2b2b2b;
+	--footer-separator-color: #DDDDDD;
+	--footer-bottom-height: 100px;
+
+	--comm-section-padding: 50px;
+	--comm-section-primary-color-b: rgb(25, 25, 25);
+	--comm-section-primary-complement-b: white;
+
+	
+	/*About Page*/
+	--about-intro-background: linear-gradient(0deg, rgba(1,130,172,1) 0%, rgba(57,174,212,1) 50%, rgba(1,130,172,1) 100%);
+
+	--history-section-background: #bfe8f5;
+	--history-section-color: var(--acm-blue);
+	
+	/*Events page*/
+	--events-header-background: linear-gradient(180deg, rgba(0,98,140,0.5) 0%, rgba(0,98,140,0) 100%);
+	--events-header-background-scrolled: #2b2b2b;
+	--events-header-height: 75px;
+}

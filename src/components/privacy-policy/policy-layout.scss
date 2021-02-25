@@ -36,12 +36,12 @@ div#policy-layout{
 	}
 	
 	a{
-		color: $acm-blue;
+		color: var(--acm-blue);
 		text-decoration: underline;
 	}
 	
 	strong{
-		color: $acm-dark-blue;
+		color: var(--acm-dark-blue);
 	}
 	
 	li{

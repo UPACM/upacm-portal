@@ -3,10 +3,10 @@ import { graphql } from "gatsby"
 
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
-import BlankContentfiller from "../components/blank-content-filler.js"
+//import BlankContentfiller from "../components/blank-content-filler.js"
 import PolicyLayout from "../components/privacy-policy/policy-layout.js"
 
-import "../styles/global.css"
+import "../styles/global.scss"
 
 export default function PrivacyPolicy({ data }) {
 	return (

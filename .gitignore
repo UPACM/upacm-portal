@@ -67,3 +67,10 @@ yarn-error.log
 .pnp.js
 # Yarn Integrity file
 .yarn-integrity
+
+# Editor configurations
+.vscode
+
+# Environment variables
+.env.development
+.env.production

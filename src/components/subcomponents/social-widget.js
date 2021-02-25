@@ -1,7 +1,5 @@
 import React from "react"
-import "../../styles/var.css"
-import "../../styles/global.css"
-import "./social-widget.css"
+import "./social-widget.scss"
 
 import twitter_logo from "../../assets/images/social/twitter-logo.png"
 import facebook_logo from "../../assets/images/social/facebook-logo.png"
@@ -31,7 +29,7 @@ export default function SocialWidget({elementClass="", social, href}) {
 	return (
 		<a href={href}>
 			<div class={"social-widget " + elementClass}>
-					<img src={img_logo}/>
+					<img src={img_logo} alt={social}/>
 			</div>
 		</a>
 	)

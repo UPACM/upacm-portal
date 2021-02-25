@@ -1,11 +1,15 @@
 div#footer{
-	background: var(--upper-footer-bg);
+	background: rgb(0,131,192);
+	background: -moz-linear-gradient(90deg, rgba(0,131,192,1) 25%, rgba(0,63,118,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(0,131,192,1) 25%, rgba(0,63,118,1) 100%);
+	background: linear-gradient(90deg, rgba(0,131,192,1) 25%, rgba(0,63,118,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0083c0",endColorstr="#003f76",GradientType=1);
 	color: var(--footer-primary-complement);
 }
 
 div#footer div#footer-top{
-	width: 80%;
-	padding: 3% 0;
+	width: 90%;
+	padding: 4% 0;
 	margin: auto;
 }
 
@@ -18,7 +22,9 @@ div#footer div#footer-top div.wrapper{
 div#footer div#footer-top div.wrapper div.footer-section{
 	display: flex;
 	flex-direction: column;
-	width: calc(100% / 3);
+	width: fit-content;
+	padding: 0 2%;
+	max-width: 38%;
 }
 
 div#footer div#footer-top div.footer-section div.footer-section-links{
@@ -27,22 +33,24 @@ div#footer div#footer-top div.footer-section div.footer-section-links{
 }
 
 div#footer div#footer-top div.wrapper div.footer-section h1{
-	font-size: 2em;
-	margin-bottom: 5vh;
+	font-size: 1.4em;
+	margin-bottom: 20px;
 }
 
 div#footer div#footer-top div.footer-section div.footer-section-links.portal-links{
 	flex-direction: row;
+	font-size: calc(0.8em + 0.1vw);
 }
 
 div#footer div#footer-top div.footer-section div.footer-section-links.portal-links div.link-col{
 	display: flex;
 	flex-direction: column;
-	margin-right: 5vw;
+	margin-right: 3.5vw;
+	min-width: fit-content;
 }
 
 div#footer div#footer-top div.footer-section div.footer-section-links.portal-links span{
-	margin-bottom: 3vh;
+	margin-bottom: 1.5vh;
 }
 
 div#footer div#footer-top div.footer-section div.footer-section-links.portal-links span:hover{
@@ -51,7 +59,8 @@ div#footer div#footer-top div.footer-section div.footer-section-links.portal-lin
 
 
 div#footer div#footer-top div.footer-section div.footer-section-links.contacts span{
-	margin-bottom: 4vh;
+	margin-bottom: 20px;
+	font-size: calc(0.7em + 0.3vw);
 }
 
 div#footer div#footer-top div.footer-section div.footer-section-links.contacts span:hover{
@@ -65,8 +74,8 @@ div#footer div#footer-top div.footer-section div.footer-section-links.socials{
 
 div#footer div#footer-top div.footer-section div.footer-section-links.socials div.footer-social-widget{
 	background: var(--footer-social-bg);
-	width: 35px;
-	height: 35px;
+	width: 50px;
+	height: 50px;
 	margin-right: 1vw;
 	border-radius: calc(35px / 2);
 	transition: background var(--universal-transition-timing);
@@ -82,8 +91,7 @@ div#footer div#footer-top div.footer-section div.footer-section-links.socials di
 
 div#footer div#footer-bottom{
 	background: var(--footer-secondary-color);
-	border-top: 3px solid var(--footer-separator-color);
-	padding: 5vh 0;
+	padding: 4vh 0;
 }
 
 div#footer div#footer-bottom div.wrapper{
@@ -92,6 +100,7 @@ div#footer div#footer-bottom div.wrapper{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
+	scale: 0.8;
 }
 
 
@@ -119,6 +128,10 @@ div#footer div#footer-bottom div.wrapper{
 		flex-direction: column;
 	}
 	
+	div#footer div#footer-top div.wrapper div.footer-section{
+		min-width: 96%;
+		padding-bottom: 8%;
+	}
 	
 	div#footer div#footer-top div.footer-section div.footer-section-links.portal-links div.link-col{
 		margin:0;

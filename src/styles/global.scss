@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat';
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: inherit;	
+}
+
+body{
+	background: var(--site-background-color);
+}
+
+div.wrapper{
+	max-width: 1920px;
+	margin: auto;
+}
+
+.content{
+	margin-top: calc(var(--header-height) * 1.5);
+}
+
+.clear{
+	clear: both;
+}
+
+div#blank-content-filler{
+	height: 10vh;
+	background: yellow;
+}
+
+/* Text heirarchy */
+
+$max-font-size: calc(2.3em + 2vw);
+
+// Apply header common style with scaling feature
+@mixin header-font-size($scale) {
+	font-weight: 700;
+	font-family: 'Montserrat';
+	font-size: calc(#{$max-font-size} * #{$scale})
+} 
+
+// Largest header
+h1.hero{
+	@include header-font-size(0.95);
+}
+
+// Linearly decrease header scaling by 0.1
+@for $i from 1 through 6 {
+  h#{$i} {
+    @include header-font-size(1 - ($i*0.1));
+  }
+}
+
+p, a{
+	font-size: max(calc(#{$max-font-size} * 0.31), 1.2em);
+}
+
+
+
+

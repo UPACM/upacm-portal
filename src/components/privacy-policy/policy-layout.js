@@ -1,13 +1,5 @@
-import React, {useState, useEffect} from "react"
-import { Link } from "gatsby"
-
+import React from "react"
 import "./policy-layout.scss"
-
-function Subcomponent() {
-	return (
-		<p>I am a subcomponent</p>
-	)
-}
 
 export default function PolicyLayout({children}) {
 	return (

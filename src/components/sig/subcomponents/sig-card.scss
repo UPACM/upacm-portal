@@ -1,5 +1,5 @@
-@import "../../../styles/var.css";
-@import "../../../styles/global.css";
+@import "../../../styles/var.scss";
+@import "../../../styles/global.scss";
 
 .sig-card {
     // Theme
@@ -7,7 +7,7 @@
 
     // Sizing
     min-width: 290px;
-    max-width: 43vw;
+    max-width: 40vw;
     min-height: 100%;
     
     // Spacing
@@ -21,6 +21,8 @@
 
     $background-transition: 0.5s;
     transition: ease $background-transition;
+
+    padding: 20px;
 
     .info {
         // Spacing
@@ -39,19 +41,19 @@
         }
 
         .head {
-            font-size: calc(0.8em + 0.3vw);
+            font-size: calc(1em + 0.2vw);
             font-weight: bold;
 
             background-color: white;
             width: fit-content;
             border-radius: 30px;
-            padding: 0.7% 2%;
+            padding: 2% 4%;
             color: #0182ac;
+            margin-top: 10px;
         }
 
         .description {
-            font-size: calc(0.7em + 0.2vw);
-            font-weight: lighter;
+            font-size: calc(0.9em + 0.2vw);
 
             // Spacing from local header
             margin-top: 20px;

@@ -2,8 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import SocialWidget from "../components/subcomponents/social-widget.js"
 
-import "../styles/var.css"
-import "../styles/global.css"
+import "../styles/var.scss"
+import "../styles/global.scss"
 import "./footer.css"
 
 export default function Footer() {
@@ -16,14 +16,14 @@ export default function Footer() {
 						<h1>UP ACM</h1>
 						<div class="footer-section-links portal-links">
 							<div class="link-col">
-								<span>About</span>
-								<span>Events</span>
-								<span>Committees</span>
+								<span><a>About</a></span>
+								<span><a>Events</a></span>
+								<span><a>Committees</a></span>
 							</div>
 							<div class="link-col">
-							<span>Partners</span>
+							<span><a>Partners</a></span>
 							<span><Link to="/privacy-policy/">Privacy Policy</Link></span>
-							<span>Automaton</span>
+							<span><a>Automaton</a></span>
 							</div>
 						</div>
 					</div>

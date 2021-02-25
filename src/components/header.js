@@ -8,7 +8,7 @@ import siteLogo from "../assets/images/logo.png"
 import hamburgerIcon from "../assets/images/hamburger-icon.png"
 
 
-const Header = ( { isIndex } ) => {
+const Header = ( { isIndex, active } ) => {
 		
 		const [scrolled, setScrolled] = useState(false);
 		const [navbarVisible, setNavbarVisible] = useState(false);
@@ -30,22 +30,23 @@ const Header = ( { isIndex } ) => {
 					<div class="wrapper">
 						<div class=" home-link">
 							<Link to="/">
-								<img class=" logo" src= {siteLogo} />
-								<div class=" header-text">
-									<span>ASSOCIATION FOR COMPUTING MACHINERY</span>
-									<span class="bottom-text">University of the Philippines Diliman Student Chapter, Inc.</span>
-								</div>
+								<img class=" logo" src= {siteLogo} alt="logo"/>
 							</Link>
 						</div>
-						<div class="navbar-button-container" onClick={() => setNavbarVisible(!navbarVisible)}>
-							<img class="navbar-button" src={hamburgerIcon} />
+						<div class="navbar-button-container" onClick={() => setNavbarVisible(!navbarVisible)} aria-hidden="true">
+							<img class="navbar-button" src={hamburgerIcon} alt="hamburger"/>
 						</div>
 						<div class={navbarVisible ? ' nav-bar visible' : ' nav-bar'} id="-nav-bar">
-							<Navlink to="/about/" name="About" />
-							<Navlink to="/committees/" name="Committees" />
-							<Navlink to="/sig/" name="SIG" />
-							<Navlink to="/events/" name="Events" />
-							<Navlink to="/" name="Contact" />
+							<Navlink to="/about/" name="About" 
+								active={active === "About" }/>
+							<Navlink to="/committees/" name="Committees" 
+								active={active === "Committees" }/>
+							<Navlink to="/sig/" name="SIG" 
+								active={active === "SIG" }/>
+							<Navlink to="/events/" name="Events" 
+								active={active === "Events" }/>
+							<Navlink to="/" name="Contact" 
+								active={active === "Contact" }/>
 						</div>
 					</div>
 				</div>

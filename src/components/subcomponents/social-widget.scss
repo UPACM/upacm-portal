@@ -1,0 +1,27 @@
+@import "../../styles/var.scss";
+@import "../../styles/global.scss";
+
+.social-widget{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 500px;
+	height: 500px;
+	border-radius: 100%;
+}
+
+.social-widget img{
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	display: block;
+	object-fit: scale-down;
+	filter: brightness(0) invert(1);
+	transition: ease var(--universal-transition-timing);
+}
+
+.social-widget:hover {
+	img {
+		filter: none
+	}
+}

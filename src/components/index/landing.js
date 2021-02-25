@@ -1,8 +1,6 @@
 import React from "react"
 //import sourceVid from "../assets/videos/landing_video.mp4"
-import "../../styles/var.css"
-import "../../styles/global.css"
-import "./landing.css"
+import "./landing.scss"
 
 export default function Landing({videoSrcObj, introText, introSubText}) {
 	return (
@@ -16,7 +14,7 @@ export default function Landing({videoSrcObj, introText, introSubText}) {
 			<div class=" landing" id="landing-overlay">
 				<div class="wrapper">
 					<div id="landing-text">
-						<h1 id="intro-text">{introText}</h1>
+						<h1 class="hero" id="intro-text">{introText}</h1>
 						<p id="intro-sub-text">{introSubText}</p>
 					</div>
 				</div>

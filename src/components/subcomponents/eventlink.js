@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../../styles/var.css"
-import "../../styles/global.css"
+import "../../styles/var.scss"
+import "../../styles/global.scss"
 
 export default function EventLink({name, link, staticImage}) {
 	return (

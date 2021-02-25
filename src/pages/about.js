@@ -8,13 +8,13 @@ import History from "../components/about/history.js"
 import Achievements from "../components/about/achievements.js"
 import BlankContentFiller from "../components/blank-content-filler.js"
 
-import "../styles/var.css"
-import "../styles/global.css"
+import "../styles/var.scss"
+import "../styles/global.scss"
 
 export default function Home() {
 	return (
 		<>
-			<Header isIndex={true}/>
+			<Header isIndex={false} active="About"/>
 			<AboutIntro />
 			<MissionVision />
 			<History />

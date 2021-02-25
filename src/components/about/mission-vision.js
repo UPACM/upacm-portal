@@ -1,6 +1,6 @@
 import React from "react"
-import "../../styles/var.css"
-import "../../styles/global.css"
+import "../../styles/var.scss"
+import "../../styles/global.scss"
 import "./mission-vision.css"
 import AboutData from "../../json/about.json"
 
@@ -13,14 +13,14 @@ export default function MissionVision(){
 						<h1>Mission</h1>
 						<p>{AboutData.mission}</p>
 					</div>
-					<img class="showcase-image" src="/about-images/1-mission-img.png"/>
+					<img class="showcase-image" src="/about-images/1-mission-img.png" alt="mission"/>
 				</div>
 				<div class="mission-vision-part" id="vision">
 					<div class="text">
 						<h1>Vision</h1>
 						<p>{AboutData.vision}</p>
 					</div>
-					<img class="showcase-image" src="/about-images/1-vision-img.png"/>
+					<img class="showcase-image" src="/about-images/1-vision-img.png" alt="vision"/>
 				</div>
 			</div>
 		</div>

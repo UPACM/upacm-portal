@@ -1,25 +1,20 @@
-@import "../../styles/var.css";
-@import "../../styles/global.css";
+@import "../../styles/var.scss";
+@import "../../styles/global.scss";
 
 #sig-groups {
+    background-color: white;
+
     #info {
-        color: white;
-        background-color: var(--acm-blue);
+        color: black;
         padding-bottom: 40px;
 
-        padding-top: 8%;
-        padding-bottom: 8%;
+        padding-top: 6%;
+        padding-bottom: 5%;
 
         #header {
             // Layout
             padding: 20px;
-            text-align: center;
-            
-            transition: 0.8s ease;
-        }
-
-        #header:hover {
-            scale: (1.05);
+            text-align: center;           
         }
 
         #header-info {
@@ -33,7 +28,6 @@
 
             width: 42vw;
             min-width: 270px;     
-            opacity: 0.8;       
         }
     }
     
