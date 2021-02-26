@@ -23,7 +23,7 @@ const AboutIntro = () => {
 	return (
 		<>
 			<div  id="about-intro-section">
-				<img id="bg-image" src="/about-images/0-page-bg.png" alt="about"/>
+				<img id="bg-image" src="/about-images/header.JPG" alt="about"/>
 				<div class="wrapper">
 					<div id="intro-fade-in">
 					</div>
