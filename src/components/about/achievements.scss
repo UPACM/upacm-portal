@@ -1,21 +1,25 @@
 div#achievements-section{
-	background: var(--acm-blue);
-	padding: 3vh 0;
+	background: white;
+	padding: 15vh 0;
+
 	h1 {
-		color: white;
+		color: black;
 		text-align: center;
 		padding-bottom: 3vh;
 	}
 	div#achievements-content{
-		display: flex;
-		flex-direction: row-reverse;
 		width: 80%;
 		margin: auto;
 		
 		p#achievements-intro{
-			width: calc(40% - 6vw);
 			padding: 0 3vw;
-			color: white;
+			color: black;
+			max-width: 65vw;
+			padding-bottom: 5vw;
+
+			display: block;
+			margin: auto;
+			text-align: center;
 		}
 		
 		div#achievements-list::-webkit-scrollbar{
@@ -23,7 +27,7 @@ div#achievements-section{
 		}
 
 		div#achievements-list::-webkit-scrollbar-track{
-			background: white;
+			background: black;
 		}
 
 		div#achievements-list::-webkit-scrollbar-thumb {
@@ -36,8 +40,6 @@ div#achievements-section{
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			border-top: 1px solid white;
-			border-bottom: 1px solid white;
 			overflow-y: scroll;
 			mask: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.843312324929972) 70%, rgba(0,0,0,0) 100%);
 			padding: 0 1.5vw;
@@ -48,7 +50,7 @@ div#achievements-section{
 				align-items: center;
 				padding: 3vh 0;
 				width: 100%;
-				color: white;
+				color: black;
 				img.achievement-image{
 					background: var(--img-filler-color);
 					align-self: flex-start;

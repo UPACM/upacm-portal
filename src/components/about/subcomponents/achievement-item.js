@@ -7,8 +7,8 @@ export default function AchievementItem({name, event, date, staticFlavourImageSr
 		<div class="achievement-item">
 			<img class="achievement-image" alt="achievement"/>
 			<div class="achievement-text">
-				<h2 class="name">{name}</h2>
-				<p class="event">{event}</p>
+				<h6 class="name">{name}</h6>
+				<b><p class="event">{event}</p></b>
 				<p class="date">{date}</p>
 			</div>
 		</div>
