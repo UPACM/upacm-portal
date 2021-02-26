@@ -6,6 +6,8 @@
     $text-color: black;
     $subtext-color: var(--acm-blue);
 
+	object-fit: contain;
+
     // Sizing
     $image-dimension: calc(2vw + 180px);
 
