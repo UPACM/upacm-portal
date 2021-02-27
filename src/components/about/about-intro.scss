@@ -1,12 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+
+#logo {
+	width: max(20%, 200px);
+	display: block;
+	margin: auto;
+
+	top: 50%;
+	position: absolute;	
+	align-self: center;
+}
+
 div#about-intro-section{
 	margin-top: 80vh;
 	color: white;
 	
 	img#bg-image{
 		position: fixed;
-		top: 0;
+		top: 5%;
 		left: 0;
 		z-index: -2;
 		height: 100%;
@@ -19,7 +30,7 @@ div#about-intro-section{
 	div.wrapper{
 		display: flex;
 		flex-direction: column;
-		background: var(--about-intro-background);
+		background: var(--acm-blue);
 		
 		div#intro-fade-in{
 			height: 25vh;
