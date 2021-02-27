@@ -1,0 +1,22 @@
+{
+	"opening": {
+		"header": "Contacts",
+		"headerInfo": "Sunt aliqua ad elit consectetur mollit adipisicing labore deserunt qui pariatur. Reprehenderit veniam commodo voluptate labore exercitation nulla cillum reprehenderit voluptate est. Tempor deserunt nulla magna eiusmod velit anim sint in non commodo amet consequat sint."
+	},
+	"map": {
+		"header": "Give us a visit",
+		"headerInfo": "Sunt aliqua ad elit consectetur mollit adipisicing labore deserunt qui pariatur. Reprehenderit veniam commodo voluptate labore exercitation nulla cillum reprehenderit voluptate est. Tempor deserunt nulla magna eiusmod velit anim sint in non commodo amet consequat sint."
+	},
+	"email": {
+		"header": "Send as an Email",
+		"headerInfo": "Sunt aliqua ad elit consectetur mollit adipisicing labore deserunt qui pariatur. Reprehenderit veniam commodo voluptate labore exercitation nulla cillum reprehenderit voluptate est. Tempor deserunt nulla magna eiusmod velit anim sint in non commodo amet consequat sint."
+	},
+	"social": {
+		"header": "Social Media",
+		"headerInfo": "Sunt aliqua ad elit consectetur mollit adipisicing labore deserunt qui pariatur. Reprehenderit veniam commodo voluptate labore exercitation nulla cillum reprehenderit voluptate est. Tempor deserunt nulla magna eiusmod velit anim sint in non commodo amet consequat sint."
+	},
+	"others": {
+		"header": "Give us a Call",
+		"headerInfo": "Sunt aliqua ad elit consectetur mollit adipisicing labore deserunt qui pariatur. Reprehenderit veniam commodo voluptate labore exercitation nulla cillum reprehenderit voluptate est. Tempor deserunt nulla magna eiusmod velit anim sint in non commodo amet consequat sint."
+	}
+}

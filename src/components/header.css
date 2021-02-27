@@ -6,7 +6,7 @@ div.header{
 	left: 0;
 	width: 100vw;
 	z-index: 1;
-	height: var(--header-height);
+	min-height: var(--header-height);
 	background: var(--header-background);
 	transition: background var(--universal-transition-timing), transform, padding-top var(--universal-transition-timing), box-shadow var(--universal-transition-timing);
 	padding-top: 2%;
@@ -45,8 +45,8 @@ div.header a {
 
 div.header img.logo{
 	min-height: 50px;
-	max-height: 4.5vw;
-	margin-bottom: 0;
+	max-height: 2.75em;
+	padding-top: 7%;
 	padding-left: 15%;
 	transition: ease var(--universal-transition-timing);
 }
@@ -87,6 +87,10 @@ div.header div.nav-bar div.navlink{
 div.header div.nav-bar div.navlink a{
 	color: white;
 	transition: ease var(--universal-transition-timing);
+}
+
+div.header div.nav-bar.visible div.navlink#active a{	
+	color: black;
 }
 
 div.header div.nav-bar div.navlink#active a{
@@ -138,7 +142,8 @@ div.header-spacer{
 	}
 
 	div.header div.nav-bar.visible{
-		transform: translateX(0%);
+		transform: none;
+		overflow-x: scroll;
 	}
 	
 	div.header div.navbar-button-container{

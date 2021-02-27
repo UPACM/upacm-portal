@@ -35,8 +35,8 @@ div#blank-content-filler{
 }
 
 /* Text heirarchy */
-
-$max-font-size: calc(2.3em + 2vw);
+// 2.3em + 2vw)
+$max-font-size: 4.3em;
 
 // Apply header common style with scaling feature
 @mixin header-font-size($scale) {
@@ -58,7 +58,7 @@ h1.hero{
 }
 
 p, a{
-	font-size: max(calc(#{$max-font-size} * 0.31), 1.2em);
+	font-size: 1.3em;
 }
 
 

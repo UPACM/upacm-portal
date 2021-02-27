@@ -1,0 +1,39 @@
+@import "../../styles/var.scss";
+@import "../../styles/global.scss";
+
+
+#contact-opening.alt {
+    background-color: white;
+}
+
+#contact-opening.second {
+    background-color: rgb(173, 173, 173);
+}
+
+
+#contact-opening {
+    // Ensures there's no overflow
+    overflow: hidden;
+    height: 100%;
+
+    // Layout
+    text-align: center;
+    $vertical-spacing: 7%;
+    padding-top: $vertical-spacing;
+    padding-bottom: $vertical-spacing; 
+
+	color: black;
+
+    #header-info { 
+        // Ensure readability on all screen size
+        width: max(280px, 50vw);
+        scale: 0.9;
+
+        
+        opacity: 0.75;
+
+        // Center text
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
