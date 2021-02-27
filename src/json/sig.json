@@ -6,39 +6,39 @@
     "groups": [
         {
             "name": "Digital Transformation",
-            "head": "Dolore adipisicing",
+            "head": "Luis Alvarado",
             "description": [
                 "As our organization is aiming for improved systems and processes, this group focuses on automating procedures and innovating the current system of UP ACM using the latest technology and tools available",
                 "Our job is to teach the members the ways of Software development, the roles of each person in a team has, how to properly schedule features and tasks, and executing them in an efficient and even brilliant manner."
             ],
-            "portraitSrc": "/committee-head-portraits/digiforms.jpg"
+            "portraitSrc": "/sig/digital_transformation.jpg"
         },
         {
             "name": "Data Science and Artificial Intelligence",
-            "head": "Dolore adipisicing",
+            "head": "Paolo Sandejas",
             "description": [
                 "With a growing need for cataloging and organizing data in this information driven world, Data Science and Artificial Intelligence fields become more and more relevant, with Data Science being ranked as the hottest job of 2019 and AI being a part of every household in this modern era.",
                 "Our job is to teach the members how information works, how it can be used, cleaning and manipulating to get salient results that can be useful to many other organizations and communities."
             ],
-            "portraitSrc": "/committee-head-portraits/digiforms.jpg"
+            "portraitSrc": "/sig/datascience_ai.jpg"
         },
         {
             "name": "Algorithmic Computing",
-            "head": "Dolore adipisicing",
+            "head": "Erick Sarenas",
             "description": [
                 "Algorithms are constantly changing and becoming more and more efficient as time goes on, and so the theoretical side of Computer Science that deals with statistics and numbers, like Natural Computing, data analysis and visualization, bioinformatics, still holds very much weight in the scientific community today.", 
                 "Our job is to teach the members how to deal with numbers, to see through the math and to come up with better solutions to age old problems, or perhaps come up with inventive ways to circumvent the problems that certain algorithms sem to face today."
             ],
-            "portraitSrc": "/committee-head-portraits/digiforms.jpg"
+            "portraitSrc": "/sig/algorithmic_computing.jpeg"
         },
         {
             "name": "Cybersecurity",
-            "head": "Dolore adipisicing",
+            "head": "Rafael Partosa, Ed Valdez",
             "description": [
                 "It security remains to be one of the prime concerns of the businesses and organizations today, and certainly will still be in the future, as information can easily be stolen, and platforms can easily be exploited.",
                 "Our job is to teach the members how vital cybersecurity is, expose how backdoors can be manipulated and how defenses can be made against attackers with malicious intent."
             ],
-            "portraitSrc": "/committee-head-portraits/digiforms.jpg"
+            "portraitSrc": "/sig/cybersecurity.jpg"
         }
 
     ]

@@ -1,0 +1,110 @@
+#contact-form {
+
+	background-color: white;
+	padding-top: 0;
+	margin-top: -12%;
+
+	#form {
+		width: 70%;
+		display: block;
+		margin: auto;
+		background-color: rgb(32, 32, 32);
+
+		padding: 4%;
+
+		box-shadow: 2px 2px 10px rgb(78, 78, 78);
+	}
+
+	padding: 10%;
+
+	#form-name, #form-email, #form-subject, #form-message {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 10px 20px;
+
+		color: white;
+
+
+		p {
+			width: 200px;
+			padding: 10px 0;
+		}		
+
+		input, textarea {
+			flex: 1;
+			border: none;
+			outline: none;
+			color: white;
+			background-color: inherit;
+			width: 80%;
+			border-bottom: 2px rgba(255, 255, 255, 0.548) solid;
+		}
+	}
+
+
+	#form-message {		
+		#input-message {
+			overflow: visible;
+			word-wrap: break-word;
+			min-height: 180px;
+		}
+	}
+
+	#submit-button {
+		width: 10em;
+		max-width: 90%;
+
+		display: block;
+		margin: auto;
+
+		font-size: 2em;
+		color: white;
+
+		margin-top: 40px;
+		padding: 10px;
+
+		border: none;
+		background-color: var(--acm-blue);
+
+		transition: var(--universal-transition-timing) ease scale;
+	}
+
+	#submit-button:hover, #submit-button:disabled {
+		scale: 1.1;
+	}
+
+	#response {
+		background: var(--acm-green);
+		
+		display: block;
+		margin: auto;
+		margin-top: 50px;
+
+		padding: 20px;
+		border-radius: 50px;
+
+		text-align: center;
+		color: white;
+
+		animation: fade-in 0.6s ease;
+
+		width: 80%;
+	}
+
+	@keyframes fade-in {
+		from {scale: 0; opacity: 0;}
+		to {scale: 1; opacity: 1;}
+		
+	}
+
+	#response .error {
+		background: var(--acm-red);
+	}
+
+
+
+
+
+
+
+}

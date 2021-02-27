@@ -2,16 +2,16 @@
 @import "../../../styles/global.scss";
 
 .sig-card:nth-child(1) {
-    background-color: var(--acm-blue);
+    background-color: var(--acm-red);
 }
 
 .sig-card:nth-child(2) {
-    background-color: var(--acm-dark-blue);
+    background-color: var(--acm-yellow);
 }
 
 
 .sig-card:nth-child(3) {
-    background-color: var(--acm-dark-blue);
+    background-color: var(--acm-purple);
 }
 
 
@@ -31,7 +31,7 @@
     margin: 10px;
 
     // Background setup
-    background-size: 150%;
+    background-size: cover;
     background-blend-mode: multiply;
     background-position: center center;
 

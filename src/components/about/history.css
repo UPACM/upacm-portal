@@ -1,22 +1,37 @@
 div#history-section{
-	background: var(--history-section-background);
-	color: var(--history-section-color);
-	padding: 5vh 0;
+	background: white;
+	color: black;
+	padding: 8vh 0;
 }
 
 div#history-section div.wrapper{
 	width: 80%;
-	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
 div#history-section div#history-intro{
-	width: calc(40% - 6vw);
-	padding: 0 3vw;
+	width: 80vw;
+	justify-content: center;
+	text-align: center;
+}
+
+div#history-section div#history-intro h1{
+	padding: 3% 0;
+	padding-top: 0;
+
+}
+div#history-section div#history-intro p{
+	display: block;
+	margin: auto;
+
+	padding-bottom: 3%;
+	max-width: 65vw;
 }
 
 div#history-section div#timeline-container{
+	display: block;
+	margin: auto;
 	width: 60%;
 	height: 75vh;
 	overflow-y: scroll;
@@ -42,7 +57,7 @@ div#history-section div#timeline-container div.history-timestamp{
 	font-size: 1.5em;
 	padding: 4vh 0;
 	padding-left: 2vw;
-	border-left: 3px solid var(--history-section-color);
+	border-left: 3px solid rgb(100, 100, 100);
 }
 
 div#history-section div#timeline-container div.history-timestamp:first-of-type{

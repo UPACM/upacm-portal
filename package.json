@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
+    "axios": "^0.21.1",
     "gatsby": "^2.26.1",
     "gatsby-plugin-react-helmet": "^3.10.0",
     "gatsby-plugin-sass": "^3.2.0",

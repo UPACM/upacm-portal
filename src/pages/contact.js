@@ -8,6 +8,7 @@ import ContactOpening from "../components/contact/contact-opening.js"
 import ContactSocial from "../components/contact/contact-social.js"
 import ContactFooter from "../components/contact/contact-footer.js"
 import ContactMap from "../components/contact/contact-map.js"
+import ContactForm from "../components/contact/contact-form.js"
 
 export default function Home() {
 	return (
@@ -26,6 +27,7 @@ export default function Home() {
 				alt={true}
 					header={ContactData.email.header} 
 					headerInfo={ContactData.email.headerInfo} />
+				<ContactForm />
 
 				<ContactOpening 
 					header={ContactData.social.header} 
