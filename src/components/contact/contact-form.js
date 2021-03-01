@@ -1,11 +1,19 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import axios from "axios";
 
 import "./contact-form.scss"
 
+// On scroll animations
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 /* Component for accepting responses and sends to Getform*/
 export default function ContactForm() {
-	
+	useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    });
+
 	const [serverState, setServerState] = useState({
     	submitting: false,
     	status: null
@@ -43,7 +51,12 @@ export default function ContactForm() {
 			<a id="email" href='mailto:council@upacm.net'>
 				<h6>council@upacm.net</h6>
 			</a>
-			<form onSubmit={handleOnSubmit} id="form">
+			<form 
+				data-aos="zoom-in"
+				data-aos-delay="75"
+				data-aos-duration="550"
+				onSubmit={handleOnSubmit} 
+				id="form">
 
 				<div id="form-email">
 					<b><p>Email</p></b>

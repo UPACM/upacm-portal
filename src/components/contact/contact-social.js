@@ -1,10 +1,22 @@
-import React from "react"
+import React, {useEffect} from "react"
 import "./contact-social.scss"
 import SocialWidget from "../../components/subcomponents/social-widget.js"
 
+// On scroll animations
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 /* Component for displaying all available social links */
 export default function ContactSocial() {
-    return <div id="contact-social">	
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    });
+
+    return <div id="contact-social"
+			data-aos="fade-up"
+			data-aos-delay="40"
+			data-aos-duration="500">	
         <SocialWidget social="twitter" href="https://twitter.com/upacm" />
 		<SocialWidget social="facebook" href="https://twitter.com/upacm" />
 		<SocialWidget social="linkedin" href="https://upacm.github.io/acm-website/https:%20ph.linkedin.com/company/upacm" />

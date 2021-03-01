@@ -6,6 +6,7 @@ div#achievements-section{
 		color: black;
 		text-align: center;
 		padding-bottom: 3vh;
+		overflow-wrap: break-word;
 	}
 	div#achievements-content{
 		width: 80%;
@@ -83,8 +84,8 @@ div#achievements-section{
 				
 				div.achievement-item{
 					div.achievement-text{
-						h2.name{
-							font-size: 1.25em;
+						h6.name{
+							font-size: 1.2em;
 						}
 					}
 				}
