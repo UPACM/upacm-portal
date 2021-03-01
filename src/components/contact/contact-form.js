@@ -40,6 +40,9 @@ export default function ContactForm() {
 	
 	return (
         <div id="contact-form">
+			<a id="email" href='mailto:council@upacm.net'>
+				<h6>council@upacm.net</h6>
+			</a>
 			<form onSubmit={handleOnSubmit} id="form">
 
 				<div id="form-email">

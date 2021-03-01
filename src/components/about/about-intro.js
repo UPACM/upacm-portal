@@ -1,5 +1,5 @@
 import React from "react"
-//import siteLogo from "../../assets/images/logo.png"
+import siteLogo from "../../assets/images/logo.png"
 import "../../styles/var.scss"
 import "../../styles/global.scss"
 import "./about-intro.scss"
@@ -27,6 +27,7 @@ const AboutIntro = () => {
 				<div class="wrapper">
 					<div id="intro-fade-in">
 					</div>
+					<img src={siteLogo} alt="logo" id="logo"/>
 					<div id="intro">
 						<h1>About Us</h1>
 						<div id="intro-body" dangerouslySetInnerHTML={{ __html: data.allMarkdownRemark.edges[0].node.html }} />

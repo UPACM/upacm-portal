@@ -41,6 +41,10 @@ export default function Home() {
 					headerInfo={ContactData.others.headerInfo}>
 				</ContactOpening>
 				
+				<h6 style={{background: "white", display: "block", margin: "auto", textAlign: "center", marginTop: "-5%", paddingBottom: "8%"}}>
+					[Smart] 0920 859 5727 | [Globe] 0905 301 8482
+				</h6>
+
 				<ContactFooter />
 		</>
 	)
