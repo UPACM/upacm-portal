@@ -5,7 +5,7 @@
 	"mission": "The members of the chapter are united under an advocacy to build communities and develop the future through the cultivation of a shared interest in computing. It is the goal of the organization to open avenues and introduce opportunities for learning about computer science and other related fields.",
 	"vision": "The merger of programming knowledge and humanitarian work is the means by which UP ACM achieves its goal of engineering sustainable development for areas within its sphere of influence and beyond.",
 	
-	"historyIntro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+	"historyIntro": "From its establishment back in June 2003, UP ACM has initiated and led the efforts to promote the knowledge, advancement, and general interest in the field of computing in the university.",
 	"history": [
 		{
 			"date": "2003-01-01",
@@ -25,42 +25,27 @@
 		}
 	],
 	
-	"achievementsIntro": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+	"achievementsIntro": "Throughout the years, UP ACM has cultivated a culture of excellence in our projects and events that are geared towards achieving our mission and vision as a computing organization. We are remarkeable at creating these avenues for people to learn more about computing beyond the classroom setting.",
 	"achievements": [
 		{
-			"name": "Student Chapter Excellence Award: Outstanding Website",
-			"event": "Event 1",
-			"date": "2017"
+			"name": "ACM Chapter Excellence Award",
+			"event": "Recruitment Program",
+			"date": "2005"
 		},
 		{
-			"name": "Achievement 2",
-			"event": "Event 1",
-			"date": "1969-04-20"
+			"name": "ACM Chapter Excellence Award",
+			"event": "Community Service",
+			"date": "2005"
 		},
 		{
-			"name": "Achievement 3",
-			"event": "Event 2",
-			"date": "1969-06-09"
+			"name": "ACM Chapter Excellence Award",
+			"event": "Community Service",
+			"date": "2006"
 		},
 		{
-			"name": "Achievement 3",
-			"event": "Event 2",
-			"date": "1969-06-09"
-		},
-		{
-			"name": "Achievement 3",
-			"event": "Event 2",
-			"date": "1969-06-09"
-		},
-		{
-			"name": "Achievement 3",
-			"event": "Event 2",
-			"date": "1969-06-09"
-		},
-		{
-			"name": "Achievement 3",
-			"event": "Event 2",
-			"date": "1969-06-09"
+			"name": "Engineering Organization Excellence Awards",
+			"event": "Excellence in Academics Award",
+			"date": "2018"
 		}
 	]
 }

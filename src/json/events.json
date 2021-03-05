@@ -1,22 +1,22 @@
 {
 	"featuredEvents" : [
 		{
-			"eventName": "Event 1",
+			"eventName": "Competitions",
 			"eventLink": "/events/event_1/",
 			"eventImage": "/events-images/event-1.png"
 		},
 		{
-			"eventName": "Event 2: Electric Boogaloo",
+			"eventName": "Community Development",
 			"eventLink": "/events/event_2/",
 			"eventImage": "/events-images/event-1.png"
 		},
 		{
-			"eventName": "ACMeets",
+			"eventName": "Lectures / Workshops",
 			"eventLink": "/events/event_3/",
 			"eventImage": "/events-images/event-1.png"
 		},
 		{
-			"eventName": "Jumpstart",
+			"eventName": "Actities",
 			"eventLink": "/events/event_4/",
 			"eventImage": "/events-images/event-1.png"
 		}
