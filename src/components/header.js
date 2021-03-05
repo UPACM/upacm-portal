@@ -46,7 +46,7 @@ const Header = ( { isIndex, active } ) => {
 							<Navlink to="/events/" name="Events" 
 								active={active === "Events" }/>
 							<Navlink to="/gallery/" name="Gallery" 
-								active={active === "Contact" }/>
+								active={active === "Gallery" }/>
 							<Navlink to="/contact/" name="Contact" 
 								active={active === "Contact" }/>
 						</div>

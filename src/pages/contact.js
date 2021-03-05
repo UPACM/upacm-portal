@@ -13,7 +13,7 @@ import ContactForm from "../components/contact/contact-form.js"
 export default function Home() {
 	return (
 		<>
-			<Header isIndex={false} active="Committees"/>
+			<Header isIndex={false} active="Contact"/>
 				<ContactOpening 
 				alt={true}
 					header={ContactData.opening.header} 

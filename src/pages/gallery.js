@@ -10,7 +10,7 @@ import GalleryShowcase from "../components/gallery/gallery-showcase.js"
 export default function Home() {
 	return (
 		<>
-			<Header isIndex={false} />	
+			<Header isIndex={false} active="Gallery"/>	
 			<GalleryShowcase 
 				header = {GalleryData.header}
 				headerInfo = {GalleryData.headerInfo}
