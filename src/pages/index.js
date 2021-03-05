@@ -34,8 +34,7 @@ export default function Home() {
 
 			<Opening 
 				header="Stay Updated" 
-				headerInfo="We envision a world where computing stands at the forefront of development - where we are able to use our skills to address the problems of tomorrow and create a positive impact on the community at large."/>
-
+				headerInfo="Ex aliqua adipisicing cillum nulla elit veniam id. Minim minim ex amet laborum officia duis sint. Mollit consectetur cupidatat esse est fugiat ullamco adipisicing."/>
 			<SocialEmbed />
 
 			<Footer />
