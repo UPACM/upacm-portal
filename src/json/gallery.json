@@ -1,0 +1,59 @@
+{
+	"header": "Gallery",
+	"headerInfo": "Get a sneak peak on UP ACM's latest exciting activities and learning-filled events through our gallery shown below",
+	"images": [
+
+		{
+			"caption": "Culpa labore ut laborum quis qui Culpa labore ut laborum quis quiCulpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery02.jpg"
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery03.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery04.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery05.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery06.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery07.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery08.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery09.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery10.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery11.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery12.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery13.jpg" 
+		},
+		{
+			"caption": "Culpa labore ut laborum quis qui.",
+			"source": "/gallery-images/gallery14.jpg" 
+		}
+	]
+}
