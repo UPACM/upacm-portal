@@ -4,56 +4,40 @@
 	"images": [
 
 		{
-			"caption": "Culpa labore ut laborum quis qui Culpa labore ut laborum quis quiCulpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery02.jpg"
+			"caption": "Group photo to mark off the ACMeets",
+			"source": "/gallery-images/gallery_acmeets1.webp"
 		},
 		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery03.jpg" 
+			"caption": "ACMeets quick snapshot",
+			"source": "/gallery-images/gallery_acmeets2.webp" 
 		},
 		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery04.jpg" 
+			"caption": "Mind crunching at the Algolympics",
+			"source": "/gallery-images/gallery_algolympics1.webp" 
 		},
 		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery05.jpg" 
+			"caption": "Algolympics participants hacking away",
+			"source": "/gallery-images/gallery_algolympics2.webp" 
 		},
 		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery06.jpg" 
+			"caption": "Presentation at the org's General Assembly",
+			"source": "/gallery-images/gallery_general_assembly.webp" 
 		},
 		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery07.jpg" 
+			"caption": "Participants at work in the Haxxor event.",
+			"source": "/gallery-images/gallery_haxxor.webp" 
 		},
 		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery08.jpg" 
+			"caption": "Closing in on the Jumpstart Lecture series.",
+			"source": "/gallery-images/gallery_jumpstart.webp" 
 		},
 		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery09.jpg" 
+			"caption": "A preview on a lecture in Scratch Code Camp.",
+			"source": "/gallery-images/gallery_scratch1.webp" 
 		},
 		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery10.jpg" 
-		},
-		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery11.jpg" 
-		},
-		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery12.jpg" 
-		},
-		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery13.jpg" 
-		},
-		{
-			"caption": "Culpa labore ut laborum quis qui.",
-			"source": "/gallery-images/gallery14.jpg" 
-		}
+			"caption": "Scratch Code Camp certificate awarding!",
+			"source": "/gallery-images/gallery_scratch2.webp" 
+		}		
 	]
 }
