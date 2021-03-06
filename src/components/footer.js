@@ -16,9 +16,9 @@ export default function Footer() {
 						<h1>UP ACM</h1>
 						<div class="footer-section-links portal-links">
 							<div class="link-col">
-								<span><a>About</a></span>
-								<span><a>Events</a></span>
-								<span><a>Committees</a></span>
+								<span><a href="/about/">About</a></span>
+								<span><a href="/events/">Events</a></span>
+								<span><a href="/committees/">Committees</a></span>
 							</div>
 							<div class="link-col">
 							<span><a>Partners</a></span>
