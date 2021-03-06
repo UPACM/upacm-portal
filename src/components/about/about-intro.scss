@@ -31,6 +31,8 @@ div#about-intro-section{
 		display: flex;
 		flex-direction: column;
 		background: var(--acm-blue);
+
+		max-width: 100%;
 		
 		div#intro-fade-in{
 			height: 25vh;

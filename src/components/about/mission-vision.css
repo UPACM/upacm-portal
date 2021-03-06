@@ -3,6 +3,7 @@ div#mission-vision-section{
 	padding: 8% 0;
 	background: white;
 	overflow: hidden;
+	max-width: 100%;
 }
 
 div#mission-vision-section div.mission-vision-part{

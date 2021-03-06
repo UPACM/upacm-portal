@@ -2,6 +2,7 @@ div#history-section{
 	background: white;
 	color: black;
 	padding: 8vh 0;
+	max-width: 100%;
 }
 
 div#history-section div.wrapper{
@@ -14,6 +15,8 @@ div#history-section div#history-intro{
 	width: 80vw;
 	justify-content: center;
 	text-align: center;
+	display: block;
+	margin: auto;
 }
 
 div#history-section div#history-intro h1{
