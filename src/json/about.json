@@ -30,22 +30,26 @@
 		{
 			"name": "ACM Chapter Excellence Award",
 			"event": "Recruitment Program",
-			"date": "2005"
+			"date": "2005",
+			"scope": "international"
 		},
 		{
 			"name": "ACM Chapter Excellence Award",
 			"event": "Community Service",
-			"date": "2005"
+			"date": "2005",
+			"scope": "international"
 		},
 		{
 			"name": "ACM Chapter Excellence Award",
 			"event": "Community Service",
+			"scope": "international",
 			"date": "2006"
 		},
 		{
 			"name": "Engineering Organization Excellence Awards",
 			"event": "Excellence in Academics Award",
-			"date": "2018"
+			"date": "2018",
+			"scope": "local"
 		}
 	]
 }

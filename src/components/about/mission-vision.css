@@ -2,6 +2,7 @@ div#mission-vision-section{
 	max-height: 1280px;
 	padding: 8% 0;
 	background: white;
+	overflow: hidden;
 }
 
 div#mission-vision-section div.mission-vision-part{

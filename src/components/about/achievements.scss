@@ -53,15 +53,19 @@ div#achievements-section{
 				width: 100%;
 				color: black;
 				img.achievement-image{
-					background: var(--img-filler-color);
 					align-self: flex-start;
-					width: 30%;
-					height: 20vh;
+					width: 25%;
+					height: auto
 				}
 				
 				div.achievement-text{
 					padding-left: 3%;
 					width: 64%;
+					
+					b {
+						color: var(--acm-blue);
+						font-style: italic;
+					}
 				}
 			}
 		}
