@@ -145,3 +145,8 @@ div#footer div#footer-bottom div.wrapper{
 	}
 
 }
+
+span a#email {
+	font-weight: normal;
+	font-size: 1.1em;
+}

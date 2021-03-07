@@ -48,8 +48,8 @@ export default function ContactForm() {
 	
 	return (
         <div id="contact-form">
-			<a id="email" href='mailto:council@upacm.net'>
-				<h6>council@upacm.net</h6>
+			<a id="email" href='mailto:contactus@upacm.net'>
+				<h6>contactus@upacm.net</h6>
 			</a>
 			<form 
 				data-aos="zoom-in"

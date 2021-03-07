@@ -31,7 +31,7 @@ export default function Footer() {
 					<div class="footer-section">
 						<h1>Contact Us</h1>
 						<div class="footer-section-links contacts">
-							<span>council@upacm.net</span>
+							<span><a href='mailto:contactus@upacm.net' id="email">contactus@upacm.net</a></span>
 							<span>0920 859 5727 | 0905 301 8482</span>
 							<span>Department of Computer Science, University of the Philippines Diliman, Quezon City, Philippines</span>
 							<div class="clear"></div>
