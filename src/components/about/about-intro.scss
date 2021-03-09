@@ -17,7 +17,7 @@ div#about-intro-section{
 	
 	img#bg-image{
 		position: fixed;
-		top: -20%;
+		top: -8%;
 		left: 0;
 		z-index: -2;
 		height: 100%;
@@ -51,9 +51,9 @@ div#about-intro-section{
 					width: 60%;
 				}
 				iframe{
-					width: 50%;
-					height: 50vh;
-					margin: 5vh 0;
+					width: max(50vw, 280px);
+					height: max(30vw, 190px);
+					margin: 10vh 0;
 					border-radius: 1vh;
 				}
 			}
@@ -78,10 +78,6 @@ div#about-intro-section{
 					p{
 						margin: 1vh auto;
 						padding: 1.5vh 0;
-					}
-					iframe{
-						height: 540px;
-						margin: 54px 0;
 					}
 				}
 			}
@@ -110,10 +106,6 @@ div#about-intro-section{
 						width: 80%;
 					}
 					
-					iframe{
-						width: 100%;
-						border-radius: 0;
-					}
 				}
 			
 			}

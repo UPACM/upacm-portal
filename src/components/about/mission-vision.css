@@ -9,7 +9,8 @@ div#mission-vision-section{
 div#mission-vision-section div.mission-vision-part{
 	display: flex;
 	flex-direction: row;
-	height: 50%;
+	height: 400px;
+	padding: 50px 0;
 }
 
 
@@ -20,7 +21,7 @@ div#mission-vision-section div.mission-vision-part div.text{
 
 div#mission-vision-section div.mission-vision-part img.showcase-image{
 	width: 50%;
-	background: var(--img-filler-color);
+	object-fit: cover;
 }
 
 div#mission-vision-section div.mission-vision-part#mission{
@@ -61,6 +62,8 @@ div#mission-vision-section div.mission-vision-part#mission h1{
 	div#mission-vision-section div.mission-vision-part{
 		flex-direction: column-reverse;
 		height: auto;
+		padding:0;
+
 	}
 	div#mission-vision-section div.mission-vision-part div.text{
 		display: flex;
