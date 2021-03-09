@@ -5,23 +5,43 @@
 	"mission": "As the Philippines' premier chapter of the internationally recognized organization, UP ACM is commited to provide high-quality Technology advancement opportunities to its members that can make them globally competitive and to establish the success of various Computing fields by offering services to our partners that can stipulate significant impact to the communities.",
 	"vision": "Be a leader in delivering breakthrough innovations in the field of Computing and be an epitome in embracing a diverse and inclusive environment where communities are empowered by the possibilities found through Information Technology and Computer Science.",
 	
-	"historyIntro": "From its establishment back in June 2003, UP ACM has initiated and led the efforts to promote the knowledge, advancement, and general interest in the field of computing in the university.",
+	"historyIntro": [
+		"The Association for Computing Machinery - University of the Philippines Student Chapter (UP ACM) is the first local student chapter of the largest scientific and educational international computing society, the Association for Computing Machinery, and remains as one of Manila’s premiere student organizations for computing. We support our members in the pursuit of academic excellence, leading to a regular batch of honor graduates from the organization every year.",
+
+		"UP ACM connects people and ideas by delivering quality lectures, workshops, and competitions with schools and universities across Metro Manila. With annual projects for each academic level - from elementary to graduate level - UP ACM leads the way in forwarding computer science and technology in the pursuit of our common goal: to develop the communities of our future."
+	],
 	"history": [
 		{
-			"date": "2003-01-01",
-			"event": "UP ACM has been chartered."
+			"date": "2003",
+			"event": "The Association for Computing Machinery - UP Diliman Student Chapter Inc. (UP ACM) was founded in the Academic Year of 2003. It was initially established by graduate students focused on academics and research. It was formally founded in 2003 and undergraduates were invited to join the organization."
 		},
 		{
-			"date": "1970-04-20",
-			"event": "Lorem ipsum dolor sit amet."
+			"date": "2013",
+			"event": "Easy as Py, a series of lectures that will provide high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using the Python programming language, was formally launched."
 		},
 		{
-			"date": "1971-04-20",
-			"event": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+			"date": "2014",
+			"event": "Algolympics, a series of lectures that will provide high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using the Python programming language, was formally launched as an inter-collegiate event."
 		},
 		{
-			"date": "1970-04-20",
-			"event": "Lorem ipsum dolor sit amet."
+			"date": "2014",
+			"event": "SCRATCH Code Camps, a series of lectures that will provide high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using the Python programming language,  was formally launched."
+		},
+		{
+			"date": "2014",
+			"event": "Automaton, the official publication of UP ACM, was formally launched. Today, it has been rebranded as a regular social media post containing bits of information about the latest developments in computer science."
+		},
+		{
+			"date": "2015",
+			"event": "Gamecraft, a series of events dedicated to learning more about game development, was formally launched."
+		},
+		{
+			"date": "2015",
+			"event": "Haxxor was formally launched as a lecture series about computer security. In the following year, it added a “capture-the-flag” competition component."
+		},
+		{
+			"date": "2020",
+			"event": "Jumpstart and Hodgepodge, a lecture series where representatives from companies give their professional advice and expertise on the applications of Computer Science (CS) and Information and Communications Technology (ICT) in the workplace and industry, was launched."
 		}
 	],
 	
