@@ -19,7 +19,6 @@ export default function Home() {
 			<MissionVision />
 			<History />
 			<Achievements />
-			<BlankContentFiller fillerHeight="0px" />
 			<Footer />
 		</>
 	)

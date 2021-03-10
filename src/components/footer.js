@@ -16,14 +16,13 @@ export default function Footer() {
 						<h1>UP ACM</h1>
 						<div class="footer-section-links portal-links">
 							<div class="link-col">
-								<span><a>About</a></span>
-								<span><a>Events</a></span>
-								<span><a>Committees</a></span>
+								<span><a href="/about/">About</a></span>
+								<span><a href="/events/">Events</a></span>
+								<span><a href="/committees/">Committees</a></span>
 							</div>
 							<div class="link-col">
 							<span><a>Partners</a></span>
 							<span><Link to="/privacy-policy/">Privacy Policy</Link></span>
-							<span><a>Automaton</a></span>
 							</div>
 						</div>
 					</div>
@@ -31,8 +30,7 @@ export default function Footer() {
 					<div class="footer-section">
 						<h1>Contact Us</h1>
 						<div class="footer-section-links contacts">
-							<span>council@upacm.net</span>
-							<span>0920 859 5727 | 0905 301 8482</span>
+							<span><a href='mailto:contactus@upacm.net' id="email">contactus@upacm.net</a></span>
 							<span>Department of Computer Science, University of the Philippines Diliman, Quezon City, Philippines</span>
 							<div class="clear"></div>
 						</div>

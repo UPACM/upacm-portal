@@ -3,8 +3,7 @@
 div#policy-layout{
 	color: black;
 	background: white;
-	width: 80%;
-	padding: 5%;
+	padding: max(5%, 50px);
 	margin: auto;
 	font-size: 1.25em;
 	
@@ -19,6 +18,7 @@ div#policy-layout{
 
 	h1#title{
 		font-size: 3em;
+		text-align: center;
 	}
 
 	h2{

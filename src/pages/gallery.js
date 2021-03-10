@@ -4,17 +4,19 @@ import GalleryData from "../json/gallery.json"
 
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
+import Opening from "../components/opening.js"
 
-import GalleryShowcase from "../components/gallery/gallery-showcase.js"
+import GalleryCards from "../components/gallery/gallery-cards.js"
 
 export default function Home() {
 	return (
 		<>
 			<Header isIndex={false} active="Gallery"/>	
-			<GalleryShowcase 
+			<Opening 
 				header = {GalleryData.header}
-				headerInfo = {GalleryData.headerInfo}
-				images = {GalleryData.images} />
+				headerInfo = {GalleryData.headerInfo}>
+				<GalleryCards images = {GalleryData.images} />
+			</Opening>
 			<Footer />
 		</>
 	)

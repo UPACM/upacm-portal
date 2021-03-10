@@ -1,6 +1,7 @@
 div#achievements-section{
 	background: white;
 	padding: 15vh 0;
+	max-width: 100%;
 
 	h1 {
 		color: black;
@@ -44,7 +45,7 @@ div#achievements-section{
 			overflow-y: scroll;
 			mask: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.843312324929972) 70%, rgba(0,0,0,0) 100%);
 			padding: 0 1.5vw;
-
+			
 			
 			div.achievement-item{
 				display: flex;
@@ -53,15 +54,19 @@ div#achievements-section{
 				width: 100%;
 				color: black;
 				img.achievement-image{
-					background: var(--img-filler-color);
 					align-self: flex-start;
-					width: 30%;
-					height: 20vh;
+					width: 25%;
+					height: auto
 				}
 				
 				div.achievement-text{
 					padding-left: 3%;
 					width: 64%;
+					
+					b {
+						color: var(--acm-blue);
+						font-style: italic;
+					}
 				}
 			}
 		}

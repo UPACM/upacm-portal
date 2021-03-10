@@ -13,7 +13,8 @@ export default function History(){
 			<div class="wrapper">
 				<div id="history-intro">
 					<h1>History</h1>
-					<p>{AboutData.historyIntro}</p>
+					{AboutData.historyIntro.map(
+						paragraph => <p>{paragraph}</p>)}
 				</div>
 				<div id="timeline-container">
 					{AboutData.history.map((data) => {
