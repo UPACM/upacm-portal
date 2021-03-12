@@ -41,7 +41,7 @@ export default function Footer() {
 						<div class="footer-section-links socials">
 							<SocialWidget elementClass="footer-social-widget" social="twitter" href="https://twitter.com/upacm" />
 							<SocialWidget elementClass="footer-social-widget" social="facebook" href="https://twitter.com/upacm" />
-							<SocialWidget elementClass="footer-social-widget" social="linkedin" href="https://upacm.github.io/acm-website/https:%20ph.linkedin.com/company/upacm" />
+							<SocialWidget elementClass="footer-social-widget" social="linkedin" href="https://www.linkedin.com/company/upacm/" />
 							<SocialWidget elementClass="footer-social-widget" social="youtube" href="https://www.youtube.com/user/upacmYT" />
 						</div>
 					</div>
