@@ -16,7 +16,7 @@ export default function GalleryCard({image}) {
         data-aos="fade-up"
         data-aos-delay="70"
         data-aos-duration="550">
-			<img src={image.source} />
+			<img src={image.source} alt="" />
 			<p class="caption">{image.caption}</p>
     </div>
 }

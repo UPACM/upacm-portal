@@ -21,7 +21,7 @@ export default function Footer() {
 								<span><a href="/committees/">Committees</a></span>
 							</div>
 							<div class="link-col">
-							<span><a>Partners</a></span>
+							<span><a href="/#">Partners</a></span>
 							<span><Link to="/privacy-policy/">Privacy Policy</Link></span>
 							</div>
 						</div>
