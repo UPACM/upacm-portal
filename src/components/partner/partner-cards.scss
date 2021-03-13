@@ -1,0 +1,15 @@
+@import "../../styles/var.scss";
+@import "../../styles/global.scss";
+
+#partner-cards {
+	padding: 75px;
+	padding-bottom: 0px;
+
+	// Flexibility for mobile
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+
+	//border: 1px solid rebeccapurple;
+}
