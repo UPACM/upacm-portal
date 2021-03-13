@@ -50,7 +50,7 @@ export default function Footer() {
 			</div>
 			<div id="footer-bottom">
 				<div class="wrapper">
-					<span>© 2019 Association for Computing Machinery - University of the Philippines Diliman Student Chapter, Inc.</span>
+					<span>© {(new Date().getFullYear())} Association for Computing Machinery - University of the Philippines Diliman Student Chapter, Inc.</span>
 				</div>
 			</div>
 		</div>
