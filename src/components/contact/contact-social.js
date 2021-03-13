@@ -19,7 +19,7 @@ export default function ContactSocial() {
 			data-aos-duration="500">	
         <SocialWidget social="twitter" href="https://twitter.com/upacm" />
 		<SocialWidget social="facebook" href="https://twitter.com/upacm" />
-		<SocialWidget social="linkedin" href="https://upacm.github.io/acm-website/https:%20ph.linkedin.com/company/upacm" />
+		<SocialWidget social="linkedin" href="https://www.linkedin.com/company/upacm/" />
 		<SocialWidget social="youtube" href="https://www.youtube.com/user/upacmYT" />
 	</div>
 }

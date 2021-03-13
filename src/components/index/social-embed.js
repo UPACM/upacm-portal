@@ -6,7 +6,7 @@ import { TwitterTimelineEmbed} from 'react-twitter-embed';
 export default function SocialEmbed() {
     return <div id="social-embed">	
 		<iframe
-			id="facebook"
+			id="facebook" title="facebook"
 			src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fupacm&width=300&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=400" 
 			scrolling="yes" 
 			allowtransparency="true" 

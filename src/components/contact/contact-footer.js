@@ -6,7 +6,7 @@ export default function ContactFooter() {
     return <div id="footer-bottom">
 		<div class="wrapper">
 			<span>
-				© 2019 Association for Computing Machinery - University of the Philippines Diliman Student Chapter, Inc.
+				© {(new Date().getFullYear())} Association for Computing Machinery - University of the Philippines Diliman Student Chapter, Inc.
 			</span>
 		</div>
 	</div>
