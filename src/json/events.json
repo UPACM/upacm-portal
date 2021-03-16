@@ -6,17 +6,18 @@
 			"eventImage": "/events-images/event-1.png"
 		},
 		{
-			"eventName": "Community Development",
+			"eventName": "Workshops",
 			"eventLink": "/events/event_2/",
 			"eventImage": "/events-images/event-1.png"
 		},
 		{
-			"eventName": "Lectures / Workshops",
+			"eventName": "Community Development",
+
 			"eventLink": "/events/event_3/",
 			"eventImage": "/events-images/event-1.png"
 		},
 		{
-			"eventName": "Actities",
+			"eventName": "Activities",
 			"eventLink": "/events/event_4/",
 			"eventImage": "/events-images/event-1.png"
 		}
