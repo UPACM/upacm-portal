@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 400px) {
+	.event-card {
+		min-width: 280px;
+
+		#info {
+			scale: 0.8;
+		}
+	}
+}
+.event-card {
+	flex: 1 1;
+
+	margin: 1%;
+	min-height: max-content;
+	min-width: 400px;
+
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: rgba(0, 0, 0, 0.774);
+	background-blend-mode: multiply;
+
+	#info {
+		b p{
+			padding-bottom: 5%;
+		}
+
+		padding: 10%;
+		color: white;
+
+	}
+
+}
+
+#feature  {
+	flex: 2 1;
+}

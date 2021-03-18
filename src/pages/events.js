@@ -1,15 +1,26 @@
 import React from "react"
-import EventsHeader from "../components/events/events-header.js"
+
+import Header from "../components/header.js"
+import Opening from "../components/opening.js"
 import Footer from "../components/footer.js"
 
-
-import "../styles/var.scss"
-import "../styles/global.scss"
-
+import EventData from "../json/events.json"
+import EventCards from "../components/events/events-cards.js"
 export default function Home() {
 	return (
 		<>
-			<EventsHeader isIndex={false} />
+			<Header isIndex={false} active="Events" />
+				<Opening 
+					header="Events"
+					headerInfo="Nisi pariatur ut commodo minim minim labore laboris anim veniam veniam commodo qui irure. Sit sint culpa veniam excepteur duis est excepteur eu ex in nostrud sit. Voluptate duis Lorem sunt eu. Excepteur sunt quis proident nisi." />
+				{Object.keys(EventData).map(type =>
+					<Opening 
+						header={EventData[type].header}
+						headerInfo={EventData[type].headerInfo}>
+						<EventCards events={EventData[type]}/>		
+					</Opening> )}	
+
+
 			<Footer />
 		</>
 	)

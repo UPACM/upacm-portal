@@ -1,25 +1,101 @@
 {
-	"featuredEvents" : [
-		{
-			"eventName": "Competitions",
-			"eventLink": "/events/event_1/",
-			"eventImage": "/events-images/event-1.png"
+	"Competition": {
+		"header": "Comptetition",
+		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore.",
+		"featured": {
+			"header": "Algolympics",
+			"subheader": "2020",
+			"imageSource": "/events-images/event-1.png",
+			"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
 		},
-		{
-			"eventName": "Workshops",
-			"eventLink": "/events/event_2/",
-			"eventImage": "/events-images/event-1.png"
+		"unfeatured": [
+			{
+				"header": "Algolympics",
+				"subheader": "2020",
+				"imageSource": "/events-images/event-1.png",
+				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+			},
+			{
+				"header": "Algolympics",
+				"subheader": "2020",
+				"imageSource": "/events-images/event-1.png",
+				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+			}
+		]
+	},
+	"CommunityDevelopment": {
+		"header": "Community Development",
+		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore.",
+		"featured": {
+			"header": "Algolympics",
+			"subheader": "2020",
+			"imageSource": "/events-images/event-1.png",
+			"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
 		},
-		{
-			"eventName": "Community Development",
+		"unfeatured": [
+			{
+				"header": "Algolympics",
+				"subheader": "2020",
+				"imageSource": "/events-images/event-1.png",
+				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+			},
+			{
+				"header": "Algolympics",
+				"subheader": "2020",
+				"imageSource": "/events-images/event-1.png",
+				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+			}
+		]
+	},
+	"Workshops": {
+		"header": "Workshops",
+		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore.",
+		"featured": {
+			"header": "Algolympics",
+			"subheader": "2020",
+			"imageSource": "/events-images/event-1.png",
+			"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+		},
+		"unfeatured": [
+			{
+				"header": "Algolympics",
+				"subheader": "2020",
+				"imageSource": "/events-images/event-1.png",
+				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+			},
+			{
+				"header": "Algolympics",
+				"subheader": "2020",
+				"imageSource": "/events-images/event-1.png",
+				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+			}
+		]
+	},
+	"Activities": {
+		"header": "Activities",
+		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore.",
+		"featured": {
+			"header": "Algolympics",
+			"subheader": "2020",
+			"imageSource": "/events-images/event-1.png",
+			"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+		},
+		"unfeatured": [
+			{
+				"header": "Algolympics",
+				"subheader": "2020",
+				"imageSource": "/events-images/event-1.png",
+				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+			},
+			{
+				"header": "Algolympics",
+				"subheader": "2020",
+				"imageSource": "/events-images/event-1.png",
+				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+			}
+		]
+	}
 
-			"eventLink": "/events/event_3/",
-			"eventImage": "/events-images/event-1.png"
-		},
-		{
-			"eventName": "Activities",
-			"eventLink": "/events/event_4/",
-			"eventImage": "/events-images/event-1.png"
-		}
-	]
+	
+	
 }

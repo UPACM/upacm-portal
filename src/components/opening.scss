@@ -37,3 +37,7 @@ $default-header-color: black;
         padding: 10px;
     }
 }
+
+.opening:nth-child(even){
+	background-color: unset;
+}
