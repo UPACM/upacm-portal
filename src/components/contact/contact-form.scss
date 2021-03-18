@@ -24,6 +24,7 @@
 
 	#form {
 		width: 70%;
+		min-width: 350px;
 		display: block;
 		margin: auto;
 		background-color: rgb(32, 32, 32);
@@ -57,6 +58,7 @@
 			background-color: inherit;
 			width: 80%;
 			border-bottom: 2px rgba(255, 255, 255, 0.548) solid;
+			min-width: 200px;
 		}
 	}
 
@@ -121,9 +123,13 @@
 	}
 
 
+	// Remove form on mobile
+	@media only screen and (max-width: 480px) {
+		#form {
+			display: none;
+		}
 
-
-
-
+	}
 
 }
+

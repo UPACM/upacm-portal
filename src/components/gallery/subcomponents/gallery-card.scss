@@ -5,7 +5,6 @@
 // Default styling
 .gallery-card {
 
-	border: 2px solid rgb(224, 224, 224);
 	margin: 2%;
 
 	object-fit: scale-down;
@@ -30,7 +29,9 @@
 		scale: 0.7;
 		opacity: 0.8;
 
-		width: fit-content
+		width: fit-content;
+
+		padding: 1.5%;
 
 	}
 

@@ -84,14 +84,10 @@
 }
 
 .sig-card:hover{
-
-    // Left arrange
-    .name {
-        font-size: calc(1.25em + 0.4vw);
-    }
-
     // Reveal
     .head, .description {
         opacity: 1;
     }
+
+	background-blend-mode: color-burn;
 }

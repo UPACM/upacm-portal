@@ -19,21 +19,18 @@ export default function Home() {
 					headerInfo={ContactData.opening.headerInfo}/>
 				
 				<Opening 
-				style={{backgroundColor: "unset"}}
 					header={ContactData.map.header} 
 					headerInfo={ContactData.map.headerInfo}>
 					<ContactMap/>
 				</Opening>
 
 				<Opening 
-				alt={true}
 					header={ContactData.email.header} 
 					headerInfo={ContactData.email.headerInfo}>
 					<ContactForm />
 				</Opening>
 
 				<Opening 
-					style={{backgroundColor: "unset"}}
 					header={ContactData.social.header} 
 					headerInfo={ContactData.social.headerInfo}>
 					<ContactSocial />
