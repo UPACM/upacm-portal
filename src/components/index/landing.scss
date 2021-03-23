@@ -60,12 +60,11 @@ div#landing-spacer{
 @media (max-width: 768px) {
 	
 	div#landing-overlay div#landing-text{
-		width: 90%;
 		min-width: 90%;
-		font-size: calc(0.85em);
+		font-size: calc(0.4em + 1.2vw);
 
 	}
 	div#landing-overlay div#landing-text p#intro-sub-text{
-		font-size: 1em;
+		font-size: 1.45em;
 	}
 }
