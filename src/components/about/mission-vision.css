@@ -49,10 +49,13 @@ div#mission-vision-section div.mission-vision-part#vision{
 
 div#mission-vision-section div.mission-vision-part#vision h1{
 	color: var(--acm-purple);
+	padding-bottom: 4%;
+	margin-top: -15%;
 }
 
 div#mission-vision-section div.mission-vision-part#mission h1{
 	color: var(--acm-green);
+	padding-bottom: 4%;
 }
 
 @media (max-width: 768px) {

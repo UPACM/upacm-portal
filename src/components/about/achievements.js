@@ -11,7 +11,7 @@ export default function Achievements(){
 	return (
 		<div class="wrapper" id="achievements-section">
 			<div class="wrapper">
-				<h1>Achievements</h1>
+				<h1 id="achievementHeader">Achievements</h1>
 				<div id="achievements-content">
 					<p id="achievements-intro">
 						{AboutData.achievementsIntro}
