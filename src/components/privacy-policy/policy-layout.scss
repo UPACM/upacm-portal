@@ -1,38 +1,34 @@
 @import "../../styles/var.scss";
+@import "../../styles/global.scss";
 
 div#policy-layout{
-	color: black;
 	background: white;
-	padding: max(5%, 50px);
+	padding: max(5%, 45px);
+	padding-top: 40px;
 	margin: auto;
-	font-size: 1.25em;
 	
-	h1, h2, h3{
-		margin: 2% 0;
-		font-family: "Arial";
+	h1#title{
+		font-size: 3.5em;
+		text-align: center;
+		padding-bottom: max(3%, 25px);
 	}
-
 	h1{
+		padding-top: 20px;
+		padding-bottom: 10px;
+		font-size: 2.5em;
+	}
+	h2{
+		padding-top: 14px;
 		font-size: 2em;
 	}
-
-	h1#title{
-		font-size: 3em;
-		text-align: center;
-	}
-
-	h2{
+	h3{
+		padding-top: 14px;
 		font-size: 1.75em;
 	}
 
-	h3{
-		font-size: 1.5em;
-	}
-
 	p, li{
-		margin: 2% 0;
+		margin: 18px 0;
 		font-size: 1em;
-		font-family: "Arial";
 	}
 	
 	a{
@@ -45,7 +41,7 @@ div#policy-layout{
 	}
 	
 	li{
-		margin-left: 5%;
+		margin-left: min(10%, 45px);
 	}
 	
 }

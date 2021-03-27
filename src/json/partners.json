@@ -1,10 +1,7 @@
 {
 	"header": "Partners",
-	"headerInfo": "Nisi pariatur sit est dolore laborum excepteur Lorem aliqua cillum. Sit ea cupidatat magna ea velit. Est elit do sunt aliqua eiusmod laborum consequat eu.",
+	"headerInfo": "To express our utmost gratitude, we dedicate this page for the acknowledgement of our partners who supported UP ACM in it's activities and events. Each help given is a step closer to advancing computing fields.",
 	"partnerList": [
-		{
-			"imageSource": "../partner-images/accenture.webp"
-		},
 		{
 			"imageSource": "../partner-images/astigph.webp"
 		},

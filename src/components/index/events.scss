@@ -1,12 +1,11 @@
 #events{
-	height: 40vw;
 	background-color: #252525;
 	
 	display: flex;
 	flex-wrap: wrap;
 
+	height: 38vw;
 	overflow-x: clip;	
-
 
 	#info {
 		flex: 1 1;
@@ -23,12 +22,12 @@
 
 		p {
 			font-size: calc(0.1em+0.8vw);
-			width: 85%;
+			width: 92%;
 			min-width: 280px;
 
 			margin: -6%;
-
-			padding-bottom: 9%;
+			text-align: justify;
+			padding-bottom: 10%;
 
 			scale: 0.85;
 
@@ -39,15 +38,23 @@
 			border-radius: 40px;
 
 			width: 280px;
-
-			padding: 2%;
+			height: 50px;
 
 			font-weight: bolder	;
+
+			background-color: white;
+			box-shadow: 2px 2px 10px rgb(46, 46, 46);
+
+			transition: 0.3s ease scale;
 		}	
+
+		button:hover {
+			scale: 1.1;
+		}
 
 	}
 
-	#navigation{
+	#showcase{
 		width: 45vw;
 		height: 45vw;
 		min-width: 280px;
@@ -93,6 +100,7 @@
 		.diamond:nth-child(1){
 			width: 50%;
 			height: 50%;
+
 			align-self: flex-end;
 
 		}
@@ -101,6 +109,7 @@
 			height: 25%;
 			min-width: 130px;
 			min-height: 130px;
+			
 			align-self: flex-end;
 		}
 		.diamond:nth-child(3){
@@ -124,19 +133,21 @@
 		height: fit-content;		
 
 		display: block;		
-		text-align: center;
 		margin: auto;
+		text-align: center;
 
 		overflow-x: visible;	
+
+		padding: 5% 0;
+
+		min-width: 280px;
+
 
 
 		#info {
 			max-width: 100vw;
+			min-width: 270px;
 			padding: 5%;
-
-			h1 {
-				padding-bottom: 0%;
-			}
 
 			p {
 				width: 90%;
@@ -146,11 +157,15 @@
 
 				margin: auto;
 			}
+
+			button{
+				margin: 0;
+			}
 		}
 
 
 
-		#navigation {
+		#showcase {
 
 			width: 100%;
 			height: fit-content;
@@ -174,7 +189,7 @@
 
 			  .diamond {
 	
-				border-radius: 0;
+				border-radius: 20px;
 
 
 				img {
