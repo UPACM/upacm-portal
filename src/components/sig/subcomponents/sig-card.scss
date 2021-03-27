@@ -42,6 +42,7 @@
 
 	text-align: left;
 
+	display: relative;
 
     .info {
         // Spacing
@@ -75,6 +76,57 @@
         }
 
     }
+
+	@mixin rippleSetup($speed) {
+		animation: ripple ease $speed infinite;
+		-webkit-animation: ripple ease $speed infinite;
+		-moz-animation: ripple ease $speed infinite;
+		-o-animation: ripple ease $speed infinite;
+		-ms-animation: ripple ease $speed infinite;
+	
+		@keyframes ripple {
+			0%   {scale: 0;}
+			33%  {scale: 9;}
+			66%  {scale: 4;}
+		  }	
+	}
+
+
+	.ripple {
+		// Small Circle
+		$dimension: 10px;
+		width: $dimension;
+		height: $dimension;
+		border-radius: 100%;
+
+		// Center
+		left: 50%;
+		bottom: 15%;
+	
+		// Ensure no overtaking
+		z-index: -1;
+		overflow: hidden;
+		position: absolute;
+
+		// Remove space taken 
+		margin-bottom: -$dimension;
+
+		opacity: 1;
+		scale: 2;
+		background-color: rgba(160, 160, 160, 0.438);
+		transition: ease 0.35s;
+		@include rippleSetup(1.7s);
+	}
+
+	.ripple:nth-child(1){
+		animation-delay: 0.00s;
+	}
+	.ripple:nth-child(2){
+		animation-delay: 0.2s;
+	}
+	.ripple:nth-child(3){
+		animation-delay: 0.4s;
+	}
 }
 
 // Will reveal on hover
@@ -88,6 +140,9 @@
     .head, .description {
         opacity: 1;
     }
+	.ripple{
+		opacity: 0;
+	}
 
 	background-blend-mode: color-burn;
 }
