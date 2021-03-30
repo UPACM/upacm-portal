@@ -5,7 +5,7 @@ import Opening from "../components/opening.js"
 import Footer from "../components/footer.js"
 
 import EventData from "../json/events.json"
-import EventCards from "../components/events/events-cards.js"
+import EventsShowcase from "../components/events/events-showcase.js"
 export default function Home() {
 	return (
 		<>
@@ -17,7 +17,7 @@ export default function Home() {
 					<Opening 
 						header={EventData[type].header}
 						headerInfo={EventData[type].headerInfo}>
-						<EventCards events={EventData[type]}/>		
+						<EventsShowcase events={EventData[type]}/>		
 					</Opening> )}	
 
 

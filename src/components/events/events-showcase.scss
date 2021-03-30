@@ -1,0 +1,20 @@
+@import "../../styles/var.scss";
+@import "../../styles/global.scss";
+
+.events-showcase {
+	
+	display: block;
+	margin: auto;
+
+	padding: 5%;
+
+	width: 80%;
+	min-width: 270px;
+
+	.unfeatured {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+	}
+
+}

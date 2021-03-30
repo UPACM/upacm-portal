@@ -1,13 +1,15 @@
-#events-card {
+#events-featured-card {
 
 	color: white;
 
     // Sizing
-	flex: 1 1 210px;
-	height: auto;
+    flex: 1 1;
+	height: 400px;
+	min-height: fit-content;
     
     // Spacing
     margin: 10px;
+    padding: 20px;
 
     // Background setup
     background-size: 100%;
@@ -15,15 +17,14 @@
     background-blend-mode: multiply;
     background-position: center center;
 
-	transition: ease 0.3s;
 
-    padding: 20px;
-
-
-	//Alignment
+	// Alignment
 	text-align: left;
 	align-content: flex-end;
 	justify-content: flex-end;
+	position: relative;
+
+	transition: ease 0.3s;
 
     #info {
         // Spacing
@@ -31,18 +32,23 @@
 
         display: block;
 
+		position: absolute;
+		bottom: 5%;
+
+		max-width: 800px;
+
         $info-transition: 0.7s;
         transition: $info-transition ease;
 
         #header {
 			color: white;
             font-weight: bolder;
-            font-size: calc(1em + 0.4vw);
+            font-size: calc(1.4em + 0.4vw);
         }
 
         #subheader {
 			display: inline-block;
-            font-size: 1em;
+            font-size: calc(1em + 0.2vw);
             font-weight: bold;
 
             width: fit-content;
@@ -50,6 +56,8 @@
         }
 
         #description {
+            font-size: calc(0.9em + 0.2vw);
+
             // Spacing from local header
             margin-top: 20px;
         }
@@ -58,7 +66,7 @@
 
 }
 
-#events-card:hover {
+#events-featured-card:hover {
 	background-size: 107%;
-	background-color: rgba(0, 0, 0, 0.6);
+	background-color: rgba(0, 0, 0, 0.65);
 }
