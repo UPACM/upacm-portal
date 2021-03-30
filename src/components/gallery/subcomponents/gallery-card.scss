@@ -9,16 +9,18 @@
 
 	object-fit: scale-down;
 
-	flex: 1 1 40%;
+	flex: 1 1 45%;
 	min-width: 280px;
-	max-width: 60%;
+	max-width: 50%;
 	height: fit-content;
 	
 	img {
 
 		width: 100%;
 		height: auto;
-
+		max-height: 360px;
+		object-fit: cover;
+		border-radius: 10px;
 	}
 
 	.caption {
