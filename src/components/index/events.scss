@@ -2,42 +2,26 @@
 	background-color: #252525;
 	
 	display: flex;
-	flex-wrap: wrap;
-
+	align-items: center;
 	height: 38vw;
-	overflow-x: clip;	
-
+	
 	#info {
-		flex: 1 1;
-		min-width: 290px;
-
-		padding: 5%;
-		padding-right: 0;
-
+		width: 50%;
 		color: white;
-
-		h1 {
-			padding-bottom: 5%;
+		> *{
+			margin: 5%;
+			margin-top: 0;
 		}
 
-		p {
-			font-size: calc(0.1em+0.8vw);
-			width: 92%;
-			min-width: 280px;
-
-			margin: -6%;
-			text-align: justify;
-			padding-bottom: 10%;
-
-			scale: 0.85;
-
-		}
-
-		button {
+		.events-page-link {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			color: rgb(46, 46, 46);
 			border: none;
-			border-radius: 40px;
+			border-radius: 25px;
 
-			width: 280px;
+			width: 30%;
 			height: 50px;
 
 			font-weight: bolder	;
@@ -45,82 +29,85 @@
 			background-color: white;
 			box-shadow: 2px 2px 10px rgb(46, 46, 46);
 
-			transition: 0.3s ease scale;
+			transition: 0.1s ease transform;
 		}	
 
-		button:hover {
-			scale: 1.1;
+		.events-page-link:hover {
+			cursor: pointer;
+			transform: scale(1.1);
 		}
 
 	}
 
-	#showcase{
-		width: 45vw;
-		height: 45vw;
-		min-width: 280px;
-		min-height: 280px;
-
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-
-		margin: auto 40px;
-		margin-right: -9vw;
-		margin-top: 2%;
-		rotate: 45deg;
-
-		
-		.diamond {
-			width: 49%;
-			height: 49%;
-
-			background-color: #0181ac65;
-			border-radius: 15%;
-			overflow: hidden;
-
-
-			img {
-				width: 140%;
-				height: 140%;
-				object-fit: cover;
-
-				margin-top: -20%;
-				margin-left: -20%;
-
-				border-radius: 15%;
-				mix-blend-mode: lighten;
-
-				rotate: -45deg;
+	.showcase-wrapper{
+		width: 50%;
+		height: 100%;
+		#showcase{
+			display: flex;
+			flex-wrap: wrap;
+			align-content: center;
+			justify-content: center;
+			height: 100%;
+			width: 100%;
+			.diamond {
+				display: flex;
+				width: 48%;
+				height: 48%;
+				margin: 1%;
+				border-radius: 25px;
+				//clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+				.diamond-content{
+					background-color: #0181ac65;
+					width: 100%;
+					height: 100%;
+					border-radius: 25px;
+					img{
+						width: 100%;
+						height: 100%;
+						border-radius: 25px;
+						/*
+						width: 150%;
+						height: 150%;
+						margin-top: -25%;
+						margin-left: -25%;
+						transform: rotate(-45deg);
+						*/
+						mix-blend-mode: lighten;
+						object-fit: cover;
+						object-position: center center;
+						mix-blend-mode: lighten;
+					}
+				}
+				
+				.diamond-content:hover{
+					background: rgb(50,100,225);
+					cursor: pointer;
+				}
 			}
 
-			margin: 2%;
-			
-		}
 
-		.diamond:nth-child(1){
-			width: 50%;
-			height: 50%;
+			.diamond:nth-child(2){
+				align-items: flex-end;
+				.diamond-content{
+					width:75%;
+					height: 75%;
+				}
+			}
 
-			align-self: flex-end;
+			.diamond:nth-child(3){
+				justify-content: flex-end;
+				.diamond-content{
+					width: 90%;
+					height: 90%;
+				}
+			}
 
-		}
-		.diamond:nth-child(2){
-			width: 25%;
-			height: 25%;
-			min-width: 130px;
-			min-height: 130px;
-			
-			align-self: flex-end;
-		}
-		.diamond:nth-child(3){
-			width: 40%;
-			height: 40%;
-		}
-		.diamond:nth-child(4){
-			width: 25%;
-			height: 25%;
-			min-width: 130px;
-			min-height: 130px;
+			.diamond:nth-child(4){
+				.diamond-content{
+					width: 80%;
+					height: 80%;
+				}
+			}
 
 		}
 	}
@@ -131,18 +118,12 @@
 	
 	#events {
 		height: fit-content;		
-
 		display: block;		
 		margin: auto;
 		text-align: center;
-
 		overflow-x: visible;	
-
 		padding: 5% 0;
-
 		min-width: 280px;
-
-
 
 		#info {
 			max-width: 100vw;
@@ -153,8 +134,6 @@
 				width: 90%;
 				min-width: 260px;
 				padding-bottom: 3%;
-
-
 				margin: auto;
 			}
 
@@ -163,22 +142,16 @@
 			}
 		}
 
-
-
 		#showcase {
-
 			width: 100%;
 			height: fit-content;
-
 			margin: 0;
 			rotate: 0deg;
-
 			padding-bottom: 5%;
-	
 			@for $i from 1 through 4 {
 				.diamond:nth-child(#{$i} ){
 					width: 100%;
-					height: 175px;	
+					height: 175px;
 					min-width: auto;
 					min-height: auto;
 					align-self: auto;
