@@ -9,16 +9,16 @@ import Opening from "../components/opening.js"
 import CommitteeCards from "../components/committees/committee-cards.js"
 
 export default function Home() {
-	return (
-		<>
-			<Header isIndex={false} active="Committees"/>
-				<Opening 
-					header = {CommData.council.header}
-					headerInfo = {CommData.council.headerInfo}>
-					<CommitteeCards
-						members={CommData.council.members}/>
-				</Opening>
-			<Footer />
-		</>
-	)
+  return (
+    <>
+      <Header isIndex={false} active="Committees" />
+      <Opening
+        header={CommData.council.header}
+        headerInfo={CommData.council.headerInfo}
+      >
+        <CommitteeCards members={CommData.council.members} />
+      </Opening>
+      <Footer />
+    </>
+  )
 }

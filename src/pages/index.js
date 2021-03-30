@@ -12,29 +12,32 @@ import Opening from "../components/opening.js"
 import SocialEmbed from "../components/index/social-embed.js"
 
 export default function Home() {
-	return (
-		<>
-			<Header isIndex={true} />
-			<Landing videoSrcObj={ srcVid }
-				introText="Building communities to develop the future."
-				introSubText="We envision a world where computing stands at the forefront of development - where we are able to use our skills to address the problems of tomorrow and create a positive impact on the community at large."
-			/>
+  return (
+    <>
+      <Header isIndex={true} />
+      <Landing
+        videoSrcObj={srcVid}
+        introText="Building communities to develop the future."
+        introSubText="We envision a world where computing stands at the forefront of development - where we are able to use our skills to address the problems of tomorrow and create a positive impact on the community at large."
+      />
 
-			<Opening 
-				header="At UP ACM" 
-				headerStyle={{color: "#0182ac"}}
-				headerInfo="We envision a world where computing stands at the forefront of development - where we are able to use our skills to address the problems of tomorrow and create a positive impact on the community at large."/>
+      <Opening
+        header="At UP ACM"
+        headerStyle={{ color: "#0182ac" }}
+        headerInfo="We envision a world where computing stands at the forefront of development - where we are able to use our skills to address the problems of tomorrow and create a positive impact on the community at large."
+      />
 
-			<Events eventsSectionText="The organization has pioneered several innovative projects for all levels of academic achievement, from the elementary level to the collegiate level. These ventures are integral to realizing our vision of forwarding the field of computing not only as science but as a medium for modern community development." />
+      <Events eventsSectionText="The organization has pioneered several innovative projects for all levels of academic achievement, from the elementary level to the collegiate level. These ventures are integral to realizing our vision of forwarding the field of computing not only as science but as a medium for modern community development." />
 
-			<Opening 
-				header="Stay Updated" 
-				headerInfo="Ex aliqua adipisicing cillum nulla elit veniam id. Minim minim ex amet laborum officia duis sint. Mollit consectetur cupidatat esse est fugiat ullamco adipisicing."
-				style={{padding: "6% 0"}}>
-				<SocialEmbed />		
-			</Opening>
+      <Opening
+        header="Stay Updated"
+        headerInfo="Ex aliqua adipisicing cillum nulla elit veniam id. Minim minim ex amet laborum officia duis sint. Mollit consectetur cupidatat esse est fugiat ullamco adipisicing."
+        style={{ padding: "6% 0" }}
+      >
+        <SocialEmbed />
+      </Opening>
 
-			<Footer />
-		</>
-	)
+      <Footer />
+    </>
+  )
 }
