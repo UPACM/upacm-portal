@@ -7,21 +7,23 @@ import Footer from "../components/footer.js"
 import EventData from "../json/events.json"
 import EventCards from "../components/events/events-cards.js"
 export default function Home() {
-	return (
-		<>
-			<Header isIndex={false} active="Events" />
-				<Opening 
-					header="Events"
-					headerInfo="Nisi pariatur ut commodo minim minim labore laboris anim veniam veniam commodo qui irure. Sit sint culpa veniam excepteur duis est excepteur eu ex in nostrud sit. Voluptate duis Lorem sunt eu. Excepteur sunt quis proident nisi." />
-				{Object.keys(EventData).map(type =>
-					<Opening 
-						header={EventData[type].header}
-						headerInfo={EventData[type].headerInfo}>
-						<EventCards events={EventData[type]}/>		
-					</Opening> )}	
+  return (
+    <>
+      <Header isIndex={false} active="Events" />
+      <Opening
+        header="Events"
+        headerInfo="Nisi pariatur ut commodo minim minim labore laboris anim veniam veniam commodo qui irure. Sit sint culpa veniam excepteur duis est excepteur eu ex in nostrud sit. Voluptate duis Lorem sunt eu. Excepteur sunt quis proident nisi."
+      />
+      {Object.keys(EventData).map(type => (
+        <Opening
+          header={EventData[type].header}
+          headerInfo={EventData[type].headerInfo}
+        >
+          <EventCards events={EventData[type]} />
+        </Opening>
+      ))}
 
-
-			<Footer />
-		</>
-	)
+      <Footer />
+    </>
+  )
 }

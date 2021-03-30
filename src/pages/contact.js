@@ -11,33 +11,36 @@ import ContactMap from "../components/contact/contact-map.js"
 import ContactForm from "../components/contact/contact-form.js"
 
 export default function Home() {
-	return (
-		<>
-			<Header isIndex={false} active="Contact"/>
-				<Opening 
-					header={ContactData.opening.header} 
-					headerInfo={ContactData.opening.headerInfo}/>
-				
-				<Opening 
-					header={ContactData.map.header} 
-					headerInfo={ContactData.map.headerInfo}>
-					<ContactMap/>
-				</Opening>
+  return (
+    <>
+      <Header isIndex={false} active="Contact" />
+      <Opening
+        header={ContactData.opening.header}
+        headerInfo={ContactData.opening.headerInfo}
+      />
 
-				<Opening 
-					header={ContactData.email.header} 
-					headerInfo={ContactData.email.headerInfo}>
-					<ContactForm />
-				</Opening>
+      <Opening
+        header={ContactData.map.header}
+        headerInfo={ContactData.map.headerInfo}
+      >
+        <ContactMap />
+      </Opening>
 
-				<Opening 
-					header={ContactData.social.header} 
-					headerInfo={ContactData.social.headerInfo}>
-					<ContactSocial />
-				</Opening>
-	
+      <Opening
+        header={ContactData.email.header}
+        headerInfo={ContactData.email.headerInfo}
+      >
+        <ContactForm />
+      </Opening>
 
-				<ContactFooter />
-		</>
-	)
+      <Opening
+        header={ContactData.social.header}
+        headerInfo={ContactData.social.headerInfo}
+      >
+        <ContactSocial />
+      </Opening>
+
+      <ContactFooter />
+    </>
+  )
 }

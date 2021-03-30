@@ -9,15 +9,16 @@ import Opening from "../components/opening.js"
 import PartnerCards from "../components/partner/partner-cards"
 
 export default function Home() {
-	return (
-		<>
-			<Header isIndex={false}/>	
-			<Opening 
-				header = {PartnersData.header}
-				headerInfo = {PartnersData.headerInfo}>
-				{<PartnerCards partners={PartnersData.partnerList} />}
-			</Opening>
-			<Footer />
-		</>
-	)
+  return (
+    <>
+      <Header isIndex={false} />
+      <Opening
+        header={PartnersData.header}
+        headerInfo={PartnersData.headerInfo}
+      >
+        {<PartnerCards partners={PartnersData.partnerList} />}
+      </Opening>
+      <Footer />
+    </>
+  )
 }

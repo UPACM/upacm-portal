@@ -1,43 +1,42 @@
 {
-	"header": "Gallery",
-	"headerInfo": "Get a sneak peak on UP ACM's latest exciting activities and learning-filled events through our gallery shown below",
-	"images": [
-
-		{
-			"caption": "Group photo to mark off the ACMeets",
-			"source": "/gallery-images/gallery_acmeets1.webp"
-		},
-		{
-			"caption": "ACMeets quick snapshot",
-			"source": "/gallery-images/gallery_acmeets2.webp" 
-		},
-		{
-			"caption": "Mind crunching at the Algolympics",
-			"source": "/gallery-images/gallery_algolympics1.webp" 
-		},
-		{
-			"caption": "Algolympics participants hacking away",
-			"source": "/gallery-images/gallery_algolympics2.webp" 
-		},
-		{
-			"caption": "Presentation at the org's General Assembly",
-			"source": "/gallery-images/gallery_general_assembly.webp" 
-		},
-		{
-			"caption": "Participants at work in the Haxxor event.",
-			"source": "/gallery-images/gallery_haxxor.webp" 
-		},
-		{
-			"caption": "Closing in on the Jumpstart Lecture series.",
-			"source": "/gallery-images/gallery_jumpstart.webp" 
-		},
-		{
-			"caption": "A preview on a lecture in Scratch Code Camp.",
-			"source": "/gallery-images/gallery_scratch1.webp" 
-		},
-		{
-			"caption": "Scratch Code Camp certificate awarding!",
-			"source": "/gallery-images/gallery_scratch2.webp" 
-		}		
-	]
+  "header": "Gallery",
+  "headerInfo": "Get a sneak peak on UP ACM's latest exciting activities and learning-filled events through our gallery shown below",
+  "images": [
+    {
+      "caption": "Group photo to mark off the ACMeets",
+      "source": "/gallery-images/gallery_acmeets1.webp"
+    },
+    {
+      "caption": "ACMeets quick snapshot",
+      "source": "/gallery-images/gallery_acmeets2.webp"
+    },
+    {
+      "caption": "Mind crunching at the Algolympics",
+      "source": "/gallery-images/gallery_algolympics1.webp"
+    },
+    {
+      "caption": "Algolympics participants hacking away",
+      "source": "/gallery-images/gallery_algolympics2.webp"
+    },
+    {
+      "caption": "Presentation at the org's General Assembly",
+      "source": "/gallery-images/gallery_general_assembly.webp"
+    },
+    {
+      "caption": "Participants at work in the Haxxor event.",
+      "source": "/gallery-images/gallery_haxxor.webp"
+    },
+    {
+      "caption": "Closing in on the Jumpstart Lecture series.",
+      "source": "/gallery-images/gallery_jumpstart.webp"
+    },
+    {
+      "caption": "A preview on a lecture in Scratch Code Camp.",
+      "source": "/gallery-images/gallery_scratch1.webp"
+    },
+    {
+      "caption": "Scratch Code Camp certificate awarding!",
+      "source": "/gallery-images/gallery_scratch2.webp"
+    }
+  ]
 }

@@ -1,18 +1,18 @@
 {
-	"opening": {
-		"header": "Contacts",
-		"headerInfo": "The organization is always open for external feedback and partnerships for the purpose of pursing its mission and vision. You can reach out to UP ACM by using any of our contacts below."
-	},
-	"map": {
-		"header": "Give us a visit",
-		"headerInfo": "You are always welcome to drop by our organization's headquarters, located at the Department of Computer Science, University of the Philippines - Diliman 1101 Quezon City, Philippines."
-	},
-	"email": {
-		"header": "Send us an Email",
-		"headerInfo": "Do you have any inquiries, offers, or suggestions for UP ACM? Click on our email address here to send an email or answer the contact form below."
-	},
-	"social": {
-		"header": "Social Media",
-		"headerInfo": "Don't miss out on UP ACM's latest happenings! Stay updated on our latest events by following posts from our official social media accounts. Links to our Twitter, Facebook, LinkedIn, and Youtube channel are accessible below."
-	}
+  "opening": {
+    "header": "Contacts",
+    "headerInfo": "The organization is always open for external feedback and partnerships for the purpose of pursing its mission and vision. You can reach out to UP ACM by using any of our contacts below."
+  },
+  "map": {
+    "header": "Give us a visit",
+    "headerInfo": "You are always welcome to drop by our organization's headquarters, located at the Department of Computer Science, University of the Philippines - Diliman 1101 Quezon City, Philippines."
+  },
+  "email": {
+    "header": "Send us an Email",
+    "headerInfo": "Do you have any inquiries, offers, or suggestions for UP ACM? Click on our email address here to send an email or answer the contact form below."
+  },
+  "social": {
+    "header": "Social Media",
+    "headerInfo": "Don't miss out on UP ACM's latest happenings! Stay updated on our latest events by following posts from our official social media accounts. Links to our Twitter, Facebook, LinkedIn, and Youtube channel are accessible below."
+  }
 }

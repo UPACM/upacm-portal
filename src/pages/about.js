@@ -11,14 +11,14 @@ import "../styles/var.scss"
 import "../styles/global.scss"
 
 export default function Home() {
-	return (
-		<>
-			<Header isIndex={false} active="About"/>
-			<AboutIntro />
-			<MissionVision />
-			<History />
-			<Achievements />
-			<Footer />
-		</>
-	)
+  return (
+    <>
+      <Header isIndex={false} active="About" />
+      <AboutIntro />
+      <MissionVision />
+      <History />
+      <Achievements />
+      <Footer />
+    </>
+  )
 }
