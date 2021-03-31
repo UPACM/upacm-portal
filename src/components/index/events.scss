@@ -1,148 +1,105 @@
+@import "../../styles/animation.scss";
+
 #events{
 	background-color: #252525;
 	
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 
-	height: 38vw;
-	overflow-x: clip;	
-
-	#info {
-		flex: 1 1;
-		min-width: 290px;
-
-		padding: 5%;
-		padding-right: 0;
-
+	padding-bottom: 7%;
+	
+	.opening {
+		background: inherit;
 		color: white;
+		padding-bottom: 1%;
+	}
+	
+	.events-page-link {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 30%;
+		height: 50px;
+		margin-bottom: 7%;
+		border-radius: 25px;
+		background-color: white;
+		color: rgb(46, 46, 46);
+		font-weight: bolder;
+		box-shadow: 2px 2px 10px rgb(46, 46, 46);
+		transition: 0.1s ease transform;
+	}	
 
-		h1 {
-			padding-bottom: 5%;
-		}
-
-		p {
-			font-size: calc(0.1em+0.8vw);
-			width: 92%;
-			min-width: 280px;
-
-			margin: -6%;
-			text-align: justify;
-			padding-bottom: 10%;
-
-			scale: 0.85;
-
-		}
-
-		button {
-			border: none;
-			border-radius: 40px;
-
-			width: 280px;
-			height: 50px;
-
-			font-weight: bolder	;
-
-			background-color: white;
-			box-shadow: 2px 2px 10px rgb(46, 46, 46);
-
-			transition: 0.3s ease scale;
-		}	
-
-		button:hover {
-			scale: 1.1;
-		}
-
+	.events-page-link:hover {
+		cursor: pointer;
+		transform: scale(1.1);
 	}
 
 	#showcase{
-		width: 45vw;
-		height: 45vw;
-		min-width: 280px;
-		min-height: 280px;
-
+		width: 30vw;
 		display: flex;
 		flex-wrap: wrap;
-		flex-direction: row;
-
-		margin: auto 40px;
-		margin-right: -9vw;
-		margin-top: 2%;
-		rotate: 45deg;
-
-		
+		align-content: center;
+		justify-content: center;
+		transform: rotate(45deg);
+		margin-bottom: 7%;
 		.diamond {
-			width: 49%;
-			height: 49%;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 13vw;
+			height: 13vw;
+			margin: 1vw;
+			overflow: hidden;
+			//clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 
 			background-color: #0181ac65;
-			border-radius: 15%;
-			overflow: hidden;
 
+			.diamond-content{
 
-			img {
-				width: 140%;
-				height: 140%;
-				object-fit: cover;
+				width: 100%;
+				height: 100%;
 
-				margin-top: -20%;
-				margin-left: -20%;
+				.diamond-img{
+					width: 150%;
+					height: 150%;
+					margin-left: -25%;
+					margin-top: -25%;
+					transform: rotate(-45deg);
+					//mix-blend-mode: lighten;
+					object-fit: cover;
+					object-position: center center;
+					mix-blend-mode: lighten;
 
-				border-radius: 15%;
-				mix-blend-mode: lighten;
-
-				rotate: -45deg;
+				}
 			}
-
-			margin: 2%;
-			
 		}
 
-		.diamond:nth-child(1){
-			width: 50%;
-			height: 50%;
+		.diamond:hover{
+			background: rgb(50,100,225);
+			cursor: pointer;
+		}
 
-			align-self: flex-end;
+		.diamond:nth-child(3), .diamond:nth-child(4){
+			.diamond-text{
+				text-align: left;
+			}
+		}
 
-		}
-		.diamond:nth-child(2){
-			width: 25%;
-			height: 25%;
-			min-width: 130px;
-			min-height: 130px;
-			
-			align-self: flex-end;
-		}
-		.diamond:nth-child(3){
-			width: 40%;
-			height: 40%;
-		}
-		.diamond:nth-child(4){
-			width: 25%;
-			height: 25%;
-			min-width: 130px;
-			min-height: 130px;
-
-		}
 	}
-
 }
 
 @media only screen and (max-width: 1000px) {
 	
 	#events {
 		height: fit-content;		
-
 		display: block;		
 		margin: auto;
 		text-align: center;
-
 		overflow-x: visible;	
-
 		padding: 5% 0;
-
 		min-width: 280px;
-
-
 
 		#info {
 			max-width: 100vw;
@@ -153,8 +110,6 @@
 				width: 90%;
 				min-width: 260px;
 				padding-bottom: 3%;
-
-
 				margin: auto;
 			}
 
@@ -163,22 +118,16 @@
 			}
 		}
 
-
-
 		#showcase {
-
 			width: 100%;
 			height: fit-content;
-
 			margin: 0;
 			rotate: 0deg;
-
 			padding-bottom: 5%;
-	
 			@for $i from 1 through 4 {
 				.diamond:nth-child(#{$i} ){
 					width: 100%;
-					height: 175px;	
+					height: 175px;
 					min-width: auto;
 					min-height: auto;
 					align-self: auto;

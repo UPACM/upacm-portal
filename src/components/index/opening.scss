@@ -1,7 +1,7 @@
 @import "../../styles/var.scss";
 @import "../../styles/global.scss";
 
-#opening {
+.opening {
     color: black;
     background-color: white;
 
@@ -16,7 +16,7 @@
     padding-bottom: $vertical-spacing; 
 	padding-bottom: 7%;
 
-    #header-info { 
+    .opening-header-info { 
         // Ensure readability on all screen size
         width: max(280px, 50vw);
         scale: 0.9;
