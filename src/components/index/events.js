@@ -26,20 +26,14 @@ export default function Events({ eventsSectionText }) {
   });
 
   return (
-    /*
-    
-        data-aos="fade-up"
-        data-aos-delay="80"
-        data-aos-duration="650"
-    
-        */
     <div id="events">
       <Opening 
         header="Events"
         headerInfo={eventsSectionText}
-        //aosFade={true}
-      />
-      <Link className="events-page-link">LEARN MORE</Link>
+        aosEffect={true}
+        >
+          <Link className="events-page-link">LEARN MORE</Link>
+        </Opening>
       <div id="showcase">
         {Object.keys(EventData).map(type => (
           <EventDiamond event={EventData[type].featured} />
