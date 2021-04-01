@@ -23,17 +23,13 @@ export default function Events({ eventsSectionText }) {
   useEffect(() => {
     AOS.init()
     AOS.refresh()
-  });
+  })
 
   return (
     <div id="events">
-      <Opening 
-        header="Events"
-        headerInfo={eventsSectionText}
-        aosEffect={true}
-        >
-          <Link className="events-page-link">LEARN MORE</Link>
-        </Opening>
+      <Opening header="Events" headerInfo={eventsSectionText} aosEffect={true}>
+        <Link className="events-page-link">LEARN MORE</Link>
+      </Opening>
       <div id="showcase">
         {Object.keys(EventData).map(type => (
           <EventDiamond event={EventData[type].featured} />
