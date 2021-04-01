@@ -2,7 +2,7 @@ import React from "react"
 import "./events-card.scss"
 
 export default function EventsCard({ event }) {	
-	return <div id="events-card"
+	return <div class="events-card" id={event.header}
 			style={{backgroundImage:"url("+event.imageSource+")"}}>
 		<div id="info">
 			<h5 id="header">{event.header}</h5>
