@@ -8,7 +8,7 @@
 	align-items: center;
 	justify-content: center;
 
-	padding-bottom: 7%;
+	padding-bottom: 6%;
 	
 	.opening {
 		background: none;
@@ -51,7 +51,7 @@
 			justify-content: center;
 			width: 13vw;
 			height: 13vw;
-			margin: 1vw;
+			margin: 0.7vw;
 			overflow: hidden;
 			//clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 
@@ -72,14 +72,17 @@
 					object-fit: cover;
 					object-position: center center;
 					mix-blend-mode: lighten;
-
+					transition: ease 0.3s scale;
 				}
 			}
 		}
 
 		.diamond:hover{
-			background: rgb(50,100,225);
+			background: rgba(11, 146, 236, 0.52);
 			cursor: pointer;
+			.diamond-img{
+				scale: 1.1;
+			}
 		}
 
 		.diamond:nth-child(3), .diamond:nth-child(4){
