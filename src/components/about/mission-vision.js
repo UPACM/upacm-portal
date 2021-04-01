@@ -2,7 +2,7 @@ import React from "react"
 import "../../styles/var.scss"
 import "../../styles/global.scss"
 import "./mission-vision.css"
-import AboutData from "../../json/about.json"
+import AboutData from "../../data/about.json"
 
 export default function MissionVision() {
   return (

@@ -33,7 +33,7 @@ export default function Home() {
 
         <Opening
           header="Stay Updated"
-          headerInfo="Ex aliqua adipisicing cillum nulla elit veniam id. Minim minim ex amet laborum officia duis sint. Mollit consectetur cupidatat esse est fugiat ullamco adipisicing."
+          headerInfo="You can reach us via Twitter, FB or email, if you have any queries. We make sure that our services can reach, and are reachable, by anyone and everyone."
           style={{ padding: "6% 0" }}
         >
           <SocialEmbed />

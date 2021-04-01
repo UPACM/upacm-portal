@@ -1,6 +1,6 @@
 import React from "react"
 
-import PartnersData from "../json/partners.json"
+import PartnersData from "../data/partners.json"
 
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"

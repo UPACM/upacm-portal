@@ -1,7 +1,7 @@
 import React from "react"
 
 import HistoryTimestamp from "./subcomponents/history-timestamp.js"
-import AboutData from "../../json/about.json"
+import AboutData from "../../data/about.json"
 
 import "../../styles/var.scss"
 import "../../styles/global.scss"

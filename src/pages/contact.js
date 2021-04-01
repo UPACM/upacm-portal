@@ -1,6 +1,6 @@
 import React from "react"
 
-import ContactData from "../json/contact.json"
+import ContactData from "../data/contact.json"
 
 import Header from "../components/header.js"
 

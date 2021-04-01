@@ -4,7 +4,7 @@ import Header from "../components/header.js"
 import Opening from "../components/opening.js"
 import Footer from "../components/footer.js"
 
-import EventData from "../json/events.json"
+import EventData from "../data/events.json"
 import EventsShowcase from "../components/events/events-showcase.js"
 export default function Home() {
 	return (
