@@ -123,32 +123,40 @@ div.header-spacer{
 		div.home-link{
 			padding: 0 3vw;
 		}
+	}
 
-		div.navbar-button-container:hover{
-			background: rgba(255,255,255,0.125);
-		}
 
-		div.navbar-button-container{
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			position: fixed;
-			right: 3.5%;
-			top: 0;
-			width: var(--header-height);
-			height: var(--header-height);
-		}
+	div.navbar-button-container:hover{
+		background: rgba(255,255,255,0.125);
+	}
 
-		img.navbar-button{
-			display: block;
-			height: 50%;
-			width: 50%;
-			margin-top: 25px;
-		}
+	div.navbar-button-container{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: fixed;
+		right: 3.5%;
+		top: 0;
+		width: var(--header-height);
+		height: var(--header-height);
+		z-index: 20;
+	}
 
-		div.navbar-button-container:active{
-			background: rgba(0,0,0,0.2);
-		}
+	img.navbar-button{
+		z-index: 20;
+		display: block;
+		height: 50%;
+		width: 50%;
+		margin-top: 25px;
+		transition: var(--universal-transition-timing) ease margin-top;
+	}
+
+	div.navbar-button-container:active{
+		background: rgba(0,0,0,0.2);
+	}
+
+	div.navbar-button-container#scrolled {
+		margin-top: -10px;
 	}
 
 	div.header.scrolled {
@@ -163,25 +171,31 @@ div.header-spacer{
 	}
 	
 	div.nav-bar{
-		overflow-y: scroll;
+		height: 100vh;
+		background-color: var(--header-background-scrolled);
 
-		max-height: 90vh;
 
 		transform: translateX(100%);
 		
-		top: 5%;
+		top: 0;
 		right: 0;
 
-		z-index: 1;
+		padding-top: 20%;
+
+		z-index: 10;
 		flex-direction: column;
+
+		box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.589);
 
 		div.navlink{
 			background: var(--navlink-background);
 			color: var(--navlink-color);
-			width: 100vw;
+			width: max(300px, 65vw);
 			padding: 4% 0;
-
 			text-align: center;
+			
+			border-top: 1px solid black;
+			border-bottom: 0.5px solid black;
 
 			span{
 				width: 100%;
@@ -202,7 +216,8 @@ div.header-spacer{
 	}
 
 	div.nav-bar#scrolled{
-		top: 65px;
+		top: 0;
+		padding-top: 75px;
 	}
 	
 	div.nav-bar.visible{

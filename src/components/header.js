@@ -35,16 +35,16 @@ const Header = ({ isIndex, active }) => {
 							<img class=" logo" src={siteLogo} alt="logo" />
 						</Link>
 					</div>
-					<div
-						class="navbar-button-container"
-						onClick={function() {
-							setNavbarVisible(!navbarVisible);
-							setScrolled(!navbarVisible || scrolled);
-						}}
-						aria-hidden="true">
-						<img class="navbar-button" src={hamburgerIcon} alt="hamburger"/>
-					</div>
 				</div>	
+			</div>
+			<div
+				class="navbar-button-container"
+				id={scrolled || !isIndex ? "scrolled": "-nav-bar-button"}
+				onClick={function() {
+					setNavbarVisible(!navbarVisible);
+				}}
+				aria-hidden="true">
+				<img class="navbar-button" src={hamburgerIcon} alt="hamburger"/>
 			</div>
 			<div class={navbarVisible ? " nav-bar visible" : " nav-bar"}
 				id={scrolled || !isIndex ? "scrolled": "-nav-bar"}>
