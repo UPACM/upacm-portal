@@ -2,7 +2,8 @@ import React from "react"
 import "./events-featured-card.scss"
 
 export default function EventsFeaturedCard({ event }) {	
-	return <div id="events-featured-card"
+	return <div class="events-featured-card"
+				id={event.header}
 			style={{backgroundImage:"url("+event.imageSource+")"}}>
 		<div id="info">
 			<h5 id="header">{event.header}</h5>

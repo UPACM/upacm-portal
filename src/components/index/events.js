@@ -11,11 +11,11 @@ import "aos/dist/aos.css"
 
 function EventDiamond({ event }) {
   return (
-    <div class="diamond">
+    <Link class="diamond" to={"/events/#" + event.header} >
       <div class="diamond-content">
         <img class="diamond-img" src={event.imageSource} />
       </div>
-    </div>
+    </Link>
   )
 }
 
@@ -28,7 +28,7 @@ export default function Events({ eventsSectionText }) {
   return (
     <div id="events">
       <Opening header="Events" headerInfo={eventsSectionText} aosEffect={true}>
-        <Link className="events-page-link">LEARN MORE</Link>
+        <Link to="/events/" className="events-page-link">LEARN MORE</Link>
       </Opening>
       <div id="showcase">
         {Object.keys(EventData).map(type => (
