@@ -74,7 +74,7 @@ div.header.scrolled{
 
 div.nav-bar{
 	position: fixed;
-	top: 6%;
+	top: 5%;
 	right: 1.5%;
 
 	z-index: 5;
@@ -99,7 +99,7 @@ div.nav-bar{
 }
 
 .nav-bar#scrolled {
-	top: 2.5%;
+	top: 2%;
 }
 
 div.navbar-button-container{
@@ -163,9 +163,13 @@ div.header-spacer{
 	}
 	
 	div.nav-bar{
+		overflow-y: scroll;
+
+		max-height: 90vh;
+
 		transform: translateX(100%);
 		
-		top: 88px;
+		top: 5%;
 		right: 0;
 
 		z-index: 1;
@@ -198,7 +202,7 @@ div.header-spacer{
 	}
 
 	div.nav-bar#scrolled{
-		top: 10%;
+		top: 65px;
 	}
 	
 	div.nav-bar.visible{
