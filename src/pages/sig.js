@@ -1,6 +1,6 @@
 import React from "react"
 
-import SigData from "../json/sig.json"
+import SigData from "../data/sig.json"
 
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"

@@ -1,6 +1,6 @@
 import React from "react"
 
-import GalleryData from "../json/gallery.json"
+import GalleryData from "../data/gallery.json"
 
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"

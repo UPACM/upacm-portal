@@ -1,7 +1,7 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
 
-import EventData from "../../json/events.json"
+import EventData from "../../data/events.json"
 import Opening from "./opening.js"
 
 import "./events.scss"

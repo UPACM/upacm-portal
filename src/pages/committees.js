@@ -1,6 +1,6 @@
 import React from "react"
 
-import CommData from "../json/committees.json"
+import CommData from "../data/committees.json"
 
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
