@@ -1,101 +1,92 @@
 {
-	"Competition": {
-		"header": "Comptetition",
-		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore.",
-		"featured": {
-			"header": "Featured Competition",
-			"subheader": "2020",
-			"imageSource": "/events-images/event-1.png",
-			"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-		},
-		"unfeatured": [
-			{
-				"header": "Competition 1",
-				"subheader": "2020",
-				"imageSource": "/events-images/event-1.png",
-				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-			},
-			{
-				"header": "Competition 2",
-				"subheader": "2020",
-				"imageSource": "/events-images/event-1.png",
-				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-			}
-		]
-	},
-	"CommunityDevelopment": {
-		"header": "Community Development",
-		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore.",
-		"featured": {
-			"header": "Featured Community Development",
-			"subheader": "2020",
-			"imageSource": "/events-images/event-1.png",
-			"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-		},
-		"unfeatured": [
-			{
-				"header": "Community Development 1",
-				"subheader": "2020",
-				"imageSource": "/events-images/event-1.png",
-				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-			},
-			{
-				"header": "Community Development 2",
-				"subheader": "2020",
-				"imageSource": "/events-images/event-1.png",
-				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-			}
-		]
-	},
-	"Workshops": {
-		"header": "Workshop",
-		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore.",
-		"featured": {
-			"header": "Featured Workshop",
-			"subheader": "2020",
-			"imageSource": "/events-images/event-1.png",
-			"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-		},
-		"unfeatured": [
-			{
-				"header": "Workshop 1",
-				"subheader": "2020",
-				"imageSource": "/events-images/event-1.png",
-				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-			},
-			{
-				"header": "Workshop 2",
-				"subheader": "2020",
-				"imageSource": "/events-images/event-1.png",
-				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-			}
-		]
-	},
-	"Activities": {
-		"header": "Activitiy",
-		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore.",
-		"featured": {
-			"header": "Featured Activitiy",
-			"subheader": "2020",
-			"imageSource": "/events-images/event-1.png",
-			"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-		},
-		"unfeatured": [
-			{
-				"header": "Activitiy 1",
-				"subheader": "2020",
-				"imageSource": "/events-images/event-1.png",
-				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-			},
-			{
-				"header": "Activitiy 2",
-				"subheader": "2020",
-				"imageSource": "/events-images/event-1.png",
-				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
-			}
-		]
-	}
-
-	
-	
+  "Competition": {
+    "header": "Competition",
+    "headerInfo": "The organization holds various programming competitions as a way of honing the talents and skills of promising student-programmers. Haxxor and Algolympics are the main competitions organized by UP ACM.",
+    "featured": {
+      "header": "Algolympics",
+      "subheader": "2020",
+      "imageSource": "/events-images/event-algolympics.webp",
+      "info": "Algolympics is an annual intercollegiate programming competition that is open to all undergraduate students from any college or university."
+    },
+    "unfeatured": [
+      {
+        "header": "Haxxor",
+        "subheader": "2015, 2017 - 2019",
+        "imageSource": "/events-images/event-haxxor.webp",
+        "info": "Haxxor is a lecture series about computer security that has also developed into a “capture-the-flag” competition."
+      }
+    ]
+  },
+  "CommunityDevelopment": {
+    "header": "Community Development",
+    "headerInfo": "In line with its mission, the organization reaches out to various schools and introduces programming in an informative and enjoyable way. These events include Easy as Py for high school students, and Scratch Code Camps for elementary school students.",
+    "featured": {
+      "header": "Easy as Py",
+      "subheader": "2013 - 2018",
+      "imageSource": "/events-images/event-easy_as_py.webp",
+      "info": "Easy as Py is a series of lectures that provide high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using the Python programming language."
+    },
+    "unfeatured": [
+      {
+        "header": "Scratch Code Camp",
+        "subheader": "2015 - 2019",
+        "imageSource": "/events-images/event-scratch_code_camp.webp",
+        "info": "Scratch Code Camp is a series of lectures that provides high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using Scratch, the block-based visual programming language."
+      }
+    ]
+  },
+  "Workshops": {
+    "header": "Workshop",
+    "headerInfo": "To make sure that UP ACM members are equipped with the knowledge and skills that they need, the organization holds workshops and lectures about different topics from alumni and professionals. HodgePodge, Jumpstart, and Alumni Lectures are some of the events under this category.",
+    "featured": {
+      "header": "Hodgepodge",
+      "subheader": "2020",
+      "imageSource": "/events-images/event-hodgepodge.webp",
+      "info": "Hodgepodge is a lecture series where representatives from companies give their professional advice and expertise on the applications of Computer Science (CS) and Information and Communications Technology (ICT) in the workplace and industry."
+    },
+    "unfeatured": [
+      {
+        "header": "Jumpstart",
+        "subheader": "2020",
+        "imageSource": "/events-images/event-jumpstart.webp",
+        "info": "Jumpstart is also a lecture series where representatives from companies give their professional advice and expertise on the applications of Computer Science (CS) and Information and Communications Technology (ICT) in the workplace and industry."
+      },
+      {
+        "header": "Alumni Lectures",
+        "subheader": "2014 - 2015, 2017 - 2018",
+        "imageSource": "/events-images/event-alumni_series.webp",
+        "info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+      },
+      {
+        "header": "Gamecraft",
+        "subheader": "2015 - 2017",
+        "imageSource": "/events-images/event-alumni_series.webp",
+        "info": "Gamecraft a series of events dedicated to learning more about game development."
+      }
+    ]
+  },
+  "Activities": {
+    "header": "Activity",
+    "headerInfo": "Regular meetings are arranged within the organization to check on the wellbeing of the members and to give updates about each committee’s projects. There are also hangouts where members can bond over games and food.",
+    "featured": {
+      "header": "ACMeets",
+      "subheader": "ACMystery",
+      "imageSource": "/events-images/event-meets.webp",
+      "info": "The ACMems used their detective skills to solve the biggest mystery, the ACMystery, for the first ACMeets of 2021!."
+    },
+    "unfeatured": [
+      {
+        "header": "UP ACM Townhall Meeting",
+        "subheader": "2021",
+        "imageSource": "/events-images/event-townhall.webp",
+        "info": "A discussion on UP ACM Student Chapter's past events and planning for upcoming activities."
+      },
+      {
+        "header": "ACMester Ender Virtual Party",
+        "subheader": "2020",
+        "imageSource": "/events-images/event-acmester.webp",
+        "info": "ACM UP Student Chapter's virtual year ender party on Zoom and Discord. The year 2020 may have been rough but we did not stop in our commitment to provide high-quality technological advancement opportunities and offered services not only to our members but also to the computing community."
+      }
+    ]
+  }
 }

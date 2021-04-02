@@ -25,15 +25,16 @@ div#achievements-section{
 		}
 		
 		div#achievements-list::-webkit-scrollbar{
-			width: 3px;
+			width: 5px;
 		}
 
 		div#achievements-list::-webkit-scrollbar-track{
-			background: black;
+			background: rgba(0,0,0,0);
 		}
 
 		div#achievements-list::-webkit-scrollbar-thumb {
 			background: var(--acm-dark-blue);
+			border-radius: 2.5px;
 		}
 		div#achievements-list{
 			width: 60%;

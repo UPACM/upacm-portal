@@ -5,23 +5,29 @@ import AOS from "aos"
 import "aos/dist/aos.css"
 
 /* Component for opening a page section */
-export default function Opening({ header, headerInfo, order, aosEffect, children }) {
-  
+export default function Opening({
+  header,
+  headerInfo,
+  order,
+  aosEffect,
+  children,
+}) {
   useEffect(() => {
     AOS.init()
     AOS.refresh()
-  });
-  var openingAOS=""
-  var openingDelay=""
-  var openingDuration=""
-  if(aosEffect){
-      openingAOS="fade-up"
-      openingDelay="80"
-      openingDuration="650"
+  })
+  var openingAOS = ""
+  var openingDelay = ""
+  var openingDuration = ""
+  if (aosEffect) {
+    openingAOS = "fade-up"
+    openingDelay = "80"
+    openingDuration = "650"
   }
 
   return (
-    <div class={"opening " + order}
+    <div
+      class={"opening " + order}
       data-aos={openingAOS}
       data-aos-delay={openingDelay}
       data-aos-duration={openingDuration}
