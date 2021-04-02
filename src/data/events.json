@@ -1,7 +1,7 @@
 {
 	"Competition": {
-		"header": "Comptetition",
-		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore.",
+		"header": "Competition",
+		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore",
 		"featured": {
 			"header": "Featured Competition",
 			"subheader": "2020",
@@ -72,23 +72,23 @@
 		]
 	},
 	"Activities": {
-		"header": "Activitiy",
+		"header": "Activity",
 		"headerInfo": "Reprehenderit enim et duis laborum laborum laboris elit ullamco. Esse id laboris amet do consequat nisi. Veniam deserunt amet adipisicing est pariatur aute voluptate occaecat veniam tempor qui non adipisicing. Velit proident nisi duis proident nisi nulla ipsum labore.",
 		"featured": {
-			"header": "Featured Activitiy",
+			"header": "Featured Activity",
 			"subheader": "2020",
 			"imageSource": "/events-images/event-1.png",
 			"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
 		},
 		"unfeatured": [
 			{
-				"header": "Activitiy 1",
+				"header": "Activity 1",
 				"subheader": "2020",
 				"imageSource": "/events-images/event-1.png",
 				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
 			},
 			{
-				"header": "Activitiy 2",
+				"header": "Activity 2",
 				"subheader": "2020",
 				"imageSource": "/events-images/event-1.png",
 				"info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
