@@ -17,14 +17,7 @@
 	--generic-box-shadow: 0 0 10px black;
 	
 	--img-filler-color: orange;
-	
-	--header-background: linear-gradient(180deg, rgba(0,98,140,0.5) 0%, rgba(0,98,140,0) 100%);
-	--header-background-scrolled: rgb(26, 26, 26);
-	--header-color: white;
-	--navlink-background: #0083c0;
-	--navlink-color: white;
-	--header-height: 75px;
-	
+
 	--landing-overlay-bg: linear-gradient(45deg, rgba(0,113,193,1) 0%, rgba(0,113,193,0) 100%);
 	
 	--index-events-section-height: 500px;
@@ -59,3 +52,15 @@
 	--events-header-background-scrolled: #2b2b2b;
 	--events-header-height: 75px;
 }
+
+$acm-blue: #0182ac;
+$acm-dark-blue: #09357a;
+
+$header-height-top: 100px;
+$header-height: 75px;
+$header-background-top: linear-gradient(180deg, rgba(0,98,140,0.5) 0%, rgba(0,98,140,0) 100%);
+$header-background: rgb(26, 26, 26);
+$navlink-blue: #0083c0;
+
+//--header-color: white;
+//--navlink-color: white;
