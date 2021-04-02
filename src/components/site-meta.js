@@ -3,18 +3,12 @@ import { Helmet } from "react-helmet"
 /*
 sitePage: page directory of the site, e.g. "/2021/Live"
 */
-export default function SiteMeta({
-  pageName,
-  sitePage,
-  isIndex,
-}) {
-  var titleTag = (
-    <title>
-      {pageName} - UP ACM
-    </title>
-  )
+export default function SiteMeta({ pageName, sitePage, isIndex }) {
+  var titleTag = <title>{pageName} - UP ACM</title>
   if (isIndex) {
-    titleTag = <title>UP ACM - Building communities to develop the future</title>
+    titleTag = (
+      <title>UP ACM - Building communities to develop the future</title>
+    )
   }
   return (
     <Helmet>

@@ -12,7 +12,11 @@ import "../styles/global.scss"
 export default function PrivacyPolicy({ data }) {
   return (
     <>
-      <SiteMeta pageName="Privacy Policy" sitePage="/privacy-policy/" isIndex={false} />
+      <SiteMeta
+        pageName="Privacy Policy"
+        sitePage="/privacy-policy/"
+        isIndex={false}
+      />
       <Header isIndex={false} />
       <div class="content wrapper index">
         <PolicyLayout>

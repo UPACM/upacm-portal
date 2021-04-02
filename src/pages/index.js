@@ -19,7 +19,7 @@ import indexData from "../data/index.json"
 export default function Home() {
   return (
     <>
-      <SiteMeta pageName="Home" isIndex={true}/>
+      <SiteMeta pageName="Home" isIndex={true} />
       <Header isIndex={true} />
       <Landing
         videoSrcObj={srcVid}
