@@ -85,9 +85,10 @@
 		-ms-animation: ripple ease $speed infinite;
 	
 		@keyframes ripple {
-			0%   {scale: 0;}
-			33%  {scale: 9;}
-			66%  {scale: 4;}
+			0%  {transform: scale(2);}
+			12.5%  {transform: scale(4);}
+			25%  {transform: scale(2);}
+			100%   {transform: scale(0);}
 		  }	
 	}
 
