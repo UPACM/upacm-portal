@@ -37,7 +37,7 @@ export default function Home() {
           header={indexData.socialIntro.title}
           headerInfo={indexData.socialIntro.text}
           style={{ padding: "6% 0" }}
-		  aosEffect={true}
+          aosEffect={true}
         >
           <SocialEmbed />
         </Opening>
