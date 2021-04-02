@@ -30,39 +30,40 @@ const Header = ({ isIndex, active }) => {
     <>
       <div class={scrolled || !isIndex ? " header scrolled" : " header"}>
         <div class="wrapper">
-          <div class=" home-link">
-            <Link to="/">
-              <img class=" logo" src={siteLogo} alt="logo" />
-            </Link>
+          <Link to="/" className="home-link">
+            <img class=" logo" src={siteLogo} alt="logo" />
+          </Link>
+
+          <div
+            class="navbar-button-container"
+            onClick={function () {
+              setNavbarVisible(!navbarVisible)
+            }}
+            aria-hidden="true"
+          >
+            <img class="navbar-button" src={hamburgerIcon} alt="hamburger" />
           </div>
+
+          <div
+            class={navbarVisible ? "nav-bar visible" : "nav-bar"}
+          >  
+            <Navlink to="/about/" name="About" active={active === "About"} />
+            <Navlink
+              to="/committees/"
+              name="Committees"
+              active={active === "Committees"}
+            />
+            <Navlink to="/sig/" name="SIG" active={active === "SIG"} />
+            <Navlink to="/events/" name="Events" active={active === "Events"} />
+            <Navlink to="/gallery/" name="Gallery" active={active === "Gallery"} />
+            <Navlink to="/contact/" name="Contact" active={active === "Contact"} />
+          </div>
+
         </div>
       </div>
-      <div
-        class="navbar-button-container"
-        id={scrolled || !isIndex ? "scrolled" : "-nav-bar-button"}
-        onClick={function () {
-          setNavbarVisible(!navbarVisible)
-        }}
-        aria-hidden="true"
-      >
-        <img class="navbar-button" src={hamburgerIcon} alt="hamburger" />
-      </div>
-      <div
-        class={navbarVisible ? " nav-bar visible" : " nav-bar"}
-        id={scrolled || !isIndex ? "scrolled" : "-nav-bar"}
-      >
-        <Navlink to="/about/" name="About" active={active === "About"} />
-        <Navlink
-          to="/committees/"
-          name="Committees"
-          active={active === "Committees"}
-        />
-        <Navlink to="/sig/" name="SIG" active={active === "SIG"} />
-        <Navlink to="/events/" name="Events" active={active === "Events"} />
-        <Navlink to="/gallery/" name="Gallery" active={active === "Gallery"} />
-        <Navlink to="/contact/" name="Contact" active={active === "Contact"} />
-      </div>
-      {!isIndex ? <div class=" header-spacer"></div> : null}
+
+
+      {!isIndex ? <div class=" header-spacer"></div> : <></>}
     </>
   )
 }
