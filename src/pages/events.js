@@ -12,7 +12,7 @@ export default function Home() {
 			<Header isIndex={false} active="Events" />
 				<Opening 
 					header="Events"
-					headerInfo="Nisi pariatur ut commodo minim minim labore laboris anim veniam veniam commodo qui irure. Sit sint culpa veniam excepteur duis est excepteur eu ex in nostrud sit. Voluptate duis Lorem sunt eu. Excepteur sunt quis proident nisi." />
+					headerInfo="The organization has pioneered several innovative projects for all levels of academic achievement, from the elementary level to the collegiate level. These ventures are integral to realizing our vision of forwarding the field of computing not only as science but as a medium for modern community development." />
 				{Object.keys(EventData).map(type =>
 					<Opening 
 						header={EventData[type].header}

@@ -11,9 +11,15 @@
 	width: 80%;
 	min-width: 270px;
 
-	.unfeatured {
+	.featured {
 		display: flex;
 		flex-wrap: wrap;
+		flex-direction: row;
+	}
+
+	.unfeatured {
+		display: flex;
+		flex-wrap: wrap-reverse;
 		flex-direction: row;
 	}
 
