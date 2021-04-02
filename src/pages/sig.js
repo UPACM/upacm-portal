@@ -4,6 +4,7 @@ import SigData from "../data/sig.json"
 
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
+import SiteMeta from "../components/site-meta.js"
 
 import Opening from "../components/opening.js"
 import SigCards from "../components/sig/sig-cards.js"
@@ -14,6 +15,7 @@ import "../styles/global.scss"
 export default function Home() {
   return (
     <>
+      <SiteMeta pageName="SIGs" sitePage="/sig/" isIndex={false} />
       <Header gap={true} active="SIG" />
       <Opening
         header={SigData.opening.header}
