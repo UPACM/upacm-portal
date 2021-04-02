@@ -1,6 +1,7 @@
 import React from "react"
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
+import SiteMeta from "../components/site-meta.js"
 
 import AboutIntro from "../components/about/about-intro.js"
 import MissionVision from "../components/about/mission-vision.js"
@@ -13,6 +14,7 @@ import "../styles/global.scss"
 export default function Home() {
   return (
     <>
+      <SiteMeta pageName="About us" sitePage="/about/" isIndex={false} />
       <Header isIndex={false} active="About" />
       <AboutIntro />
       <MissionVision />
