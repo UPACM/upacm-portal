@@ -2,20 +2,28 @@
 @import "../../../styles/global.scss";
 
 .sig-card:nth-child(1) {
+	grid-row: 1;
+	grid-column: 1;
 	background-color: var(--acm-blue);
 }
 
 .sig-card:nth-child(2) {
+	grid-row: 1;
+	grid-column: 2;
     background-color: var(--acm-purple);
 }
 
 
 .sig-card:nth-child(3) {
+	grid-row: 2;
+	grid-column: 1;
 	background-color: var(--acm-purple);
 }
 
 
 .sig-card:nth-child(4) {
+	grid-row: 2;
+	grid-column: 2;
     background-color: var(--acm-blue);
 }
 
@@ -24,13 +32,7 @@
     // Theme
     color: white;
 
-    // Sizing
-    flex: 1 1 41vw;
-    
-    // Spacing
-    margin: 10px;
-
-    // Background setup
+	// Background setup
     background-size: cover;
     background-blend-mode: multiply;
     background-position: center center;
@@ -38,18 +40,17 @@
     $background-transition: 0.4s;
     transition: ease $background-transition;
 
-    padding: 20px;
-
 	text-align: left;
 
-	display: relative;
+	overflow: hidden;
 
     .info {
         // Spacing
         padding: 5%;
-
+		width: 90%;
+		height: 90%;
         display: block;
-
+		background: rgba(0,0,0,0);
         $info-transition: 0.7s;
         transition: $info-transition ease;
 
@@ -138,12 +139,21 @@
 
 .sig-card:hover{
     // Reveal
-    .head, .description {
-        opacity: 1;
-    }
+	.info{
+		background: rgba(0,0,0,0.5);
+		.head, .description {
+			opacity: 1;
+		}
+	}
 	.ripple{
 		opacity: 0;
 	}
 
-	background-blend-mode: color-burn;
+	//background-blend-mode: color-burn;
+}
+
+@media (max-width: 1000px){
+	.sig-card{
+		width: 100%;
+	}
 }
