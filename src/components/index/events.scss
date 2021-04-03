@@ -4,21 +4,21 @@
 	background-color: #252525;
 	
 	display: flex;
-	flex-direction: column;
 	align-items: center;
-	justify-content: center;
-
-	padding-bottom: 6%;
+	justify-content: space-between;
 	
-	.opening {
+	.events-opening {
 		background: none;
 		color: white;
+		width: 40%;
+		padding: 0 5%;
+		max-width: calc(1920px * 0.4);
+		text-align: left;
 		.events-page-link {
 			display: flex;
 			align-items: center;
 			justify-content: center;
 			width: 80%;
-			margin: auto;
 			margin-top: 3%;
 			height: 50px;
 			border-radius: 25px;
@@ -35,110 +35,120 @@
 		}
 
 	}
-	
-	#showcase{
-		width: 30vw;
-		height: 30vw;
-		max-width: calc(1920px * 0.3);
-		max-height: calc(1920px * 0.3);
-		display: grid;
-		grid-auto-rows: 1fr;
-		gap: 3%;
-		transform: rotate(45deg);
-		margin-bottom: 7%;
-		.diamond:nth-child(1){
-			grid-row: 1;
-			grid-column: 1;
-		}
-		.diamond:nth-child(2){
-			grid-row: 1;
-			grid-column: 2;
-		}
-		.diamond:nth-child(3){
-			grid-row: 2;
-			grid-column: 1;
-		}
-		.diamond:nth-child(4){
-			grid-row: 2;
-			grid-column: 2;
-		}
-		.diamond {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			overflow: hidden;
-			transition: 0.2s;
-			box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
-
-			.diamond-content{
-				width: 100%;
-				height: 100%;
+	.showcase-container{
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		#showcase{
+			width: 30vw;
+			height: 30vw;
+			max-width: calc(1920px * 0.3);
+			max-height: calc(1920px * 0.3);
+			display: grid;
+			grid-auto-rows: 1fr;
+			gap: 3%;
+			transform: rotate(45deg);
+			.diamond:nth-child(1){
+				grid-row: 1;
+				grid-column: 1;
+			}
+			.diamond:nth-child(2){
+				grid-row: 1;
+				grid-column: 2;
+			}
+			.diamond:nth-child(3){
+				grid-row: 2;
+				grid-column: 1;
+			}
+			.diamond:nth-child(4){
+				grid-row: 2;
+				grid-column: 2;
+			}
+			.diamond {
+				display: flex;
+				align-items: center;
+				justify-content: center;
 				overflow: hidden;
-				.diamond-img{
-					width: 150%;
-					height: 150%;
-					margin-left: -25%;
-					margin-top: -25%;
-					transform: rotate(-45deg);
-					//mix-blend-mode: lighten;
-					object-fit: cover;
-					object-position: center center;
-					mix-blend-mode: lighten;
-					transition: ease 0.3s scale;
+				transition: 0.2s;
+				box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
+
+				.diamond-content{
+					width: 100%;
+					height: 100%;
+					overflow: hidden;
+					.diamond-img{
+						width: 150%;
+						height: 150%;
+						margin-left: -25%;
+						margin-top: -25%;
+						transform: rotate(-45deg);
+						//mix-blend-mode: lighten;
+						object-fit: cover;
+						object-position: center center;
+						mix-blend-mode: lighten;
+						transition: ease 0.3s scale;
+					}
 				}
 			}
-		}
 
-		.diamond:hover{
-			background: rgba(11, 146, 236, 0.52);
-			transform: scale(1.1);
-			cursor: pointer;
-		}
+			.diamond:hover{
+				background: rgba(11, 146, 236, 0.52);
+				transform: scale(1.1);
+				cursor: pointer;
+			}
 
+		}
 	}
 }
 
 @media only screen and (max-width: 1000px) {
 	
 	#events {
-		height: fit-content;		
+		flex-direction: column;
 		margin: auto;
 		text-align: center;
 		overflow-x: visible;	
 		padding: 5% 0;
 		min-width: 280px;
+		.events-opening{
+			width: 90%;
+			text-align: center;
 
-		#showcase {
-			width: 75vw;
-			margin: 0;
-			rotate: 0deg;
-			padding-bottom: 5%;
-			transform: rotate(0deg);
-
-			.diamond {
-				width: 35vw;
-				height: 35vw;
-				margin: 1vw;
-				border-radius: 20px;
-
-				.diamond-content{
-					.diamond-img {
-						width: 100%;
-						height: 100%;
-						margin: 0;
-						transform: rotate(0deg);
-						object-fit: cover;
-					}
-				}
-					
+			> *{
+				margin: 10% 0;
 			}
 
+			.events-page-link{
+				margin: auto;
+			}
 		}
+		.showcase-container{
+			width: 100%;
+			height: 75vw;
+			margin: 10% 0;
+			#showcase {
+				width: 75%;
+				margin: 0;
+				padding-bottom: 5%;
+				transform: rotate(0deg);
 
-		
+				.diamond {
+					width: 35vw;
+					height: 35vw;
+					margin: 1vw;
+					border-radius: 20px;
+
+					.diamond-content{
+						.diamond-img {
+							width: 100%;
+							height: 100%;
+							margin: 0;
+							transform: rotate(0deg);
+							object-fit: cover;
+						}
+					}		
+				}
+			}
+		}
 	}
-
-
-
-
 }
