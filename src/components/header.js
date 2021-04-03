@@ -46,6 +46,7 @@ const Header = ({ isIndex, active }) => {
 
           <div
             class={navbarVisible ? "nav-bar incompressible visible" : "nav-bar incompressible"}
+			id={scrolled ? "scrolled" : "noscrolled"}
           >  
             <Navlink to="/about/" name="About" active={active === "About"} />
             <Navlink
