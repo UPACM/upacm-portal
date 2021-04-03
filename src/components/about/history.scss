@@ -25,11 +25,10 @@ div#history-section div#history-intro h1{
 
 }
 div#history-section div#history-intro p{
+	max-width: 80%;
 	display: block;
 	margin: auto;
-
 	padding-bottom: 3%;
-	max-width: 65vw;
 }
 
 div#history-section div#timeline-container{
@@ -91,7 +90,7 @@ div#history-section div#timeline-container div.history-timestamp span.event{
 
 @media (min-width: 1920px){
 	div#history-section div#history-intro{
-		width: calc(40% - 2vw);
+		width: 80%;
 		padding: 0 1vw;
 	}
 	div#history-section div#timeline-container{

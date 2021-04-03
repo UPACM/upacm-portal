@@ -12,6 +12,7 @@ export default function Home() {
     <>
       <SiteMeta pageName="Events" sitePage="/events/" isIndex={false} />
       <Header isIndex={false} active="Events" />
+
       <Opening
         header="Events"
         headerInfo="The organization has pioneered several innovative projects for all levels of academic achievement, from the elementary level to the collegiate level. These ventures are integral to realizing our vision of forwarding the field of computing not only as science but as a medium for modern community development."
