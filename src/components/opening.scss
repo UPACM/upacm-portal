@@ -6,17 +6,12 @@ $default-info-color: black;
 $default-header-color: black;
 
 .opening {
-	// Theme
 	background-color: $default-background-color;
-
-    overflow: hidden;
-    height: 100%;
-
+    max-width: calc(1920px * 0.8);
+    margin: auto;
     text-align: center;
     
-	$vertical-spacing: 7%;
-    padding-top: $vertical-spacing;
-    padding-bottom: $vertical-spacing; 
+    padding: 7% 0;
 
 	#header {
 		color: $default-header-color;
@@ -24,15 +19,8 @@ $default-header-color: black;
 
     #header-info { 
 		color: $default-info-color;
-
-        // Ensure readability on all screen size
-        width: max(280px, 50vw);
-        scale: 0.9;
-
-        
         opacity: 0.75;
 
-        // Center text
         margin: 0 auto;
         padding: 10px;
     }
