@@ -2,7 +2,6 @@ import React, { useEffect } from "react"
 import { Link } from "gatsby"
 
 import EventData from "../../data/events.json"
-import Opening from "./opening.js"
 
 import "./events.scss"
 
@@ -32,20 +31,24 @@ export default function Events({ eventsSectionText }) {
 
   return (
     <div id="events">
-      <Opening header="Events" headerInfo={eventsSectionText} aosEffect={true}>
+      <div class="events-opening">
+        <h1 class="title">Events</h1>
+        <p class="text">{eventsSectionText}</p>
         <Link to="/events/" className="events-page-link">
           LEARN MORE
         </Link>
-      </Opening>
-      <div
-        data-aos="fade-up"
-        data-aos-delay="60"
-        data-aos-duration="550"
-        id="showcase"
-      >
-        {Object.keys(EventData).map(type => (
-          <EventDiamond event={EventData[type].featured} />
-        ))}
+      </div>
+      <div class="showcase-container">
+        <div
+          data-aos="fade-up"
+          data-aos-delay="60"
+          data-aos-duration="550"
+          id="showcase"
+        >
+          {Object.keys(EventData).map(type => (
+            <EventDiamond event={EventData[type].featured} />
+          ))}
+        </div>
       </div>
     </div>
   )

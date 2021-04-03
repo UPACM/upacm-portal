@@ -25,6 +25,7 @@ div#landing-video video{
 }
 
 div#landing-overlay{
+	padding-top: $header-height-top;
 	display: flex;
 	align-items: center;
 	z-index: -2;

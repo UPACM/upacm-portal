@@ -2,6 +2,7 @@ import React from "react"
 
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
+import SiteMeta from "../components/site-meta.js"
 
 import Landing from "../components/index/landing.js"
 import Events from "../components/index/events.js"
@@ -18,6 +19,7 @@ import indexData from "../data/index.json"
 export default function Home() {
   return (
     <>
+      <SiteMeta pageName="Home" isIndex={true} />
       <Header isIndex={true} />
       <Landing
         videoSrcObj={srcVid}

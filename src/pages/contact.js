@@ -3,6 +3,7 @@ import React from "react"
 import ContactData from "../data/contact.json"
 
 import Header from "../components/header.js"
+import SiteMeta from "../components/site-meta.js"
 
 import Opening from "../components/opening.js"
 import ContactSocial from "../components/contact/contact-social.js"
@@ -13,6 +14,7 @@ import ContactForm from "../components/contact/contact-form.js"
 export default function Home() {
   return (
     <>
+      <SiteMeta pageName="Contact us" sitePage="/contact/" isIndex={false} />
       <Header isIndex={false} active="Contact" />
       <Opening
         header={ContactData.opening.header}
