@@ -3,33 +3,48 @@
 	color: white;
 
     // Sizing
-	flex: 1 1 210px;
-	height: auto;
+	min-height: fit-content;
+	width: fit-content;
     
-    // Spacing
-    margin: 10px;
+	// Spacing
+	overflow: hidden;
+	margin: 3% 2%;
+	position: relative;
 
     // Background setup
-    background-size: 100%;
 	background-color: rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
-    background-position: center center;
 
 	transition: ease 0.3s;
-
-    padding: 20px;
-
 
 	//Alignment
 	text-align: left;
 	align-content: flex-end;
-	justify-content: flex-end;
+	justify-content: flex-end;	
+
+	img {
+		object-fit: scale-down;
+		max-height: max(20vw, 320px);
+		width: 100%;
+
+
+		background-color: rgba(0, 0, 0, 1);
+		mix-blend-mode: multiply;
+
+		transition: 0.3s ease scale;
+
+		margin: auto;
+	}
+
 
     #info {
         // Spacing
         padding: 5%;
 
         display: block;
+
+		position: absolute;
+		bottom: 5%;
 
         $info-transition: 0.7s;
         transition: $info-transition ease;
@@ -61,4 +76,8 @@
 .events-card:hover {
 	background-size: 107%;
 	background-color: rgba(0, 0, 0, 0.6);
+
+	img {
+		scale: 1.1;
+	}
 }
