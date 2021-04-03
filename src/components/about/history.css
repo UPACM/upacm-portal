@@ -45,10 +45,6 @@ div#history-section div#timeline-container::-webkit-scrollbar{
 	width: 5px;
 }
 
-div#history-section div#timeline-container::-webkit-scrollbar-track{
-	/*background: gray;*/
-}
-
 div#history-section div#timeline-container::-webkit-scrollbar-thumb {
 	background: var(--history-section-color);
 	border-radius: 2.5px;
