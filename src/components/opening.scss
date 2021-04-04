@@ -7,11 +7,16 @@ $default-header-color: black;
 
 .opening {
 	background-color: $default-background-color;
-    max-width: calc(1920px * 0.8);
+    width: 100%;
     margin: auto;
     text-align: center;
     
     padding: 7% 0;
+
+    > *{
+        max-width: 80%;
+        margin: auto;
+    }
 
 	#header {
 		color: $default-header-color;
@@ -20,7 +25,7 @@ $default-header-color: black;
     #header-info { 
 		color: $default-info-color;
         opacity: 0.75;
-
+        width: 80%;
         margin: 0 auto;
         padding: 10px;
     }

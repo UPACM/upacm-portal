@@ -28,8 +28,8 @@ const Header = ({ isIndex, active }) => {
 
   return (
     <>
-      <div class={scrolled || !isIndex ? " header scrolled" : " header"}>
-        <div class="wrapper">
+      <div class={scrolled || !isIndex ? " header incompressible scrolled" : " header incompressible"}>
+        <div class="wrapper incompressible">
           <Link to="/" className="home-link">
             <img class=" logo" src={siteLogo} alt="logo" />
           </Link>
@@ -45,7 +45,8 @@ const Header = ({ isIndex, active }) => {
           </div>
 
           <div
-            class={navbarVisible ? "nav-bar visible" : "nav-bar"}
+            class={navbarVisible ? "nav-bar incompressible visible" : "nav-bar incompressible"}
+			id={scrolled ? "scrolled" : "noscrolled"}
           >  
             <Navlink to="/about/" name="About" active={active === "About"} />
             <Navlink

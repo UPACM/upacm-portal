@@ -6,8 +6,8 @@ export default function EventsFeaturedCard({ event }) {
     <div
       class="events-featured-card"
       id={event.header}
-      style={{ backgroundImage: "url(" + event.imageSource + ")" }}
     >
+		<img src={event.imageSource} />
       <div id="info">
         <h5 id="header">{event.header}</h5>
         <h6 id="subheader">

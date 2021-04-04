@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
-
-#logo {
-	width: max(20%, 200px);
-	display: block;
-	margin: auto;
-
-	top: 50%;
-	position: absolute;	
-	align-self: center;
-}
-
 div#about-intro-section{
 	margin-top: 80vh;
 	color: white;
@@ -25,6 +14,7 @@ div#about-intro-section{
 		background: var(--img-filler-color);
 		object-fit: cover;
 		object-position: center center;
+		mask-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 100%);
 	}
 
 	div.wrapper{
@@ -34,6 +24,13 @@ div#about-intro-section{
 
 		max-width: 100%;
 		
+		#logo{
+			width: 25%;
+			transform: translateY(-50%);
+			margin: auto;
+			object-fit: contain;
+		}
+
 		div#intro-fade-in{
 			height: 25vh;
 			margin-top: -25vh;
@@ -51,8 +48,10 @@ div#about-intro-section{
 					width: 60%;
 				}
 				iframe{
-					width: max(50vw, 280px);
-					height: max(30vw, 190px);
+					width: 50vw;
+					max-width: calc(1920px / 2);
+					height: 30vw;
+					max-height: calc(1920px * .3);
 					margin: 10vh 0;
 					border-radius: 1vh;
 				}

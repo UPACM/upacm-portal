@@ -8,7 +8,7 @@ import "./footer.css"
 
 export default function Footer() {
   return (
-    <div id="footer">
+    <div id="footer" class="incompressible">
       <div id="footer-top">
         <div class="wrapper">
           <div class="footer-section">

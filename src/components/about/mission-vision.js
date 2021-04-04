@@ -1,13 +1,13 @@
 import React from "react"
 import "../../styles/var.scss"
 import "../../styles/global.scss"
-import "./mission-vision.css"
+import "./mission-vision.scss"
 import AboutData from "../../data/about.json"
 
 export default function MissionVision() {
   return (
-    <div class="wrapper" id="mission-vision-section">
-      <div class="wrapper">
+    <div class="wrapper incompressible" id="mission-vision-section">
+      <div class="wrapper incompressible">
         <div class="mission-vision-part" id="mission">
           <div class="text">
             <h1>Mission</h1>

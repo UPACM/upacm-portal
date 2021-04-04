@@ -12,8 +12,6 @@ import srcVid from "../assets/videos/landing-video.mp4"
 import Opening from "../components/opening.js"
 import SocialEmbed from "../components/index/social-embed.js"
 
-import Content from "../components/content.js"
-
 import indexData from "../data/index.json"
 
 export default function Home() {
@@ -26,7 +24,7 @@ export default function Home() {
         introText={indexData.landing.title}
         introSubText={indexData.landing.text}
       />
-      <Content>
+      <div class="wrapper incompressible">
         <Opening
           header={indexData.siteIntro.title}
           headerStyle={{ color: "#0182ac" }}
@@ -43,7 +41,7 @@ export default function Home() {
         >
           <SocialEmbed />
         </Opening>
-      </Content>
+      </div>
 
       <Footer />
     </>

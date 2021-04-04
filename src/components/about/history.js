@@ -5,7 +5,7 @@ import AboutData from "../../data/about.json"
 
 import "../../styles/var.scss"
 import "../../styles/global.scss"
-import "./history.css"
+import "./history.scss"
 
 export default function History() {
   return (

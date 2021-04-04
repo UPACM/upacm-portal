@@ -16,35 +16,25 @@ export default function EventsShowcase({ events }) {
 
   return (
     <div class="events-showcase">
-      <div
-        class="featured"
-        data-aos="fade-up"
-        data-aos-delay="80"
-        data-aos-duration="550"
-      >
-        <EventsFeaturedCard event={events.featured} />
-      </div>
-      {events.unfeatured.length > 1 ? (
-        <div
-          class="unfeatured"
-          data-aos="fade-up"
-          data-aos-delay="90"
-          data-aos-duration="550"
-        >
-          {events.unfeatured.map(event => (
-            <EventsCard event={event} />
-          ))}
-        </div>
-      ) : (
-        <div
-          class="featured"
-          data-aos="fade-up"
-          data-aos-delay="80"
-          data-aos-duration="550"
-        >
-          <EventsFeaturedCard event={events.unfeatured[0]} />
-        </div>
-      )}
+		<div
+        	class="featured"
+        	data-aos="fade-up"
+        	data-aos-delay="80"
+        	data-aos-duration="550">
+        	<EventsFeaturedCard event={events.featured} />
+			{events.unfeatured.length == 1 && 
+				<EventsFeaturedCard event={events.unfeatured[0]} />}
+      	</div>
+      	{events.unfeatured.length > 1 && 
+        	<div
+          		class="unfeatured"
+          		data-aos="fade-up"
+          		data-aos-delay="90"
+          		data-aos-duration="550">
+          		{events.unfeatured.map(
+					event => (<EventsCard event={event} /> ))}
+        	</div>}
+      
     </div>
   )
 }
