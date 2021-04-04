@@ -1,9 +1,10 @@
 .events-featured-card {
 
     // Sizing
-	min-height: fit-content;
 	width: fit-content;
-    
+    min-height: 600px;
+	height: 40vw;
+	max-height: calc(1920px * .4);
 	// Spacing
 	margin: 5% 2%;
 	overflow: hidden;
@@ -25,14 +26,13 @@
 
 	img {
 		object-fit: scale-down;
-		max-height: max(40vw, 600px);
 		width: 100%;
-
+		height: 100%;
 
 		background-color: rgba(0, 0, 0, 1);
 		mix-blend-mode: multiply;
 
-		transition: 0.3s ease scale;
+		transition: 0.3s ease;
 
 		margin: auto;
 	}
@@ -82,7 +82,7 @@
 	background-color: rgba(0, 0, 0, 0.80);
 
 	img {
-		scale: 1.05;
+		transform: scale(1.05);
 	}
 
 }

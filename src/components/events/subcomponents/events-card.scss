@@ -3,9 +3,11 @@
 	color: white;
 
     // Sizing
-	min-height: fit-content;
-	width: fit-content;
-    
+	flex: 1 1 calc(88% / 3);
+	min-height: 320px;
+	height: 20vw;
+	max-height: calc(1920 * .2);
+	
 	// Spacing
 	overflow: hidden;
 	margin: 3% 2%;
@@ -24,14 +26,13 @@
 
 	img {
 		object-fit: scale-down;
-		max-height: max(20vw, 320px);
 		width: 100%;
-
+		height: 100%;
 
 		background-color: rgba(0, 0, 0, 1);
 		mix-blend-mode: multiply;
 
-		transition: 0.3s ease scale;
+		transition: 0.3s ease;
 
 		margin: auto;
 	}
@@ -73,11 +74,26 @@
 
 }
 
+
+//every 4th couple of cards will take up half the container each;
+//the rest take up a third each
+/*
+[][][]
+[ ][ ]
+[][][]
+[ ][ ]
+
+^ should give this look
+*/
+.events-card:nth-child(4n+0), .events-card:nth-child(4n+5){
+	flex-basis: 46%;
+}
+
 .events-card:hover {
 	background-size: 107%;
 	background-color: rgba(0, 0, 0, 0.6);
 
 	img {
-		scale: 1.1;
+		transform: scale(1.1);
 	}
 }
