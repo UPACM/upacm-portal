@@ -46,7 +46,8 @@
 			img{
 				width: 50%;
 				height: 50%;
-				object-fit: contain;	
+				object-fit: contain;
+				cursor: pointer;
 			}
 		}
 
@@ -104,11 +105,19 @@
 				transform: translateX(100%);
 				transition: 0.2s ease;
 
+				.navlink:first-child{
+					margin-top: 20px;
+				}
+
 				.navlink{
 					text-align: center;
 					background: $acm-blue;
 					margin: 0.5% 0;
 					padding: 3% 0;
+					transition: 0.3 ease;
+				}
+				.navlink:hover {
+					color: $header-background;
 				}
 			}
 
@@ -124,6 +133,14 @@
 				width: $header-height;
 				height: $header-height;
 			}
+			.navlink:first-child {
+				margin-top: 0%;
+			}
 		}
 	}
+}
+
+.header-spacer {
+	padding-bottom: calc(105px - 5%);
+	background-color: white;
 }

@@ -1,22 +1,17 @@
 .events-featured-card {
 
-	color: white;
-
     // Sizing
-    flex: 1 1;
-	height: 400px;
 	min-height: fit-content;
+	width: fit-content;
     
-    // Spacing
-    margin: 10px;
-    padding: 20px;
+	// Spacing
+	margin: 5% 2%;
+	overflow: hidden;
 
     // Background setup
-    background-size: 100%;
-	background-color: rgba(0, 0, 0, 0.4);
-    background-blend-mode: multiply;
-    background-position: center center;
-
+	background-blend-mode: multiply;
+	background-color: rgba(0, 0, 0, 0.5);
+	transition: ease 0.3s;
 
 	// Alignment
 	text-align: left;
@@ -24,11 +19,27 @@
 	justify-content: flex-end;
 	position: relative;
 
-	transition: ease 0.3s;
+
+	//Theming
+	color: white;
+
+	img {
+		object-fit: scale-down;
+		max-height: max(40vw, 600px);
+		width: 100%;
+
+
+		background-color: rgba(0, 0, 0, 1);
+		mix-blend-mode: multiply;
+
+		transition: 0.3s ease scale;
+
+		margin: auto;
+	}
 
     #info {
         // Spacing
-        padding: 5%;
+        padding: 7%;
 
         display: block;
 
@@ -68,5 +79,10 @@
 
 .events-featured-card:hover {
 	background-size: 107%;
-	background-color: rgba(0, 0, 0, 0.65);
+	background-color: rgba(0, 0, 0, 0.80);
+
+	img {
+		scale: 1.05;
+	}
+
 }
