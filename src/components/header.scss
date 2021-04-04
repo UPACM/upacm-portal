@@ -25,9 +25,10 @@
 			height: $header-height-top;
 			margin: 0 2%;
 			transition: 0.2s;
-			img{
+			.logo{
 				height: 60%;
 				object-fit: contain;
+				transition: 0.2s;
 			}
 		}
 
@@ -73,6 +74,13 @@
 	height: $header-height;
 	background: $header-background;
 	box-shadow: 0px 0px 50px -10px rgba(0,0,0,0.75);
+	.wrapper{
+		.home-link{
+			.logo{
+				height: 45%;
+			}
+		}
+	}
 }
 
 @media (max-width: 1000px){
