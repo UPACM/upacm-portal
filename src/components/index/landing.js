@@ -1,5 +1,5 @@
 import React from "react"
-//import sourceVid from "../assets/videos/landing_video.mp4"
+
 import "./landing.scss"
 
 export default function Landing({ videoSrcObj, introText, introSubText }) {

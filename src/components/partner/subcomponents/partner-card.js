@@ -1,9 +1,8 @@
 import React, { useEffect } from "react"
-import "./partner-card.scss"
-
-// On scroll animations
 import AOS from "aos"
+
 import "aos/dist/aos.css"
+import "./partner-card.scss"
 
 /* Subcomponent for rendering a partner */
 export default function PartnerCard({ partner }) {

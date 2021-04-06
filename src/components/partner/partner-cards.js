@@ -1,7 +1,7 @@
 import React from "react"
-import "./partner-cards.scss"
-
 import PartnerCard from "./subcomponents/partner-card"
+
+import "./partner-cards.scss"
 
 /* Component for loading all partner cards */
 export default function PartnerCards({ partners }) {

@@ -1,4 +1,5 @@
 import React from "react"
+
 import "./contact-map.scss"
 
 /* Component for presenting a google map */

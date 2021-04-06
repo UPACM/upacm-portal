@@ -1,6 +1,7 @@
 import React from "react"
-import "./events-cards.scss"
 import EventCard from "./subcomponents/events-card"
+
+import "./events-cards.scss"
 
 /* Component for rendering a list of events */
 export default function EventCards({ events }) {

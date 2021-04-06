@@ -1,12 +1,10 @@
 import React, { useEffect } from "react"
-import "./events-showcase.scss"
-
+import AOS from "aos"
 import EventsFeaturedCard from "./subcomponents/events-featured-card.js"
 import EventsCard from "./subcomponents/events-card.js"
 
-// On scroll animations
-import AOS from "aos"
 import "aos/dist/aos.css"
+import "./events-showcase.scss"
 
 export default function EventsShowcase({ events }) {
   useEffect(() => {

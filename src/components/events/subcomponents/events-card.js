@@ -1,4 +1,5 @@
 import React from "react"
+
 import "./events-card.scss"
 
 export default function EventsCard({ event }) {

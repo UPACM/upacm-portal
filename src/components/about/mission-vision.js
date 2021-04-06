@@ -1,8 +1,8 @@
 import React from "react"
-import "../../styles/var.scss"
-import "../../styles/global.scss"
-import "./mission-vision.scss"
+
 import AboutData from "../../data/about.json"
+
+import "./mission-vision.scss"
 
 export default function MissionVision() {
   return (

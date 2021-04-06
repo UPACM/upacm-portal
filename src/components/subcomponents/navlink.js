@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+
 import "../../styles/var.scss"
 import "../../styles/global.scss"
 

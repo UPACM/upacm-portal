@@ -1,4 +1,5 @@
 import React from "react"
+
 import "./contact-footer.scss"
 
 /* Component for displaying custom contact footer */

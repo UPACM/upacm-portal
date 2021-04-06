@@ -1,12 +1,10 @@
 import React, { useEffect } from "react"
+import AOS from "aos"
 import { Link } from "gatsby"
-
 import EventData from "../../data/events.json"
 
-import "./events.scss"
-
-import AOS from "aos"
 import "aos/dist/aos.css"
+import "./events.scss"
 
 function EventDiamond({ event }) {
   useEffect(() => {
