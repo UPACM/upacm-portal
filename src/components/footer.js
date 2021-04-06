@@ -6,7 +6,7 @@ import "./footer.scss"
 
 export default function Footer() {
   return (
-    <div id="footer" class="incompressible">
+    <div id="footer" className="incompressible">
       <div id="footer-top">
         <div className="wrapper">
           <div className="footer-section">
@@ -38,7 +38,7 @@ export default function Footer() {
             <h1>Contact Us</h1>
             <div className="footer-section-links contacts">
               <span>
-                <a href="mailto:contactus@upacm.net" id="email">
+                <a href="mailto:contactus@upacm.net" id="footer-email">
                   contactus@upacm.net
                 </a>
               </span>

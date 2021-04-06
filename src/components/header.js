@@ -47,7 +47,11 @@ const Header = ({ isIndex, active }) => {
             }}
             aria-hidden="true"
           >
-            <img className="navbar-button" src={hamburgerIcon} alt="hamburger" />
+            <img
+              className="navbar-button"
+              src={hamburgerIcon}
+              alt="hamburger"
+            />
           </div>
 
           <div

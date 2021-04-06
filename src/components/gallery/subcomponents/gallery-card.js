@@ -13,7 +13,7 @@ export default function GalleryCard({ image }) {
 
   return (
     <div
-      class="gallery-card"
+      className="gallery-card"
       data-aos="fade-up"
       data-aos-delay="70"
       data-aos-duration="550"

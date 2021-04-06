@@ -15,7 +15,11 @@ function EventDiamond({ event }) {
   return (
     <Link className="diamond" to={"/events/#" + event.header}>
       <div className="diamond-content">
-        <img className="diamond-img" src={event.imageSource} alt={event.header}/>
+        <img
+          className="diamond-img"
+          src={event.imageSource}
+          alt={event.header}
+        />
       </div>
     </Link>
   )
@@ -36,7 +40,7 @@ export default function Events({ eventsSectionText }) {
           LEARN MORE
         </Link>
       </div>
-      <div class="showcase-container">
+      <div className="showcase-container">
         <div
           data-aos="fade-up"
           data-aos-delay="60"
@@ -44,7 +48,7 @@ export default function Events({ eventsSectionText }) {
           id="showcase"
         >
           {Object.keys(EventData).map(type => (
-            <EventDiamond event={EventData[type].featured} />
+            <EventDiamond key={EventData[type].featured.header} event={EventData[type].featured} />
           ))}
         </div>
       </div>

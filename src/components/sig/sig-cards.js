@@ -5,11 +5,11 @@ import "./sig-cards.scss"
 import SigCard from "./subcomponents/sig-card.js"
 
 /* Component for rendering all the special interest groups */
-export default function SigCards({ header, headerInfo, groups }) {
+export default function SigCards({ groups }) {
   return (
     <div id="sig-cards">
       {groups.map(group => (
-        <SigCard group={group} />
+        <SigCard key={group.name} group={group} />
       ))}
     </div>
   )

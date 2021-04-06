@@ -13,7 +13,7 @@ export default function SigCard({ group }) {
 
   return (
     <div
-	  className="sig-card"
+      className="sig-card"
       style={{ backgroundImage: "url(" + group.portraitSrc + ")" }}
       data-aos="fade-up"
       data-aos-delay="80"
@@ -27,7 +27,7 @@ export default function SigCard({ group }) {
           <i>{group.head}</i>
         </h3>
         {group.description.map(paragraph => (
-          <p className="description">{paragraph} </p>
+          <p key={paragraph} className="description">{paragraph} </p>
         ))}
         <div className="ripples">
           <div className="ripple" />

@@ -13,7 +13,7 @@ export default function PartnerCard({ partner }) {
 
   return (
     <div
-	  className="partner-card"
+      className="partner-card"
       data-aos="fade-up"
       data-aos-delay="100"
       data-aos-duration="550"

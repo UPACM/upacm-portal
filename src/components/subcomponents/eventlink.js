@@ -7,7 +7,7 @@ import "../../styles/global.scss"
 export default function EventLink({ name, link, staticImage }) {
   return (
     <div
-	  className="event-link"
+      className="event-link"
       style={{ backgroundImage: "url(" + staticImage + ")" }}
     >
       <Link to={link}>

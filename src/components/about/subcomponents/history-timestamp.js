@@ -5,10 +5,10 @@ import "../../../styles/global.scss"
 
 export default function HistoryTimestamp({ date, event }) {
   return (
-    <div class="history-timestamp">
-      <div class="timestamp-dot"></div>
-      <span class="date">{date}</span>
-      <span class="event">{event}</span>
+    <div className="history-timestamp">
+      <div className="timestamp-dot"></div>
+      <span className="date">{date}</span>
+      <span className="event">{event}</span>
     </div>
   )
 }

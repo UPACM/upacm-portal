@@ -23,7 +23,7 @@ export default function CommitteeCard({ member }) {
 
   return (
     <div
-	className={"committee-card"}
+      className={"committee-card"}
       data-aos="fade-up"
       data-aos-delay="50"
       data-aos-duration="650"
@@ -35,7 +35,7 @@ export default function CommitteeCard({ member }) {
         <b>{member.name}</b>
       </p>
       {member.position.map(position => (
-        <BoldItalic name="position" text={position} />
+        <BoldItalic key={position} name="position" text={position} />
       ))}
     </div>
   )

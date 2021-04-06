@@ -20,12 +20,8 @@ export default function ContactSocial() {
       data-aos-delay="40"
       data-aos-duration="500"
     >
-      <SocialWidget 
-	  	social="twitter" 
-		href="https://twitter.com/upacm" />
-      <SocialWidget 
-	  	social="facebook" 
-		href="https://twitter.com/upacm" />
+      <SocialWidget social="twitter" href="https://twitter.com/upacm" />
+      <SocialWidget social="facebook" href="https://twitter.com/upacm" />
       <SocialWidget
         social="linkedin"
         href="https://www.linkedin.com/company/upacm/"
