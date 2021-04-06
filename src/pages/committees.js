@@ -16,14 +16,14 @@ export default function Home() {
       <Header isIndex={false} active="Committees" />
 
       <div class="wrapper incompressible">
-      <Opening
-        header={CommData.council.header}
-        headerInfo={CommData.council.headerInfo}
-      >
-        <CommitteeCards members={CommData.council.members} />
-      </Opening>
+        <Opening
+          header={CommData.council.header}
+          headerInfo={CommData.council.headerInfo}
+        >
+          <CommitteeCards members={CommData.council.members} />
+        </Opening>
       </div>
-      
+
       <Footer />
     </>
   )

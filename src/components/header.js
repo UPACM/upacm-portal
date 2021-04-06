@@ -28,7 +28,13 @@ const Header = ({ isIndex, active }) => {
 
   return (
     <>
-      <div class={scrolled || !isIndex ? " header incompressible scrolled" : " header incompressible"}>
+      <div
+        class={
+          scrolled || !isIndex
+            ? " header incompressible scrolled"
+            : " header incompressible"
+        }
+      >
         <div class="wrapper incompressible">
           <Link to="/" className="home-link">
             <img class=" logo" src={siteLogo} alt="logo" />
@@ -45,9 +51,13 @@ const Header = ({ isIndex, active }) => {
           </div>
 
           <div
-            class={navbarVisible ? "nav-bar incompressible visible" : "nav-bar incompressible"}
-			id={scrolled ? "scrolled" : "noscrolled"}
-          >  
+            class={
+              navbarVisible
+                ? "nav-bar incompressible visible"
+                : "nav-bar incompressible"
+            }
+            id={scrolled ? "scrolled" : "noscrolled"}
+          >
             <Navlink to="/about/" name="About" active={active === "About"} />
             <Navlink
               to="/committees/"
@@ -56,13 +66,19 @@ const Header = ({ isIndex, active }) => {
             />
             <Navlink to="/sig/" name="SIG" active={active === "SIG"} />
             <Navlink to="/events/" name="Events" active={active === "Events"} />
-            <Navlink to="/gallery/" name="Gallery" active={active === "Gallery"} />
-            <Navlink to="/contact/" name="Contact" active={active === "Contact"} />
+            <Navlink
+              to="/gallery/"
+              name="Gallery"
+              active={active === "Gallery"}
+            />
+            <Navlink
+              to="/contact/"
+              name="Contact"
+              active={active === "Contact"}
+            />
           </div>
-
         </div>
       </div>
-
 
       {!isIndex ? <div class=" header-spacer"></div> : <></>}
     </>
