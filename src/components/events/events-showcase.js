@@ -21,7 +21,7 @@ export default function EventsShowcase({ events }) {
         data-aos-duration="550"
       >
         <EventsFeaturedCard event={events.featured} />
-        {events.unfeatured.length == 1 && (
+        {events.unfeatured.length === 1 && (
           <EventsFeaturedCard event={events.unfeatured[0]} />
         )}
       </div>
