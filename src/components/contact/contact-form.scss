@@ -1,7 +1,6 @@
 @import "../../styles/animation.scss";
 
 #contact-form {
-
 	#email {
 		display: block;
 		margin: auto;
@@ -39,20 +38,23 @@
 
 	padding: 10%;
 
-	#form-name, #form-email, #form-subject, #form-message {
+	#form-name,
+	#form-email,
+	#form-subject,
+	#form-message {
 		display: flex;
 		flex-wrap: wrap;
 		padding: 10px 20px;
 
 		color: white;
 
-
 		p {
 			width: 200px;
 			padding: 10px 0;
-		}		
+		}
 
-		input, textarea {
+		input,
+		textarea {
 			flex: 1;
 			border: none;
 			outline: none;
@@ -64,8 +66,7 @@
 		}
 	}
 
-
-	#form-message {		
+	#form-message {
 		#input-message {
 			overflow: visible;
 			word-wrap: break-word;
@@ -92,13 +93,14 @@
 		@include transition-single(transform);
 	}
 
-	#submit-button:hover, #submit-button:disabled {
+	#submit-button:hover,
+	#submit-button:disabled {
 		@include transform-safe(scale(1.1));
 	}
 
 	#response {
 		background: var(--acm-green);
-		
+
 		display: block;
 		margin: auto;
 		margin-top: 50px;
@@ -115,12 +117,12 @@
 	}
 
 	@keyframes fade-in {
-		from { 
-			@include transform-safe(scale(0)); 
+		from {
+			@include transform-safe(scale(0));
 			opacity: 0;
 		}
 		to {
-			@include transform-safe(scale(1)); 
+			@include transform-safe(scale(1));
 			opacity: 1;
 		}
 	}
@@ -129,14 +131,10 @@
 		background: var(--acm-red);
 	}
 
-
 	// Remove form on mobile
 	@media only screen and (max-width: 480px) {
 		#form {
 			display: none;
 		}
-
 	}
-
 }
-

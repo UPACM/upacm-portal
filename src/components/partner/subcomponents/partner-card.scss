@@ -1,13 +1,12 @@
 @import "../../../styles/animation.scss";
 
 .partner-card {
-	
 	width: 30vw;
 	height: 200px;
 	min-width: 290px;
 
 	margin: 2vh 4vw;
-	
+
 	img {
 		object-fit: contain;
 
@@ -25,5 +24,4 @@
 		opacity: 0.7;
 		@include transform-safe(scale(0.8));
 	}
-
 }

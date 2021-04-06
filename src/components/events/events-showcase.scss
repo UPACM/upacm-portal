@@ -1,8 +1,6 @@
-@import "../../styles/var.scss";
 @import "../../styles/global.scss";
 
 .events-showcase {
-	
 	display: block;
 	margin: auto;
 
@@ -11,14 +9,7 @@
 	width: 80%;
 	min-width: 270px;
 
-	.featured {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: row;
-		align-items: center;
-		justify-content: center;
-	}
-
+	.featured,
 	.unfeatured {
 		display: flex;
 		flex-wrap: wrap;
@@ -26,5 +17,4 @@
 		align-items: center;
 		justify-content: center;
 	}
-
 }

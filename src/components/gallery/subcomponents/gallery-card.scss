@@ -1,41 +1,37 @@
-@import "../../../styles/var.scss";
-@import "../../../styles/global.scss";
 @import "../../../styles/animation.scss";
 
 
 // Default styling
 .gallery-card {
-
-	margin: 2%;
-
-	object-fit: scale-down;
-
 	flex: 1 1 45%;
 	min-width: 280px;
 	max-width: 50%;
 	height: fit-content;
 	
+	margin: 2%;
+	object-fit: scale-down;
+
 	img {
 
 		width: 100%;
 		height: auto;
 		max-height: 360px;
+
 		object-fit: cover;
 		border-radius: 10px;
 	}
 
 	.caption {
-		display: block;
-		margin: auto;
-
-		text-align: center;
-		@include transform-safe(scale(0.7));
-		opacity: 0.8;
-
 		width: fit-content;
 
+		display: block;
+		margin: auto;
 		padding: 1.5%;
 
+		opacity: 0.8;
+		text-align: center;
+
+		@include transform-safe(scale(0.7));
 	}
 
 }

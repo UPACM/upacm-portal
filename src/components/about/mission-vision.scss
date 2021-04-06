@@ -1,109 +1,107 @@
-@import "../../styles/var.scss";
 @import "../../styles/global.scss";
 
-div#mission-vision-section{
+div#mission-vision-section {
 	max-height: 1280px;
 	padding: 8% 0;
 	background: white;
 	overflow: hidden;
 	max-width: 100%;
-}
 
-div#mission-vision-section div.mission-vision-part{
-	display: flex;
-	flex-direction: row;
-	height: 400px;
-	padding: 50px 0;
-}
+	div.mission-vision-part {
+		display: flex;
+		flex-direction: row;
+		height: 400px;
+		padding: 50px 0;
 
+		div.text {
+			width: 44%;
+			padding: 3%;
+		}
+		img.showcase-image {
+			width: 50%;
+			object-fit: cover;
+		}
+	}
 
-div#mission-vision-section div.mission-vision-part div.text{
-	width: 44%;
-	padding: 3% ;
-}
+	div.mission-vision-part#mission {
+		color: black;
 
-div#mission-vision-section div.mission-vision-part img.showcase-image{
-	width: 50%;
-	object-fit: cover;
-}
+		h1 {
+			color: var(--acm-green);
+			padding-bottom: 4%;
+		}
+		img.showcase-image {
+			border-bottom-left-radius: 100px;
+			border-top-left-radius: 100px;
+		}
+	}
+	div.mission-vision-part#vision {
+		flex-direction: row-reverse;
+		color: black;
 
-div#mission-vision-section div.mission-vision-part#mission{
-	color: black;
-}
-
-div#mission-vision-section div.mission-vision-part#vision div.text{
-	text-align: right;
-}
-
-div#mission-vision-section div.mission-vision-part#mission img.showcase-image{
-	border-bottom-left-radius: 100px;
-	border-top-left-radius: 100px;
-}
-
-div#mission-vision-section div.mission-vision-part#vision img.showcase-image{
-	border-bottom-right-radius: 100px;
-	border-top-right-radius: 100px;
-}
-
-div#mission-vision-section div.mission-vision-part#vision{
-	flex-direction: row-reverse;
-	color: black;
-}
-
-div#mission-vision-section div.mission-vision-part#vision h1{
-	color: var(--acm-purple);
-	padding-bottom: 4%;
-	margin-top: -15%;
-}
-
-div#mission-vision-section div.mission-vision-part#mission h1{
-	color: var(--acm-green);
-	padding-bottom: 4%;
+		h1 {
+			color: var(--acm-purple);
+			padding-bottom: 4%;
+			margin-top: -15%;
+		}
+		div.text {
+			text-align: right;
+		}
+		img.showcase-image {
+			border-bottom-right-radius: 100px;
+			border-top-right-radius: 100px;
+		}
+	}
 }
 
 @media (max-width: 768px) {
-	div#mission-vision-section{
+	div#mission-vision-section {
 		padding: 0;
-	}
-	div#mission-vision-section div.mission-vision-part{
-		flex-direction: column-reverse;
-		height: auto;
-		padding:0;
 
-	}
-	div#mission-vision-section div.mission-vision-part div.text{
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		height: 50vh;
-		width: 90%;
-		padding: 0 5%;
-		position: relative;
-		top: -50vh;
-		margin-bottom: -50vh;
-		color: white;
-		font-size: 0.8em;
-	}
-	div#mission-vision-section div.mission-vision-part img.showcase-image{
-		width: 100%;
-		height: 50vh;
-	}
-	div#mission-vision-section div.mission-vision-part#mission div.text{
-		background: linear-gradient(270deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.25) 100%);
-	}
-	div#mission-vision-section div.mission-vision-part#mission img.showcase-image{
-		border-radius: 0 0 0 0;
-		box-shadow: 0 0 0 black;
-	}
-	div#mission-vision-section div.mission-vision-part#vision img.showcase-image{
-		border-radius: 0 0 0 0;
-		box-shadow: 0 0 0 black;
-	}
-	div#mission-vision-section div.mission-vision-part#vision{
-		flex-direction: column-reverse;
-	}
-	div#mission-vision-section div.mission-vision-part#vision div.text{
-		background: linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.25) 100%);
-	}
+		div.mission-vision-part {
+			flex-direction: column-reverse;
+			height: auto;
+			padding: 0;
 
+			div.text {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				height: 50vh;
+				width: 90%;
+				padding: 0 5%;
+				position: relative;
+				top: -50vh;
+				margin-bottom: -50vh;
+				color: white;
+				font-size: 0.8em;
+			}
+			img.showcase-image {
+				width: 100%;
+				height: 50vh;
+			}
+		}
+
+		div.mission-vision-part#mission {
+			div.text {
+				background: linear-gradient(270deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.25) 100%);
+			}
+			img.showcase-image {
+				border-radius: 0 0 0 0;
+				box-shadow: 0 0 0 black;
+			}
+		}
+
+		div.mission-vision-part#vision {
+			flex-direction: column-reverse;
+
+			img.showcase-image {
+				border-radius: 0 0 0 0;
+				box-shadow: 0 0 0 black;
+			}
+			div.text {
+				background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.25) 100%);
+			}
+		}
+	}
 }

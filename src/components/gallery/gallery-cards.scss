@@ -1,15 +1,12 @@
-@import "../../styles/var.scss";
 @import "../../styles/global.scss";
 
 #gallery-cards {
 	padding: 50px;
-
 	padding-top: 3%;
 
-	// Flexibility for mobile
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
 
 	align-items: center;
+	justify-content: center;
 }
