@@ -25,7 +25,7 @@ const AboutIntro = () => {
     <>
       <div id="about-intro-section">
         <img id="bg-image" src="/about-images/about_header.webp" alt="about" />
-        <div class="wrapper">
+        <div className="wrapper">
           <div id="intro-fade-in"></div>
           <img src={siteLogo} alt="logo" id="logo" />
           <div id="intro">

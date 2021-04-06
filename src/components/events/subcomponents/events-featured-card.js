@@ -4,7 +4,7 @@ import "./events-featured-card.scss"
 
 export default function EventsFeaturedCard({ event }) {
   return (
-    <div class="events-featured-card" id={event.header}>
+    <div className="events-featured-card" id={event.header}>
       <img src={event.imageSource} alt={event.header}/>
       <div id="info">
         <h5 id="header">{event.header}</h5>

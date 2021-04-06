@@ -13,9 +13,9 @@ function EventDiamond({ event }) {
   })
 
   return (
-    <Link class="diamond" to={"/events/#" + event.header}>
-      <div class="diamond-content">
-        <img class="diamond-img" src={event.imageSource} alt={event.header}/>
+    <Link className="diamond" to={"/events/#" + event.header}>
+      <div className="diamond-content">
+        <img className="diamond-img" src={event.imageSource} alt={event.header}/>
       </div>
     </Link>
   )
@@ -29,9 +29,9 @@ export default function Events({ eventsSectionText }) {
 
   return (
     <div id="events">
-      <div class="events-opening">
-        <h1 class="title">Events</h1>
-        <p class="text">{eventsSectionText}</p>
+      <div className="events-opening">
+        <h1 className="title">Events</h1>
+        <p className="text">{eventsSectionText}</p>
         <Link to="/events/" className="events-page-link">
           LEARN MORE
         </Link>

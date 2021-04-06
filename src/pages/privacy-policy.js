@@ -17,7 +17,7 @@ export default function PrivacyPolicy({ data }) {
         isIndex={false}
       />
       <Header isIndex={false} />
-      <div class="content wrapper index">
+      <div className="content wrapper index">
         <PolicyLayout>
           <div
             dangerouslySetInnerHTML={{

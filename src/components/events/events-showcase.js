@@ -15,7 +15,7 @@ export default function EventsShowcase({ events }) {
   return (
     <div class="events-showcase">
       <div
-        class="featured"
+        className="featured"
         data-aos="fade-up"
         data-aos-delay="80"
         data-aos-duration="550"
@@ -27,7 +27,7 @@ export default function EventsShowcase({ events }) {
       </div>
       {events.unfeatured.length > 1 && (
         <div
-          class="unfeatured"
+		  className="unfeatured"
           data-aos="fade-up"
           data-aos-delay="90"
           data-aos-duration="550"

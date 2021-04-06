@@ -6,7 +6,7 @@ import "./contact-footer.scss"
 export default function ContactFooter() {
   return (
     <div id="footer-bottom">
-      <div class="wrapper">
+      <div className="wrapper">
         <span>
           © {new Date().getFullYear()} Association for Computing Machinery -
           University of the Philippines Diliman Student Chapter, Inc.
