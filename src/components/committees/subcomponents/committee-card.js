@@ -1,9 +1,8 @@
 import React, { useEffect } from "react"
-import "./committee-card.scss"
-
-// On scroll animations
 import AOS from "aos"
+
 import "aos/dist/aos.css"
+import "./committee-card.scss"
 
 function BoldItalic({ name, text }) {
   return (

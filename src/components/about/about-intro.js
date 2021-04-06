@@ -1,9 +1,9 @@
 import React from "react"
-import siteLogo from "../../assets/images/logo.png"
-import "../../styles/var.scss"
-import "../../styles/global.scss"
-import "./about-intro.scss"
 import { useStaticQuery, graphql } from "gatsby"
+
+import siteLogo from "../../assets/images/logo.png"
+
+import "./about-intro.scss"
 
 const AboutIntro = () => {
   const data = useStaticQuery(

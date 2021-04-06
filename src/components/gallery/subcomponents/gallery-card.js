@@ -1,9 +1,8 @@
 import React, { useEffect } from "react"
-import "./gallery-card.scss"
-
-// On scroll animations
 import AOS from "aos"
+
 import "aos/dist/aos.css"
+import "./gallery-card.scss"
 
 /* Subcomponent for rendering a special interest group */
 export default function GalleryCard({ image }) {

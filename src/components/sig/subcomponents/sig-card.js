@@ -1,9 +1,8 @@
 import React, { useEffect } from "react"
-import "./sig-card.scss"
-
-// On scroll animations
 import AOS from "aos"
+
 import "aos/dist/aos.css"
+import "./sig-card.scss"
 
 /* Subcomponent for rendering a special interest group */
 export default function SigCard({ group }) {

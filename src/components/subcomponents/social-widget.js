@@ -1,10 +1,11 @@
 import React from "react"
-import "./social-widget.scss"
 
 import twitter_logo from "../../assets/images/social/twitter-logo.png"
 import facebook_logo from "../../assets/images/social/facebook-logo.png"
 import linkedin_logo from "../../assets/images/social/linkedin-logo.png"
 import youtube_logo from "../../assets/images/social/youtube-logo.png"
+
+import "./social-widget.scss"
 
 export default function SocialWidget({ elementClass = "", social, href }) {
   var img_logo

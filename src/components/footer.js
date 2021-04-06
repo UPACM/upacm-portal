@@ -2,9 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import SocialWidget from "../components/subcomponents/social-widget.js"
 
-import "../styles/var.scss"
-import "../styles/global.scss"
-import "./footer.css"
+import "./footer.scss"
 
 export default function Footer() {
   return (

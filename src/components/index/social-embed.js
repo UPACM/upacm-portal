@@ -1,6 +1,7 @@
 import React from "react"
-import "./social-embed.scss"
 import { TwitterTimelineEmbed } from "react-twitter-embed"
+
+import "./social-embed.scss"
 
 /* Component for opening a page section */
 export default function SocialEmbed() {

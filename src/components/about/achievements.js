@@ -3,8 +3,6 @@ import React from "react"
 import AchievementItem from "./subcomponents/achievement-item.js"
 import AboutData from "../../data/about.json"
 
-import "../../styles/var.scss"
-import "../../styles/global.scss"
 import "./achievements.scss"
 
 export default function Achievements() {

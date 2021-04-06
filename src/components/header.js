@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react"
-import { Link } from "gatsby"
 import Navlink from "../components/subcomponents/navlink.js"
-
-import "./header.scss"
+import { Link } from "gatsby"
 
 import siteLogo from "../assets/images/logo.png"
 import hamburgerIcon from "../assets/images/hamburger-icon.png"
+
+import "./header.scss"
 
 const Header = ({ isIndex, active }) => {
   const [scrolled, setScrolled] = useState(false)
