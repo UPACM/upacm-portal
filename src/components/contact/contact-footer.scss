@@ -1,14 +1,13 @@
 @import "../../styles/animation.scss";
 
-#footer-bottom{
+#footer-bottom {
 	background: var(--footer-secondary-color);
 	padding: 4vh 0;
 	color: white;
 }
 
-div#footer-bottom div.wrapper{
+div#footer-bottom div.wrapper {
 	justify-content: center;
 	text-align: center;
 	@include transform-safe(scale(0.8));
-
 }

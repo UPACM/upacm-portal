@@ -1,22 +1,24 @@
-@import "../../styles/var.scss";
 @import "../../styles/global.scss";
 
-div#achievements-section{
+div#achievements-section {
 	background: white;
+
 	padding: 15vh 0;
 	max-width: 100%;
 
 	h1 {
 		color: black;
-		text-align: center;
+
 		padding-bottom: 3vh;
+
+		text-align: center;
 		overflow-wrap: break-word;
 	}
-	div#achievements-content{
+	div#achievements-content {
 		width: 80%;
 		margin: auto;
-		
-		p#achievements-intro{
+
+		p#achievements-intro {
 			max-width: 80%;
 			color: black;
 			padding-bottom: 5%;
@@ -25,20 +27,20 @@ div#achievements-section{
 			margin: auto;
 			text-align: center;
 		}
-		
-		div#achievements-list::-webkit-scrollbar{
+
+		div#achievements-list::-webkit-scrollbar {
 			width: 5px;
 		}
 
-		div#achievements-list::-webkit-scrollbar-track{
-			background: rgba(0,0,0,0);
+		div#achievements-list::-webkit-scrollbar-track {
+			background: rgba(0, 0, 0, 0);
 		}
 
 		div#achievements-list::-webkit-scrollbar-thumb {
 			background: var(--acm-dark-blue);
 			border-radius: 2.5px;
 		}
-		div#achievements-list{
+		div#achievements-list {
 			width: 60%;
 			height: 50vh;
 			margin: auto;
@@ -46,26 +48,30 @@ div#achievements-section{
 			flex-direction: column;
 			align-items: center;
 			overflow-y: scroll;
-			mask: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.843312324929972) 70%, rgba(0,0,0,0) 100%);
+			mask: linear-gradient(
+				180deg,
+				rgba(0, 0, 0, 1) 0%,
+				rgba(0, 0, 0, 0.843312324929972) 70%,
+				rgba(0, 0, 0, 0) 100%
+			);
 			padding: 0 1.5vw;
-			
-			
-			div.achievement-item{
+
+			div.achievement-item {
 				display: flex;
 				align-items: center;
 				padding: 3vh 0;
 				width: 100%;
 				color: black;
-				img.achievement-image{
+				img.achievement-image {
 					align-self: flex-start;
 					width: 25%;
-					height: auto
+					height: auto;
 				}
-				
-				div.achievement-text{
+
+				div.achievement-text {
 					padding-left: 3%;
 					width: 64%;
-					
+
 					b {
 						color: var(--acm-blue);
 						font-style: italic;
@@ -76,34 +82,33 @@ div#achievements-section{
 	}
 }
 
-@media (max-width:475px) {
+@media (max-width: 475px) {
 	h1#achievementHeader {
 		font-size: 2.4em;
 	}
 }
 
 @media (max-width: 768px) {
-	div#achievements-section{
-		div#achievements-content{
+	div#achievements-section {
+		div#achievements-content {
 			flex-direction: column;
 			align-items: center;
-			
-			p#achievements-intro{
+
+			p#achievements-intro {
 				width: 100%;
 				padding-bottom: 3vh;
 			}
-			
-			div#achievements-list{
+
+			div#achievements-list {
 				width: 90%;
-				
-				div.achievement-item{
-					div.achievement-text{
-						h6.name{
+
+				div.achievement-item {
+					div.achievement-text {
+						h6.name {
 							font-size: 1.2em;
 						}
 					}
 				}
-				
 			}
 		}
 	}

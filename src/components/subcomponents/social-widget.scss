@@ -1,24 +1,28 @@
-@import "../../styles/var.scss";
 @import "../../styles/global.scss";
 @import "../../styles/animation.scss";
 
-.social-widget{
+.social-widget {
 	display: flex;
-	align-content: center;
-	justify-content: center;
+	
 	width: 500px;
 	height: 500px;
+
+	align-content: center;
+	justify-content: center;
+	
 	border-radius: 100%;
 }
 
-.social-widget img{
+.social-widget img {
 	width: 50%;
 	height: 50%;
+
 	margin: auto;
 	display: block;
 	object-fit: scale-down;
-	@include filter(brightness(0) invert(1));
+	
 	@include transition-all;
+	@include filter(brightness(0) invert(1));
 }
 
 .social-widget:hover {
