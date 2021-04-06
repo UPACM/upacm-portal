@@ -8,7 +8,7 @@ export default function GalleryCards({ images }) {
   return (
     <div id="gallery-cards">
       {images.map(image => (
-        <GalleryCard image={image} />
+        <GalleryCard key={image.caption} image={image} />
       ))}
     </div>
   )

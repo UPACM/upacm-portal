@@ -12,14 +12,14 @@ export default function History() {
         <div id="history-intro">
           <h1>History</h1>
           {AboutData.historyIntro.map(paragraph => (
-            <p>{paragraph}</p>
+            <p key={paragraph}>{paragraph}</p>
           ))}
         </div>
         <div id="timeline-container">
           {AboutData.history.map(data => {
             var d = new Date(data.date)
             return (
-              <HistoryTimestamp date={d.getFullYear()} event={data.event} />
+              <HistoryTimestamp key={data.event} date={d.getFullYear()} event={data.event} />
             )
           })}
         </div>

@@ -17,6 +17,7 @@ export default function Achievements() {
               var d = new Date(data.date)
               return (
                 <AchievementItem
+				  key={data.name + data.event + data.date}
                   date={d.getFullYear()}
                   name={data.name}
                   event={data.event}

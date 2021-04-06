@@ -8,7 +8,7 @@ export default function CommitteeCards({ members }) {
   return (
     <div id="committee-cards">
       {members.map(member => (
-        <CommitteeCard member={member} />
+        <CommitteeCard key={member.name} member={member} />
       ))}
     </div>
   )

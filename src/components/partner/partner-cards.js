@@ -8,7 +8,7 @@ export default function PartnerCards({ partners }) {
   return (
     <div id="partner-cards">
       {partners.map(partner => (
-        <PartnerCard partner={partner} />
+        <PartnerCard key={partner.imageSource} partner={partner} />
       ))}
     </div>
   )

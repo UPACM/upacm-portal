@@ -13,7 +13,7 @@ export default function SocialEmbed() {
         src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fupacm&width=300&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=400"
         scrolling="yes"
         allowtransparency="true"
-        frameborder="0"
+        frameBorder="0"
       />
       <div id="twitter">
         <TwitterTimelineEmbed
