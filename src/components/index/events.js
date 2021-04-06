@@ -15,7 +15,7 @@ function EventDiamond({ event }) {
   return (
     <Link class="diamond" to={"/events/#" + event.header}>
       <div class="diamond-content">
-        <img class="diamond-img" src={event.imageSource} />
+        <img class="diamond-img" src={event.imageSource} alt={event.header}/>
       </div>
     </Link>
   )
