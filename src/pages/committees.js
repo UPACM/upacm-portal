@@ -15,7 +15,7 @@ export default function Home() {
       <SiteMeta pageName="Committees" sitePage="/committees/" isIndex={false} />
       <Header isIndex={false} active="Committees" />
 
-      <div class="wrapper incompressible">
+      <div className="wrapper incompressible">
         <Opening
           header={CommData.council.header}
           headerInfo={CommData.council.headerInfo}

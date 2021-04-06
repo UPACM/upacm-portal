@@ -6,7 +6,7 @@ import "./committee-card.scss"
 
 function BoldItalic({ name, text }) {
   return (
-    <p class={name}>
+    <p className={name}>
       <b>
         <i>{text}</i>
       </b>
@@ -23,15 +23,15 @@ export default function CommitteeCard({ member }) {
 
   return (
     <div
-      class={"committee-card"}
+	className={"committee-card"}
       data-aos="fade-up"
       data-aos-delay="50"
       data-aos-duration="650"
     >
-      <div class="portrait-wrapper">
-        <img alt="member" class="portrait" src={member.portraitSrc} />
+      <div className="portrait-wrapper">
+        <img alt="member" className="portrait" src={member.portraitSrc} />
       </div>
-      <p class={"name"}>
+      <p className="name">
         <b>{member.name}</b>
       </p>
       {member.position.map(position => (

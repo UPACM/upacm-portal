@@ -29,29 +29,29 @@ const Header = ({ isIndex, active }) => {
   return (
     <>
       <div
-        class={
+        className={
           scrolled || !isIndex
             ? " header incompressible scrolled"
             : " header incompressible"
         }
       >
-        <div class="wrapper incompressible">
+        <div className="wrapper incompressible">
           <Link to="/" className="home-link">
-            <img class=" logo" src={siteLogo} alt="logo" />
+            <img className=" logo" src={siteLogo} alt="logo" />
           </Link>
 
           <div
-            class="navbar-button-container"
+            className="navbar-button-container"
             onClick={function () {
               setNavbarVisible(!navbarVisible)
             }}
             aria-hidden="true"
           >
-            <img class="navbar-button" src={hamburgerIcon} alt="hamburger" />
+            <img className="navbar-button" src={hamburgerIcon} alt="hamburger" />
           </div>
 
           <div
-            class={
+            className={
               navbarVisible
                 ? "nav-bar incompressible visible"
                 : "nav-bar incompressible"
@@ -80,7 +80,7 @@ const Header = ({ isIndex, active }) => {
         </div>
       </div>
 
-      {!isIndex ? <div class=" header-spacer"></div> : <></>}
+      {!isIndex ? <div className=" header-spacer"></div> : <></>}
     </>
   )
 }

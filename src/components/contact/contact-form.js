@@ -116,7 +116,7 @@ export default function ContactForm() {
         </button>
 
         {serverState.status && (
-          <div class={!serverState.status.ok ? "error" : ""} id="response">
+          <div className={!serverState.status.ok ? "error" : ""} id="response">
             <p>{serverState.status.msg}</p>
           </div>
         )}

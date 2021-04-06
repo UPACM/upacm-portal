@@ -18,7 +18,7 @@ export default function Home() {
       <SiteMeta pageName="SIGs" sitePage="/sig/" isIndex={false} />
       <Header gap={true} active="SIG" />
 
-      <div class="wrapper incompressible">
+      <div className="wrapper incompressible">
         <Opening
           header={SigData.opening.header}
           headerInfo={SigData.opening.headerInfo}

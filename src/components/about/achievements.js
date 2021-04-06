@@ -7,8 +7,8 @@ import "./achievements.scss"
 
 export default function Achievements() {
   return (
-    <div class="wrapper" id="achievements-section">
-      <div class="wrapper">
+    <div className="wrapper" id="achievements-section">
+      <div className="wrapper">
         <h1 id="achievementHeader">Achievements</h1>
         <div id="achievements-content">
           <p id="achievements-intro">{AboutData.achievementsIntro}</p>

@@ -7,8 +7,8 @@ import "./history.scss"
 
 export default function History() {
   return (
-    <div class=" wrapper" id="history-section">
-      <div class="wrapper">
+    <div className=" wrapper" id="history-section">
+      <div className="wrapper">
         <div id="history-intro">
           <h1>History</h1>
           {AboutData.historyIntro.map(paragraph => (
