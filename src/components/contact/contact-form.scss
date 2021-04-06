@@ -1,3 +1,5 @@
+@import "../../styles/animation.scss";
+
 #contact-form {
 
 	#email {
@@ -11,7 +13,7 @@
 
 		font-size: 1em;
 
-		transform: ease color --var(--universal-transition-timing);
+		@include transition-single(color);
 	}
 
 	#email:hover {
@@ -87,11 +89,11 @@
 		border: none;
 		background-color: var(--acm-blue);
 
-		transition: var(--universal-transition-timing) ease scale;
+		@include transition-single(transform);
 	}
 
 	#submit-button:hover, #submit-button:disabled {
-		scale: 1.1;
+		@include transform-safe(scale(1.1));
 	}
 
 	#response {
@@ -107,15 +109,20 @@
 		text-align: center;
 		color: white;
 
-		animation: fade-in 0.6s ease;
+		@include animation(fade-in, 0.7s);
 
 		width: 80%;
 	}
 
 	@keyframes fade-in {
-		from {scale: 0; opacity: 0;}
-		to {scale: 1; opacity: 1;}
-		
+		from { 
+			@include transform-safe(scale(0)); 
+			opacity: 0;
+		}
+		to {
+			@include transform-safe(scale(1)); 
+			opacity: 1;
+		}
 	}
 
 	#response .error {

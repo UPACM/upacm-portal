@@ -1,37 +1,48 @@
+@import "./var.scss";
 
-@mixin transition($speed, $parameter){
-    -webkit-transition: $parameter $speed ease;
-    -moz-transition: $parameter $speed ease;
+/* For browser safe transitions targeting all changes */
+@mixin transition-all($speed: var(--universal-transition-timing)){
+    -webkit-transition: $speed ease;
+    -moz-transition: $speed ease;
+    -ms-transition: $speed ease;
+    -o-transition: $speed ease;
+    transition: $speed ease;
+}
+
+/* For browser safe transititions targeting one property */
+@mixin transition-single($parameter,$speed: var(--universal-transition-timing)){
+	-moz-transition: $parameter $speed ease;
+	-webkit-transition: $parameter $speed ease;
+	-o-transition: $parameter $speed ease;
     -ms-transition: $parameter $speed ease;
-    -o-transition: $parameter $speed ease;
     transition: $parameter $speed ease;
 }
 
-@mixin animation($speed, $property) {
-    animation: $property ease $speed;
-    -webkit-animation: $property ease $speed;
+/* For browser safe animations*/
+@mixin animation($property, $speed) {
     -moz-animation: $property ease $speed;
     -o-animation: $property ease $speed;
     -ms-animation: $property ease $speed;
+    -webkit-animation: $property ease $speed;
+	animation: $property ease $speed;
 }
 
-@keyframes slideFromUp{
-    0% {opacity:0; padding-top: 10%;}
-    100% {opacity:1;}
+@mixin animation-delay($delay) {
+    -webkit-animation-delay: $delay;
+    animation-delay: $delay;
 }
-@-moz-keyframes slideFromUp {
-    0% {opacity:0; padding-top: 10%;}
-    100% {opacity:1;}
+
+/* For browser safe transforms 
+(supporting IE8 below requires zoom which also affects Chrome) */
+@mixin transform-safe($transform) {
+	-moz-transform: $transform;
+    -o-transform: $transform;
+	-ms-transform: $transform;
+	-webkit-transform: $transform;
+    transform: $transform;
 }
-@-webkit-keyframes slideFromUp {
-    0% {opacity:0; padding-top: 10%;}
-    100% {opacity:1;}
-} 
-@-o-keyframes slideFromUp {
-    0% {opacity:0; padding-top: 10%;}
-    100% {opacity:1;}
-}
-@-ms-keyframes slideFromUp {
-    0% {opacity:0; padding-top: 10%;}
-    100% {opacity:1;}
+
+@mixin filter($effect) {
+	-webkit-filter: $effect;
+	filter: $effect;
 }

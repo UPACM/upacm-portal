@@ -1,3 +1,5 @@
+@import "../../styles/animation.scss";
+
 #events{
 	background-color: #252525;
 	display: flex;
@@ -22,12 +24,12 @@
 			color: rgb(46, 46, 46);
 			font-weight: bolder;
 			box-shadow: 2px 2px 10px rgb(46, 46, 46);
-			transition: 0.1s ease transform;
+			@include transition-single(transform);
 		}
 
 		.events-page-link:hover {
 			cursor: pointer;
-			transform: scale(1.1);
+			@include transform-safe(scale(1.1));
 		}
 
 	}
@@ -43,7 +45,7 @@
 			display: grid;
 			grid-auto-rows: 1fr;
 			gap: 3%;
-			transform: rotate(45deg);
+			@include transform-safe(rotate(45deg));
 			.diamond:nth-child(1){
 				grid-row: 1;
 				grid-column: 1;
@@ -65,7 +67,7 @@
 				align-items: center;
 				justify-content: center;
 				overflow: hidden;
-				transition: 0.2s;
+				@include transition-all;
 				box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 
 				.diamond-content{
@@ -77,19 +79,18 @@
 						height: 150%;
 						margin-left: -25%;
 						margin-top: -25%;
-						transform: rotate(-45deg);
-						//mix-blend-mode: lighten;
+						@include transform-safe(rotate(-45deg));
 						object-fit: cover;
 						object-position: center center;
 						mix-blend-mode: lighten;
-						transition: ease 0.3s scale;
+						@include transition-single(transform);
 					}
 				}
 			}
 
 			.diamond:hover{
 				background: rgba(11, 146, 236, 0.52);
-				transform: scale(1.1);
+				@include transform-safe(scale(1.1));
 				cursor: pointer;
 			}
 
@@ -126,7 +127,7 @@
 				height: 75vw;
 				margin: 0;
 				padding-bottom: 5%;
-				transform: rotate(0deg);
+				@include transform-safe(rotate(0deg));
 
 				.diamond {
 					border-radius: 20px;
@@ -136,7 +137,7 @@
 							width: 100%;
 							height: 100%;
 							margin: 0;
-							transform: rotate(0deg);
+							@include transform-safe(rotate(0deg));
 							object-fit: cover;
 						}
 					}		

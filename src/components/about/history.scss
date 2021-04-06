@@ -1,5 +1,6 @@
 @import "../../styles/var.scss";
 @import "../../styles/global.scss";
+@import "../../styles/animation.scss";
 
 div#history-section{
 	background: white;
@@ -74,7 +75,7 @@ div#history-section div#timeline-container div.history-timestamp div.timestamp-d
 	background: var(--history-section-color);
 	margin-left: calc(-2vw - 1.5vh - 1.5px);
 	margin-right: 2vw;
-	transform: rotate(45deg);
+	@include transform-safe(rotate(45deg));
 }
 
 div#history-section div#timeline-container div.history-timestamp span.date{

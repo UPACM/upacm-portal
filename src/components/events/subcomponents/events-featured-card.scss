@@ -1,3 +1,5 @@
+@import "../../../styles/animation.scss";
+
 .events-featured-card {
 
     // Sizing
@@ -12,7 +14,7 @@
     // Background setup
 	background-blend-mode: multiply;
 	background-color: rgba(0, 0, 0, 0.5);
-	transition: ease 0.3s;
+	@include transition-all(0.3s);
 
 	// Alignment
 	text-align: left;
@@ -32,7 +34,7 @@
 		background-color: rgba(0, 0, 0, 1);
 		mix-blend-mode: multiply;
 
-		transition: 0.3s ease;
+		@include transition-all(0.3s);
 
 		margin: auto;
 	}
@@ -49,7 +51,7 @@
 		max-width: 800px;
 
         $info-transition: 0.7s;
-        transition: $info-transition ease;
+		@include transition-all($info-transition);
 
         #header {
 			color: white;
@@ -82,7 +84,7 @@
 	background-color: rgba(0, 0, 0, 0.80);
 
 	img {
-		transform: scale(1.05);
+		@include transform-safe(scale(1.05));
 	}
 
 }

@@ -1,5 +1,6 @@
 @import "../../styles/var.scss";
 @import "../../styles/global.scss";
+@import "../../styles/animation.scss";
 
 .social-widget{
 	display: flex;
@@ -16,12 +17,12 @@
 	margin: auto;
 	display: block;
 	object-fit: scale-down;
-	filter: brightness(0) invert(1);
-	transition: ease var(--universal-transition-timing);
+	@include filter(brightness(0) invert(1));
+	@include transition-all;
 }
 
 .social-widget:hover {
 	img {
-		filter: none
+		@include filter(none);
 	}
 }

@@ -1,5 +1,6 @@
 @import "../../../styles/var.scss";
 @import "../../../styles/global.scss";
+@import "../../../styles/animation.scss";
 
 .sig-card:nth-child(1) {
 	grid-row: 1;
@@ -38,7 +39,7 @@
     background-position: center center;
 
     $background-transition: 0.4s;
-    transition: ease $background-transition;
+	@include transition-all($background-transition);
 
 	text-align: left;
 
@@ -52,13 +53,13 @@
         display: block;
 		background: rgba(0,0,0,0);
         $info-transition: 0.7s;
-        transition: $info-transition ease;
+		@include transition-all($info-transition);
 
         .name {
             font-weight: bolder;
             font-size: calc(1.4em + 0.4vw);
 
-            transition: 0.6s ease;
+			@include transition-all(0.6);
         }
 
         .head {
@@ -116,18 +117,18 @@
 		opacity: 1;
 		scale: 2;
 		background-color: rgba(160, 160, 160, 0.438);
-		transition: ease 0.35s;
+		@include transition-all(0.35s);
 		@include rippleSetup(1.7s);
 	}
 
 	.ripple:nth-child(1){
-		animation-delay: 0.00s;
+		@include animation-delay(0.0s);
 	}
 	.ripple:nth-child(2){
-		animation-delay: 0.2s;
+		@include animation-delay(0.2s);
 	}
 	.ripple:nth-child(3){
-		animation-delay: 0.4s;
+		@include animation-delay(0.4s);
 	}
 }
 

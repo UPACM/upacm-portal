@@ -1,5 +1,6 @@
 @import "../styles/var.scss";
 @import "../styles/global.scss";
+@import "../styles/animation.scss";
 
 div#footer{
 	background: rgb(0,131,192);
@@ -81,7 +82,7 @@ div#footer div#footer-top div.footer-section div.footer-section-links.socials di
 	height: 50px;
 	margin-right: 1vw;
 	border-radius: calc(35px / 2);
-	transition: background var(--universal-transition-timing);
+	@include transition-single(background);
 }
 
 div#footer div#footer-top div.footer-section div.footer-section-links.socials div.footer-social-widget:hover{
@@ -103,7 +104,7 @@ div#footer div#footer-bottom div.wrapper{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	scale: 0.8;
+	@include transform-safe(scale(0.8));
 }
 
 

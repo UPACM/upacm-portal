@@ -1,5 +1,6 @@
 @import "../../../styles/var.scss";
 @import "../../../styles/global.scss";
+@import "../../../styles/animation.scss";
 
 
 // Default styling
@@ -28,7 +29,7 @@
 		margin: auto;
 
 		text-align: center;
-		scale: 0.7;
+		@include transform-safe(scale(0.7));
 		opacity: 0.8;
 
 		width: fit-content;
