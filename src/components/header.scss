@@ -5,7 +5,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 2;
+	z-index: 999;
 	height: $header-height-top;
 	width: 100vw;
 	transition: 0.2s ease;

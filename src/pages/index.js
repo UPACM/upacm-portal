@@ -10,6 +10,7 @@ import Events from "../components/index/events.js"
 import srcVid from "../assets/videos/landing-video.mp4"
 
 import Opening from "../components/opening.js"
+import SuperOpening from "../components/super-opening.js"
 import SocialEmbed from "../components/index/social-embed.js"
 
 import indexData from "../data/index.json"
@@ -25,22 +26,25 @@ export default function Home() {
         introSubText={indexData.landing.text}
       />
       <div class="wrapper incompressible">
-        <Opening
-          header={indexData.siteIntro.title}
-          headerStyle={{ color: "#0182ac" }}
-          headerInfo={indexData.siteIntro.text}
+        <SuperOpening
+          title={indexData.siteIntro.title}
+          titleColor="#0182ac"
+          bgColor="white"
+          mainTextAlign="center"
+          text={indexData.siteIntro.text}
         />
 
         <Events eventsSectionText={indexData.eventsIntro.text} />
 
-        <Opening
-          header={indexData.socialIntro.title}
-          headerInfo={indexData.socialIntro.text}
-          style={{ padding: "6% 0" }}
+        <SuperOpening
+          title={indexData.socialIntro.title}
+          text={indexData.socialIntro.text}
+          bgTextAlign="center"
           aosEffect={true}
+          bgColor="white"
         >
           <SocialEmbed />
-        </Opening>
+        </SuperOpening>
       </div>
 
       <Footer />
