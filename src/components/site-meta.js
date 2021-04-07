@@ -14,7 +14,7 @@ export default function SiteMeta({ pageName, sitePage, isIndex }) {
     <Helmet>
       <meta charSet="utf-8" />
       {titleTag}
-      <link rel="canonical" href={"https://upacm.net" + sitePage} />
+      <link rel="canonical" href={"https://upacmportalmaster.gatsbyjs.io" + sitePage} />
       <meta
         name="Description"
         content="We envision a world where computing stands at the forefront of development - where we are able to use our skills to address the problems of tomorrow and create a positive impact on the community at large."
