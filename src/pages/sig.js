@@ -19,12 +19,12 @@ export default function Home() {
       <Header gap={true} active="SIG" />
 
       <div class="wrapper incompressible">
-        <Opening
-          header={SigData.opening.header}
-          headerInfo={SigData.opening.headerInfo}
-        >
-          <SigCards groups={SigData.groups} />
-        </Opening>
+      <Opening
+        header={SigData.opening.header}
+        headerInfo={SigData.opening.headerInfo}
+      >
+        <SigCards groups={SigData.groups} />
+      </Opening>
       </div>
 
       <Footer />

@@ -23,7 +23,7 @@ export default function Home() {
         <History />
         <Achievements />
       </div>
-
+      
       <Footer />
     </>
   )
