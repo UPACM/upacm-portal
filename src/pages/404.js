@@ -30,6 +30,7 @@ export default function PageNotFoundError(){
     <>
         <div id="page-not-found" style={{backgroundImage: `url("/404.webp")`}}>
             <h1 id="page-not-found-title">Page not found.</h1>
+            <img id="page-not-found-img" className="rot-anim" alt="A Jammondback Explorer slowly rotating in space." src="/404-assets/jammondback-explorer.webp"/>
             <p id="page-not-found-caption">{capStr}</p>
             <Link id="page-not-found-home-link" to="/">Click here to help him find his way back home.</Link>
         </div>

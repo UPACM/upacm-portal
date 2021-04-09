@@ -1,5 +1,6 @@
 @import "./global.scss";
 @import "./var.scss";
+@import "./animation.scss";
 
 #page-not-found{
     width: 100vw;
@@ -12,6 +13,8 @@
     align-items: center;
     justify-content: center;
 
+    overflow: hidden;
+
     color: white;
 
     > *{
@@ -19,15 +22,33 @@
         text-align: center;
     }
 
+    .diamond-star{
+        width: 50px;
+        height: 50px;
+        background: magenta;
+        position: fixed;
+        top: 0;
+    }
+
     #page-not-found-img{
-        background: $acm-blue;
-        width: 75vw;
-        height: 75vw;
+        height: 30vh;
+        margin: 5vh 0;
+
+    }
+
+    .rot-anim{
+        @include transition-all(60s linear);
+        @include animation(rotate, 60s, linear);
+        animation-iteration-count: infinite;
+    }
+
+    .mov-anim{
+        @include animation(moveLeft, linear, 1s, infinite);
     }
 
     #page-not-found-home-link{
         color: $acm-blue;
-        transition: 0.2s;
+        @include transition-all(0.2s);
     }
 
     #page-not-found-home-link:hover{
@@ -36,5 +57,19 @@
 
     #page-not-found-home-link:active{
         color: white;
+    }
+}
+
+@keyframes rotate{
+    from {@include transform-safe(rotate(0deg));}
+    to {@include transform-safe(rotate(360deg));}
+}
+
+@keyframes moveLeft{
+    0% {
+        @include transform-safe(translateX(50vw));
+    }
+    100%{
+        @include transform-safe(translateX(-50vw));
     }
 }
