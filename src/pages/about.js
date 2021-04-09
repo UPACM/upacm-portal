@@ -17,13 +17,13 @@ export default function Home() {
       <SiteMeta pageName="About us" sitePage="/about/" isIndex={false} />
       <Header isIndex={false} active="About" />
 
-      <div class="wrapper incompressible">
+      <div className="wrapper incompressible">
         <AboutIntro />
         <MissionVision />
         <History />
         <Achievements />
       </div>
-      
+
       <Footer />
     </>
   )

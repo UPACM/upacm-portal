@@ -1,9 +1,8 @@
 import React, { useEffect } from "react"
-import "./partner-card.scss"
-
-// On scroll animations
 import AOS from "aos"
+
 import "aos/dist/aos.css"
+import "./partner-card.scss"
 
 /* Subcomponent for rendering a partner */
 export default function PartnerCard({ partner }) {
@@ -14,14 +13,14 @@ export default function PartnerCard({ partner }) {
 
   return (
     <div
-      class="partner-card"
+      className="partner-card"
       data-aos="fade-up"
       data-aos-delay="100"
       data-aos-duration="550"
     >
       <img src={partner.imageSource} alt={partner.header} />
-      <h6 class="header">{partner.header}</h6>
-      <p class="subheader">{partner.subheader}</p>
+      <h6 className="header">{partner.header}</h6>
+      <p className="subheader">{partner.subheader}</p>
     </div>
   )
 }

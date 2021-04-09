@@ -1,57 +1,62 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import "../../styles/global.scss";
 
-div#about-intro-section{
+div#about-intro-section {
 	margin-top: 80vh;
 	color: white;
-	
-	img#bg-image{
+
+	img#bg-image {
 		position: fixed;
 		top: -8%;
 		left: 0;
+
 		z-index: -2;
 		height: 100%;
 		width: 100%;
-		background: var(--img-filler-color);
+
 		object-fit: cover;
 		object-position: center center;
-		mask-image: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 100%);
+		background: var(--img-filler-color);
+		mask-image: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 100%);
 	}
 
-	div.wrapper{
+	div.wrapper {
 		display: flex;
 		flex-direction: column;
-		background: var(--acm-blue);
 
 		max-width: 100%;
-		
-		#logo{
+
+		background: var(--acm-blue);
+
+		#logo {
 			width: 25%;
 			transform: translateY(-50%);
 			margin: auto;
 			object-fit: contain;
 		}
 
-		div#intro-fade-in{
+		div#intro-fade-in {
 			height: 25vh;
 			margin-top: -25vh;
-			background: linear-gradient(0deg, rgba(1,130,172,1) 0%, rgba(255,255,255,0) 100%);
+
+			background: linear-gradient(0deg, rgba(1, 130, 172, 1) 0%, rgba(255, 255, 255, 0) 100%);
 		}
 
-		div#intro{
+		div#intro {
 			text-align: center;
 			margin: auto;
-				
-			div#intro-body{
-				p{
+
+			div#intro-body {
+				p {
 					margin: 2vh auto;
 					padding: 3vh 0;
 					width: 60%;
 				}
-				iframe{
+				iframe {
 					width: 50vw;
 					max-width: calc(1920px / 2);
 					height: 30vw;
-					max-height: calc(1920px * .3);
+					max-height: calc(1920px * 0.3);
 					margin: 10vh 0;
 					border-radius: 1vh;
 				}
@@ -60,21 +65,20 @@ div#about-intro-section{
 	}
 }
 
-
-@media (min-width: 1920px){
-	div#about-intro-section{
-		div.wrapper{
-			div#acm-logo-container{
+@media (min-width: 1920px) {
+	div#about-intro-section {
+		div.wrapper {
+			div#acm-logo-container {
 				height: 100px;
-				div#acm-logo{
+				div#acm-logo {
 					width: 200px;
 					height: 200px;
 					border-radius: 100px;
 				}
 			}
-			div#intro{
-				div#intro-body{
-					p{
+			div#intro {
+				div#intro-body {
+					p {
 						margin: 1vh auto;
 						padding: 1.5vh 0;
 					}
@@ -84,31 +88,26 @@ div#about-intro-section{
 	}
 }
 
-@media (max-width: 768px){
-
-	div#about-intro-section{
-		div.wrapper{
-			div#acm-logo-container{
+@media (max-width: 768px) {
+	div#about-intro-section {
+		div.wrapper {
+			div#acm-logo-container {
 				height: 6vh;
-				
-				div#acm-logo{
+
+				div#acm-logo {
 					width: 12vh;
 					height: 12vh;
 					border-radius: 6vh;
 				}
 			}
-			
-			div#intro{
-			
-				div#intro-body{
-					p{
+
+			div#intro {
+				div#intro-body {
+					p {
 						width: 80%;
 					}
-					
 				}
-			
 			}
-			
 		}
 	}
 }

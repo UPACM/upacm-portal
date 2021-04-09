@@ -1,11 +1,11 @@
 @import "../../styles/animation.scss";
 
-#events{
+#events {
 	background-color: #252525;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	
+
 	.events-opening {
 		background: none;
 		color: white;
@@ -24,20 +24,19 @@
 			color: rgb(46, 46, 46);
 			font-weight: bolder;
 			box-shadow: 2px 2px 10px rgb(46, 46, 46);
-			transition: 0.1s ease transform;
+			@include transition-single(transform);
 		}
 
 		.events-page-link:hover {
 			cursor: pointer;
-			transform: scale(1.1);
+			@include transform-safe(scale(1.1));
 		}
-
 	}
-	.showcase-container{
+	.showcase-container {
 		width: 50%;
 		display: flex;
 		justify-content: center;
-		#showcase{
+		#showcase {
 			width: 30vw;
 			height: 30vw;
 			max-width: calc(1920px * 0.3);
@@ -45,20 +44,20 @@
 			display: grid;
 			grid-auto-rows: 1fr;
 			gap: 3%;
-			transform: rotate(45deg);
-			.diamond:nth-child(1){
+			@include transform-safe(rotate(45deg));
+			.diamond:nth-child(1) {
 				grid-row: 1;
 				grid-column: 1;
 			}
-			.diamond:nth-child(2){
+			.diamond:nth-child(2) {
 				grid-row: 1;
 				grid-column: 2;
 			}
-			.diamond:nth-child(3){
+			.diamond:nth-child(3) {
 				grid-row: 2;
 				grid-column: 1;
 			}
-			.diamond:nth-child(4){
+			.diamond:nth-child(4) {
 				grid-row: 2;
 				grid-column: 2;
 			}
@@ -67,60 +66,57 @@
 				align-items: center;
 				justify-content: center;
 				overflow: hidden;
-				transition: 0.2s;
+				@include transition-all;
 				box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
 
-				.diamond-content{
+				.diamond-content {
 					width: 100%;
 					height: 100%;
 					overflow: hidden;
-					.diamond-img{
+					.diamond-img {
 						width: 150%;
 						height: 150%;
 						margin-left: -25%;
 						margin-top: -25%;
-						transform: rotate(-45deg);
-						//mix-blend-mode: lighten;
+						@include transform-safe(rotate(-45deg));
 						object-fit: cover;
 						object-position: center center;
 						mix-blend-mode: lighten;
-						transition: ease 0.3s scale;
+						@include transition-single(transform);
 					}
 				}
 			}
 
-			.diamond:hover{
+			.diamond:hover {
 				background: rgba(11, 146, 236, 0.52);
-				transform: scale(1.1);
+				@include transform-safe(scale(1.1));
 				cursor: pointer;
 			}
-
 		}
 	}
 }
 
 @media only screen and (max-width: 1000px) {
-	
 	#events {
 		flex-direction: column;
 		margin: auto;
 		text-align: center;
-		overflow-x: visible;	
+		overflow-x: visible;
 		padding: 5% 0;
 		min-width: 280px;
-		.events-opening{
+		.events-opening {
 			width: 90%;
 			text-align: center;
 
-			> *{
+			> * {
 				margin: 10% 0;
 			}
 
-			.events-page-link{
+			.events-page-link {
 				margin: auto;
 			}
 		}
-		.showcase-container{
+		.showcase-container {
 			width: 100%;
 			margin: 10% 0;
 			#showcase {
@@ -128,20 +124,20 @@
 				height: 75vw;
 				margin: 0;
 				padding-bottom: 5%;
-				transform: rotate(0deg);
+				@include transform-safe(rotate(0deg));
 
 				.diamond {
 					border-radius: 20px;
 
-					.diamond-content{
+					.diamond-content {
 						.diamond-img {
 							width: 100%;
 							height: 100%;
 							margin: 0;
-							transform: rotate(0deg);
+							@include transform-safe(rotate(0deg));
 							object-fit: cover;
 						}
-					}		
+					}
 				}
 			}
 		}

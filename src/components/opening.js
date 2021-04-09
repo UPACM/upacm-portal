@@ -12,8 +12,8 @@ export default function Opening({
   headerInfoStyle,
 }) {
   return (
-    <div style={style} class="opening" id={name}>
-      <div class="wrapper incompressible">
+    <div style={style} className="opening" id={name}>
+      <div className="wrapper incompressible">
         <h2 style={headerStyle} id="header">
           {header}
         </h2>

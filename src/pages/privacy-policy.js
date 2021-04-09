@@ -4,7 +4,6 @@ import { graphql } from "gatsby"
 import Header from "../components/header.js"
 import Footer from "../components/footer.js"
 import SiteMeta from "../components/site-meta.js"
-//import BlankContentfiller from "../components/blank-content-filler.js"
 import PolicyLayout from "../components/privacy-policy/policy-layout.js"
 
 import "../styles/global.scss"
@@ -18,7 +17,7 @@ export default function PrivacyPolicy({ data }) {
         isIndex={false}
       />
       <Header isIndex={false} />
-      <div class="content wrapper index">
+      <div className="content wrapper index">
         <PolicyLayout>
           <div
             dangerouslySetInnerHTML={{

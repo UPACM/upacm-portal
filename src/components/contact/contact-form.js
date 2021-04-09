@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
-
-import "./contact-form.scss"
-
-// On scroll animations
 import AOS from "aos"
+
 import "aos/dist/aos.css"
+import "./contact-form.scss"
 
 /* Component for accepting responses and sends to Getform*/
 export default function ContactForm() {
@@ -118,7 +116,7 @@ export default function ContactForm() {
         </button>
 
         {serverState.status && (
-          <div class={!serverState.status.ok ? "error" : ""} id="response">
+          <div className={!serverState.status.ok ? "error" : ""} id="response">
             <p>{serverState.status.msg}</p>
           </div>
         )}

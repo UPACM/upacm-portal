@@ -1,6 +1,5 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-import "./markdown_reader.css"
 
 const MarkdownReader = ({ data }) => {
   return (

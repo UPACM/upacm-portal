@@ -1,5 +1,6 @@
-#contact-form {
+@import "../../styles/animation.scss";
 
+#contact-form {
 	#email {
 		display: block;
 		margin: auto;
@@ -11,7 +12,7 @@
 
 		font-size: 1em;
 
-		transform: ease color --var(--universal-transition-timing);
+		@include transition-single(color);
 	}
 
 	#email:hover {
@@ -37,20 +38,23 @@
 
 	padding: 10%;
 
-	#form-name, #form-email, #form-subject, #form-message {
+	#form-name,
+	#form-email,
+	#form-subject,
+	#form-message {
 		display: flex;
 		flex-wrap: wrap;
 		padding: 10px 20px;
 
 		color: white;
 
-
 		p {
 			width: 200px;
 			padding: 10px 0;
-		}		
+		}
 
-		input, textarea {
+		input,
+		textarea {
 			flex: 1;
 			border: none;
 			outline: none;
@@ -62,8 +66,7 @@
 		}
 	}
 
-
-	#form-message {		
+	#form-message {
 		#input-message {
 			overflow: visible;
 			word-wrap: break-word;
@@ -87,16 +90,17 @@
 		border: none;
 		background-color: var(--acm-blue);
 
-		transition: var(--universal-transition-timing) ease scale;
+		@include transition-single(transform);
 	}
 
-	#submit-button:hover, #submit-button:disabled {
-		scale: 1.1;
+	#submit-button:hover,
+	#submit-button:disabled {
+		@include transform-safe(scale(1.1));
 	}
 
 	#response {
 		background: var(--acm-green);
-		
+
 		display: block;
 		margin: auto;
 		margin-top: 50px;
@@ -107,29 +111,30 @@
 		text-align: center;
 		color: white;
 
-		animation: fade-in 0.6s ease;
+		@include animation(fade-in, 0.7s);
 
 		width: 80%;
 	}
 
 	@keyframes fade-in {
-		from {scale: 0; opacity: 0;}
-		to {scale: 1; opacity: 1;}
-		
+		from {
+			@include transform-safe(scale(0));
+			opacity: 0;
+		}
+		to {
+			@include transform-safe(scale(1));
+			opacity: 1;
+		}
 	}
 
 	#response .error {
 		background: var(--acm-red);
 	}
 
-
 	// Remove form on mobile
 	@media only screen and (max-width: 480px) {
 		#form {
 			display: none;
 		}
-
 	}
-
 }
-

@@ -11,7 +11,9 @@ export default function SiteMeta({ pageName, sitePage, isIndex }) {
     )
   }
   return (
-    <Helmet>
+    <Helmet htmlAttributes={{
+		lang: 'en',
+	  }}>
       <meta charSet="utf-8" />
       {titleTag}
       <link rel="canonical" href={"https://upacmportalmaster.gatsbyjs.io" + sitePage} />
