@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import Navlink from "../components/subcomponents/navlink.js"
 import { Link } from "gatsby"
 
-import siteLogo from "../assets/images/logo.png"
+import siteLogo from "../assets/images/logo.webp"
 import hamburgerIcon from "../assets/images/hamburger-icon.png"
 
 import "./header.scss"
