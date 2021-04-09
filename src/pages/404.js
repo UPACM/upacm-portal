@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import SiteMeta from "../components/site-meta.js"
 
 
 import "../styles/404.scss"
@@ -21,13 +22,16 @@ export default function PageNotFoundError(){
         "Jammond thinks he's not in Kansas anymore.",
         "Jammond explored too far out.",
         "Jammond achieved the Elite explorer rank, but at what cost?",
-        "A neutron star overdrove his friendship drive."
+        "A neutron star overdrove his friendship drive.",
+        "404 light years was too much for his fuel tank.",
+        "Jammond's fuel tank could not afford 404 light years of travel."
     ]
 
     var capStr = captionStrings[getRandomInt(0, captionStrings.length)]
 
     return(
     <>
+        <SiteMeta pageName="Page Not Found" sitePage="/404/" isIndex={false} />
         <div id="page-not-found" style={{backgroundImage: `url("/404.webp")`}}>
             <h1 id="page-not-found-title">Page not found.</h1>
             <img id="page-not-found-img" className="rot-anim" alt="A Jammondback Explorer slowly rotating in space." src="/404-assets/jammondback-explorer.webp"/>
