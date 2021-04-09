@@ -1,65 +1,63 @@
-@import "../../../styles/var.scss";
 @import "../../../styles/global.scss";
+@import "../../../styles/animation.scss";
 
-// Default styling
 .committee-card {
-    $text-color: black;
-    $subtext-color: var(--acm-blue);
+	$text-color: black;
+	$subtext-color: var(--acm-blue);
 
 	object-fit: contain;
 
-    // Sizing
-    $image-dimension: calc(2vw + 180px);
+	// Sizing
+	$image-dimension: calc(2vw + 180px);
 
-    // Layout
-    padding: 30px;
+	// Layout
+	padding: 30px;
 
-    width: 280px;
-    height: 320px;
+	width: 280px;
+	height: 320px;
 
+	.portrait-wrapper {
+		overflow: hidden;
+		border-radius: 100%;
 
-    .portrait-wrapper {
-        overflow: hidden;   
-        border-radius: 100%;
-        
-        padding: 30px;
+		padding: 30px;
 
-        display: block;
-        margin: auto;
+		display: block;
+		margin: auto;
 
-        width: $image-dimension;
-        height: $image-dimension;
-    }
+		width: $image-dimension;
+		height: $image-dimension;
+	}
 
-    .portrait{
-        display: block;
-        margin: auto;
-        
-        // Follow wrapper
-        width: 100%;
-        height: 100%;   
-        border-radius: 100%;
-    }
+	.portrait {
+		width: 100%;
+		height: 100%;
 
-    .name {
-        display: block;
-        margin: auto;
+		display: block;
+		margin: auto;
 
-        text-align: center;
+		border-radius: 100%;
+	}
 
-        color: $text-color;
+	.name {
+		color: $text-color;
 
-    }
-    .position {
-        color: $subtext-color;
+		text-align: center;
 
-        scale: 0.75;
-        text-align: center;
-        
-        margin-bottom: -5px;
-    }
+		margin: auto;
+		display: block;
+	}
+	.position {
+		color: $subtext-color;
+
+		text-align: center;
+		margin-bottom: -5px;
+
+		@include transform-safe(scale(0.75));
+	}
 }
 
+// First child takes full width
 .committee-card:nth-child(1) {
-    width: 100vw;
+	width: 100vw;
 }

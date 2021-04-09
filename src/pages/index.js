@@ -24,7 +24,7 @@ export default function Home() {
         introText={indexData.landing.title}
         introSubText={indexData.landing.text}
       />
-      <div class="wrapper incompressible">
+      <div className="wrapper incompressible">
         <Opening
           header={indexData.siteIntro.title}
           headerStyle={{ color: "#0182ac" }}

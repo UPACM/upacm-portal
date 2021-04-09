@@ -19,6 +19,7 @@ export default function Home() {
       />
       {Object.keys(EventData).map(type => (
         <Opening
+		  key={EventData[type].header}
           header={EventData[type].header}
           headerInfo={EventData[type].headerInfo}
         >

@@ -1,9 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "../../styles/global.scss";
-@import "../../styles/var.scss";
 
-div.landing{
+div.landing {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -21,10 +19,10 @@ div.landing{
 	z-index: -2;
 }
 
-div#landing-video{
+div#landing-video {
 	z-index: -3;
 
-	video{
+	video {
 		width: 100vw;
 		max-height: 100vh;
 		object-fit: cover;
@@ -32,7 +30,7 @@ div#landing-video{
 	}
 }
 
-div#landing-overlay{
+div#landing-overlay {
 	padding-top: $header-height-top;
 	display: flex;
 	align-items: center;
@@ -40,46 +38,40 @@ div#landing-overlay{
 	color: white;
 	background: var(--landing-overlay-bg);
 
-	div.wrapper{
+	div.wrapper {
 		display: flex;
 		justify-content: flex-end;
 	}
-
-	div#landing-text{
+	div#landing-text {
 		width: 60%;
 		min-width: 600px;
 		padding: 0 5%;
 		margin-top: var(--header-height);
 		font-size: min(2em, 20px);
-		
-		> *{
-			text-align: right;
-		}
 	}
-
+	div#landing-text > * {
+		text-align: right;
+	}
 }
 
-div#landing-spacer{
+div#landing-spacer {
 	margin-bottom: 100vh;
 }
 
 @media (max-width: 1280px) {
-	div#landing-video{
+	div#landing-video {
 		display: flex;
 		justify-content: center;
 	}
 }
 
 @media (max-width: 768px) {
-	
-	div#landing-overlay{
-		div#landing-text{
-			min-width: 90%;
-			font-size: calc(0.4em + 1.2vw);
-			p#intro-sub-text{
-				font-size: 1.45em;
-			}
+	div#landing-overlay div#landing-text {
+		min-width: 90%;
+		font-size: calc(0.4em + 1.2vw);
+
+		p#intro-sub-text {
+			font-size: 1.45em;
 		}
 	}
-
 }

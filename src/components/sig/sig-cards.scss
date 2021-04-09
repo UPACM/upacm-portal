@@ -1,21 +1,21 @@
-@import "../../styles/var.scss";
 @import "../../styles/global.scss";
 
 #sig-cards {
 	padding: 3%;
 	padding-top: 6%;
 
-	// Flexibility for mobile
 	display: grid;
+
 	grid-gap: 1%;
 	grid-auto-rows: 1fr;
 }
 
-@media (max-width: 1000px){
-	#sig-cards{
+@media (max-width: 1000px) {
+	#sig-cards {
 		display: flex;
+
 		flex-direction: column;
-		> *{
+		> * {
 			margin: 1% 0;
 		}
 	}

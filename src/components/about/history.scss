@@ -1,131 +1,140 @@
-div#history-section{
-	background: white;
+@import "../../styles/global.scss";
+@import "../../styles/animation.scss";
+
+div#history-section {
 	color: black;
+	background: white;
+
 	padding: 8vh 0;
 	max-width: 100%;
-}
 
-div#history-section div.wrapper{
-	width: 80%;
-	align-items: center;
-	justify-content: center;
-}
-
-div#history-section div#history-intro{
-	width: 80vw;
-	justify-content: center;
-	text-align: center;
-	display: block;
-	margin: auto;
-}
-
-div#history-section div#history-intro h1{
-	padding: 3% 0;
-	padding-top: 0;
-
-}
-div#history-section div#history-intro p{
-	max-width: 80%;
-	display: block;
-	margin: auto;
-	padding-bottom: 3%;
-}
-
-div#history-section div#timeline-container{
-	display: block;
-	margin: auto;
-	width: 60%;
-	height: 75vh;
-	overflow-y: scroll;
-	mask-image: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 25%, rgba(71,71,71,1) 75%, rgba(255,255,255,0) 100%);
-}
-
-div#history-section div#timeline-container::-webkit-scrollbar{
-	width: 5px;
-}
-
-div#history-section div#timeline-container::-webkit-scrollbar-thumb {
-	background: var(--history-section-color);
-	border-radius: 2.5px;
-}
-
-div#history-section div#timeline-container div.history-timestamp{
-	display: flex;
-	align-items: center;
-	font-size: 1.5em;
-	padding: 4vh 0;
-	padding-left: 2vw;
-	border-left: 3px solid rgb(100, 100, 100);
-}
-
-div#history-section div#timeline-container div.history-timestamp:first-of-type{
-	padding-top: 37.5vh;
-}
-div#history-section div#timeline-container div.history-timestamp:last-of-type{
-	padding-bottom: 37.5vh;
-}
-
-div#history-section div#timeline-container div.history-timestamp div.timestamp-dot{
-	width: 3vh;
-	height: 3vh;
-	background: var(--history-section-color);
-	margin-left: calc(-2vw - 1.5vh - 1.5px);
-	margin-right: 2vw;
-	transform: rotate(45deg);
-}
-
-div#history-section div#timeline-container div.history-timestamp span.date{
-	padding-right: 1.5vw;
-}
-
-div#history-section div#timeline-container div.history-timestamp span.event{
-	width: 75%;
-	padding-left: 1.5vw;
-	border-left: 1px solid var(--history-section-color);
-}
-
-@media (min-width: 1920px){
-	div#history-section div#history-intro{
+	div.wrapper {
 		width: 80%;
-		padding: 0 1vw;
+
+		align-items: center;
+		justify-content: center;
 	}
-	div#history-section div#timeline-container{
-		height: calc(1920px*0.5);
+
+	div#history-intro {
+		width: 80vw;
+
+		margin: auto;
+		display: block;
+
+		justify-content: center;
+		text-align: center;
+
+		h1 {
+			padding: 3% 0;
+			padding-top: 0;
+		}
+		p {
+			max-width: 80%;
+
+			margin: auto;
+			display: block;
+			padding-bottom: 3%;
+		}
 	}
-	div#history-section div#timeline-container div.history-timestamp:first-of-type{
-		padding-top: calc(960px*0.5);
+
+	div#timeline-container {
+		margin: auto;
+		display: block;
+
+		width: 60%;
+		height: 75vh;
+
+		overflow-y: scroll;
+		mask-image: linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0) 0%,
+			rgba(0, 0, 0, 1) 25%,
+			rgba(71, 71, 71, 1) 75%,
+			rgba(255, 255, 255, 0) 100%
+		);
+
+		div.history-timestamp {
+			font-size: 1.5em;
+
+			display: flex;
+			align-items: center;
+
+			padding: 4vh 0;
+			padding-left: 2vw;
+			border-left: 3px solid rgb(100, 100, 100);
+
+			div.timestamp-dot {
+				width: 3vh;
+				height: 3vh;
+
+				background: var(--history-section-color);
+
+				margin-left: calc(-2vw - 1.5vh - 1.5px);
+				margin-right: 2vw;
+
+				@include transform-safe(rotate(45deg));
+			}
+			span.date {
+				padding-right: 1.5vw;
+			}
+			span.event {
+				width: 75%;
+
+				padding-left: 1.5vw;
+				border-left: 1px solid var(--history-section-color);
+			}
+		}
+		div.history-timestamp:first-of-type,
+		div.history-timestamp:last-of-type {
+			padding-top: 37.5vh;
+		}
 	}
-	div#history-section div#timeline-container div.history-timestamp:last-of-type{
-		padding-bottom: calc(960px*0.5);
+
+	div#timeline-container::-webkit-scrollbar {
+		width: 5px;
+	}
+	div#timeline-container::-webkit-scrollbar-thumb {
+		background: var(--history-section-color);
+		border-radius: 2.5px;
 	}
 }
 
-@media (max-width: 768px){
-	div#history-section div.wrapper{
-		flex-direction: column;
-	}
-	div#history-section div#history-intro{
-		width: 100%;
-	}
-	div#history-section div#timeline-container{
-		width: 100%;
-		height: 50vh
-	}
-	div#history-section div#timeline-container div.history-timestamp:first-of-type{
-		padding-top: 25vh
-	}
-	div#history-section div#timeline-container div.history-timestamp:last-of-type{
-		padding-bottom: 25vh
-	}
-	div#history-section div#timeline-container div.history-timestamp{
-		font-size: 1em;
+@media (min-width: 1920px) {
+	div#history-section {
+		div#history-intro {
+			width: 80%;
+			padding: 0 1vw;
+		}
+		div#timeline-container {
+			height: calc(1920px * 0.5);
+
+			div.history-timestamp:first-of-type,
+			div.history-timestamp:last-of-type {
+				padding-top: calc(960px * 0.5);
+			}
+		}
 	}
 }
 
+@media (max-width: 768px) {
+	div#history-section {
+		div.wrapper {
+			flex-direction: column;
+		}
+		div#history-intro {
+			width: 100%;
+		}
+		div#timeline-container {
+			width: 100%;
+			height: 50vh;
 
-
-
-
-
-
-
+			div.history-timestamp:first-of-type,
+			div.history-timestamp:last-of-type {
+				padding-top: 25vh;
+			}
+			div.history-timestamp {
+				font-size: 1em;
+			}
+		}
+	}
+}

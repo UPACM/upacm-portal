@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react"
-import { Link } from "gatsby"
 import Navlink from "../components/subcomponents/navlink.js"
-
-import "./header.scss"
+import { Link } from "gatsby"
 
 import siteLogo from "../assets/images/logo.png"
 import hamburgerIcon from "../assets/images/hamburger-icon.png"
+
+import "./header.scss"
 
 const Header = ({ isIndex, active }) => {
   const [scrolled, setScrolled] = useState(false)
@@ -28,26 +28,40 @@ const Header = ({ isIndex, active }) => {
 
   return (
     <>
-      <div class={scrolled || !isIndex ? " header incompressible scrolled" : " header incompressible"}>
-        <div class="wrapper incompressible">
+      <div
+        className={
+          scrolled || !isIndex
+            ? " header incompressible scrolled"
+            : " header incompressible"
+        }
+      >
+        <div className="wrapper incompressible">
           <Link to="/" className="home-link">
-            <img class=" logo" src={siteLogo} alt="logo" />
+            <img className=" logo" src={siteLogo} alt="logo" />
           </Link>
 
           <div
-            class="navbar-button-container"
+            className="navbar-button-container"
             onClick={function () {
               setNavbarVisible(!navbarVisible)
             }}
             aria-hidden="true"
           >
-            <img class="navbar-button" src={hamburgerIcon} alt="hamburger" />
+            <img
+              className="navbar-button"
+              src={hamburgerIcon}
+              alt="hamburger"
+            />
           </div>
 
           <div
-            class={navbarVisible ? "nav-bar incompressible visible" : "nav-bar incompressible"}
-			id={scrolled ? "scrolled" : "noscrolled"}
-          >  
+            className={
+              navbarVisible
+                ? "nav-bar incompressible visible"
+                : "nav-bar incompressible"
+            }
+            id={scrolled ? "scrolled" : "noscrolled"}
+          >
             <Navlink to="/about/" name="About" active={active === "About"} />
             <Navlink
               to="/committees/"
@@ -56,15 +70,21 @@ const Header = ({ isIndex, active }) => {
             />
             <Navlink to="/sig/" name="SIG" active={active === "SIG"} />
             <Navlink to="/events/" name="Events" active={active === "Events"} />
-            <Navlink to="/gallery/" name="Gallery" active={active === "Gallery"} />
-            <Navlink to="/contact/" name="Contact" active={active === "Contact"} />
+            <Navlink
+              to="/gallery/"
+              name="Gallery"
+              active={active === "Gallery"}
+            />
+            <Navlink
+              to="/contact/"
+              name="Contact"
+              active={active === "Contact"}
+            />
           </div>
-
         </div>
       </div>
 
-
-      {!isIndex ? <div class=" header-spacer"></div> : <></>}
+      {!isIndex ? <div className=" header-spacer"></div> : <></>}
     </>
   )
 }

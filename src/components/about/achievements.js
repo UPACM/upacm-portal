@@ -3,14 +3,12 @@ import React from "react"
 import AchievementItem from "./subcomponents/achievement-item.js"
 import AboutData from "../../data/about.json"
 
-import "../../styles/var.scss"
-import "../../styles/global.scss"
 import "./achievements.scss"
 
 export default function Achievements() {
   return (
-    <div class="wrapper" id="achievements-section">
-      <div class="wrapper">
+    <div className="wrapper" id="achievements-section">
+      <div className="wrapper">
         <h1 id="achievementHeader">Achievements</h1>
         <div id="achievements-content">
           <p id="achievements-intro">{AboutData.achievementsIntro}</p>
@@ -19,6 +17,7 @@ export default function Achievements() {
               var d = new Date(data.date)
               return (
                 <AchievementItem
+				  key={data.name + data.event + data.date}
                   date={d.getFullYear()}
                   name={data.name}
                   event={data.event}

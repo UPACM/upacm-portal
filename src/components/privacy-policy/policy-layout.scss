@@ -1,56 +1,55 @@
-@import "../../styles/var.scss";
 @import "../../styles/global.scss";
 
-div#policy-layout{
+div#policy-layout {
 	background: white;
 	padding: max(5%, 45px);
 	padding-top: 40px;
 	margin: auto;
-	
-	h1#title{
+
+	h1#title {
 		font-size: 3.5em;
 		text-align: center;
 		padding-bottom: max(3%, 25px);
 	}
-	h1{
+	h1 {
 		padding-top: 20px;
 		padding-bottom: 10px;
 		font-size: 2.5em;
 	}
-	h2{
+	h2 {
 		padding-top: 14px;
 		font-size: 2em;
 	}
-	h3{
+	h3 {
 		padding-top: 14px;
 		font-size: 1.75em;
 	}
 
-	p, li{
+	p,
+	li {
 		margin: 18px 0;
 		font-size: 1em;
 	}
-	
-	a{
+
+	a {
 		color: var(--acm-blue);
 		text-decoration: underline;
 	}
-	
-	strong{
+
+	strong {
 		color: var(--acm-dark-blue);
 	}
-	
-	li{
+
+	li {
 		margin-left: min(10%, 45px);
 	}
-	
 }
 
-@media (max-width: 768px){
-	div#mechanics-layout{
+@media (max-width: 768px) {
+	div#mechanics-layout {
 		font-size: 1em;
-		
-		h1#page-title{
+
+		h1#page-title {
 			margin: 0;
 			font-size: 2.5em;
 			text-align: left;
@@ -58,20 +57,18 @@ div#policy-layout{
 			padding-left: 0;
 			margin-bottom: 4%;
 		}
-		
-		h1{
+
+		h1 {
 			margin: 4% 0;
 		}
-		
-		p{
+
+		p {
 			margin: 6% 0;
 		}
-		
-		li{
+
+		li {
 			margin: 2% 0;
 			margin-left: 5%;
 		}
-		
 	}
-
 }

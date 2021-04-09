@@ -2,19 +2,17 @@ import React from "react"
 import { Link } from "gatsby"
 import SocialWidget from "../components/subcomponents/social-widget.js"
 
-import "../styles/var.scss"
-import "../styles/global.scss"
-import "./footer.css"
+import "./footer.scss"
 
 export default function Footer() {
   return (
-    <div id="footer" class="incompressible">
+    <div id="footer" className="incompressible">
       <div id="footer-top">
-        <div class="wrapper">
-          <div class="footer-section">
+        <div className="wrapper">
+          <div className="footer-section">
             <h1>UP ACM</h1>
-            <div class="footer-section-links portal-links">
-              <div class="link-col">
+            <div className="footer-section-links portal-links">
+              <div className="link-col">
                 <span>
                   <Link to="/about/">About</Link>
                 </span>
@@ -25,7 +23,7 @@ export default function Footer() {
                   <Link to="/committees/">Committees</Link>
                 </span>
               </div>
-              <div class="link-col">
+              <div className="link-col">
                 <span>
                   <Link to="/partners/">Partners</Link>
                 </span>
@@ -36,11 +34,11 @@ export default function Footer() {
             </div>
           </div>
 
-          <div class="footer-section">
+          <div className="footer-section">
             <h1>Contact Us</h1>
-            <div class="footer-section-links contacts">
+            <div className="footer-section-links contacts">
               <span>
-                <a href="mailto:contactus@upacm.net" id="email">
+                <a href="mailto:contactus@upacm.net" id="footer-email">
                   contactus@upacm.net
                 </a>
               </span>
@@ -53,13 +51,13 @@ export default function Footer() {
                   Diliman, Quezon City, Philippines
                 </a>
               </span>
-              <div class="clear"></div>
+              <div className="clear"></div>
             </div>
           </div>
 
-          <div class="footer-section">
+          <div className="footer-section">
             <h1>Connect with us!</h1>
-            <div class="footer-section-links socials">
+            <div className="footer-section-links socials">
               <SocialWidget
                 elementClass="footer-social-widget"
                 social="twitter"
@@ -85,7 +83,7 @@ export default function Footer() {
         </div>
       </div>
       <div id="footer-bottom">
-        <div class="wrapper">
+        <div className="wrapper">
           <span>
             © {new Date().getFullYear()} Association for Computing Machinery -
             University of the Philippines Diliman Student Chapter, Inc.

@@ -1,10 +1,10 @@
 import React, { useEffect } from "react"
-import "./contact-social.scss"
+import AOS from "aos"
+
 import SocialWidget from "../../components/subcomponents/social-widget.js"
 
-// On scroll animations
-import AOS from "aos"
 import "aos/dist/aos.css"
+import "./contact-social.scss"
 
 /* Component for displaying all available social links */
 export default function ContactSocial() {

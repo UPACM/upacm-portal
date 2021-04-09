@@ -1,13 +1,12 @@
 import React, { useEffect } from "react"
-import "./committee-card.scss"
-
-// On scroll animations
 import AOS from "aos"
+
 import "aos/dist/aos.css"
+import "./committee-card.scss"
 
 function BoldItalic({ name, text }) {
   return (
-    <p class={name}>
+    <p className={name}>
       <b>
         <i>{text}</i>
       </b>
@@ -24,19 +23,19 @@ export default function CommitteeCard({ member }) {
 
   return (
     <div
-      class={"committee-card"}
+      className={"committee-card"}
       data-aos="fade-up"
       data-aos-delay="50"
       data-aos-duration="650"
     >
-      <div class="portrait-wrapper">
-        <img alt="member" class="portrait" src={member.portraitSrc} />
+      <div className="portrait-wrapper">
+        <img alt="member" className="portrait" src={member.portraitSrc} />
       </div>
-      <p class={"name"}>
+      <p className="name">
         <b>{member.name}</b>
       </p>
       {member.position.map(position => (
-        <BoldItalic name="position" text={position} />
+        <BoldItalic key={position} name="position" text={position} />
       ))}
     </div>
   )

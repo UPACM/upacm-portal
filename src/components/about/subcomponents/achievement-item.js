@@ -1,10 +1,11 @@
 import React from "react"
-import "../../../styles/var.scss"
-import "../../../styles/global.scss"
 
 import achievementLocal from "../../../assets/images/achievement/achievement_local.png"
 import achievementNational from "../../../assets/images/achievement/achievement_national.png"
 import achievementInternational from "../../../assets/images/achievement/achievement_international.png"
+
+import "../../../styles/var.scss"
+import "../../../styles/global.scss"
 
 export default function AchievementItem({ name, event, date, scope }) {
   const achievementIcon = {
@@ -14,18 +15,18 @@ export default function AchievementItem({ name, event, date, scope }) {
   }
 
   return (
-    <div class="achievement-item">
+    <div className="achievement-item">
       <img
-        class="achievement-image"
+        className="achievement-image"
         src={achievementIcon[scope]}
         alt="achievment-logo"
       />
-      <div class="achievement-text">
-        <h6 class="name">{name}</h6>
+      <div className="achievement-text">
+        <h6 className="name">{name}</h6>
         <b>
-          <p class="event">{event}</p>
+          <p className="event">{event}</p>
         </b>
-        <p class="date">{date}</p>
+        <p className="date">{date}</p>
       </div>
     </div>
   )

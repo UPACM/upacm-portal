@@ -1,31 +1,31 @@
 import React from "react"
-import "../../styles/var.scss"
-import "../../styles/global.scss"
-import "./mission-vision.scss"
+
 import AboutData from "../../data/about.json"
+
+import "./mission-vision.scss"
 
 export default function MissionVision() {
   return (
-    <div class="wrapper incompressible" id="mission-vision-section">
-      <div class="wrapper incompressible">
-        <div class="mission-vision-part" id="mission">
-          <div class="text">
+    <div className="wrapper incompressible" id="mission-vision-section">
+      <div className="wrapper incompressible">
+        <div className="mission-vision-part" id="mission">
+          <div className="text">
             <h1>Mission</h1>
             <p>{AboutData.mission}</p>
           </div>
           <img
-            class="showcase-image"
+            className="showcase-image"
             src="/about-images/about_mission.webp"
             alt="mission"
           />
         </div>
-        <div class="mission-vision-part" id="vision">
-          <div class="text">
+        <div className="mission-vision-part" id="vision">
+          <div className="text">
             <h1>Vision</h1>
             <p>{AboutData.vision}</p>
           </div>
           <img
-            class="showcase-image"
+            className="showcase-image"
             src="/about-images/about_vision.webp"
             alt="vision"
           />
