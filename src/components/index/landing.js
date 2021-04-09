@@ -7,7 +7,7 @@ export default function Landing({ videoSrcObj, introText, introSubText }) {
   return (
     <>
       <div className="landing incompressible" id="landing-video">
-        <img src={landingFade} id="landing-video-fade" />
+        <img src={landingFade} id="landing-video-fade" alt=""/>
         <video preload="auto" loop={true} autoPlay={true} muted={true}>
           <source type="video/mp4" src={videoSrcObj} />
           Your browser does not support the window tag.
