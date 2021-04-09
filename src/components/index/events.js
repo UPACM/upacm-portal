@@ -48,7 +48,10 @@ export default function Events({ eventsSectionText }) {
           id="showcase"
         >
           {Object.keys(EventData).map(type => (
-            <EventDiamond key={EventData[type].featured.header} event={EventData[type].featured} />
+            <EventDiamond
+              key={EventData[type].featured.header}
+              event={EventData[type].featured}
+            />
           ))}
         </div>
       </div>

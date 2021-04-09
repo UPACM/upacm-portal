@@ -19,7 +19,11 @@ export default function History() {
           {AboutData.history.map(data => {
             var d = new Date(data.date)
             return (
-              <HistoryTimestamp key={data.event} date={d.getFullYear()} event={data.event} />
+              <HistoryTimestamp
+                key={data.event}
+                date={d.getFullYear()}
+                event={data.event}
+              />
             )
           })}
         </div>

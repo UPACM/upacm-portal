@@ -27,7 +27,9 @@ export default function SigCard({ group }) {
           <i>{group.head}</i>
         </h3>
         {group.description.map(paragraph => (
-          <p key={paragraph} className="description">{paragraph} </p>
+          <p key={paragraph} className="description">
+            {paragraph}{" "}
+          </p>
         ))}
         <div className="ripples">
           <div className="ripple" />
