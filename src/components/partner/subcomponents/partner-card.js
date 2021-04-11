@@ -12,7 +12,8 @@ export default function PartnerCard({ partner }) {
   })
 
   return (
-    <div
+    <a
+      href={partner.website}
       className="partner-card"
       data-aos="fade-up"
       data-aos-delay="100"
@@ -21,6 +22,6 @@ export default function PartnerCard({ partner }) {
       <img src={partner.imageSource} alt={partner.header} />
       <h6 className="header">{partner.header}</h6>
       <p className="subheader">{partner.subheader}</p>
-    </div>
+    </a>
   )
 }
