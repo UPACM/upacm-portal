@@ -96,7 +96,7 @@
 	}
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1280px) {
 	#events {
 		flex-direction: column;
 		margin: auto;
@@ -109,7 +109,7 @@
 			text-align: center;
 
 			> * {
-				margin: 10% 0;
+				margin: min(10%, 50px) 0;
 			}
 
 			.events-page-link {
