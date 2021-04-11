@@ -38,14 +38,14 @@ export default function Footer() {
             <h1>Contact Us</h1>
             <div className="footer-section-links contacts">
               <span>
-                <a href="mailto:contactus@upacm.net" id="footer-email">
+                <a href="mailto:contactus@upacm.net" className="footer-link">
                   contactus@upacm.net
                 </a>
               </span>
               <span>
                 <a
                   href="https://www.google.com/maps/dir/?api=1&destination=14.70521%2C121.06235&fbclid=IwAR19Fe1Rg_c-Znfm6NwYfa9Lc6eSMy6aoT4F8RJ11bdGwW3BhSGCG0owFUE"
-                  id="email"
+                  className="footer-link"
                 >
                   Department of Computer Science, University of the Philippines
                   Diliman, Quezon City, Philippines
