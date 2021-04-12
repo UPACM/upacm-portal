@@ -1,23 +1,13 @@
-import React, { useEffect } from "react"
-import AOS from "aos"
+import React from "react"
 
-import "aos/dist/aos.css"
 import "./sig-card.scss"
 
 /* Subcomponent for rendering a special interest group */
 export default function SigCard({ group }) {
-  useEffect(() => {
-    AOS.init()
-    AOS.refresh()
-  })
-
   return (
     <div
       className="sig-card"
       style={{ backgroundImage: "url(" + group.portraitSrc + ")" }}
-      data-aos="fade-up"
-      data-aos-delay="80"
-      data-aos-duration="650"
     >
       <div className="info">
         <h2 className="name">

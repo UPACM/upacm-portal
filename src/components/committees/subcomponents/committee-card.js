@@ -1,7 +1,5 @@
-import React, { useEffect } from "react"
-import AOS from "aos"
+import React from "react"
 
-import "aos/dist/aos.css"
 import "./committee-card.scss"
 
 function BoldItalic({ name, text }) {
@@ -16,18 +14,8 @@ function BoldItalic({ name, text }) {
 
 /* Subcomponent for rendering one member of a committee type*/
 export default function CommitteeCard({ member }) {
-  useEffect(() => {
-    AOS.init()
-    AOS.refresh()
-  })
-
   return (
-    <div
-      className={"committee-card"}
-      data-aos="fade-up"
-      data-aos-delay="50"
-      data-aos-duration="650"
-    >
+    <div className="committee-card">
       <div className="portrait-wrapper">
         <img alt="member" className="portrait" src={member.portraitSrc} />
       </div>
