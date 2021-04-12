@@ -1,24 +1,15 @@
 import React from "react"
-
+import loadable from '@loadable/component'
 import "./social-embed.scss"
+
+const TwitterEmbed = loadable(() => import('../twitter-embed'))
 
 /* Component for referencing latest media posts */
 export default function SocialEmbed() {
   return (
     <div id="social-embed">
       <div id="twitter">
-	  	<a 
-		  data-dnt="true" 
-		  data-height="550" 
-		  className="twitter-timeline" 
-		  href="https://twitter.com/upacm?ref_src=twsrc%5Etfw">
-	      Tweets by upacm
-		</a>
-		<script 
-		  async 
-		  charSet="utf-8"
-		  src="https://platform.twitter.com/widgets.js"
-		/> 
+	  	<TwitterEmbed />
       </div>
     </div>
   )
