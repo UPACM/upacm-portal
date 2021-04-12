@@ -26,11 +26,11 @@ While using our Service, we may ask you to provide us with certain personally id
 - Phone number
 - Cookies and Usage Data
 
-## Usage Data
+### Usage Data
 
 We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
 
-## Tracking & Cookies Data
+### Tracking & Cookies Data
 
 We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.
 
