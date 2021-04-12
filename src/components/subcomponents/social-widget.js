@@ -1,9 +1,9 @@
 import React from "react"
 
-import twitter_logo from "../../assets/images/social/twitter-logo.png"
-import facebook_logo from "../../assets/images/social/facebook-logo.png"
-import linkedin_logo from "../../assets/images/social/linkedin-logo.png"
-import youtube_logo from "../../assets/images/social/youtube-logo.png"
+import twitter_logo from "../../assets/images/social/twitter-logo.webp"
+import facebook_logo from "../../assets/images/social/facebook-logo.webp"
+import linkedin_logo from "../../assets/images/social/linkedin-logo.webp"
+import youtube_logo from "../../assets/images/social/youtube-logo.webp"
 
 import "./social-widget.scss"
 
