@@ -1,23 +1,13 @@
-import React, { useEffect } from "react"
-import AOS from "aos"
+import React from "react"
 
-import "aos/dist/aos.css"
 import "./partner-card.scss"
 
 /* Subcomponent for rendering a partner */
 export default function PartnerCard({ partner }) {
-  useEffect(() => {
-    AOS.init()
-    AOS.refresh()
-  })
-
   return (
     <a
       href={partner.website}
       className="partner-card"
-      data-aos="fade-up"
-      data-aos-delay="100"
-      data-aos-duration="550"
     >
       <img src={partner.imageSource} alt={partner.header} />
       <h6 className="header">{partner.header}</h6>
