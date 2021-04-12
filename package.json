@@ -22,10 +22,13 @@
     "gatsby-remark-embed-video": "^3.1.1",
     "gatsby-source-filesystem": "^3.2.0",
     "gatsby-transformer-remark": "^3.2.0",
+    "image-size": "^0.9.7",
+    "jimp": "^0.16.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "webp-converter": "^2.3.3"
   },
   "devDependencies": {
     "prettier": "2.2.1"

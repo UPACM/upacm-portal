@@ -10,7 +10,7 @@ function EventDiamond({ event }) {
       <div className="diamond-content">
         <img
           className="diamond-img"
-          src={event.imageSource}
+          src={event.imageSourceSmall}
           alt={event.header}
         />
       </div>
