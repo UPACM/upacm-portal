@@ -1,17 +1,10 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import axios from "axios"
-import AOS from "aos"
 
-import "aos/dist/aos.css"
 import "./contact-form.scss"
 
 /* Component for accepting responses and sends to Getform*/
 export default function ContactForm() {
-  useEffect(() => {
-    AOS.init()
-    AOS.refresh()
-  })
-
   const [serverState, setServerState] = useState({
     submitting: false,
     status: null,
@@ -49,13 +42,7 @@ export default function ContactForm() {
       <a id="email" href="mailto:contactus@upacm.net">
         <h6>contactus@upacm.net</h6>
       </a>
-      <form
-        data-aos="zoom-in"
-        data-aos-delay="75"
-        data-aos-duration="550"
-        onSubmit={handleOnSubmit}
-        id="form"
-      >
+      <form onSubmit={handleOnSubmit} id="form">
         <div id="form-email">
           <b>
             <p>Email</p>

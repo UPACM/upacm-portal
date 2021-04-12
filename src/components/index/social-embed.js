@@ -1,26 +1,24 @@
 import React from "react"
-import { TwitterTimelineEmbed } from "react-twitter-embed"
 
 import "./social-embed.scss"
 
-/* Component for opening a page section */
+/* Component for referencing latest media posts */
 export default function SocialEmbed() {
   return (
     <div id="social-embed">
-      <iframe
-        id="facebook"
-        title="facebook"
-        src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fupacm&width=300&colorscheme=light&show_faces=true&border_color&stream=true&header=true&height=400"
-        scrolling="yes"
-        allowtransparency="true"
-        frameBorder="0"
-      />
       <div id="twitter">
-        <TwitterTimelineEmbed
-          sourceType="profile"
-          screenName="upacm"
-          options={{ height: 400 }}
-        />
+	  	<a 
+		  data-dnt="true" 
+		  data-height="550" 
+		  className="twitter-timeline" 
+		  href="https://twitter.com/upacm?ref_src=twsrc%5Etfw">
+	      Tweets by upacm
+		</a>
+		<script 
+		  async 
+		  charSet="utf-8"
+		  src="https://platform.twitter.com/widgets.js"
+		/> 
       </div>
     </div>
   )

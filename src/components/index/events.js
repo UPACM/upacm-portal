@@ -1,17 +1,10 @@
-import React, { useEffect } from "react"
-import AOS from "aos"
+import React from "react"
 import { Link } from "gatsby"
 import EventData from "../../data/events.json"
 
-import "aos/dist/aos.css"
 import "./events.scss"
 
 function EventDiamond({ event }) {
-  useEffect(() => {
-    AOS.init()
-    AOS.refresh()
-  })
-
   return (
     <Link className="diamond" to={"/events/#" + event.header}>
       <div className="diamond-content">
@@ -26,11 +19,6 @@ function EventDiamond({ event }) {
 }
 
 export default function Events({ eventsSectionText }) {
-  useEffect(() => {
-    AOS.init()
-    AOS.refresh()
-  })
-
   return (
     <div id="events">
       <div className="events-opening">
@@ -41,14 +29,12 @@ export default function Events({ eventsSectionText }) {
         </Link>
       </div>
       <div className="showcase-container">
-        <div
-          data-aos="fade-up"
-          data-aos-delay="60"
-          data-aos-duration="550"
-          id="showcase"
-        >
+        <div id="showcase">
           {Object.keys(EventData).map(type => (
-            <EventDiamond key={EventData[type].featured.header} event={EventData[type].featured} />
+            <EventDiamond
+              key={EventData[type].featured.header}
+              event={EventData[type].featured}
+            />
           ))}
         </div>
       </div>

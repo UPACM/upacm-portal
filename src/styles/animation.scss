@@ -19,12 +19,22 @@
 }
 
 /* For browser safe animations*/
+/*
 @mixin animation($property, $speed) {
     -moz-animation: $property ease $speed;
     -o-animation: $property ease $speed;
     -ms-animation: $property ease $speed;
     -webkit-animation: $property ease $speed;
 	animation: $property ease $speed;
+}
+*/
+
+@mixin animation($property, $rate: ease, $speed: 0.2s, $iteration-count: 1s) {
+    -moz-animation: $property $rate $speed;
+    -o-animation: $property $rate $speed;
+    -ms-animation: $property $rate $speed;
+    -webkit-animation: $property $rate $speed;
+	animation: $property $rate $speed $iteration-count;
 }
 
 @mixin animation-delay($delay) {

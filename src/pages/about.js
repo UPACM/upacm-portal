@@ -5,6 +5,7 @@ import SiteMeta from "../components/site-meta.js"
 
 import AboutIntro from "../components/about/about-intro.js"
 import MissionVision from "../components/about/mission-vision.js"
+import CoreValues from "../components/about/core-values.js"
 import History from "../components/about/history.js"
 import Achievements from "../components/about/achievements.js"
 
@@ -20,7 +21,8 @@ export default function Home() {
       <div className="wrapper incompressible">
         <AboutIntro />
         <MissionVision />
-        <History />
+        <CoreValues />
+		<History />
         <Achievements />
       </div>
 
