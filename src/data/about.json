@@ -5,6 +5,19 @@
   "mission": "As the Philippines' premier chapter of the internationally recognized organization, UP ACM is commited to provide high-quality Technology advancement opportunities to its members that can make them globally competitive and to establish the success of various Computing fields by offering services to our partners that can stipulate significant impact to the communities.",
   "vision": "Be a leader in delivering breakthrough innovations in the field of Computing and be an epitome in embracing a diverse and inclusive environment where communities are empowered by the possibilities found through Information Technology and Computer Science.",
 
+  "coreValues": {
+	  "header": "Core Values",
+	  "headerInfo": "We are focused in developing and sharing technical knowledge and skills while monitoring the welfare of our stakeholders. The WE CARE values underlie our work as a family of technology enthusiasts, define the recommended interaction with each other, and provide the best strategies to fulfill our mission:",
+	  "list": [
+		  "Wellbeing of Members and Partners",
+		  "Empowerment on Computing-driven innovation",
+		  "Collaboration across teams and functions",
+		  "Accountability to work and colleagues",
+		  "Recognition of Diversity and Inclusion",
+		  "Excellence in all we do"
+	  ]
+  },
+
   "historyIntro": [
     "The Association for Computing Machinery - University of the Philippines Student Chapter (UP ACM) is the first local student chapter of the largest scientific and educational international computing society, the Association for Computing Machinery, and remains as one of Manila’s premiere student organizations for computing. We support our members in the pursuit of academic excellence, leading to a regular batch of honor graduates from the organization every year.",
 

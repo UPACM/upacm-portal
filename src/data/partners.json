@@ -3,19 +3,24 @@
   "headerInfo": "To express our utmost gratitude, we dedicate this page for the acknowledgement of our partners who supported UP ACM in it's activities and events. Each help given is a step closer to advancing computing fields.",
   "partnerList": [
     {
-      "imageSource": "../partner-images/astigph.webp"
+      "imageSource": "../partner-images/astigph.webp",
+	  "website": "https://astig.ph/"
     },
     {
-      "imageSource": "../partner-images/calibr8.webp"
+      "imageSource": "../partner-images/calibr8.webp",
+	  "website": "https://calibr8.systems/"
     },
     {
-      "imageSource": "../partner-images/inquirier.webp"
+      "imageSource": "../partner-images/inquirier.webp",
+	  "website": "https://www.inquirer.net/"
     },
     {
-      "imageSource": "../partner-images/navitaire_amadeus.webp"
+      "imageSource": "../partner-images/navitaire_amadeus.webp",
+	  "website": "https://www.navitaire.com/amadeus"
     },
     {
-      "imageSource": "../partner-images/techkuya.webp"
+      "imageSource": "../partner-images/techkuya.webp",
+	  "website": "https://www.facebook.com/techkuya"
     }
   ]
 }
