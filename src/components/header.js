@@ -80,6 +80,9 @@ const Header = ({ isIndex, active }) => {
               name="Contact"
               active={active === "Contact"}
             />
+            <Navlink
+              isAlgoLink={true}
+            />
           </div>
         </div>
       </div>
