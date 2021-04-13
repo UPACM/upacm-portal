@@ -2,9 +2,12 @@
 @import "../../styles/animation.scss";
 
 #core-values {
+	margin: auto;
 	margin-top: -9%;
 	background-color: white;
-	padding-left: 4%;
+	.coreval-intro{
+		text-align: center;
+	}
 
 	#header {
 		color: var(--acm-orange);
@@ -14,20 +17,27 @@
 	#header-info {
 		padding: 1% 0;
 		width: 40%;
-		min-width: 670px;
+		margin: auto;
 	}
 
 	#values {
-		padding: 3% 7%;
-
+		margin: auto;
+		$value-font-size: 2em;
 		.value {
-			padding: 0.8% 0;
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			font-size: 2em;
+			height: 4em;
+			.bgLetter{
+				position: absolute;
+				opacity: .25;
+				font-size: 4em;
+			}
 		}
-		.value::first-letter{
-			font-size: 1.75em;
-			font-weight: bolder;
-			padding-right: 0.5%;
-		}
+
 	}
 }
 
@@ -41,13 +51,13 @@
 		padding-top: 10%;
 
 		#header-info {
-			width: 100%;
+			width: 80%;
 			min-width: 300px;
 			padding-top: 0;
 			margin: -4% 0;
 		}
 		#values {
-			margin-top: -8%;
+			//...
 		}
 	}
 }
