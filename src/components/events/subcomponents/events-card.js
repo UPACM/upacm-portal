@@ -1,11 +1,11 @@
 import React from "react"
-import Reveal from "react-reveal/Reveal"
+import Fade from "react-reveal/Fade"
 
 import "./events-card.scss"
 
 export default function EventsCard({ event }) {
   return (
-    <Reveal bottom duration={200} delay={100}>
+	<Fade ssrFadeout bottom duration={650} delay={100}>
       <div className="events-card" id={event.header}>
         <img src={event.imageSource} alt={event.header} />
         <div id="info">
@@ -15,6 +15,6 @@ export default function EventsCard({ event }) {
           </h6>
         </div>
       </div>
-    </Reveal>
+    </Fade>
   )
 }

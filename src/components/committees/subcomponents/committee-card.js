@@ -1,5 +1,5 @@
 import React from "react"
-import Reveal from 'react-reveal/Reveal';
+import Fade from 'react-reveal/Fade';
 
 import "./committee-card.scss"
 
@@ -16,7 +16,7 @@ function BoldItalic({ name, text }) {
 /* Subcomponent for rendering one member of a committee type*/
 export default function CommitteeCard({ member }) {
   return (
-	<Reveal bottom duration={550} delay={400}>
+	<Fade ssrFadeout bottom duration={650} delay={100} fraction={0.5}>
       <div className="committee-card">
        <div className="portrait-wrapper">
           <img alt="member" className="portrait" src={member.portraitSrc} />
@@ -28,6 +28,6 @@ export default function CommitteeCard({ member }) {
           <BoldItalic key={position} name="position" text={position} />
         ))}
       </div>
-	</Reveal>
+	</Fade>
   )
 }
