@@ -5,7 +5,8 @@
     "featured": {
       "header": "Algolympics",
       "subheader": "2017 - 2021",
-      "imageSource": "/events-images/event-algolympics.webp",
+      "imageSource": "/events-images/featured/event-algolympics.webp",
+      "imageSourceSmall": "/events-images/featured/jpg/event-algolympics.webp.jpg",
       "info": "Algolympics is an annual intercollegiate programming competition that is open to all undergraduate students from any college or university."
     },
     "unfeatured": [
@@ -23,7 +24,8 @@
     "featured": {
       "header": "Easy as Py",
       "subheader": "2013 - 2018",
-      "imageSource": "/events-images/event-easy_as_py.webp",
+      "imageSource": "/events-images/featured/event-easy_as_py.webp",
+      "imageSourceSmall": "/events-images/featured/jpg/event-easy_as_py.webp.jpg",
       "info": "Easy as Py is a series of lectures that provide high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using the Python programming language."
     },
     "unfeatured": [
@@ -41,7 +43,8 @@
     "featured": {
       "header": "Hodgepodge",
       "subheader": "2020",
-      "imageSource": "/events-images/event-hodgepodge.webp",
+      "imageSource": "/events-images/featured/event-hodgepodge.webp",
+      "imageSourceSmall": "/events-images/featured/jpg/event-hodgepodge.webp.jpg",
       "info": "Hodgepodge is a lecture series where representatives from companies give their professional advice and expertise on the applications of Computer Science (CS) and Information and Communications Technology (ICT) in the workplace and industry."
     },
     "unfeatured": [
@@ -71,7 +74,8 @@
     "featured": {
       "header": "ACMeets",
       "subheader": "ACMystery",
-      "imageSource": "/events-images/event-meets.webp",
+      "imageSource": "/events-images/featured/event-meets.webp",
+      "imageSourceSmall": "/events-images/featured/jpg/event-meets.webp.jpg",
       "info": "The ACMems used their detective skills to solve the biggest mystery, the ACMystery, for the first ACMeets of 2021!."
     },
     "unfeatured": [
