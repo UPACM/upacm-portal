@@ -7,7 +7,7 @@
 	background-color: white;
 	.coreval-intro{
 		text-align: center;
-	}
+		}
 
 	#header {
 		color: var(--acm-orange);
@@ -29,7 +29,8 @@
 			flex-direction: column;
 			align-items: center;
 			justify-content: center;
-			font-size: 2em;
+			text-align: center;
+			font-size: 1.9em;
 			height: 4em;
 			.bgLetter{
 				position: absolute;
@@ -45,6 +46,9 @@
 	#core-values > *{
 		@include transform-safe(scale(0.8));
 	}
+	.value:first-child {
+		margin-top: -10%;
+	}
 
 	#core-values {
 		margin-top: 0;
@@ -53,11 +57,17 @@
 		#header-info {
 			width: 80%;
 			min-width: 300px;
-			padding-top: 0;
-			margin: -4% 0;
 		}
-		#values {
-			//...
+	}
+}
+
+@media (max-width: 420px) {
+	#values {
+		.value {
+			@include transform-safe(scale(0.7));
+		}
+		.value:first-child {
+			margin-top: -28%;
 		}
 	}
 }
