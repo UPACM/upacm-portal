@@ -62,9 +62,28 @@
 			.navlink {
 				margin: 0 2%;
 				color: white;
+				transition: 0.1s;
 			}
 
-			.navlink:hover {
+			.navlink.algolink:hover{
+				span.red {
+					color: $acm-red;
+				}
+				span.yellow {
+					color: $acm-yellow;
+				}
+				span.green {
+					color: $acm-green;
+				}
+				span.blue {
+					color: $acm-blue;
+				}
+			}
+
+			.navlink:hover{
+				color: $navlink-blue;
+			}
+			.navlink#active{
 				color: $navlink-blue;
 			}
 		}
