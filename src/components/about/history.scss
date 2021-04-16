@@ -2,8 +2,8 @@
 @import "../../styles/animation.scss";
 
 div#history-section {
-	color: black;
-	background: white;
+	color: white;
+	background: var(--acm-blue);
 
 	padding: 8vh 0;
 	max-width: 100%;
@@ -45,13 +45,13 @@ div#history-section {
 		height: 75vh;
 
 		overflow-y: scroll;
-		mask-image: linear-gradient(
-			180deg,
-			rgba(255, 255, 255, 0) 0%,
-			rgba(0, 0, 0, 1) 25%,
-			rgba(71, 71, 71, 1) 75%,
-			rgba(255, 255, 255, 0) 100%
-		);
+			mask-image: linear-gradient(
+				180deg,
+				rgba(255, 255, 255, 0) 0%,
+				rgba(0, 0, 0, 1) 25%,
+				rgba(71, 71, 71, 1) 75%,
+				rgba(255, 255, 255, 0) 100%
+			);
 
 		div.history-timestamp {
 			font-size: 1.5em;
@@ -81,7 +81,7 @@ div#history-section {
 				width: 75%;
 
 				padding-left: 1.5vw;
-				border-left: 1px solid var(--history-section-color);
+				border-left: 1px solid white;
 			}
 		}
 		div.history-timestamp:first-of-type {

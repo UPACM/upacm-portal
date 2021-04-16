@@ -28,12 +28,14 @@
 		min-width: 350px;
 		display: block;
 		margin: auto;
-		background-color: rgb(32, 32, 32);
+		background-color: var(--acm-blue);
 
 		padding: 4%;
 		margin-bottom: -9%;
 
 		box-shadow: 2px 2px 10px rgb(78, 78, 78);
+
+		color: #2b2b2b;
 	}
 
 	padding: 10%;
@@ -58,7 +60,7 @@
 			flex: 1;
 			border: none;
 			outline: none;
-			color: white;
+			color: #2b2b2b;
 			background-color: inherit;
 			width: 80%;
 			border-bottom: 2px rgba(255, 255, 255, 0.548) solid;
@@ -88,7 +90,7 @@
 		padding: 10px;
 
 		border: none;
-		background-color: var(--acm-blue);
+		background-color: #2b2b2b;
 
 		@include transition-single(transform);
 	}
