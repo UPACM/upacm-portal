@@ -38,6 +38,8 @@
     background-blend-mode: multiply;
     background-position: center center;
 
+	position: relative;
+
     $background-transition: 0.4s;
 	@include transition-all($background-transition);
 
@@ -103,6 +105,7 @@
 		border-radius: 100%;
 
 		// Center
+		position: absolute;
 		left: 50%;
 		bottom: 15%;
 	

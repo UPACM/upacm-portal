@@ -1,7 +1,8 @@
 @import "../../styles/animation.scss";
+@import "../../styles/var.scss";
 
 #events {
-	background-color: #252525;
+	background-color: $acm-blue;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;

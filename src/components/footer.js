@@ -2,6 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import SocialWidget from "../components/subcomponents/social-widget.js"
 
+import contactEmailImg from "../assets/images/social/email-logo.png"
+import contactLocationImg from "../assets/images/social/location-logo.png"
+
 import "./footer.scss"
 
 export default function Footer() {
@@ -39,7 +42,8 @@ export default function Footer() {
             <div className="footer-section-links contacts">
               <span>
                 <a href="mailto:contactus@upacm.net" className="footer-link">
-                  contactus@upacm.net
+                  <img className="contact-link-img" src={contactEmailImg} />
+                  <span>contactus@upacm.net</span>
                 </a>
               </span>
               <span>
@@ -47,8 +51,9 @@ export default function Footer() {
                   href="https://www.google.com/maps/dir/?api=1&destination=14.70521%2C121.06235&fbclid=IwAR19Fe1Rg_c-Znfm6NwYfa9Lc6eSMy6aoT4F8RJ11bdGwW3BhSGCG0owFUE"
                   className="footer-link"
                 >
-                  Department of Computer Science, University of the Philippines
-                  Diliman, Quezon City, Philippines
+                  <img className="contact-link-img" src={contactLocationImg} />
+                  <span>Department of Computer Science, University of the Philippines
+                  Diliman, Quezon City, Philippines</span>
                 </a>
               </span>
               <div className="clear"></div>
