@@ -26,8 +26,10 @@
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
+    "react-slick": "^0.28.1",
     "react-twitter-widgets": "^1.10.0",
-    "sass": "^1.32.8"
+    "sass": "^1.32.8",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "prettier": "2.2.1"
