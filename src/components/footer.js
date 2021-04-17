@@ -40,19 +40,19 @@ export default function Footer() {
           <div className="footer-section">
             <h1>Contact Us</h1>
             <div className="footer-section-links contacts">
-              <span>
+              <span className="contact-link-container">
                 <a href="mailto:contactus@upacm.net" className="footer-link">
                   <img className="contact-link-img" src={contactEmailImg} />
-                  <span>contactus@upacm.net</span>
+                  <span className="contact-link-text">contactus@upacm.net</span>
                 </a>
               </span>
-              <span>
+              <span className="contact-link-container">
                 <a
                   href="https://www.google.com/maps/dir/?api=1&destination=14.70521%2C121.06235&fbclid=IwAR19Fe1Rg_c-Znfm6NwYfa9Lc6eSMy6aoT4F8RJ11bdGwW3BhSGCG0owFUE"
                   className="footer-link"
                 >
                   <img className="contact-link-img" src={contactLocationImg} />
-                  <span>Department of Computer Science, University of the Philippines
+                  <span className="contact-link-text">Department of Computer Science, University of the Philippines
                   Diliman, Quezon City, Philippines</span>
                 </a>
               </span>
