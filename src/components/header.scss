@@ -7,7 +7,7 @@
 	position: fixed;
 	top: 0;
 	left: 0;
-	z-index: 2;
+	z-index: 99;
 	height: $header-height-top;
 	width: 100vw;
 	@include transition-all;
@@ -143,7 +143,7 @@
 					padding: 3% 0;
 					@include transition-all;
 				}
-				.navlink:hover {
+				.navlink:hover, .navlink#active {
 					color: $header-background;
 				}
 			}

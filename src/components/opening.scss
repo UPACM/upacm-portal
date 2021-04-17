@@ -31,5 +31,9 @@ $default-header-color: black;
 }
 
 .opening:nth-child(even) {
-	background-color: unset;
+	background-color: var(--acm-blue);
+	#header, #header-info {
+		color: white
+	}
+
 }

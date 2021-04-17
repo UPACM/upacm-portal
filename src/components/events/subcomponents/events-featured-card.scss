@@ -1,6 +1,7 @@
 @import "../../../styles/animation.scss";
 
 .events-featured-card {
+	z-index: 2;
 
     // Sizing
 	width: fit-content;
