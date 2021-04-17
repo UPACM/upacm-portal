@@ -55,6 +55,10 @@
     {
       "date": "2020",
       "event": "Jumpstart and Hodgepodge, a lecture series where representatives from companies give their professional advice and expertise on the applications of Computer Science (CS) and Information and Communications Technology (ICT) in the workplace and industry, was launched."
+    },
+    {
+      "date": "2021",
+      "event": "ACMastery, a workshop series where members can explore new topics adjacent to Computer Science fields. This includes Bioinformatics, which discusses the tools and theories involved in variant calling and genome assembly; And Cybersecurity, through an introduction to web application vulnerabilities and general security, which culminates into a mini-Capture the Flag event."
     }
   ],
 
