@@ -32,9 +32,17 @@ div#footer div#footer-top {
 				margin-bottom: 20px;
 			}
 
-			span a.footer-link {
+			span a.footer-link{
+				display: flex;
 				font-weight: normal;
 				font-size: 1.1em;
+				align-items: center;
+				.contact-link-img{
+					height: 1.1em;
+					width: 2em;
+					margin-right: 3%;
+					object-fit: contain;
+				}
 			}
 			
 		}
@@ -131,6 +139,18 @@ div#footer div#footer-bottom {
 				div.footer-section-links {
 					align-items: center;
 					text-align: center;
+					span{
+						a.footer-link{
+							flex-direction: column;
+							font-size: 2em;
+							img.contact-link-img{
+								margin: 0;
+								margin-bottom: 5%;
+								width: 10vw;
+								height: 10vw;
+							}
+						}
+					}
 				}
 				div.footer-section-links.portal-links div.link-col {
 					margin: 0;
