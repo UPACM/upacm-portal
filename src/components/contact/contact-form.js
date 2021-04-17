@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import Fade from "react-reveal/Fade"
 import axios from "axios"
 
 import "./contact-form.scss"
@@ -42,72 +43,77 @@ export default function ContactForm() {
       <a id="email" href="mailto:contactus@upacm.net">
         <h6>contactus@upacm.net</h6>
       </a>
-      <form onSubmit={handleOnSubmit} id="form">
-        <div id="form-email">
-          <b>
-            <p>Email</p>
-          </b>
-          <input
-            type="email"
-            name="email"
-            id="input-email"
-            required="required"
-            placeholder="Email"
-          />
-        </div>
-
-        <div id="form-name">
-          <b>
-            <p>Name</p>
-          </b>
-          <input
-            type="text"
-            name="name"
-            id="input-name"
-            required="required"
-            placeholder="Name"
-          />
-        </div>
-
-        <div id="form-subject">
-          <b>
-            <p>Subject</p>
-          </b>
-          <input
-            type="text"
-            name="subject"
-            id="input-subject"
-            placeholder="Subject"
-          />
-        </div>
-
-        <div id="form-message">
-          <b>
-            <p>Message</p>
-          </b>
-          <textarea
-            type="text"
-            name="message"
-            id="input-message"
-            required="required"
-            placeholder="Message"
-          />
-        </div>
-
-        <button
-          type="submit"
-          id="submit-button"
-          disabled={serverState.submitting}
-        >
-          Submit
-        </button>
-
-        {serverState.status && (
-          <div className={!serverState.status.ok ? "error" : ""} id="response">
-            <p>{serverState.status.msg}</p>
+      <Fade ssrFadeout bottom duration={550} delay={100}>
+        <form onSubmit={handleOnSubmit} id="form">
+          <div id="form-email">
+            <b>
+              <p>Email</p>
+            </b>
+            <input
+              type="email"
+              name="email"
+              id="input-email"
+              required="required"
+              placeholder="Email"
+            />
           </div>
-        )}
-      </form>
+
+          <div id="form-name">
+            <b>
+              <p>Name</p>
+            </b>
+            <input
+              type="text"
+              name="name"
+              id="input-name"
+              required="required"
+              placeholder="Name"
+            />
+          </div>
+
+          <div id="form-subject">
+            <b>
+              <p>Subject</p>
+            </b>
+            <input
+              type="text"
+              name="subject"
+              id="input-subject"
+              placeholder="Subject"
+            />
+          </div>
+
+          <div id="form-message">
+            <b>
+              <p>Message</p>
+            </b>
+            <textarea
+              type="text"
+              name="message"
+              id="input-message"
+              required="required"
+              placeholder="Message"
+            />
+          </div>
+
+          <button
+            type="submit"
+            id="submit-button"
+            disabled={serverState.submitting}
+          >
+            Submit
+          </button>
+
+          {serverState.status && (
+            <div
+              className={!serverState.status.ok ? "error" : ""}
+              id="response"
+            >
+              <p>{serverState.status.msg}</p>
+            </div>
+          )}
+        </form>
+      </Fade>
     </div>
   )
 }
