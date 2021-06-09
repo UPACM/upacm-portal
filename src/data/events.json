@@ -1,6 +1,6 @@
 {
   "Competition": {
-    "header": "Competition",
+    "header": "Competitions",
     "headerInfo": "The organization holds various programming competitions as a way of honing the talents and skills of promising student-programmers. Haxxor and Algolympics are the main competitions organized by UP ACM.",
     "featured": {
       "header": "Algolympics",
@@ -36,7 +36,7 @@
     ]
   },
   "Workshops": {
-    "header": "Workshop",
+    "header": "Workshops | Lecture Series",
     "headerInfo": "To make sure that UP ACM members are equipped with the knowledge and skills that they need, the organization holds workshops and lectures about different topics from alumni and professionals. HodgePodge, Jumpstart, and Alumni Lectures are some of the events under this category.",
     "featured": {
       "header": "Hodgepodge",
@@ -66,7 +66,7 @@
     ]
   },
   "Activities": {
-    "header": "Activity",
+    "header": "Activities",
     "headerInfo": "Regular meetings are arranged within the organization to check on the wellbeing of the members and to give updates about each committee’s projects. There are also hangouts where members can bond over games and food.",
     "featured": {
       "header": "ACMeets",
