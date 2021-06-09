@@ -5,14 +5,14 @@
     "featured": {
       "header": "Algolympics",
       "subheader": "2017 - 2021",
-      "imageSource": "/events-images/event-algolympics.webp",
+      "imageSource": "/events-images/event-algolympics-2021.webp",
       "info": "Algolympics is an annual intercollegiate programming competition that is open to all undergraduate students from any college or university."
     },
     "unfeatured": [
       {
         "header": "Haxxor",
         "subheader": "2015, 2017 - 2019",
-        "imageSource": "/events-images/event-haxxor.webp",
+        "imageSource": "/events-images/event-haxxor-2019.webp",
         "info": "Haxxor is a lecture series about computer security that has also developed into a “capture-the-flag” competition."
       }
     ]
@@ -23,14 +23,14 @@
     "featured": {
       "header": "Easy as Py",
       "subheader": "2013 - 2018",
-      "imageSource": "/events-images/event-easy_as_py.webp",
+      "imageSource": "/events-images/event-easy_as_py-2018.webp",
       "info": "Easy as Py is a series of lectures that provide high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using the Python programming language."
     },
     "unfeatured": [
       {
         "header": "Scratch Code Camp",
         "subheader": "2015 - 2019",
-        "imageSource": "/events-images/event-scratch_code_camp.webp",
+        "imageSource": "/events-images/event-scratch_code_camp-2019.webp",
         "info": "Scratch Code Camp is a series of lectures that provides high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using Scratch, the block-based visual programming language."
       }
     ]
@@ -41,26 +41,26 @@
     "featured": {
       "header": "Hodgepodge",
       "subheader": "2020",
-      "imageSource": "/events-images/event-hodgepodge.webp",
+      "imageSource": "/events-images/event-hodgepodge-2020.webp",
       "info": "Hodgepodge is a lecture series where representatives from companies give their professional advice and expertise on the applications of Computer Science (CS) and Information and Communications Technology (ICT) in the workplace and industry."
     },
     "unfeatured": [
       {
         "header": "Jumpstart",
         "subheader": "2020",
-        "imageSource": "/events-images/event-jumpstart.webp",
+        "imageSource": "/events-images/event-jumpstart-2020.webp",
         "info": "Jumpstart is also a lecture series where representatives from companies give their professional advice and expertise on the applications of Computer Science (CS) and Information and Communications Technology (ICT) in the workplace and industry."
       },
       {
         "header": "Alumni Lectures",
         "subheader": "2014 - 2015, 2017 - 2018",
-        "imageSource": "/events-images/event-alumni_series.webp",
+        "imageSource": "/events-images/event-alumni_series-2018.webp",
         "info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
       },
       {
         "header": "Gamecraft",
         "subheader": "2015 - 2017",
-        "imageSource": "/events-images/event-gamecraft.webp",
+        "imageSource": "/events-images/event-gamecraft-2017.webp",
         "info": "Gamecraft a series of events dedicated to learning more about game development."
       }
     ]
@@ -71,20 +71,20 @@
     "featured": {
       "header": "ACMeets",
       "subheader": "ACMystery",
-      "imageSource": "/events-images/event-meets.webp",
+      "imageSource": "/events-images/event-acmeets-acmystery-2021.webp",
       "info": "The ACMems used their detective skills to solve the biggest mystery, the ACMystery, for the first ACMeets of 2021!."
     },
     "unfeatured": [
       {
         "header": "UP ACM Townhall Meeting",
         "subheader": "2021",
-        "imageSource": "/events-images/event-townhall.webp",
+        "imageSource": "/events-images/event-townhall-032021.webp",
         "info": "A discussion on UP ACM Student Chapter's past events and planning for upcoming activities."
       },
       {
         "header": "ACMester Ender Virtual Party",
         "subheader": "2020",
-        "imageSource": "/events-images/event-acmester.webp",
+        "imageSource": "/events-images/event-acmester-122020.webp",
         "info": "ACM UP Student Chapter's virtual year ender party on Zoom and Discord. The year 2020 may have been rough but we did not stop in our commitment to provide high-quality technological advancement opportunities and offered services not only to our members but also to the computing community."
       }
     ]
