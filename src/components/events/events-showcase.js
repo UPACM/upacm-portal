@@ -14,7 +14,7 @@ export default function EventsShowcase({ events }) {
 		infinite: true,
 		speed: 500,
 		slidesToShow: 2,
-		slidesToScroll: 2
+		slidesToScroll: 1
 	  };	
   return (
     <div className="events-showcase">
