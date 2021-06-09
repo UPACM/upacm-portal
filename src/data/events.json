@@ -4,16 +4,62 @@
     "headerInfo": "The organization holds various programming competitions as a way of honing the talents and skills of promising student-programmers. Haxxor and Algolympics are the main competitions organized by UP ACM.",
     "featured": {
       "header": "Algolympics",
-      "subheader": "2017 - 2021",
+      "subheader": "2021",
       "imageSource": "/events-images/event-algolympics-2021.webp",
       "info": "Algolympics is an annual intercollegiate programming competition that is open to all undergraduate students from any college or university."
     },
     "unfeatured": [
       {
+        "header": "Algolympics",
+        "subheader": "2020",
+        "imageSource": "/events-images/event-algolympics-2020.webp",
+        "info": ""
+      },
+      {
+        "header": "Algolympics",
+        "subheader": "2019",
+        "imageSource": "/events-images/event-algolympics-2019.webp",
+        "info": ""
+      },
+      {
         "header": "Haxxor",
-        "subheader": "2015, 2017 - 2019",
-        "imageSource": "/events-images/event-haxxor-2019.webp",
-        "info": "Haxxor is a lecture series about computer security that has also developed into a “capture-the-flag” competition."
+        "subheader": "2019",
+        "imageSource": "/events-images/event-haxxor-2019.webp"
+      },
+      {
+        "header": "Algolympics",
+        "subheader": "2018",
+        "imageSource": "/events-images/event-algolympics-2018.webp"
+      },
+      {
+        "header": "Haxxor",
+        "subheader": "2018",
+        "imageSource": "/events-images/event-haxxor-2018.webp"
+      },
+      {
+        "header": "Algolympics",
+        "subheader": "2017",
+        "imageSource": "/events-images/event-algolympics-2017.webp"
+      },
+      {
+        "header": "Haxxor 2017",
+        "subheader": "2017",
+        "imageSource": "/events-images/event-haxxor-2017.webp"
+      },
+      {
+        "header": "Algolympics",
+        "subheader": "2016",
+        "imageSource": "/events-images/event-algolympics-2016.webp"
+      },
+      {
+        "header": "Algolympics",
+        "subheader": "2015",
+        "imageSource": "/events-images/event-algolympics-2015.webp"
+      },
+      {
+        "header": "Algolympics",
+        "subheader": "2014",
+        "imageSource": "/events-images/event-algolympics-2014.webp"
       }
     ]
   },
@@ -22,16 +68,91 @@
     "headerInfo": "In line with its mission, the organization reaches out to various schools and introduces programming in an informative and enjoyable way. These events include Easy as Py for high school students, and Scratch Code Camps for elementary school students.",
     "featured": {
       "header": "Easy as Py",
-      "subheader": "2013 - 2018",
+      "subheader": "2018",
       "imageSource": "/events-images/event-easy_as_py-2018.webp",
       "info": "Easy as Py is a series of lectures that provide high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using the Python programming language."
     },
     "unfeatured": [
       {
         "header": "Scratch Code Camp",
-        "subheader": "2015 - 2019",
+        "subheader": "2019",
         "imageSource": "/events-images/event-scratch_code_camp-2019.webp",
         "info": "Scratch Code Camp is a series of lectures that provides high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using Scratch, the block-based visual programming language."
+      },
+      {
+        "header": "Scratch Code Camp",
+        "subheader": "2018",
+        "imageSource": "/events-images/event_scratch-code-camp-diliman-2018.webp"
+      },
+      {
+        "header": "Scratch Code Camp",
+        "subheader": "2018",
+        "imageSource": "/events-images/event_scratch-code-camp-claret-2018.webp"
+      },
+      {
+        "header": "Easy as Py",
+        "subheader": "2017",
+        "imageSource": "/events-images/event-easy_as_py-2017.webp"
+      },
+      {
+        "header": "Scratch Code Camp",
+        "subheader": "2016",
+        "imageSource": "/events-images/event_scratch-code-camp-firm-2016.webp"
+      },
+      {
+        "header": "Scratch Code Camp",
+        "subheader": "2016",
+        "imageSource": "/events-images/event_scratch-code-camp-paul-2016.webp"
+      },
+      {
+        "header": "Scratch Code Camp",
+        "subheader": "2016",
+        "imageSource": "/events-images/event_scratch-code-camp-theresa-2016.webp"
+      },
+      {
+        "header": "Easy as Py",
+        "subheader": "2016",
+        "imageSource": "/events-images/event-easy_as_py-2016.webp"
+      },
+      {
+        "header": "Scratch Code Camp",
+        "subheader": "2015",
+        "imageSource": "/events-images/event_scratch-code-camp-integrated-2015.webp"
+      },
+      {
+        "header": "Scratch Code Camp",
+        "subheader": "2015",
+        "imageSource": "/events-images/event_scratch-code-camp-vincente-2015.webp"
+      },
+      {
+        "header": "Easy as Py",
+        "subheader": "2015",
+        "imageSource": "/events-images/event-easy_as_py_marikina-2015.webp"
+      },
+      {
+        "header": "Easy as Py",
+        "subheader": "2015",
+        "imageSource": "/events-images/event-easy_as_py_baklaran-2015.webp"
+      },
+      {
+        "header": "Scratch Code Camp",
+        "subheader": "2014",
+        "imageSource": "/events-images/event_scratch-code-camp-mary-2014.webp"
+      },
+      {
+        "header": "Easy as Py",
+        "subheader": "2014",
+        "imageSource": "/events-images/event-easy_as_py-2014.webp"
+      },
+      {
+        "header": "Easy as Py",
+        "subheader": "2013",
+        "imageSource": "/events-images/event-easy_as_py_knl-2013.webp"
+      },
+      {
+        "header": "Easy as Py",
+        "subheader": "2013",
+        "imageSource": "/events-images/event-easy_as_py_pitogo-2013.webp"
       }
     ]
   },
@@ -39,29 +160,86 @@
     "header": "Workshops | Lecture Series",
     "headerInfo": "To make sure that UP ACM members are equipped with the knowledge and skills that they need, the organization holds workshops and lectures about different topics from alumni and professionals. HodgePodge, Jumpstart, and Alumni Lectures are some of the events under this category.",
     "featured": {
-      "header": "Hodgepodge",
-      "subheader": "2020",
-      "imageSource": "/events-images/event-hodgepodge-2020.webp",
-      "info": "Hodgepodge is a lecture series where representatives from companies give their professional advice and expertise on the applications of Computer Science (CS) and Information and Communications Technology (ICT) in the workplace and industry."
+      "header": "ACM Philippines Expo",
+      "subheader": "2021",
+      "imageSource": "/events-images/event-apex-2021.webp",
+      "info": "APEX is joint event brought by the ACM Student Chapters of the Philippines, filled with exiciting events such as a resarch competition, boot camps, team buildings, talent shows, etc."
     },
     "unfeatured": [
       {
+        "header": "ACMastery: Cybersecurity",
+        "subheader": "2021",
+        "imageSource": "/events-images/event-acmastery_cybersecurity-2021.webp"
+      },
+      {
+        "header": "ACMastery: Bionformatics",
+        "subheader": "2021",
+        "imageSource": "/events-images/event-acmastery_bioinformatics-2021.webp"
+      },
+      {
+        "header": "ACMeets: Financial Literacy",
+        "subheader": "2021",
+        "imageSource": "/events-images/event-acmeets_financial_literacy-2021.webp"
+      },
+      {
+        "header": "Hodgepodge",
+        "subheader": "2020",
+        "imageSource": "/events-images/event-hodgepodge-2020.webp"
+      },
+      {
         "header": "Jumpstart",
         "subheader": "2020",
-        "imageSource": "/events-images/event-jumpstart-2020.webp",
-        "info": "Jumpstart is also a lecture series where representatives from companies give their professional advice and expertise on the applications of Computer Science (CS) and Information and Communications Technology (ICT) in the workplace and industry."
+        "imageSource": "/events-images/event-jumpstart-2020.webp"
       },
       {
         "header": "Alumni Lectures",
-        "subheader": "2014 - 2015, 2017 - 2018",
-        "imageSource": "/events-images/event-alumni_series-2018.webp",
-        "info": "Qui ullamco irure occaecat cupidatat aute nisi dolor cupidatat reprehenderit tempor cupidatat veniam. Commodo nostrud et ipsum occaecat. Aute laboris pariatur nostrud esse labore voluptate aliqua duis. Excepteur nisi id deserunt duis adipisicing officia."
+        "subheader": "2018",
+        "imageSource": "/events-images/event-alumni_series-2018.webp"
+      },
+      {
+        "header": "Alumni Lectures",
+        "subheader": "2017",
+        "imageSource": "/events-images/event-alumni_series-2017.webp"
       },
       {
         "header": "Gamecraft",
-        "subheader": "2015 - 2017",
-        "imageSource": "/events-images/event-gamecraft-2017.webp",
-        "info": "Gamecraft a series of events dedicated to learning more about game development."
+        "subheader": "2017",
+        "imageSource": "/events-images/event-gamecraft-2017.webp"
+      },
+      {
+        "header": "The Internet of Things",
+        "subheader": "2016",
+        "imageSource": "/events-images/event-iot_series-2016.webp"
+      },
+      {
+        "header": "Gamecraft",
+        "subheader": "2016",
+        "imageSource": "/events-images/event-gamecraft-2016.webp"
+      },
+      {
+        "header": "Alumni Series",
+        "subheader": "2015",
+        "imageSource": "/events-images/event-alumni_series-2015.webp"
+      },
+      {
+        "header": "Gamecraft",
+        "subheader": "2015",
+        "imageSource": "/events-images/event-gamecraft-2015.webp"
+      },
+      {
+        "header": "Haxxor",
+        "subheader": "2015",
+        "imageSource": "/events-images/event-haxxor-2015.webp"
+      },
+      {
+        "header": "Homecoming Series",
+        "subheader": "2014",
+        "imageSource": "/events-images/event-homecoming_series-2014.webp"
+      },
+      {
+        "header": "Game of Phones",
+        "subheader": "2014",
+        "imageSource": "/events-images/event-game_of_phones-2013.webp"
       }
     ]
   },
@@ -69,17 +247,26 @@
     "header": "Activities",
     "headerInfo": "Regular meetings are arranged within the organization to check on the wellbeing of the members and to give updates about each committee’s projects. There are also hangouts where members can bond over games and food.",
     "featured": {
-      "header": "ACMeets",
-      "subheader": "ACMystery",
-      "imageSource": "/events-images/event-acmeets-acmystery-2021.webp",
-      "info": "The ACMems used their detective skills to solve the biggest mystery, the ACMystery, for the first ACMeets of 2021!."
+      "header": "ACM General Assembly",
+      "subheader": "April 2021",
+      "imageSource": "/events-images/event-general_assembly-052021.webp",
+      "info": "The organization got together to bring updates such as recognizing the current projects teams, holding the first ACMember spotlight, and addressed some feedback from the members. "
     },
     "unfeatured": [
       {
+        "header": "ACMeets: Mental Health",
+        "subheader": "2021",
+        "imageSource": "/events-images/event-acmeets_mentalhealth-2021.webp"
+      },
+      {
         "header": "UP ACM Townhall Meeting",
         "subheader": "2021",
-        "imageSource": "/events-images/event-townhall-032021.webp",
-        "info": "A discussion on UP ACM Student Chapter's past events and planning for upcoming activities."
+        "imageSource": "/events-images/event-townhall-032021.webp"
+      },
+      {
+        "header": "ACMeets: ACMystery",
+        "subheader": "2021",
+        "imageSource": "/events-images/event-acmeets-acmystery-2021.webp"
       },
       {
         "header": "ACMester Ender Virtual Party",
