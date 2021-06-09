@@ -6,24 +6,22 @@ import Fade from "react-reveal/Fade"
 
 
 import "./events-showcase.scss"
+
+// Note: Due to dependencies, undefined behavior when there are less than 2 unfeatured cards
 export default function EventsShowcase({ events }) {
 	const settings = {
 		dots: true,
 		infinite: true,
 		speed: 500,
 		slidesToShow: 2,
-		slidesToScroll: 2
+		slidesToScroll: 1
 	  };	
   return (
     <div className="events-showcase">
       <div className="featured">
         <EventsFeaturedCard event={events.featured} />
-        {events.unfeatured.length === 1 && (
-          <EventsFeaturedCard event={events.unfeatured[0]} />
-        )}
       </div>
-      {events.unfeatured.length > 1 && (
-        <div className="">
+      {<div className="">
 		  <Fade ssrFadeout bottom duration={650} delay={100}>
 		    <Slider {...settings}>
 		      {events.unfeatured.map(event => (
@@ -32,7 +30,7 @@ export default function EventsShowcase({ events }) {
             </Slider>
 		  </Fade>
         </div>
-      )}
+      }
     </div>
   )
 }
