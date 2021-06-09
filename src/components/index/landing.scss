@@ -36,9 +36,11 @@ div#landing-overlay {
 	div#landing-text {
 		width: 60%;
 		min-width: 600px;
-		padding: 0 5%;
+		padding-left: 5%;
+		padding-right: max(5%, 20px);
 		margin-top: var(--header-height);
 		font-size: min(2em, 20px);
+		padding-bottom: 8%;
 	}
 	div#landing-text > * {
 		text-align: right;
