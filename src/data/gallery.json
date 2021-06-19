@@ -3,13 +3,6 @@
   "headerInfo": "Get a sneak peek on UP ACM's latest exciting activities and learning-filled events through our gallery shown below",
   
   "events": {
-    "Easy as Py": [
-      "/gallery-images/gallery_easyaspy1.webp",
-      "/gallery-images/gallery_easyaspy2.webp",
-      "/gallery-images/gallery_easyaspy3.webp",
-      "/gallery-images/gallery_easyaspy4.webp",
-      "/gallery-images/gallery_easyaspy5.webp"
-    ],
     "Algolympics": [
       "/gallery-images/gallery_algolympics1.webp",
       "/gallery-images/gallery_algolympics2.webp",
@@ -17,7 +10,14 @@
       "/gallery-images/gallery_algolympics4.webp",
       "/gallery-images/gallery_algolympics5.webp"
     ],
-    "Code Camp Scratch": [
+    "Easy as Py": [
+      "/gallery-images/gallery_easyaspy1.webp",
+      "/gallery-images/gallery_easyaspy2.webp",
+      "/gallery-images/gallery_easyaspy3.webp",
+      "/gallery-images/gallery_easyaspy4.webp",
+      "/gallery-images/gallery_easyaspy5.webp"
+    ],
+    "Scratch Code Camp": [
       "/gallery-images/gallery_scratch1.webp",
       "/gallery-images/gallery_scratch2.webp",
       "/gallery-images/gallery_scratch3.webp",
@@ -31,26 +31,20 @@
       "/gallery-images/gallery_haxxor4.webp",
       "/gallery-images/gallery_haxxor5.webp"
     ],
-    "Jumpstart": [
+    "Other Activities": [
       "/gallery-images/gallery_jumpstart1.webp",
       "/gallery-images/gallery_jumpstart2.webp",
       "/gallery-images/gallery_jumpstart3.webp",
       "/gallery-images/gallery_jumpstart4.webp",
-      "/gallery-images/gallery_jumpstart5.webp"
-    ],
-    "ACMeets": [
+      "/gallery-images/gallery_jumpstart5.webp",
       "/gallery-images/gallery_acmeets1.webp",
       "/gallery-images/gallery_acmeets2.webp",
       "/gallery-images/gallery_acmeets3.webp",
-      "/gallery-images/gallery_acmeets4.webp"
-    ],
-    "Alumni Lecture Series": [
+      "/gallery-images/gallery_acmeets4.webp",
       "/gallery-images/gallery_alumni1.webp",
       "/gallery-images/gallery_alumni2.webp",
       "/gallery-images/gallery_alumni3.webp",
-      "/gallery-images/gallery_alumni4.webp"
-    ],
-    "Career Talk": [
+      "/gallery-images/gallery_alumni4.webp",
       "/gallery-images/gallery_careertalk1.webp",
       "/gallery-images/gallery_careertalk2.webp",
       "/gallery-images/gallery_careertalk3.webp",
