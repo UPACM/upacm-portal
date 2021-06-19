@@ -14,9 +14,12 @@ export default function Home() {
     <>
       <SiteMeta pageName="Gallery" sitePage="/gallery/" isIndex={false} />
       <Header isIndex={false} active="Gallery" />
-      <Opening header={GalleryData.header} headerInfo={GalleryData.headerInfo}>
-        <GalleryCards images={GalleryData.images} />
-      </Opening>
+      <Opening header={GalleryData.header} headerInfo={GalleryData.headerInfo}/>
+      {Object.keys(GalleryData.events).map(category => 
+          <Opening header={category} headerStyle={{"padding-bottom": "4%" }}>
+            <GalleryCards images={GalleryData.events[category]} />
+          </Opening>
+        )}     
       <Footer />
     </>
   )
