@@ -7,7 +7,7 @@ import Footer from "../components/footer.js"
 import SiteMeta from "../components/site-meta.js"
 
 import Opening from "../components/opening.js"
-import CommitteeCards from "../components/committees/committee-cards.js"
+import CommitteeTabs from "../components/committees/committee-tabs.js"
 
 export default function Home() {
   return (
@@ -20,7 +20,7 @@ export default function Home() {
           header={CommData.council.header}
           headerInfo={CommData.council.headerInfo}
         >
-          <CommitteeCards members={CommData.council.members} />
+          <CommitteeTabs batches={CommData.council.batch} />
         </Opening>
       </div>
 

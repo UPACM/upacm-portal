@@ -2,52 +2,54 @@
   "council": {
     "header": "Executive Heads",
     "headerInfo": "The individuals that lead the organization to achieve its goals. This team works hard to fulfill the organization’s mission towards its members, the community, the country, and the world.",
-    "members": [
-      {
-        "name": "Jay Ryan Mapanao",
-        "position": ["Chairperson"],
-        "portraitSrc": "/committee-head-portraits/chairperson.webp"
-      },
-      {
-        "name": "Barbara David",
-        "position": ["Vice Chairperson", "Head for Membership Committee"],
-        "portraitSrc": "/committee-head-portraits/membership.webp"
-      },
-      {
-        "name": "Joshua Joseph Riki Dela Sierra",
-        "position": ["Secretary", "Head for Records Committee"],
-        "portraitSrc": "/committee-head-portraits/records.webp"
-      },
-      {
-        "name": "Joshua Espartero",
-        "position": ["Treasurer", "Head for Finance Committee"],
-        "portraitSrc": "/committee-head-portraits/finance.webp"
-      },
-      {
-        "name": "Ron Cas Padilla",
-        "position": ["Head for Education Committee"],
-        "portraitSrc": "/committee-head-portraits/education.webp"
-      },
-      {
-        "name": "Luiz Gabriel Agana",
-        "position": ["Head for Logistics Committee"],
-        "portraitSrc": "/committee-head-portraits/logistics.webp"
-      },
-      {
-        "name": "Mariel Denise Gapuz",
-        "position": ["Head for Marketing Committee"],
-        "portraitSrc": "/committee-head-portraits/marketing.webp"
-      },
-      {
-        "name": "Dylan Thomas Bayona",
-        "position": ["Head for Publicity Committee"],
-        "portraitSrc": "/committee-head-portraits/publicity.webp"
-      },
-      {
-        "name": "Lance Dominic Pineda",
-        "position": ["Head for Public Relations Committee"],
-        "portraitSrc": "/committee-head-portraits/pubrel.webp"
-      }
-    ]
+    "batch": {
+      "2020 - 2021": [
+        {
+          "name": "Jay Ryan Mapanao",
+          "position": ["Chairperson"],
+          "portraitSrc": "/committee-head-portraits/chairperson.webp"
+        },
+        {
+          "name": "Barbara David",
+          "position": ["Vice Chairperson", "Head for Membership Committee"],
+          "portraitSrc": "/committee-head-portraits/membership.webp"
+        },
+        {
+          "name": "Joshua Joseph Riki Dela Sierra",
+          "position": ["Secretary", "Head for Records Committee"],
+          "portraitSrc": "/committee-head-portraits/records.webp"
+        },
+        {
+          "name": "Joshua Espartero",
+          "position": ["Treasurer", "Head for Finance Committee"],
+          "portraitSrc": "/committee-head-portraits/finance.webp"
+        },
+        {
+          "name": "Ron Cas Padilla",
+          "position": ["Head for Education Committee"],
+          "portraitSrc": "/committee-head-portraits/education.webp"
+        },
+        {
+          "name": "Luiz Gabriel Agana",
+          "position": ["Head for Logistics Committee"],
+          "portraitSrc": "/committee-head-portraits/logistics.webp"
+        },
+        {
+          "name": "Mariel Denise Gapuz",
+          "position": ["Head for Marketing Committee"],
+          "portraitSrc": "/committee-head-portraits/marketing.webp"
+        },
+        {
+          "name": "Dylan Thomas Bayona",
+          "position": ["Head for Publicity Committee"],
+          "portraitSrc": "/committee-head-portraits/publicity.webp"
+        },
+        {
+          "name": "Lance Dominic Pineda",
+          "position": ["Head for Public Relations Committee"],
+          "portraitSrc": "/committee-head-portraits/pubrel.webp"
+        }
+      ]
+    }
   }
 }
