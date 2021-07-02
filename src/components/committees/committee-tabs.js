@@ -7,7 +7,7 @@ import "./committee-tabs.scss"
 export default function CommitteeTabs({ batches }) {
   const currentYear = new Date().getFullYear()
   const [visibleBatch, setVisibleBatch] = useState(
-    `${currentYear - 1} - ${currentYear}`
+    `${currentYear} - ${currentYear + 1}`
   )
 
   return (
