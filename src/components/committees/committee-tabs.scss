@@ -1,0 +1,41 @@
+@import "../../styles/animation.scss";
+
+#committee-batches {
+
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	padding-top: 50px;
+
+	button {
+		width: 250px;
+		height: 75px;
+		margin: 15px;
+
+		color: white;
+		background-color: #2b2b2b;
+
+		border: none;
+		border-radius: 40px;
+
+		@include transition-all;
+	}
+
+	button.selected {
+		background-color: var(--acm-blue);
+		color: white;
+	}
+
+	button:hover {
+		color: var(--acm-blue);
+		@include transform-safe(scale(1.08));
+	}
+
+	button.selected:hover {
+		color: #2b2b2b;
+		@include transform-safe(scale(1.08));
+	}
+}
