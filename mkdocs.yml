@@ -1,0 +1,65 @@
+site_name: UP ACM Portal Documentation
+site_url: https://upacm.net/
+theme:
+  name: 'readthedocs'
+  highlightjs: true
+  titles_only: true
+  nav_style: dark
+nav:
+    - FAQ's:
+      - Assets: 'faq/assets.md'
+      - Code:   'faq/code.md'
+    - Code: 
+      - Orientation: 'code/orientation.md'
+      - Index:
+        - Index Page:           'code/index/index_page.md'
+        - Index Landing:        'code/index/index_landing.md'
+        - Index Events:         'code/index/index_events.md'
+        - Index Social Embeds:  'code/index/index_social_embeds.md'
+        - Index Assets:         'code/index/index_assets.md'
+      - About Us:
+        - About Us Page:              'code/about/about_page.md'
+        - About Us Intro:             'code/about/about_intro.md'
+        - About Us Mission & Vision:  'code/about/about_mission_vision.md'
+        - About Us Core Values:       'code/about/about_core_values.md'
+        - About Us History:           'code/about/about_history.md'
+        - About Us Achievements:      'code/about/about_achievements.md'
+        - About Us Achievement Item:  'code/about/about_achievement_item.md'
+        - About Us Assets:            'code/about/about_assets.md'
+      - Committee: 
+        - Committee Page:   'code/committee/committee_page.md'
+        - Committee Tabs:   'code/committee/committee_tabs.md'
+        - Committee Cards:  'code/committee/committee_cards.md'
+        - Committee Card:   'code/committee/committee_card.md'
+        - Committee Assets: 'code/committee/committee_assets.md'
+      - Special Interest Groups (SIG):
+        - Special Interest Group Page:    'code/sig/sig_page.md'
+        - Special Interest Group Cards:   'code/sig/sig_cards.md'
+        - Special Interest Group Card:    'code/sig/sig_card.md'
+        - Special Interest Group Assets:  'code/sig/sig_assets.md'
+      - Events:
+        - Event Page:           'code/events/events_page.md'
+        - Event Showcase:       'code/events/events_showcase.md'
+        - Event Featured Card:  'code/events/events_featured_card.md'
+        - Event Card:           'code/events/events_card.md'
+        - Event Assets:         'code/events/events_assets.md'
+      - Gallery:
+        - Gallery Page:   'code/gallery/gallery_page.md'
+        - Gallery Cards:  'code/gallery/gallery_cards.md'
+        - Gallery Card:   'code/gallery/gallery_card.md'
+        - Gallery Assets: 'code/gallery/gallery_assets.md'
+      - Contact:
+        - Contact Page:   'code/contact/contact_page.md'
+        - Contact Map:    'code/contact/contact_map.md'
+        - Contact Form:   'code/contact/contact_form.md'
+        - Contact Social: 'code/contact/contact_social.md'
+        - Contact Footer: 'code/contact/contact_footer.md'
+        - Contact Assets: 'code/contact/contact_assets.md'
+      - Partner:            
+        - Partners Page:    'code/partners/partners_page.md'
+        - Partners Cards:   'code/partners/partners_cards.md'
+        - Partners Card:    'code/partners/partners_card.md'
+        - Partners Assets:  'code/partners/partners_assets.md'
+      - Privacy Policy:     
+        - Privacy Policy Page:    'code/policy/privacy_policy.md'
+        - Privacy Policy Layout:  'code/policy/policy_layout.md'  
