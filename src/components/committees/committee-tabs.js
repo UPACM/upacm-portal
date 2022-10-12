@@ -5,10 +5,8 @@ import "./committee-tabs.scss"
 
 /* Displays Committee Cards by batch */
 export default function CommitteeTabs({ batches }) {
-  const currentYear = new Date().getFullYear()
-  const [visibleBatch, setVisibleBatch] = useState(
-    `${currentYear} - ${currentYear + 1}`
-  )
+  const currentBatch = Object.keys(batches).sort().pop()
+  const [visibleBatch, setVisibleBatch] = useState(currentBatch)
 
   return (
     <div>
