@@ -11,7 +11,7 @@ function EventDiamond({ event }) {
       <div className="diamond-content">
         <img
           className="diamond-img"
-          src={withPrefix(withevent.imageSource)}
+          src={withPrefix(event.imageSource)}
           alt={event.header}
         />
       </div>
