@@ -1,6 +1,6 @@
 import React from "react"
 import Fade from 'react-reveal/Fade';
-
+import { withPrefix } from "gatsby";
 import "./committee-card.scss"
 
 function BoldItalic({ name, text }) {
@@ -19,7 +19,7 @@ export default function CommitteeCard({ member }) {
 	<Fade ssrFadeout bottom duration={650} delay={100} fraction={0.5}>
       <div className="committee-card">
        <div className="portrait-wrapper">
-          <img alt="member" className="portrait" src={member.portraitSrc} />
+          <img alt="member" className="portrait" src={withPrefix(member.portraitSrc)} />
         </div>
         <p className="name">
           <b>{member.name}</b>

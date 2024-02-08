@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Fade from "react-reveal/Fade"
 import EventData from "../../data/events.json"
-
+import { withPrefix } from "gatsby"
 import "./events.scss"
 
 function EventDiamond({ event }) {
@@ -11,7 +11,7 @@ function EventDiamond({ event }) {
       <div className="diamond-content">
         <img
           className="diamond-img"
-          src={event.imageSource}
+          src={withPrefix(withevent.imageSource)}
           alt={event.header}
         />
       </div>

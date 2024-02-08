@@ -1,6 +1,6 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-
+import { withPrefix } from "gatsby"
 import "./sig-card.scss"
 
 /* Subcomponent for rendering a special interest group */
@@ -9,7 +9,7 @@ export default function SigCard({ group }) {
     <Fade ssrFadeout bottom duration={650} delay={100}>
       <div
         className="sig-card"
-        style={{ backgroundImage: "url(" + group.portraitSrc + ")" }}
+        style={{ backgroundImage: withPrefix("url(" + group.portraitSrc + ")" )}}
       >
         <div className="info">
           <h2 className="name">
