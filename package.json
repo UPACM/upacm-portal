@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
@@ -24,6 +25,7 @@
     "gatsby-remark-embed-video": "^3.1.1",
     "gatsby-source-filesystem": "^3.2.0",
     "gatsby-transformer-remark": "^3.2.0",
+    "gh-pages": "^6.1.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
