@@ -3,6 +3,53 @@
     "header": "Executive Heads",
     "headerInfo": "The individuals that lead the organization to achieve its goals. This team works hard to fulfill the organization’s mission towards its members, the community, the country, and the world.",
     "batch": {
+    "2023-2024":[
+      {
+			  "name": "Deanne Abigail Cunanan",
+			  "position": ["Chairperson"],
+			  "portraitSrc": "/committee-head-portraits/2324/2324_chairperson.png"
+			},
+			{
+			  "name": "Gabrielle Constantino",
+			  "position": ["Vice Chairperson"],
+			  "portraitSrc": "/committee-head-portraits/2324/2324_vicechairperson.png"
+			},
+			{
+			  "name": "Kenneth Cristobal",
+			  "position": ["Secretary"],
+			  "portraitSrc": "/committee-head-portraits/2324/2324_secretary.png"
+			},
+			{
+			  "name": "Petter Xymone Sapalo",
+			  "position": ["Treasurer"],
+			  "portraitSrc": "/committee-head-portraits/2324/2324_finance.png"
+			},
+			{
+			  "name": "Leevan Nicoli Hernandez ",
+			  "position": ["Head for Education Committee"],
+			  "portraitSrc": "/committee-head-portraits/2324/2324_education.png"
+			},
+			{
+			  "name": "Felix Bueno IV",
+			  "position": ["Head for Logistics Committee"],
+			  "portraitSrc": "/committee-head-portraits/2324/2324_logistics.png"
+			},
+			{
+			  "name": "John Nicolas Donado",
+			  "position": ["Head for Marketing Committee"],
+			  "portraitSrc": "/committee-head-portraits/2324/2324_marketing.png"
+			},
+			{
+			  "name": "Jeremiah Daniel Regalario",
+			  "position": ["Head for Publicity Committee"],
+			  "portraitSrc": "/committee-head-portraits/2324/2324_publicity.png"
+			},
+			{
+			  "name": "Jose Kristian Resabal",
+			  "position": ["Head for Public Relations Committee"],
+			  "portraitSrc": "/committee-head-portraits/2324/2324_pubrel.png"
+			}
+    ],
 		"2022 - 2023": [
 			{
 			  "name": "Maisie Erin Tan ",
