@@ -1,5 +1,5 @@
 import React from "react"
-
+import { withPrefix } from "gatsby"
 import AboutData from "../../data/about.json"
 
 import "./mission-vision.scss"
@@ -15,7 +15,7 @@ export default function MissionVision() {
           </div>
           <img
             className="showcase-image"
-            src="/about-images/about_mission.webp"
+            src={withPrefix("/about-images/about_mission.webp")}
             alt="mission"
           />
         </div>
@@ -26,7 +26,7 @@ export default function MissionVision() {
           </div>
           <img
             className="showcase-image"
-            src="/about-images/about_vision.webp"
+            src={withPrefix("/about-images/about_vision.webp")}
             alt="vision"
           />
         </div>

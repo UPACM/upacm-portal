@@ -1,7 +1,7 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import { withPrefix } from "gatsby"
-import siteLogo from "../../assets/images/logo.png"
+
 
 import "./about-intro.scss"
 
@@ -27,7 +27,7 @@ const AboutIntro = () => {
         <img id="bg-image" src={withPrefix("/about-images/about_header.webp")} alt="about" />
         <div className="wrapper">
           <div id="intro-fade-in"></div>
-          <img src={withPrefix(siteLogo)} alt="logo" id="logo" />
+          <img src={withPrefix("/assets/images/logo.png")} alt="logo" id="logo" />
           <div id="intro">
             <h1>About Us</h1>
             <div
