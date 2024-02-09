@@ -18,7 +18,20 @@ export default function Home() {
         header={PartnersData.header}
         headerInfo={PartnersData.headerInfo}
       >
-        {<PartnerCards partners={PartnersData.partnerList} />}
+      </Opening>
+      <Opening
+        header={PartnersData.currentPartnerHeader}
+        style={{background: 'white', paddingTop: '0'}}
+        headerStyle={{color: 'black'}}
+      >
+        {<PartnerCards partners={PartnersData.currentPartnerList}/>}
+      </Opening>
+      <Opening
+        header={PartnersData.formerPartnerHeader}
+        style={{background: 'white', paddingTop: '0'}}
+
+      >
+        {<PartnerCards partners={PartnersData.formerPartnerList} />}
       </Opening>
       <Footer />
     </>

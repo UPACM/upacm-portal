@@ -1,7 +1,9 @@
 {
   "header": "Partners",
   "headerInfo": "To express our utmost gratitude, we dedicate this page for the acknowledgement of our partners who supported UP ACM in it's activities and events. Each help given is a step closer to advancing computing fields.",
-  "partnerList": [
+  "formerPartnerHeader": "Former Partners",
+  "currentPartnerHeader": "Current Partners",
+  "formerPartnerList": [
     {
       "imageSource": "../partner-images/astigph.webp",
 	  "website": "https://astig.ph/"
@@ -21,6 +23,28 @@
     {
       "imageSource": "../partner-images/techkuya.webp",
 	  "website": "https://www.facebook.com/techkuya"
+    }
+  ],
+  "currentPartnerList": [
+    {
+      "imageSource": "../partner-images/2024/expedock_2324.webp",
+      "website": ""
+    },
+    {
+      "imageSource": "../partner-images/2024/insight_2324.webp",
+      "website": ""
+    },
+    {
+      "imageSource": "../partner-images/2024/navitaire_2324.webp",
+      "website": ""
+    },
+    {
+      "imageSource": "../partner-images/2024/old_st_labs_2324.webp",
+      "website": ""
+    },
+    {
+      "imageSource": "../partner-images/2024/samsung_2324.webp",
+      "website": ""
     }
   ]
 }
