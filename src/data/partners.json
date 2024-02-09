@@ -17,10 +17,6 @@
 	  "website": "https://www.inquirer.net/"
     },
     {
-      "imageSource": "../partner-images/navitaire_amadeus.webp",
-	  "website": "https://www.navitaire.com/amadeus"
-    },
-    {
       "imageSource": "../partner-images/techkuya.webp",
 	  "website": "https://www.facebook.com/techkuya"
     }
@@ -28,23 +24,23 @@
   "currentPartnerList": [
     {
       "imageSource": "../partner-images/2024/expedock_2324.webp",
-      "website": ""
+      "website": "https://www.expedock.com/"
     },
     {
       "imageSource": "../partner-images/2024/insight_2324.webp",
-      "website": ""
+      "website": "https://www.insight.com/en_US/home.html"
     },
     {
       "imageSource": "../partner-images/2024/navitaire_2324.webp",
-      "website": ""
+      "website": "https://www.navitaire.com/amadeus"
     },
     {
       "imageSource": "../partner-images/2024/old_st_labs_2324.webp",
-      "website": ""
+      "website": "https://www.old.st/"
     },
     {
       "imageSource": "../partner-images/2024/samsung_2324.webp",
-      "website": ""
+      "website": "https://www.samsung.com/ph/about-us/company-info/"
     }
   ]
 }
