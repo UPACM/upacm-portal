@@ -4,11 +4,23 @@
     "headerInfo": "The organization holds various programming competitions as a way of honing the talents and skills of promising student-programmers. Haxxor and Algolympics are the main competitions organized by UP ACM.",
     "featured": {
       "header": "Algolympics",
-      "subheader": "2021",
-      "imageSource": "/events-images/event-algolympics-2021.webp",
+      "subheader": "2023",
+      "imageSource": "/events-images/event-algolympics-2023.webp",
       "info": "Algolympics is an annual intercollegiate programming competition that is open to all undergraduate students from any college or university."
     },
     "unfeatured": [
+      {
+        "header": "Algolympics",
+        "subheader": "2022",
+        "imageSource": "/events-images/event-algolympics-2022.webp",
+        "info": ""
+      },
+      {
+        "header": "Algolympics",
+        "subheader": "2021",
+        "imageSource": "/events-images/event-algolympics-2021.webp",
+        "info": ""
+      },
       {
         "header": "Algolympics",
         "subheader": "2020",
