@@ -80,11 +80,17 @@
     "headerInfo": "In line with its mission, the organization reaches out to various schools and introduces programming in an informative and enjoyable way. These events include Easy as Py for high school students, and Scratch Code Camps for elementary school students.",
     "featured": {
       "header": "Easy as Py",
-      "subheader": "2018",
-      "imageSource": "/events-images/event-easy_as_py-2018.webp",
+      "subheader": "2023",
+      "imageSource": "/events-images/event-easy_as_py-2023.webp",
       "info": "Easy as Py is a series of lectures that provide high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using the Python programming language."
     },
     "unfeatured": [
+      {
+        "header": "Easy as Py",
+        "subheader": "2018",
+        "imageSource": "/events-images/event-easy_as_py-2018.webp",
+        "info": "Easy as Py is a series of lectures that provide high schools without programming backgrounds the basic knowledge needed to be able to create and run computer programs using the Python programming language."
+      },
       {
         "header": "Scratch Code Camp",
         "subheader": "2019",
