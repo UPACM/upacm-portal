@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { withPrefix } from "gatsby"
 /*
 sitePage: page directory of the site, e.g. "/2021/Live"
 */
@@ -18,6 +19,7 @@ export default function SiteMeta({ pageName, sitePage, isIndex }) {
     >
       <meta charSet="utf-8" />
       {titleTag}
+      <link rel="icon" href={withPrefix(`/favicon.ico`)} />
       <link
         rel="canonical"
         href={"https://upacmportalmaster.gatsbyjs.io" + sitePage}
