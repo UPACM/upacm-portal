@@ -3,63 +3,111 @@
     "header": "Executive Heads",
     "headerInfo": "The individuals that lead the organization to achieve its goals. This team works hard to fulfill the organization’s mission towards its members, the community, the country, and the world.",
     "batch": {
-    "2024-2025":[
+    "2025-2026":[
       {
         "name": "Leevan Nicoli Hernandez",
         "position": ["Chairperson"],
-        "portraitSrc": "/committee-head-portraits/2425_chairperson.webp"
+        "portraitSrc": "/committee-head-portraits/2526_chairperson.webp"
       },
 			{
 			  "name": "Syrelle Joy Reforma",
 			  "position": ["Vice Chairperson", "Head for Membership Committee"],
-			  "portraitSrc": "/committee-head-portraits/2425_vicechairperson.webp"
+			  "portraitSrc": "/committee-head-portraits/2526_vicechairperson.webp"
 			},
 			{
 			  "name": "Ethan Renell Mislang",
 			  "position": ["Secretary", "Head for Records Committee"],
-			  "portraitSrc": "/committee-head-portraits/2425_secretary.webp"
+			  "portraitSrc": "/committee-head-portraits/2526_secretary.webp"
 			},
 			{
 			  "name": "Reuter Jan Camacho",
 			  "position": ["Treasurer", "Head for Finance Committee"],
-			  "portraitSrc": "/committee-head-portraits/2425_treasurer.webp"
+			  "portraitSrc": "/committee-head-portraits/2526_treasurer.webp"
 			},
 			{
 			  "name": "Elliot Xander Albano",
+			  "position": ["Head for Education Committee"],
+			  "portraitSrc": "/committee-head-portraits/2526_education.webp"
+			},
+			{
+			  "name": "Louise Gabriel Vilar",
+			  "position": ["Head for Logistics Committee"],
+			  "portraitSrc": "/committee-head-portraits/2526_logistics.webp"
+			},
+			{
+			  "name": "Nicanor Froilan Pascual",
+			  "position": ["Head for Marketing Committee"],
+			  "portraitSrc": "/committee-head-portraits/2526_marketing.webp"
+			},
+			{
+			  "name": "Alejandro Jose Monastrial",
+			  "position": ["Head for Publicity Committee"],
+			  "portraitSrc": "/committee-head-portraits/2526_publicity.webp"
+			},
+			{
+			  "name": "John Harry Arciga",
+			  "position": ["Head for Public Relations Committee"],
+			  "portraitSrc": "/committee-head-portraits/2526_pubrel.webp"
+			},
+			{
+			  "name": "Pauline Mae Rebollido",
+			  "position": ["Vice Head for Finance Committee"],
+			  "portraitSrc": "/committee-head-portraits/2526_vicefinance.webp"
+			},
+			{
+			  "name": "Alfonzo Euri Barbon",
+			  "position": ["Vice Head for Public Relations Committee"],
+			  "portraitSrc": "/committee-head-portraits/2526_vicepubrel.webp"
+			}
+    ],
+	"2024-2025":[
+      {
+        "name": "Kenneth Cristobal",
+        "position": ["Chairperson"],
+        "portraitSrc": "/committee-head-portraits/2425_chairperson.webp"
+      },
+			{
+			  "name": "Leevan Nicoli Hernandez",
+			  "position": ["Vice Chairperson", "Head for Membership and Marketing Committee"],
+			  "portraitSrc": "/committee-head-portraits/2425_vicechairperson.webp"
+			},
+			{
+			  "name": "Jela May Yap",
+			  "position": ["Secretary", "Head for Records Committee"],
+			  "portraitSrc": "/committee-head-portraits/2425_secretary.webp"
+			},
+			{
+			  "name": "Ehren Castillo",
+			  "position": ["Treasurer", "Head for Finance Committee"],
+			  "portraitSrc": "/committee-head-portraits/2425_treasurer.webp"
+			},
+			{
+			  "name": "Nathan Mercado",
 			  "position": ["Head for Education Committee"],
 			  "portraitSrc": "/committee-head-portraits/2425_education.webp"
 			},
 			{
 			  "name": "Louise Gabriel Vilar",
+			  "position": ["Head for Logistics Committee  "],
+			  "portraitSrc": "/committee-head-portraits/2425_logistics1.webp"
+			},
+			{
+			  "name": "Syrelle Joy Reforma",
 			  "position": ["Head for Logistics Committee"],
-			  "portraitSrc": "/committee-head-portraits/2425_logistics.webp"
+			  "portraitSrc": "/committee-head-portraits/2425_logistics2.webp"
 			},
 			{
-			  "name": "Nicanor Froilan Pascual",
-			  "position": ["Head for Marketing Committee"],
-			  "portraitSrc": "/committee-head-portraits/2425_marketing.webp"
-			},
-			{
-			  "name": "Alejandro Jose Monastrial",
+			  "name": "Marielle Tan",
 			  "position": ["Head for Publicity Committee"],
 			  "portraitSrc": "/committee-head-portraits/2425_publicity.webp"
 			},
 			{
-			  "name": "John Harry Arciga",
+			  "name": "Samantha Reyes",
 			  "position": ["Head for Public Relations Committee"],
 			  "portraitSrc": "/committee-head-portraits/2425_pubrel.webp"
-			},
-      {
-			  "name": "Pauline Mae Rebollido",
-			  "position": ["Vice Head for Finance Committee"],
-			  "portraitSrc": "/committee-head-portraits/2425_vicefinance.webp"
-			},
-			{
-			  "name": "Alfonzo Euri Barbon",
-			  "position": ["Vice Head for Public Relations Committee"],
-			  "portraitSrc": "/committee-head-portraits/2425_vicepubrel.webp"
 			}
-    ],
+	],
+
     "2023-2024":[
       {
 			  "name": "Deanne Abigail Cunanan",
