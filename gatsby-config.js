@@ -6,7 +6,6 @@
 
 module.exports = {
   /* Your site config here */
-  pathPrefix: "/upacm-portal",
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
